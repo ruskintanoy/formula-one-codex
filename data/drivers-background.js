@@ -1,13 +1,5 @@
 const wikiLink = (text, url) => (
-    <a
-      href={url}
-      target="_blank"
-      rel="noopener noreferrer"
-      className="text-red-500 hover:underline"
-    >
-      {text}
-    </a>
-  );
+    <a href={url} target="_blank" rel="noopener noreferrer" className="text-red-500 hover:underline"> {text}</a>);
   
   const driverBackground = {
     norris: (
