@@ -3,7 +3,7 @@ import DriverInfoCard from "../../../components/DriverInfoCard";
 import driverStats from "../../../data/drivers-stats";
 
 export default async function DriverProfilePage({ params }) {
-  const { driverId } = params;
+  const { driverId } = await params;
 
   // Fetch driver data from API
   const data = await getData(`/api/current/drivers/${driverId}`);
