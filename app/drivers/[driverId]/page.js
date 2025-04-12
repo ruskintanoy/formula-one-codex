@@ -1,5 +1,6 @@
 import { getData } from "../../../lib/fetchData";
 import DriverInfoCard from "../../../components/DriverInfoCard";
+import driverStats from "../../../data/drivers-stats";
 
 export default async function DriverProfilePage({ params }) {
   const { driverId } = params;
@@ -10,19 +11,8 @@ export default async function DriverProfilePage({ params }) {
   const team = data.team;
   const results = data.results;
 
-  // Optional: Static career stats for this driver
-  // In the future, you can store this in a separate file (data/drivers/driverId.js)
-  const exampleStats = {
-    "World Titles": 4,
-    "Races": "206 (206 starts)",
-    "Poles": 41,
-    "Wins": 63,
-    "Podiums": 112,
-    "Fastest Laps": 33,
-    "Points": 3023.5,
-    "First Race": "2015 Australian Grand Prix",
-    "Latest Win": "2025 Japanese Grand Prix"
-  };
+  // Get stats for the specific driver
+  const exampleStats = driverStats[driverId] || null;
 
   return (
     <section className="min-h-[80vh] container mx-auto p-8">
@@ -48,9 +38,7 @@ export default async function DriverProfilePage({ params }) {
               <thead className="bg-gray-800">
                 <tr>
                   <th className="border border-gray-600 px-2 py-1">Race</th>
-                  <th className="border border-gray-600 px-2 py-1">
-                    Position
-                  </th>
+                  <th className="border border-gray-600 px-2 py-1">Position</th>
                   <th className="border border-gray-600 px-2 py-1">Points</th>
                 </tr>
               </thead>
