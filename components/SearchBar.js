@@ -3,7 +3,7 @@
 import { useState } from "react";
 import { useRouter } from "next/navigation";
 
-export default function SearchBar({ className = "" }) {
+export default function SearchBar() {
   const [searchTerm, setSearchTerm] = useState("");
   const router = useRouter();
 
@@ -16,10 +16,7 @@ export default function SearchBar({ className = "" }) {
   };
 
   return (
-    <form
-      onSubmit={handleSubmit}
-      className={`flex gap-2 justify-center ${className}`}
-    >
+    <form onSubmit={handleSubmit} className="flex gap-2 justify-center my-8">
       <input
         type="text"
         placeholder="Search Formula 1 Drivers..."
