@@ -2,6 +2,7 @@ import { getData } from "../../../lib/fetchData";
 import DriverInfoCard from "../../../components/DriverInfoCard";
 import driverStats from "../../../data/drivers-stats";
 import driverSummary from "../../../data/drivers-summary";
+import driverBackground from "../../../data/drivers-background";
 
 export default async function DriverProfilePage({ params }) {
   const { driverId } = await params;
@@ -13,6 +14,7 @@ export default async function DriverProfilePage({ params }) {
 
   const exampleStats = driverStats[driverId] || null;
   const summary = driverSummary[driverId] || `${driver.name} ${driver.surname} is a professional Formula One driver known for their performance and skill on the track.`;
+  const background = driverBackground[driverId] || null;
 
   return (
     <section className="min-h-[80vh] container mx-auto p-8">
@@ -53,6 +55,14 @@ export default async function DriverProfilePage({ params }) {
                 </div>
               </div>
             </nav>
+          </section>
+
+          {/* Background Section */}
+          <section id="background" className="space-y-4">
+            <h2 className="text-2xl font-bold text-red-600 border-b border-gray-700 pb-2 text-center">
+              Background
+            </h2>
+            <p className="text-gray-300">{background}</p>
           </section>
         </main>
 
