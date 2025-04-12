@@ -10,7 +10,8 @@ export default function HomePage() {
         Your ultimate Formula 1 encyclopedia. Explore detailed information about Drivers, Teams, Circuits, Races, and Championship Standings — all powered by the OpenF1 API.
       </p>
 
-      <SearchBar />
+      {/* Add margin for SearchBar ONLY on homepage */}
+      <SearchBar className="my-8" />
 
       <div className="flex gap-4 flex-wrap justify-center">
         <a
