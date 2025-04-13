@@ -9,7 +9,6 @@ export default async function DriverProfilePage({ params }) {
   const team = data.team;
   const results = data.results;
 
-  // Dynamically import each driver's data
   const summary = (await import(`../../../data/drivers/${driverId}/summary.js`)).default;
   const background = (await import(`../../../data/drivers/${driverId}/background.js`)).default;
   const stats = (await import(`../../../data/drivers/${driverId}/stats.js`)).default;
@@ -29,7 +28,7 @@ export default async function DriverProfilePage({ params }) {
             <p className="text-gray-300">{summary}</p>
           </section>
 
-          {/* Table of Contents */}
+          {/* Contents */}
           <section className="border border-gray-700 p-6 rounded-lg bg-gray-900 shadow-lg">
             <h2 className="text-xl font-extrabold text-red-600 mb-4 border-b border-gray-700 pb-2 text-center uppercase tracking-wide">
               Contents
@@ -41,9 +40,8 @@ export default async function DriverProfilePage({ params }) {
               <div>
                 <a href="#stats-overview" className="hover:text-red-400 transition">4. Formula One Statistical Overview</a>
                 <div className="ml-5 space-y-1">
-                  <div><a href="#record" className="hover:text-red-400 transition">4.1. Formula One Record</a></div>
-                  <div><a href="#race-wins" className="hover:text-red-400 transition">4.2. Race Wins</a></div>
-                  <div><a href="#career-results" className="hover:text-red-400 transition">4.3. Career Results</a></div>
+                  <div><a href="#career-summary" className="hover:text-red-400 transition">4.1. Racing Career Summary</a></div>
+                  <div><a href="#career-statistics" className="hover:text-red-400 transition">4.2. Career Statistics</a></div>
                 </div>
               </div>
             </nav>
@@ -65,6 +63,32 @@ export default async function DriverProfilePage({ params }) {
             <p className="text-gray-300">{juniorCareer}</p>
           </section>
 
+          {/* Formula One Statistical Overview */}
+          <section id="stats-overview" className="space-y-6">
+            <h2 className="text-2xl font-bold text-red-600 border-b border-gray-700 pb-2 text-center">
+              Formula One Statistical Overview
+            </h2>
+
+            {/* Racing Career Summary */}
+            <section id="career-summary" className="space-y-2">
+              <h3 className="text-xl font-extrabold text-red-500 border-b border-gray-700 pb-1">
+                Racing Career Summary
+              </h3>
+              <p className="text-gray-300">
+                {/* Data coming soon */}
+              </p>
+            </section>
+
+            {/* Career Statistics */}
+            <section id="career-statistics" className="space-y-2">
+              <h3 className="text-xl font-extrabold text-red-500 border-b border-gray-700 pb-1">
+                Career Statistics
+              </h3>
+              <p className="text-gray-300">
+                {/* Data coming soon */}
+              </p>
+            </section>
+          </section>
         </main>
 
         {/* Sidebar */}
