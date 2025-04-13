@@ -13,7 +13,7 @@ export default async function DriverProfilePage({ params }) {
   const summary = (await import(`../../../data/drivers/${driverId}/summary.js`)).default;
   const background = (await import(`../../../data/drivers/${driverId}/background.js`)).default;
   const stats = (await import(`../../../data/drivers/${driverId}/stats.js`)).default;
-  // const juniorCareer = (await import(`../../../data/drivers/${driverId}/junior-career.js`)).default;
+  const juniorCareer = (await import(`../../../data/drivers/${driverId}/junior-career.js`)).default;
 
   return (
     <section className="min-h-[80vh] container mx-auto p-8">
@@ -57,13 +57,13 @@ export default async function DriverProfilePage({ params }) {
             <p className="text-gray-300">{background}</p>
           </section>
 
-          {/* Junior Racing Career
+          {/* Junior Racing Career */}
           <section id="junior-career" className="space-y-4">
             <h2 className="text-2xl font-bold text-red-600 border-b border-gray-700 pb-2 text-center">
               Junior Racing Career
             </h2>
             <p className="text-gray-300">{juniorCareer}</p>
-          </section> */}
+          </section>
 
         </main>
 
