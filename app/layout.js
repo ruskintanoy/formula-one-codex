@@ -24,10 +24,15 @@ export default function RootLayout({ children }) {
           font-sans antialiased bg-black text-white
         `}
       >
+        {/* Fixed Navbar */}
         <Navbar />
-        <main className="min-h-screen container mx-auto p-4">
+
+        {/* Main Content */}
+        <main className="min-h-screen container mx-auto p-4 pt-24">
           {children}
         </main>
+
+        {/* Footer */}
         <Footer />
       </body>
     </html>

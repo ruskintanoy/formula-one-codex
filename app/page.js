@@ -2,7 +2,7 @@ import SearchBar from "../components/SearchBar";
 
 export default function HomePage() {
   return (
-    <section className="relative flex flex-col items-center justify-center text-center min-h-screen px-4 py-12 bg-gradient-to-b from-black via-gray-900 to-gray-950">
+    <section className="relative flex flex-col items-center justify-center text-center min-h-screen px-4 py-12">
 
       {/* Watermark Icon */}
       <div className="absolute opacity-5 inset-0 flex justify-center items-center pointer-events-none">

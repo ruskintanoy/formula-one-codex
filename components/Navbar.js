@@ -1,9 +1,11 @@
+"use client";
+
 import Link from "next/link";
 import SearchBar from "./SearchBar";
 
 export default function Navbar() {
   return (
-    <nav className="bg-red-600/90 backdrop-blur-md p-4 flex flex-wrap justify-between items-center shadow-md shadow-red-900 gap-4">
+    <nav className="fixed top-0 left-0 w-full z-50 bg-red-600/90 backdrop-blur-md p-4 flex flex-wrap justify-between items-center shadow-md shadow-red-900 gap-4">
       
       {/* Logo & Title */}
       <Link href="/" className="flex items-center gap-3 group">
