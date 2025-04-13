@@ -1,6 +1,7 @@
 import { getData } from "../../../lib/fetchData";
 import DriverInfoCard from "../../../components/DriverInfoCard";
 import RacingCareerSummaryTable from "../../../components/RacingCareerSummaryTable";
+import CareerStatisticsTable from "../../../components/CareerStatisticsTable";
 
 export default async function DriverProfilePage({ params }) {
   const { driverId } = await params;
@@ -15,6 +16,7 @@ export default async function DriverProfilePage({ params }) {
   const stats = (await import(`../../../data/drivers/${driverId}/stats.js`)).default;
   const juniorCareer = (await import(`../../../data/drivers/${driverId}/junior-career.js`)).default;
   const racingCareerSummary = (await import(`../../../data/drivers/${driverId}/racing-career-summary.js`)).default;
+  const careerStatistics = (await import(`../../../data/drivers/${driverId}/career-statistics.js`)).default;
 
   return (
     <section className="min-h-[80vh] container mx-auto p-8">
@@ -37,7 +39,21 @@ export default async function DriverProfilePage({ params }) {
             </h2>
             <nav className="text-gray-300 text-base space-y-2">
               <div><a href="#background" className="hover:text-red-400 transition">1. Background</a></div>
-              <div><a href="#junior-career" className="hover:text-red-400 transition">2. Junior Racing Career</a></div>
+              <div>
+                <a href="#junior-career" className="hover:text-red-400 transition">2. Junior Racing Career</a>
+                <div className="ml-5 space-y-1">
+                  <div><a href="#karting" className="hover:text-red-400 transition">2.1. Karting</a></div>
+                  <div><a href="#ginetta" className="hover:text-red-400 transition">2.2. Ginetta Junior Championship</a></div>
+                  <div>
+                    <a href="#lower-formulae" className="hover:text-red-400 transition">2.3. Lower Formulae</a>
+                    <div className="ml-5 space-y-1">
+                      <div><a href="#formula4" className="hover:text-red-400 transition">2.3.1. Formula 4</a></div>
+                      <div><a href="#formula3-renault" className="hover:text-red-400 transition">2.3.2. Formula Three and Formula Renault</a></div>
+                      <div><a href="#formula2" className="hover:text-red-400 transition">2.3.3. Formula 2</a></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
               <div><a href="#f1-career" className="hover:text-red-400 transition">3. Formula One Career</a></div>
               <div>
                 <a href="#stats-overview" className="hover:text-red-400 transition">4. Formula One Statistical Overview</a>
@@ -84,9 +100,7 @@ export default async function DriverProfilePage({ params }) {
               <h3 className="text-xl font-extrabold text-red-500 border-b border-gray-700 pb-1">
                 Career Statistics
               </h3>
-              <p className="text-gray-300">
-                {/* Data coming soon */}
-              </p>
+              <CareerStatisticsTable data={careerStatistics} />
             </section>
           </section>
         </main>
