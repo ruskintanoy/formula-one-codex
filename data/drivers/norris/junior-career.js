@@ -1,5 +1,10 @@
 const wikiLink = (text, url) => (
-    <a href={url} target="_blank" rel="noopener noreferrer" className="text-red-500 hover:underline">
+    <a
+      href={url}
+      target="_blank"
+      rel="noopener noreferrer"
+      className="text-red-500 hover:underline"
+    >
       {text}
     </a>
   );
@@ -58,11 +63,22 @@ const wikiLink = (text, url) => (
         {wikiLink("Mücke Motorsport", "https://en.wikipedia.org/wiki/M%C3%BCcke_Motorsport")}, where he claimed six podiums from eight starts in the former.
       </p>
   
-      {/* Clear float for next section */}
       <div className="clear-both"></div>
   
       {/* Formula Three and Formula Renault */}
       <h4 className="text-lg font-semibold text-red-400 mb-1 mt-4">Formula Three and Formula Renault</h4>
+  
+      <figure className="float-right mr-4 mb-4 max-w-[250px] border border-gray-700 rounded-lg bg-gray-900 p-2 shadow-lg">
+        <img
+          src="/drivers/norris/car2.jpg"
+          alt="Norris racing at Monza during the 2016 Eurocup Formula Renault 2.0 championship"
+          className="w-full h-auto rounded"
+        />
+        <figcaption className="text-sm text-gray-400 text-center">
+          Norris racing at Monza during the 2016 Eurocup Formula Renault 2.0 championship
+        </figcaption>
+      </figure>
+  
       <p>
         In 2016, Norris competed in the{" "}
         {wikiLink("Toyota Racing Series", "https://en.wikipedia.org/wiki/2016_Toyota_Racing_Series")} in New Zealand with{" "}
@@ -70,11 +86,13 @@ const wikiLink = (text, url) => (
         {wikiLink("New Zealand Grand Prix", "https://en.wikipedia.org/wiki/2016_New_Zealand_Grand_Prix")}, and the championship ahead of{" "}
         {wikiLink("Jehan Daruvala", "https://en.wikipedia.org/wiki/Jehan_Daruvala")}.
       </p>
+  
       <p>
         He then competed in the{" "}
         {wikiLink("Formula Renault 2.0", "https://en.wikipedia.org/wiki/Formula_Renault_2.0")} Eurocup and NEC series with{" "}
         {wikiLink("Josef Kaufmann Racing", "https://en.wikipedia.org/wiki/Josef_Kaufmann_Racing")}, winning both championships.
       </p>
+  
       <p>
         Additionally, Norris raced part-time in the{" "}
         {wikiLink("BRDC British Formula 3 Championship", "https://en.wikipedia.org/wiki/2016_BRDC_British_Formula_3_Championship")}, and made a guest appearance in the final round of the{" "}
@@ -82,8 +100,22 @@ const wikiLink = (text, url) => (
         {wikiLink("Macau Grand Prix", "https://en.wikipedia.org/wiki/2016_Macau_Grand_Prix")}.
       </p>
   
+      <div className="clear-both"></div>
+  
       {/* Formula 2 */}
       <h4 className="text-lg font-semibold text-red-400 mb-1 mt-4">Formula 2</h4>
+  
+      <figure className="float-left mr-4 mb-4 max-w-[250px] border border-gray-700 rounded-lg bg-gray-900 p-2 shadow-lg">
+        <img
+          src="/drivers/norris/car3.jpg"
+          alt="Norris at Silverstone during the 2017 Formula 3 European Championship"
+          className="w-full h-auto rounded"
+        />
+        <figcaption className="text-sm text-gray-400 text-center">
+          Norris at Silverstone during the 2017 Formula 3 European Championship
+        </figcaption>
+      </figure>
+  
       <p>
         Norris raced full-time in the{" "}
         {wikiLink("2017 European Formula 3 Championship", "https://en.wikipedia.org/wiki/2017_European_Formula_3_Championship")} with Carlin, finishing ahead of{" "}
@@ -91,6 +123,7 @@ const wikiLink = (text, url) => (
         {wikiLink("Maximilian Günther", "https://en.wikipedia.org/wiki/Maximilian_G%C3%BCnther")}, and{" "}
         {wikiLink("Callum Ilott", "https://en.wikipedia.org/wiki/Callum_Ilott")}. He won the championship with two races to spare.
       </p>
+  
       <p>
         In{" "}
         {wikiLink("Formula 2", "https://en.wikipedia.org/wiki/FIA_Formula_2_Championship")}, Norris made his debut with{" "}
@@ -98,13 +131,16 @@ const wikiLink = (text, url) => (
         {wikiLink("Yas Marina Circuit", "https://en.wikipedia.org/wiki/Yas_Marina_Circuit")} for the final round of the{" "}
         {wikiLink("2017 Formula 2 Championship", "https://en.wikipedia.org/wiki/2017_Formula_2_Championship")}.
       </p>
+  
       <p>
         Norris competed full-time in the{" "}
         {wikiLink("2018 FIA Formula 2 Championship", "https://en.wikipedia.org/wiki/2018_FIA_Formula_2_Championship")} with Carlin alongside{" "}
         {wikiLink("Sérgio Sette Câmara", "https://en.wikipedia.org/wiki/S%C3%A9rgio_Sette_C%C3%A2mara")}. He won the opening race at the{" "}
         {wikiLink("Bahrain International Circuit", "https://en.wikipedia.org/wiki/Bahrain_International_Circuit")}, finishing second in the standings behind{" "}
         {wikiLink("George Russell", "https://en.wikipedia.org/wiki/George_Russell_(racing_driver)")}.
+      </p>
   
+      <p>
         Other key races included the{" "}
         {wikiLink("Red Bull Ring", "https://en.wikipedia.org/wiki/Red_Bull_Ring")} and{" "}
         {wikiLink("Sochi Autodrom", "https://en.wikipedia.org/wiki/Sochi_Autodrom")}, before closing the season at the{" "}
