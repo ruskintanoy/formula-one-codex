@@ -9,7 +9,6 @@ export default async function DriverProfilePage({ params }) {
   const data = await getData(`/api/current/drivers/${driverId}`);
   const driver = data.driver;
   const team = data.team;
-  const results = data.results;
 
   const summary = (await import(`../../../data/drivers/${driverId}/summary.js`)).default;
   const background = (await import(`../../../data/drivers/${driverId}/background.js`)).default;
