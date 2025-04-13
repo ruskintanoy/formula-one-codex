@@ -75,7 +75,7 @@ const wikiLink = (text, url) => (
           className="w-full h-auto rounded"
         />
         <figcaption className="text-sm text-gray-400 text-center">
-          Norris racing at Monza during the 2016 Eurocup Formula Renault 2.0 championship
+          Norris racing at Monza during the {wikiLink("2016 Eurocup Formula Renault 2.0", "https://en.wikipedia.org/wiki/2016_Eurocup_Formula_Renault_2.0")} championship
         </figcaption>
       </figure>
   
@@ -112,7 +112,7 @@ const wikiLink = (text, url) => (
           className="w-full h-auto rounded"
         />
         <figcaption className="text-sm text-gray-400 text-center">
-          Norris at Silverstone during the 2017 Formula 3 European Championship
+          Norris at {wikiLink("Silverstone", "https://en.wikipedia.org/wiki/Silverstone_Circuit")} during the {wikiLink("2017 Formula 3 European Championship", "https://en.wikipedia.org/wiki/2017_FIA_Formula_3_European_Championship")}
         </figcaption>
       </figure>
   
