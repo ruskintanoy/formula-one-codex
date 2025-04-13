@@ -69,7 +69,56 @@ const wikiLink = (text, url) => (
 
       <div className="clear-both"></div>
 
-    </>
+      {/* 2023 Season */}
+      <h3 className="text-2xl font-bold text-red-600 mb-2 mt-6">2023 Season</h3>
+      <p>
+        Norris remained with McLaren for 2023, partnered by rookie {wikiLink("Oscar Piastri", "https://en.wikipedia.org/wiki/Oscar_Piastri")} who replaced Ricciardo. At the first race at Bahrain, both McLaren cars experienced reliability issues. Norris made six pit stops to manage the problem and finished seventeenth and last of the finishing drivers. He was eliminated in the first qualifying session (Q1) for the first time since 2019 at the {wikiLink("Saudi Arabian Grand Prix", "https://en.wikipedia.org/wiki/2023_Saudi_Arabian_Grand_Prix")} after hitting the wall.
+      </p>
+
+      <p>
+        The Australian Grand Prix saw McLaren score their first points of the season; Piastri finished eighth and Norris improved from thirteenth at the start to sixth at the finish. He qualified third at the Spanish Grand Prix but first-lap contact with {wikiLink("Lewis Hamilton", "https://en.wikipedia.org/wiki/Lewis_Hamilton")} dropped him to the back.
+      </p>
+
+      <p>
+        McLaren brought upgrades to Norris's MCL60 for the {wikiLink("Austrian Grand Prix", "https://en.wikipedia.org/wiki/2023_Austrian_Grand_Prix")}; team principal Andrea Stella commented that "pretty much the entire car" had been redesigned. Norris qualified fourth for the race, third for the sprint and finished fourth in the race.
+      </p>
+
+      <p>
+        More success came at the {wikiLink("British Grand Prix", "https://en.wikipedia.org/wiki/2023_British_Grand_Prix")} where Norris and Piastri qualified second and third respectively, a result Norris described as "insane". He passed {wikiLink("Max Verstappen", "https://en.wikipedia.org/wiki/Max_Verstappen")} at the first corner and led the race for four laps before Verstappen regained the place. In the later stages of the race, Norris held off Hamilton to finish second, making him the first McLaren driver to finish on the podium at Silverstone Circuit since Hamilton in 2010.
+      </p>
+
+      <p>
+        He then qualified third and defended from {wikiLink("Sergio Pérez", "https://en.wikipedia.org/wiki/Sergio_P%C3%A9rez")} to finish second at the {wikiLink("Hungarian Grand Prix", "https://en.wikipedia.org/wiki/2023_Hungarian_Grand_Prix")}, the first consecutive podiums of his Formula One career.
+      </p>
+
+      <div className="clear-both"></div>
+
+      {/* 2024 Season - Maiden Win */}
+      <h3 className="text-2xl font-bold text-red-600 mb-2 mt-6">2024: Maiden Win and Title Challenge</h3>
+      <p>
+        Ahead of the 2024 season, Norris signed a new multi-year contract with McLaren. He finished sixth at the first race, the {wikiLink("Bahrain Grand Prix", "https://en.wikipedia.org/wiki/2024_Bahrain_Grand_Prix")}, and took his first podium of the season at the {wikiLink("Australian Grand Prix", "https://en.wikipedia.org/wiki/2024_Australian_Grand_Prix")}, starting and finishing third.
+      </p>
+
+      <p>
+        At the {wikiLink("Miami Grand Prix", "https://en.wikipedia.org/wiki/2024_Miami_Grand_Prix")}, Norris claimed his maiden Grand Prix victory after 110 races, tying the record for the most podiums before taking a first win. After Miami, Norris achieved five podiums before the summer break at circuits like {wikiLink("Imola", "https://en.wikipedia.org/wiki/Imola_Circuit")}, {wikiLink("Canada", "https://en.wikipedia.org/wiki/Canadian_Grand_Prix")}, and {wikiLink("Spain", "https://en.wikipedia.org/wiki/Spanish_Grand_Prix")}.
+      </p>
+
+      <p>
+        Following the summer break, Norris claimed victories at the {wikiLink("Dutch Grand Prix", "https://en.wikipedia.org/wiki/2024_Dutch_Grand_Prix")}, {wikiLink("Singapore Grand Prix", "https://en.wikipedia.org/wiki/2024_Singapore_Grand_Prix")}, and secured multiple pole positions, establishing himself as a legitimate title contender.
+      </p>
+
+      <div className="clear-both"></div>
+
+      {/* 2025 Season - Title Challenge */}
+      <h3 className="text-2xl font-bold text-red-600 mb-2 mt-6">2025 Season: Title Challenge</h3>
+      <p>
+        McLaren entered 2025 as title favourites, with Norris stating he had learned "a lot of lessons" in his bid to become World Drivers' Champion. He took pole for the season-opening {wikiLink("Australian Grand Prix", "https://en.wikipedia.org/wiki/2025_Australian_Grand_Prix")}, defending the lead from teammate Oscar Piastri and Max Verstappen in wet conditions to claim victory and the championship lead.
+      </p>
+
+      <p>
+        After finishing eighth in the {wikiLink("Chinese Grand Prix", "https://en.wikipedia.org/wiki/2025_Chinese_Grand_Prix")} sprint, he claimed second in the main race behind Piastri. In Japan, he finished second to Verstappen, who reduced his championship lead to a single point.
+      </p>
+  </>
   );
   
   export default f1Career;
