@@ -11,6 +11,7 @@ const wikiLink = (text, url) => (
   
   const f1Career = (
     <>
+      <section id="mclaren-driver-programme" className="space-y-4 scroll-mt-24"></section>
       {/* McLaren Driver Development Programme */}
       <h3 className="text-2xl font-bold text-red-600 mb-2">
         McLaren Driver Development Programme
@@ -34,12 +35,14 @@ const wikiLink = (text, url) => (
       </p>
 
       <div className="clear-both"></div>
-  
+
+      <section id="mclaren-2019-present" className="space-y-4 scroll-mt-24"></section>
       {/* McLaren (2019-Present) */}
       <h3 className="text-2xl font-bold text-red-600 mt-6 mb-2">
         McLaren (2019–present)
       </h3>
-  
+
+      <section id="rookie-season" className="space-y-4 scroll-mt-24"></section>
       {/* 2019: Rookie season */}
       <h4 className="text-lg font-semibold text-red-400 mb-1">
         2019: Rookie season
@@ -64,7 +67,8 @@ const wikiLink = (text, url) => (
       </p>
 
       <div className="clear-both"></div>
-  
+      
+      <section id="maiden-podium" className="space-y-4 scroll-mt-24"></section>
       {/* 2020: Maiden Podium */}
       <h3 className="text-2xl font-bold text-red-600 mt-6 mb-2">2020: Maiden Podium</h3>
 
@@ -88,7 +92,8 @@ const wikiLink = (text, url) => (
         Norris continued to impress throughout the season, securing consistent points finishes and earning praise for his racecraft. 
         His highlight was a fifth-place finish at the {wikiLink("Styrian Grand Prix", "https://en.wikipedia.org/wiki/2020_Styrian_Grand_Prix")}, where he overtook multiple cars in the final laps. Norris ended the season ninth in the Drivers' Championship with 97 points.
       </p>
-
+      
+      <section id="maiden-pole" className="space-y-4 scroll-mt-24"></section>
       {/* 2021: Maiden Pole Position */}
       <h3 className="text-2xl font-bold text-red-600 mt-6 mb-2">2021: Maiden Pole Position</h3>
 
@@ -116,6 +121,7 @@ const wikiLink = (text, url) => (
 
       <div className="clear-both"></div>
 
+      <section id="season-2022" className="space-y-4 scroll-mt-24"></section>
       {/* 2022 Season */}
       <h3 className="text-2xl font-bold text-red-600 mt-6 mb-2">2022 Season</h3>
 
@@ -136,6 +142,7 @@ const wikiLink = (text, url) => (
 
       <div className="clear-both"></div>
 
+      <section id="season-2023" className="space-y-4 scroll-mt-24"></section>
       {/* 2023 Season */}
       <h3 className="text-2xl font-bold text-red-600 mb-2 mt-6">2023 Season</h3>
 
@@ -179,6 +186,7 @@ const wikiLink = (text, url) => (
 
       <div className="clear-both"></div>
 
+      <section id="maiden-win" className="space-y-4 scroll-mt-24"></section>
       {/* 2024 Season - Maiden Win */}
       <h3 className="text-2xl font-bold text-red-600 mb-2 mt-6">2024: Maiden Win and Title Challenge</h3>
 
@@ -211,6 +219,7 @@ const wikiLink = (text, url) => (
 
       <div className="clear-both"></div>
 
+      <section id="season-2025" className="space-y-4 scroll-mt-24"></section>
       {/* 2025 Season - Title Challenge */}
       <h3 className="text-2xl font-bold text-red-600 mb-2 mt-6">2025 Season: Title Challenge</h3>
 
