@@ -1,9 +1,5 @@
 import { getData } from "../../../lib/fetchData";
 import DriverInfoCard from "../../../components/DriverInfoCard";
-import driverStats from "../../../data/drivers-stats";
-import driverSummary from "../../../data/drivers-summary";
-import driverBackground from "../../../data/drivers-background";
-import driverJuniorCareer from "../../../data/drivers-junior-career"; // NEW
 
 export default async function DriverProfilePage({ params }) {
   const { driverId } = await params;
@@ -13,10 +9,11 @@ export default async function DriverProfilePage({ params }) {
   const team = data.team;
   const results = data.results;
 
-  const exampleStats = driverStats[driverId] || null;
-  const summary = driverSummary[driverId] || `${driver.name} ${driver.surname} is a professional Formula One driver known for their performance and skill on the track.`;
-  const background = driverBackground[driverId] || null;
-  const juniorCareer = driverJuniorCareer[driverId] || "Junior racing career information is currently being added."; // NEW
+  // Dynamically import each driver's data
+  const summary = (await import(`../../../data/drivers/${driverId}/summary.js`)).default;
+  const background = (await import(`../../../data/drivers/${driverId}/background.js`)).default;
+  const stats = (await import(`../../../data/drivers/${driverId}/stats.js`)).default;
+  // const juniorCareer = (await import(`../../../data/drivers/${driverId}/junior-career.js`)).default;
 
   return (
     <section className="min-h-[80vh] container mx-auto p-8">
@@ -32,7 +29,7 @@ export default async function DriverProfilePage({ params }) {
             <p className="text-gray-300">{summary}</p>
           </section>
 
-          {/* Contents */}
+          {/* Table of Contents */}
           <section className="border border-gray-700 p-6 rounded-lg bg-gray-900 shadow-lg">
             <h2 className="text-xl font-extrabold text-red-600 mb-4 border-b border-gray-700 pb-2 text-center uppercase tracking-wide">
               Contents
@@ -41,7 +38,8 @@ export default async function DriverProfilePage({ params }) {
               <div><a href="#background" className="hover:text-red-400 transition">1. Background</a></div>
               <div><a href="#junior-career" className="hover:text-red-400 transition">2. Junior Racing Career</a></div>
               <div><a href="#f1-career" className="hover:text-red-400 transition">3. Formula One Career</a></div>
-              <div><a href="#stats-overview" className="hover:text-red-400 transition">4. Formula One Statistical Overview</a>
+              <div>
+                <a href="#stats-overview" className="hover:text-red-400 transition">4. Formula One Statistical Overview</a>
                 <div className="ml-5 space-y-1">
                   <div><a href="#record" className="hover:text-red-400 transition">4.1. Formula One Record</a></div>
                   <div><a href="#race-wins" className="hover:text-red-400 transition">4.2. Race Wins</a></div>
@@ -59,19 +57,19 @@ export default async function DriverProfilePage({ params }) {
             <p className="text-gray-300">{background}</p>
           </section>
 
-          {/* Junior Racing Career */}
+          {/* Junior Racing Career
           <section id="junior-career" className="space-y-4">
             <h2 className="text-2xl font-bold text-red-600 border-b border-gray-700 pb-2 text-center">
               Junior Racing Career
             </h2>
             <p className="text-gray-300">{juniorCareer}</p>
-          </section>
+          </section> */}
 
         </main>
 
         {/* Sidebar */}
         <div className="w-1/3">
-          <DriverInfoCard driver={driver} team={team} stats={exampleStats} />
+          <DriverInfoCard driver={driver} team={team} stats={stats} />
         </div>
       </div>
     </section>

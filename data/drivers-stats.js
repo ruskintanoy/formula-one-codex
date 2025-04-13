@@ -1,19 +1,7 @@
 
 
 const driverStats = {
-    norris: {
-      "Seasons Active": "2019 - Present",
-      Championships: 0,
-      Races: "132 (131 starts)",
-      Poles: 10,
-      Wins: 5,
-      Podiums: 29,
-      "Fastest Laps": 14,
-      Points: 1069,
-      "First Race": "2019 Australian Grand Prix",
-      "Last Win": "2025 Australian Grand Prix",
-    },
-  
+    
     max_verstappen: {
       "Seasons Active": "2015 - Present",
       Championships:"4 (2021-2024)",
