@@ -26,3 +26,10 @@ body {
   color: var(--foreground);
   font-family: var(--font-sans); /* Controlled by your @theme variable */
 }
+
+/* globals.css */
+
+html, body {
+  @apply bg-gradient-to-b from-black via-gray-900 to-gray-950 min-h-screen;
+}
+
