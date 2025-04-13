@@ -1,5 +1,6 @@
 import { getData } from "../../../lib/fetchData";
 import DriverInfoCard from "../../../components/DriverInfoCard";
+import RacingCareerSummaryTable from "../../../components/RacingCareerSummaryTable";
 
 export default async function DriverProfilePage({ params }) {
   const { driverId } = await params;
@@ -13,6 +14,7 @@ export default async function DriverProfilePage({ params }) {
   const background = (await import(`../../../data/drivers/${driverId}/background.js`)).default;
   const stats = (await import(`../../../data/drivers/${driverId}/stats.js`)).default;
   const juniorCareer = (await import(`../../../data/drivers/${driverId}/junior-career.js`)).default;
+  const racingCareerSummary = (await import(`../../../data/drivers/${driverId}/racing-career-summary.js`)).default;
 
   return (
     <section className="min-h-[80vh] container mx-auto p-8">
@@ -74,9 +76,7 @@ export default async function DriverProfilePage({ params }) {
               <h3 className="text-xl font-extrabold text-red-500 border-b border-gray-700 pb-1">
                 Racing Career Summary
               </h3>
-              <p className="text-gray-300">
-                {/* Data coming soon */}
-              </p>
+              <RacingCareerSummaryTable data={racingCareerSummary} />
             </section>
 
             {/* Career Statistics */}
