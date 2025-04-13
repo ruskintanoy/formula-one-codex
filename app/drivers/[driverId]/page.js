@@ -14,6 +14,7 @@ export default async function DriverProfilePage({ params }) {
   const background = (await import(`../../../data/drivers/${driverId}/background.js`)).default;
   const stats = (await import(`../../../data/drivers/${driverId}/stats.js`)).default;
   const juniorCareer = (await import(`../../../data/drivers/${driverId}/junior-career.js`)).default;
+  const f1Career = (await import(`../../../data/drivers/${driverId}/f1-career.js`)).default;
   const racingCareerSummary = (await import(`../../../data/drivers/${driverId}/racing-career-summary.js`)).default;
   const careerStatistics = (await import(`../../../data/drivers/${driverId}/career-statistics.js`)).default;
 
@@ -77,8 +78,19 @@ export default async function DriverProfilePage({ params }) {
             <h2 className="text-2xl font-bold text-red-600 border-b border-gray-700 pb-2 text-center">
               Junior Racing Career
             </h2>
-            <p className="text-gray-300">{juniorCareer}</p>
+            <div className="text-gray-300 space-y-4">{juniorCareer}</div>
           </section>
+
+          {/* Formula One Career */}
+          <section id="f1-career" className="space-y-4">
+            <h2 className="text-2xl font-bold text-red-600 border-b border-gray-700 pb-2 text-center">
+              Formula One Career
+            </h2>
+            <div className="text-gray-300 space-y-4">
+              {f1Career}
+            </div>
+          </section>
+
 
           {/* Formula One Statistical Overview */}
           <section id="stats-overview" className="space-y-6">
