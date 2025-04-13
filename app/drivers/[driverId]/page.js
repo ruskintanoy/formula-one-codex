@@ -91,7 +91,10 @@ export default async function DriverProfilePage({ params }) {
               <h3 className="text-xl font-extrabold text-red-500 border-b border-gray-700 pb-1">
                 Racing Career Summary
               </h3>
-              <RacingCareerSummaryTable data={racingCareerSummary} />
+              <RacingCareerSummaryTable
+                  data={racingCareerSummary.data}
+                  legend={racingCareerSummary.legend}
+              />
             </section>
 
             {/* Career Statistics */}

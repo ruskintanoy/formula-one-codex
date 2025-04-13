@@ -1,4 +1,5 @@
-const racingCareerSummary = [
+const racingCareerSummary = {
+  data: [
     {
       season: "2014",
       series: "Ginetta Junior Championship",
@@ -287,7 +288,12 @@ const racingCareerSummary = [
       points: "62*",
       position: "1st*",
     },
-  ];
+  ],
+    legend: [
+      "† As Norris was a guest driver, he was ineligible for points.",
+      "* Season still in progress.",
+    ],
+};
   
   export default racingCareerSummary;
   

@@ -4,10 +4,21 @@ import DriverCard from "../../components/DriverCard";
 export default async function DriversPage() {
   const driverData = await getData("/api/current/drivers");
   const teamData = await getData("/api/current/teams");
+  const standingsData = await getData("/api/current/drivers-championship");
 
+  // Map teamId to teamName
   const teamMap = {};
   teamData.teams.forEach((team) => {
     teamMap[team.teamId] = team.teamName;
+  });
+
+  // Map driverId to { position, points }
+  const standingsMap = {};
+  standingsData.drivers_championship.forEach((entry) => {
+    standingsMap[entry.driverId] = {
+      position: entry.position,
+      points: entry.points,
+    };
   });
 
   return (
@@ -27,6 +38,7 @@ export default async function DriversPage() {
             key={driver.driverId}
             driver={driver}
             teamName={teamMap[driver.teamId]}
+            standing={standingsMap[driver.driverId]}
           />
         ))}
       </div>
