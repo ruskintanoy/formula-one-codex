@@ -12,6 +12,7 @@ const wikiLink = (text, url) => (
 const juniorCareer = (
   <>
     {/* Karting */}
+    <section id="karting" className="space-y-4 scroll-mt-24"></section>
     <h3 className="text-2xl font-bold text-red-600 mb-2">Karting</h3>
     <p>
       Piastri started racing remote-controlled cars at a national level before beginning his karting career in 2011. Having gone professional and competed in various Australian races and championships in 2014, Piastri began competing in European and other CIK-FIA sanctioned karting championships with Ricky Flynn Motorsport the following year. He moved to the United Kingdom to further his racing career in 2016, finishing sixth in the 2016 World Championship in {wikiLink("Bahrain", "https://en.wikipedia.org/wiki/Bahrain_International_Circuit")}.
@@ -20,6 +21,7 @@ const juniorCareer = (
     <div className="clear-both"></div>
 
     {/* Formula 4 */}
+    <section id="formula4" className="space-y-4 scroll-mt-24"></section>
     <h3 className="text-2xl font-bold text-red-600 mt-6 mb-2">Formula 4</h3>
 
     <figure className="float-left mr-4 mb-4 max-w-[250px] border border-gray-700 rounded-lg bg-gray-900 p-2 shadow-lg">
@@ -43,6 +45,7 @@ const juniorCareer = (
     <div className="clear-both"></div>
 
     {/* Formula Renault Eurocup */}
+    <section id="formula-renault-eurocup" className="space-y-4 scroll-mt-24"></section>
     <h3 className="text-2xl font-bold text-red-600 mt-6 mb-2">Formula Renault Eurocup</h3>
 
     <figure className="float-left mr-4 mb-4 max-w-[250px] border border-gray-700 rounded-lg bg-gray-900 p-2 shadow-lg">
@@ -66,6 +69,7 @@ const juniorCareer = (
     <div className="clear-both"></div>
 
     {/* FIA Formula 3 Championship */}
+    <section id="fia-f3" className="space-y-4 scroll-mt-24"></section>
     <h3 className="text-2xl font-bold text-red-600 mt-6 mb-2">
       FIA Formula 3 Championship
     </h3>
@@ -120,6 +124,7 @@ const juniorCareer = (
     <div className="clear-both"></div>
 
     {/* FIA Formula 2 Championship */}
+    <section id="fia-f2" className="space-y-4 scroll-mt-24"></section>
 
     <h3 className="text-2xl font-bold text-red-600 mt-6 mb-2">
       FIA Formula 2 Championship

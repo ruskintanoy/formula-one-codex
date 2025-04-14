@@ -100,7 +100,7 @@ const wikiLink = (text, url) => (
       
       <section id="maiden-podium" className="space-y-4 scroll-mt-24"></section>
       {/* 2020: Maiden Podium */}
-      <h3 className="text-2xl font-bold text-red-600 mt-6 mb-2">2020: Maiden Podium</h3>
+      <h4 className="text-lg font-semibold text-red-400 mb-1">2020: Maiden Podium</h4>
 
       <p>
         At the season-opening {wikiLink("Austrian Grand Prix", "https://en.wikipedia.org/wiki/2020_Austrian_Grand_Prix")}, Norris qualified in fourth place but was elevated to third after a grid penalty 
@@ -141,7 +141,7 @@ const wikiLink = (text, url) => (
       
       <section id="maiden-pole" className="space-y-4 scroll-mt-24"></section>
       {/* 2021: Maiden Pole Position */}
-      <h3 className="text-2xl font-bold text-red-600 mt-6 mb-2">2021: Maiden Pole Position</h3>
+      <h4 className="text-lg font-semibold text-red-400 mb-1">2021: Maiden Pole Position</h4>
 
       <p>
         Norris remained at {wikiLink("McLaren", "https://en.wikipedia.org/wiki/McLaren")} for the {wikiLink("2021 season", "https://en.wikipedia.org/wiki/2021_Formula_One_World_Championship")}, 
@@ -189,7 +189,7 @@ const wikiLink = (text, url) => (
 
       <section id="season-2022" className="space-y-4 scroll-mt-24"></section>
       {/* 2022 Season */}
-      <h3 className="text-2xl font-bold text-red-600 mt-6 mb-2">2022 Season</h3>
+      <h4 className="text-lg font-semibold text-red-400 mb-1">2022 Season</h4>
 
       <figure className="float-right mr-4 mb-4 max-w-[250px] border border-gray-700 rounded-lg bg-gray-900 p-2 shadow-lg">
         <img
@@ -229,7 +229,7 @@ const wikiLink = (text, url) => (
 
       <section id="season-2023" className="space-y-4 scroll-mt-24"></section>
       {/* 2023 Season */}
-      <h3 className="text-2xl font-bold text-red-600 mb-2 mt-6">2023 Season</h3>
+      <h4 className="text-lg font-semibold text-red-400 mb-1">2023 Season</h4>
 
       <p>
         Norris remained with {wikiLink("McLaren", "https://en.wikipedia.org/wiki/McLaren")} for the 2023 season, partnered by rookie {wikiLink("Oscar Piastri", "https://en.wikipedia.org/wiki/Oscar_Piastri")} who replaced Ricciardo. At the first race at the {wikiLink("Bahrain Grand Prix", "https://en.wikipedia.org/wiki/2023_Bahrain_Grand_Prix")}, both McLaren cars experienced reliability issues. Norris made six pit stops to manage the problem and finished seventeenth and last of the finishing drivers. He was eliminated in the first qualifying session (Q1) for the first time since 2019 at the {wikiLink("Saudi Arabian Grand Prix", "https://en.wikipedia.org/wiki/2023_Saudi_Arabian_Grand_Prix")} after hitting the wall. He received damage from debris on the opening lap and again finished seventeenth. The {wikiLink("Australian Grand Prix", "https://en.wikipedia.org/wiki/2023_Australian_Grand_Prix")} saw McLaren score their first points of the season; Piastri finished eighth and Norris improved from thirteenth at the start to sixth at the finish. Another Q1 knockout at the {wikiLink("Miami Grand Prix", "https://en.wikipedia.org/wiki/2023_Miami_Grand_Prix")} and contact with {wikiLink("Nyck de Vries", "https://en.wikipedia.org/wiki/Nyck_de_Vries")} at the start resulted in another finish outside the points. He qualified third at the {wikiLink("Spanish Grand Prix", "https://en.wikipedia.org/wiki/2023_Spanish_Grand_Prix")} but first-lap contact with {wikiLink("Lewis Hamilton", "https://en.wikipedia.org/wiki/Lewis_Hamilton")} dropped him to the back. He was demoted from a points finish at the {wikiLink("Canadian Grand Prix", "https://en.wikipedia.org/wiki/2023_Canadian_Grand_Prix")} with a penalty for "unsportsmanlike behaviour" after slowing excessively whilst entering the pit lane to create a gap to Piastri ahead.
@@ -262,7 +262,7 @@ const wikiLink = (text, url) => (
 
       <section id="maiden-win" className="space-y-4 scroll-mt-24"></section>
       {/* 2024 Season - Maiden Win */}
-      <h3 className="text-2xl font-bold text-red-600 mb-2 mt-6">2024: Maiden Win and Title Challenge</h3>
+      <h4 className="text-lg font-semibold text-red-400 mb-1">2024: Maiden Win and Title Challenge</h4>
 
       <figure className="float-right mr-4 mb-4 max-w-[250px] border border-gray-700 rounded-lg bg-gray-900 p-2 shadow-lg">
         <img
@@ -315,7 +315,7 @@ const wikiLink = (text, url) => (
 
       <section id="season-2025" className="space-y-4 scroll-mt-24"></section>
       {/* 2025 Season - Title Challenge */}
-      <h3 className="text-2xl font-bold text-red-600 mb-2 mt-6">2025 Season: Title Challenge</h3>
+      <h4 className="text-lg font-semibold text-red-400 mb-1">2025 Season: Title Challenge</h4>
 
       <figure className="float-left mr-4 mb-4 max-w-[250px] border border-gray-700 rounded-lg bg-gray-900 p-2 shadow-lg">
         <img

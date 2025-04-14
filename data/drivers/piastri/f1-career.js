@@ -36,6 +36,7 @@ const f1Career = (
     <div className="clear-both"></div>
 
     {/* 2022 Contract Dispute */}
+    <section id="contract-dispute-2022" className="space-y-4 scroll-mt-24"></section>
     <h3 className="text-2xl font-bold text-red-600 mt-6 mb-2">
       2022 Contract Dispute
     </h3>
@@ -66,6 +67,7 @@ const f1Career = (
     </h3>
 
     {/* 2023: Rookie season */}
+    <section id="season-2023" className="space-y-4 scroll-mt-24"></section>
     <h4 className="text-lg font-semibold text-red-400 mb-1">
       2023: Rookie season
     </h4>
@@ -105,7 +107,7 @@ const f1Career = (
 
     <section id="season-2024" className="space-y-4 scroll-mt-24"></section>
     {/* 2024: Maiden Wins */}
-    <h3 className="text-2xl font-bold text-red-600 mb-2 mt-6">2024: Maiden Wins</h3>
+    <h4 className="text-lg font-semibold text-red-400 mb-1">2024: Maiden Wins</h4>
 
     <p>
       Piastri began the 2024 season by qualifying and finishing eighth at the {wikiLink("Bahrain Grand Prix", "https://en.wikipedia.org/wiki/2024_Bahrain_Grand_Prix")}, followed by fourth-place finishes at the {wikiLink("Saudi Arabian Grand Prix", "https://en.wikipedia.org/wiki/2024_Saudi_Arabian_Grand_Prix")} and {wikiLink("Australian Grand Prix", "https://en.wikipedia.org/wiki/2024_Australian_Grand_Prix")} and further points at the {wikiLink("Japanese Grand Prix", "https://en.wikipedia.org/wiki/2024_Japanese_Grand_Prix")} and {wikiLink("Chinese Grand Prix", "https://en.wikipedia.org/wiki/2024_Chinese_Grand_Prix")}.
@@ -150,7 +152,7 @@ const f1Career = (
 
     <section id="season-2025" className="space-y-4 scroll-mt-24"></section>
     {/* 2025 Season */}
-    <h3 className="text-2xl font-bold text-red-600 mb-2 mt-6">2025</h3>
+    <h4 className="text-lg font-semibold text-red-400 mb-1">2025</h4>
 
     <figure className="float-left mr-4 mb-4 max-w-[250px] border border-gray-700 rounded-lg bg-gray-900 p-2 shadow-lg">
       <img
