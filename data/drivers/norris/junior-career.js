@@ -12,6 +12,7 @@ const wikiLink = (text, url) => (
   const juniorCareer = (
     <>
       {/* Karting */}
+      <section id="karting" className="space-y-4 scroll-mt-24"></section>
       <h3 className="text-2xl font-bold text-red-600 mb-2">Karting</h3>
       <p>
         Norris started his racing career at the age of seven when he claimed pole position at his first national event.
@@ -24,6 +25,7 @@ const wikiLink = (text, url) => (
       </p>
   
       {/* Ginetta Junior Championship */}
+      <section id="ginetta" className="space-y-4 scroll-mt-24"></section>
       <h3 className="text-2xl font-bold text-red-600 mt-6 mb-2">Ginetta Junior Championship</h3>
       <p>
         In 2014, Norris made his car racing debut in the{" "}
@@ -33,9 +35,11 @@ const wikiLink = (text, url) => (
       </p>
   
       {/* Lower Formulae */}
+      <section id="lower-formulae" className="space-y-4 scroll-mt-24"></section>
       <h3 className="text-2xl font-bold text-red-600 mt-6 mb-2">Lower Formulae</h3>
   
       {/* Formula 4 */}
+      <section id="formula4" className="space-y-4 scroll-mt-24"></section>
       <h4 className="text-lg font-semibold text-red-400 mb-1">Formula 4</h4>
   
       <figure className="float-left mr-4 mb-4 max-w-[250px] border border-gray-700 rounded-lg bg-gray-900 p-2 shadow-lg">
@@ -66,6 +70,7 @@ const wikiLink = (text, url) => (
       <div className="clear-both"></div>
   
       {/* Formula Three and Formula Renault */}
+      <section id="formula3-renault" className="space-y-4 scroll-mt-24"></section>
       <h4 className="text-lg font-semibold text-red-400 mb-1 mt-4">Formula Three and Formula Renault</h4>
   
       <figure className="float-right mr-4 mb-4 max-w-[250px] border border-gray-700 rounded-lg bg-gray-900 p-2 shadow-lg">
@@ -103,6 +108,7 @@ const wikiLink = (text, url) => (
       <div className="clear-both"></div>
   
       {/* Formula 2 */}
+      <section id="formula2" className="space-y-4 scroll-mt-24"></section>
       <h4 className="text-lg font-semibold text-red-400 mb-1 mt-4">Formula 2</h4>
   
       <figure className="float-left mr-4 mb-4 max-w-[250px] border border-gray-700 rounded-lg bg-gray-900 p-2 shadow-lg">
