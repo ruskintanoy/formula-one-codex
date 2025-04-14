@@ -1,8 +1,19 @@
+const wikiLink = (text, url) => (
+  <a
+    href={url}
+    target="_blank"
+    rel="noopener noreferrer"
+    className="text-red-500 hover:underline"
+  >
+    {text}
+  </a>
+);
+
 const racingCareerSummary = {
   data: [
     {
       season: "2014",
-      series: "Ginetta Junior Championship",
+      series: wikiLink("Ginetta Junior Championship", "https://en.wikipedia.org/wiki/2014_Ginetta_Junior_Championship"),
       team: "HHC Motorsport",
       races: 20,
       wins: 4,
@@ -14,8 +25,8 @@ const racingCareerSummary = {
     },
     {
       season: "2015",
-      series: "MSA Formula Championship",
-      team: "Carlin",
+      series: wikiLink("MSA Formula Championship", "https://en.wikipedia.org/wiki/2015_MSA_Formula_Championship"),
+      team: wikiLink("Carlin", "https://en.wikipedia.org/wiki/Carlin_Motorsport"),
       races: 30,
       wins: 8,
       poles: 10,
@@ -26,8 +37,8 @@ const racingCareerSummary = {
     },
     {
       season: "2015",
-      series: "ADAC Formula 4 Championship",
-      team: "Mücke Motorsport",
+      series: wikiLink("ADAC Formula 4 Championship", "https://en.wikipedia.org/wiki/2015_ADAC_Formula_4_Championship"),
+      team: wikiLink("Mücke Motorsport", "https://en.wikipedia.org/wiki/M%C3%BCcke_Motorsport"),
       races: 8,
       wins: 1,
       poles: 0,
@@ -38,8 +49,8 @@ const racingCareerSummary = {
     },
     {
       season: "2015",
-      series: "Italian F4 Championship",
-      team: "Mücke Motorsport",
+      series: wikiLink("Italian F4 Championship", "https://en.wikipedia.org/wiki/2015_Italian_Formula_4_Championship"),
+      team: wikiLink("Mücke Motorsport", "https://en.wikipedia.org/wiki/M%C3%BCcke_Motorsport"),
       races: 9,
       wins: 0,
       poles: 0,
@@ -50,7 +61,7 @@ const racingCareerSummary = {
     },
     {
       season: "2015",
-      series: "BRDC Formula 4 Autumn Trophy",
+      series: wikiLink("BRDC Formula 4 Autumn Trophy", "https://en.wikipedia.org/wiki/2015_BRDC_Formula_4_Autumn_Trophy"),
       team: "HHC Motorsport",
       races: 4,
       wins: 2,
@@ -62,8 +73,8 @@ const racingCareerSummary = {
     },
     {
       season: "2016",
-      series: "Eurocup Formula Renault 2.0",
-      team: "Josef Kaufmann Racing",
+      series: wikiLink("Eurocup Formula Renault 2.0", "https://en.wikipedia.org/wiki/2016_Eurocup_Formula_Renault_2.0"),
+      team: wikiLink("Josef Kaufmann Racing", "https://en.wikipedia.org/wiki/Josef_Kaufmann_Racing"),
       races: 15,
       wins: 5,
       poles: 6,
@@ -74,8 +85,8 @@ const racingCareerSummary = {
     },
     {
       season: "2016",
-      series: "Formula Renault 2.0 NEC",
-      team: "Josef Kaufmann Racing",
+      series: wikiLink("Formula Renault 2.0 NEC", "https://en.wikipedia.org/wiki/2016_Formula_Renault_2.0_Northern_European_Cup"),
+      team: wikiLink("Josef Kaufmann Racing", "https://en.wikipedia.org/wiki/Josef_Kaufmann_Racing"),
       races: 15,
       wins: 6,
       poles: 10,
@@ -86,8 +97,8 @@ const racingCareerSummary = {
     },
     {
       season: "2016",
-      series: "Toyota Racing Series",
-      team: "M2 Competition",
+      series: wikiLink("Toyota Racing Series", "https://en.wikipedia.org/wiki/2016_Toyota_Racing_Series"),
+      team: wikiLink("M2 Competition", "https://en.wikipedia.org/wiki/M2_Competition_(team)"),
       races: 15,
       wins: 6,
       poles: 8,
@@ -98,8 +109,8 @@ const racingCareerSummary = {
     },
     {
       season: "2016",
-      series: "BRDC British Formula 3 Championship",
-      team: "Carlin",
+      series: wikiLink("BRDC British Formula 3 Championship", "https://en.wikipedia.org/wiki/2016_BRDC_British_Formula_3_Championship"),
+      team: wikiLink("Carlin", "https://en.wikipedia.org/wiki/Carlin_Motorsport"),
       races: 11,
       wins: 4,
       poles: 4,
@@ -110,8 +121,8 @@ const racingCareerSummary = {
     },
     {
       season: "2016",
-      series: "FIA Formula 3 European Championship",
-      team: "Carlin",
+      series: wikiLink("FIA Formula 3 European Championship", "https://en.wikipedia.org/wiki/2016_FIA_Formula_3_European_Championship"),
+      team: wikiLink("Carlin", "https://en.wikipedia.org/wiki/Carlin_Motorsport"),
       races: 3,
       wins: 0,
       poles: 0,
@@ -122,8 +133,8 @@ const racingCareerSummary = {
     },
     {
       season: "2016",
-      series: "Macau Grand Prix",
-      team: "Carlin",
+      series: wikiLink("Macau Grand Prix", "https://en.wikipedia.org/wiki/2016_Macau_Grand_Prix"),
+      team: wikiLink("Carlin", "https://en.wikipedia.org/wiki/Carlin_Motorsport"),
       races: 1,
       wins: 0,
       poles: 0,
@@ -134,8 +145,8 @@ const racingCareerSummary = {
     },
     {
       season: "2017",
-      series: "FIA Formula 3 European Championship",
-      team: "Carlin",
+      series: wikiLink("FIA Formula 3 European Championship", "https://en.wikipedia.org/wiki/2017_FIA_Formula_3_European_Championship"),
+      team: wikiLink("Carlin", "https://en.wikipedia.org/wiki/Carlin_Motorsport"),
       races: 30,
       wins: 9,
       poles: 8,
@@ -146,8 +157,8 @@ const racingCareerSummary = {
     },
     {
       season: "2017",
-      series: "Macau Grand Prix",
-      team: "Carlin",
+      series: wikiLink("Macau Grand Prix", "https://en.wikipedia.org/wiki/2017_Macau_Grand_Prix"),
+      team: wikiLink("Carlin", "https://en.wikipedia.org/wiki/Carlin_Motorsport"),
       races: 1,
       wins: 0,
       poles: 0,
@@ -158,8 +169,8 @@ const racingCareerSummary = {
     },
     {
       season: "2017",
-      series: "FIA Formula 2 Championship",
-      team: "Campos Racing",
+      series: wikiLink("FIA Formula 2 Championship", "https://en.wikipedia.org/wiki/2017_FIA_Formula_2_Championship"),
+      team: wikiLink("Campos Racing", "https://en.wikipedia.org/wiki/Campos_Racing"),
       races: 2,
       wins: 0,
       poles: 0,
@@ -170,8 +181,8 @@ const racingCareerSummary = {
     },
     {
       season: "2018",
-      series: "FIA Formula 2 Championship",
-      team: "Carlin",
+      series: wikiLink("FIA Formula 2 Championship", "https://en.wikipedia.org/wiki/2018_FIA_Formula_2_Championship"),
+      team: wikiLink("Carlin", "https://en.wikipedia.org/wiki/Carlin_Motorsport"),
       races: 24,
       wins: 1,
       poles: 1,
@@ -182,8 +193,8 @@ const racingCareerSummary = {
     },
     {
       season: "2018",
-      series: "WeatherTech SportsCar Championship",
-      team: "United Autosports",
+      series: wikiLink("WeatherTech SportsCar Championship", "https://en.wikipedia.org/wiki/2018_WeatherTech_SportsCar_Championship"),
+      team: wikiLink("United Autosports", "https://en.wikipedia.org/wiki/United_Autosports"),
       races: 1,
       wins: 0,
       poles: 0,
@@ -194,8 +205,8 @@ const racingCareerSummary = {
     },
     {
       season: "2018",
-      series: "Formula One",
-      team: "McLaren F1 Team",
+      series: wikiLink("Formula One", "https://en.wikipedia.org/wiki/2018_Formula_One_World_Championship"),
+      team: wikiLink("McLaren F1 Team", "https://en.wikipedia.org/wiki/McLaren_F1_Team"),
       races: "Test/Reserve driver",
       wins: "-",
       poles: "-",
@@ -206,8 +217,8 @@ const racingCareerSummary = {
     },
     {
       season: "2019",
-      series: "Formula One",
-      team: "McLaren F1 Team",
+      series: wikiLink("Formula One", "https://en.wikipedia.org/wiki/2019_Formula_One_World_Championship"),
+      team: wikiLink("McLaren F1 Team", "https://en.wikipedia.org/wiki/McLaren_F1_Team"),
       races: 21,
       wins: 0,
       poles: 0,
@@ -218,8 +229,8 @@ const racingCareerSummary = {
     },
     {
       season: "2020",
-      series: "Formula One",
-      team: "McLaren F1 Team",
+      series: wikiLink("Formula One", "https://en.wikipedia.org/wiki/2020_Formula_One_World_Championship"),
+      team: wikiLink("McLaren F1 Team", "https://en.wikipedia.org/wiki/McLaren_F1_Team"),
       races: 17,
       wins: 0,
       poles: 0,
@@ -230,8 +241,8 @@ const racingCareerSummary = {
     },
     {
       season: "2021",
-      series: "Formula One",
-      team: "McLaren F1 Team",
+      series: wikiLink("Formula One", "https://en.wikipedia.org/wiki/2021_Formula_One_World_Championship"),
+      team: wikiLink("McLaren F1 Team", "https://en.wikipedia.org/wiki/McLaren_F1_Team"),
       races: 22,
       wins: 0,
       poles: 1,
@@ -242,8 +253,8 @@ const racingCareerSummary = {
     },
     {
       season: "2022",
-      series: "Formula One",
-      team: "McLaren F1 Team",
+      series: wikiLink("Formula One", "https://en.wikipedia.org/wiki/2022_Formula_One_World_Championship"),
+      team: wikiLink("McLaren F1 Team", "https://en.wikipedia.org/wiki/McLaren_F1_Team"),
       races: 22,
       wins: 0,
       poles: 0,
@@ -254,8 +265,8 @@ const racingCareerSummary = {
     },
     {
       season: "2023",
-      series: "Formula One",
-      team: "McLaren F1 Team",
+      series: wikiLink("Formula One", "https://en.wikipedia.org/wiki/2023_Formula_One_World_Championship"),
+      team: wikiLink("McLaren F1 Team", "https://en.wikipedia.org/wiki/McLaren_F1_Team"),
       races: 22,
       wins: 0,
       poles: 0,
@@ -266,8 +277,8 @@ const racingCareerSummary = {
     },
     {
       season: "2024",
-      series: "Formula One",
-      team: "McLaren F1 Team",
+      series: wikiLink("Formula One", "https://en.wikipedia.org/wiki/2024_Formula_One_World_Championship"),
+      team: wikiLink("McLaren F1 Team", "https://en.wikipedia.org/wiki/McLaren_F1_Team"),
       races: 24,
       wins: 4,
       poles: 9,
@@ -278,8 +289,8 @@ const racingCareerSummary = {
     },
     {
       season: "2025",
-      series: "Formula One",
-      team: "McLaren F1 Team",
+      series: wikiLink("Formula One", "https://en.wikipedia.org/wiki/2025_Formula_One_World_Championship"),
+      team: wikiLink("McLaren F1 Team", "https://en.wikipedia.org/wiki/McLaren_F1_Team"),
       races: 4,
       wins: 1,
       poles: 1,
@@ -289,11 +300,10 @@ const racingCareerSummary = {
       position: "1st*",
     },
   ],
-    legend: [
-      "† As Norris was a guest driver, he was ineligible for points.",
-      "* Season still in progress.",
-    ],
+  legend: [
+    "† As Norris was a guest driver, he was ineligible for points.",
+    "* Season still in progress.",
+  ],
 };
-  
-  export default racingCareerSummary;
-  
+
+export default racingCareerSummary;
