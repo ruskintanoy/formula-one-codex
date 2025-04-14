@@ -35,17 +35,28 @@ export default function Navbar() {
     >
       {/* Logo & Title */}
       <Link href="/" className="flex items-center gap-3 group">
-        <div className="bg-black rounded-full w-13 h-13 flex items-center justify-center shadow-[0_0_10px_rgba(255,255,255,0.4)] group-hover:scale-105 transition-transform">
+        {/* Logo Circle */}
+        <div className="relative bg-black rounded-full w-13 h-13 flex items-center justify-center shadow-[0_0_20px_rgba(255,255,255,0.4)] group-hover:scale-110 transition-transform duration-300">
+          {/* Glow Ring Animation */}
+          <span className="absolute inset-0 rounded-full border-2 border-red-500 animate-pulse opacity-50"></span>
           <img
             src="/res/f1-codex-icon.png"
             alt="F1 Codex Icon"
-            className="w-10 h-10 drop-shadow-lg"
+            className="w-10 h-10 drop-shadow-lg relative z-10"
           />
         </div>
-        <h1 className="font-extrabold text-2xl text-transparent bg-clip-text bg-gradient-to-r from-white to-gray-300 tracking-wide group-hover:text-white transition">
-          Formula One Codex
-        </h1>
+
+        {/* Title */}
+        <div className="flex flex-col">
+          <h1 className="font-extrabold text-2xl text-transparent bg-clip-text bg-gradient-to-r from-white to-gray-300 tracking-wide group-hover:text-black transition-all">
+            Formula One Codex
+          </h1>
+
+          {/* Racing Underline */}
+          <span className="h-0.5 w-0 bg-white group-hover:w-full transition-all duration-500"></span>
+        </div>
       </Link>
+
 
       {/* Navigation Links */}
       <ul className="flex gap-6 text-white text-md font-medium">

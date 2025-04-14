@@ -9,7 +9,7 @@ export default function HomePage() {
         <img
           src="/res/f1-codex-icon.png"
           alt="F1 Codex Watermark"
-          className="w-64 h-64 object-contain"
+          className="w-full h-full object-contain"
         />
       </div>
 
