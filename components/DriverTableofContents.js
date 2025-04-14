@@ -1,36 +1,37 @@
-export default function TableOfContents({ toc }) {
+const renderTOC = (items, prefix = "") => {
+  return items.map((item, index) => {
+    const currentNumber = prefix ? `${prefix}.${index + 1}` : `${index + 1}`;
+
     return (
-      <nav className="text-gray-300 text-base space-y-2">
-        {toc.map((item) => (
-          <div key={item.id}>
-            <a href={`#${item.id}`} className="hover:text-red-400 transition">
-              {item.label}
-            </a>
-            {item.children && (
-              <div className="ml-5 space-y-1">
-                {item.children.map((child) => (
-                  <div key={child.id}>
-                    <a href={`#${child.id}`} className="hover:text-red-400 transition">
-                      {child.label}
-                    </a>
-                    {child.children && (
-                      <div className="ml-5 space-y-1">
-                        {child.children.map((subchild) => (
-                          <div key={subchild.id}>
-                            <a href={`#${subchild.id}`} className="hover:text-red-400 transition">
-                              {subchild.label}
-                            </a>
-                          </div>
-                        ))}
-                      </div>
-                    )}
-                  </div>
-                ))}
-              </div>
-            )}
+      <div key={item.id} className="space-y-1">
+        <a
+          href={`#${item.id}`}
+          className={`hover:text-red-400 transition flex items-center gap-2 ${
+            prefix === ""
+              ? "font-bold text-lg"
+              : prefix.split(".").length === 1
+              ? "font-medium"
+              : "text-sm opacity-80"
+          }`}
+        >
+          <span className="text-red-400">{currentNumber}.</span>
+          <span>{item.label}</span>
+        </a>
+
+        {item.children && (
+          <div className="ml-4 border-l border-gray-700 pl-4 space-y-2">
+            {renderTOC(item.children, currentNumber)}
           </div>
-        ))}
-      </nav>
+        )}
+      </div>
     );
-  }
-  
+  });
+};
+
+export default function TableOfContents({ toc }) {
+  return (
+    <nav className="text-gray-300 text-base space-y-4">
+      {renderTOC(toc)}
+    </nav>
+  );
+}
