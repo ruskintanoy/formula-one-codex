@@ -1,13 +1,25 @@
+const wikiLink = (text, url) => (
+  <a
+    href={url}
+    target="_blank"
+    rel="noopener noreferrer"
+    className="text-red-500 hover:underline"
+  >
+    {text}
+  </a>
+);
+
 const stats = {
-  Championships: 0,
-  Races: "132 (131 starts)",
-  Poles: 10,
-  Wins: 5,
-  Podiums: 29,
-  "Fastest Laps": 14,
-  Points: 1069,
-  "First Race": "2019 Australian Grand Prix",
-  "Last Win": "2025 Australian Grand Prix",
-};
+  "Seasons Active": "2023 - Present",
+      Championships: 0,
+      Races: "50 (50 starts)",
+      Poles: 2,
+      Wins: 4,
+      Podiums: 13,
+      "Fastest Laps": 4,
+      Points: 463,
+      "First Race": wikiLink("2023 Bahrain Grand Prix", "https://en.wikipedia.org/wiki/2023_Bahrain_Grand_Prix"),
+      "Last Win": wikiLink("2025 Bahrain Grand Prix", "https://en.wikipedia.org/wiki/2025_Bahrain_Grand_Prix"),
+    }
 
 export default stats;
