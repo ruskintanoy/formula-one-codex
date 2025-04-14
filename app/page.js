@@ -5,7 +5,7 @@ export default function HomePage() {
     <section className="relative flex flex-col items-center justify-center text-center min-h-screen px-4 py-12">
 
       {/* Watermark Icon */}
-      <div className="absolute opacity-5 inset-0 flex justify-center items-center pointer-events-none">
+      <div className="absolute opacity-20 inset-0 flex justify-center items-center pointer-events-none">
         <img
           src="/res/f1-codex-icon.png"
           alt="F1 Codex Watermark"
