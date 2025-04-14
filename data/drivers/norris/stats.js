@@ -10,6 +10,7 @@ const wikiLink = (text, url) => (
 );
 
 const stats = {
+  "Seasons Active": "2019 - Present",
   Championships: 0,
   Races: "132 (131 starts)",
   Poles: 10,
