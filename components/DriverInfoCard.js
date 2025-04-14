@@ -11,7 +11,7 @@ export default function DriverInfoCard({ driver, team, stats }) {
       {/* Driver Image */}
       <div className="mb-6 rounded-lg overflow-hidden border border-gray-700 shadow-lg">
         <Image
-          src={`/drivers/${driver.driverId}.jpg`}
+          src={`/drivers/${driver.driverId}/${driver.driverId}.jpg`}
           alt={`${driver.name} ${driver.surname}`}
           width={300}
           height={300}

@@ -1,252 +1,182 @@
 const wikiLink = (text, url) => (
-    <a
-      href={url}
-      target="_blank"
-      rel="noopener noreferrer"
-      className="text-red-500 hover:underline"
-    >
-      {text}
-    </a>
-  );
-  
-  const f1Career = (
-    <>
-      <section id="mclaren-driver-programme" className="space-y-4 scroll-mt-24"></section>
-      {/* McLaren Driver Development Programme */}
-      <h3 className="text-2xl font-bold text-red-600 mb-2">
-        McLaren Driver Development Programme
-      </h3>
+  <a
+    href={url}
+    target="_blank"
+    rel="noopener noreferrer"
+    className="text-red-500 hover:underline"
+  >
+    {text}
+  </a>
+);
 
-      <figure className="float-left mr-4 mb-4 max-w-[250px] border border-gray-700 rounded-lg bg-gray-900 p-2 shadow-lg">
-        <img
-          src="/drivers/norris/car4.jpg"
-          alt="Norris racing at Monza during the 2016 Eurocup Formula Renault 2.0 championship"
-          className="w-full h-auto rounded"
-        />
-        <figcaption className="text-sm text-gray-400 text-center">
-         Norris testing for McLaren during free practice at the {wikiLink("2018 Japanese Grand Prix", "https://en.wikipedia.org/wiki/2018_Japanese_Grand_Prix")}
-        </figcaption>
-      </figure>
+const f1Career = (
+  <>
+    <section id="renault-alpine-test-driver" className="space-y-4 scroll-mt-24"></section>
+    {/* Renault / Alpine test driver (2020–2022) */}
+    <h3 className="text-2xl font-bold text-red-600 mb-2">
+      Renault / Alpine test driver (2020–2022)
+    </h3>
 
-      <p>
-        In February 2017, Norris joined the {wikiLink("McLaren Driver Development Programme", "https://en.wikipedia.org/wiki/McLaren")}. Following the announcement, Zak Brown said that Norris was "a fabulous prospect" who deserved the award. 
-        Later that year, Norris tested for McLaren in a scheduled mid-season test. He set the second fastest lap in the second day of testing at the Hungaroring. In late 2017, Norris became the official McLaren test and reserve driver for the 2018 season. 
-        Norris participated in his first official practice session at the Belgian Grand Prix, recording 26 laps. Norris drove in six further practice sessions during the year.
-      </p>
+    <p>
+      Piastri joined the {wikiLink("Renault Sport Academy", "https://en.wikipedia.org/wiki/Renault_Sport_Academy")} in January 2020. After winning the {wikiLink("FIA Formula 3 Championship", "https://en.wikipedia.org/wiki/2020_FIA_Formula_3_Championship")} in 2020, he took part in his first Formula One test in October with the {wikiLink("Renault F1 Team", "https://en.wikipedia.org/wiki/Renault_F1_Team")}, driving the {wikiLink("Renault R.S.18", "https://en.wikipedia.org/wiki/Renault_R.S.18")} at {wikiLink("Bahrain International Circuit", "https://en.wikipedia.org/wiki/Bahrain_International_Circuit")} alongside fellow academy drivers {wikiLink("Christian Lundgaard", "https://en.wikipedia.org/wiki/Christian_Lundgaard")} and {wikiLink("Zhou Guanyu", "https://en.wikipedia.org/wiki/Zhou_Guanyu")}.
+    </p>
 
-      <div className="clear-both"></div>
+    <p>
+      He remained part of the now-rebranded {wikiLink("Alpine Academy", "https://en.wikipedia.org/wiki/Alpine_F1_Team")} in 2021 and drove the {wikiLink("Alpine A521", "https://en.wikipedia.org/wiki/Alpine_A521")} in the post-season young drivers' test at {wikiLink("Yas Marina Circuit", "https://en.wikipedia.org/wiki/Yas_Marina_Circuit")} in December.
+    </p>
 
-      <section id="mclaren-2019-present" className="space-y-4 scroll-mt-24"></section>
-      {/* McLaren (2019-Present) */}
-      <h3 className="text-2xl font-bold text-red-600 mt-6 mb-2">
-        McLaren (2019–present)
-      </h3>
+    <p>
+      After his Formula 2 title victory, Piastri was appointed as {wikiLink("Alpine F1 Team", "https://en.wikipedia.org/wiki/Alpine_F1_Team")}'s reserve driver for the {wikiLink("2022 season", "https://en.wikipedia.org/wiki/2022_Formula_One_World_Championship")}. He was also made available as a reserve driver for {wikiLink("McLaren", "https://en.wikipedia.org/wiki/McLaren")} following an agreement between the two teams. He took part in Alpine's testing sessions in the A521 throughout the season, including at the {wikiLink("Circuit of the Americas", "https://en.wikipedia.org/wiki/Circuit_of_the_Americas")}, {wikiLink("Losail International Circuit", "https://en.wikipedia.org/wiki/Losail_International_Circuit")} and {wikiLink("Silverstone Circuit", "https://en.wikipedia.org/wiki/Silverstone_Circuit")}.
+    </p>
 
-      <section id="rookie-season" className="space-y-4 scroll-mt-24"></section>
-      {/* 2019: Rookie season */}
-      <h4 className="text-lg font-semibold text-red-400 mb-1">
-        2019: Rookie season
-      </h4>
+    <p>
+      {wikiLink("McLaren", "https://en.wikipedia.org/wiki/McLaren")} team principal {wikiLink("Andreas Seidl", "https://en.wikipedia.org/wiki/Andreas_Seidl")} later confirmed that Piastri had a private two-day testing session in a previous-spec McLaren car at {wikiLink("Circuit Paul Ricard", "https://en.wikipedia.org/wiki/Circuit_Paul_Ricard")} the week before the {wikiLink("São Paulo Grand Prix", "https://en.wikipedia.org/wiki/2022_S%C3%A3o_Paulo_Grand_Prix")}.
+    </p>
 
-      <figure className="float-left mr-4 mb-4 max-w-[250px] border border-gray-700 rounded-lg bg-gray-900 p-2 shadow-lg">
-        <img
-          src="/drivers/norris/car5.jpg"
-          alt="Norris racing at Monza during the 2016 Eurocup Formula Renault 2.0 championship"
-          className="w-full h-auto rounded"
-        />
-        <figcaption className="text-sm text-gray-400 text-center">
-         Norris at the {wikiLink("2019 Chinese Grand Prix", "https://en.wikipedia.org/wiki/2019_Chinese_Grand_Prix")}
-        </figcaption>
-      </figure>
+    <div className="clear-both"></div>
 
-      <p>
-        Norris was contracted to drive for McLaren for the {wikiLink("2019 Formula One World Championship", "https://en.wikipedia.org/wiki/2019_Formula_One_World_Championship")}, partnering {wikiLink("Carlos Sainz Jr.", 
-        "https://en.wikipedia.org/wiki/Carlos_Sainz_Jr.")}. He qualified eighth on his debut at the Australian Grand Prix and finished the race in twelfth place. He scored his first Formula One points by finishing sixth at the following race, 
-        the Bahrain Grand Prix. The Chinese Grand Prix was the first of Norris' retirements that season, after damage from a first lap collision with Daniil Kvyat caused him to retire later in the race. 
-        Further retirements came at the Spanish Grand Prix after a collision with Lance Stroll and at the Canadian Grand Prix when a brake fire caused his suspension to fail.
-      </p>
+    {/* 2022 Contract Dispute */}
+    <h3 className="text-2xl font-bold text-red-600 mt-6 mb-2">
+      2022 Contract Dispute
+    </h3>
 
-      <div className="clear-both"></div>
-      
-      <section id="maiden-podium" className="space-y-4 scroll-mt-24"></section>
-      {/* 2020: Maiden Podium */}
-      <h3 className="text-2xl font-bold text-red-600 mt-6 mb-2">2020: Maiden Podium</h3>
+    <p>
+      In June 2022, rumours emerged suggesting Piastri would drive for {wikiLink("Williams", "https://en.wikipedia.org/wiki/Williams_Grand_Prix_Engineering")} in 2023 on loan from {wikiLink("Alpine", "https://en.wikipedia.org/wiki/Alpine_F1_Team")}, who were initially expected to retain {wikiLink("Esteban Ocon", "https://en.wikipedia.org/wiki/Esteban_Ocon")} and {wikiLink("Fernando Alonso", "https://en.wikipedia.org/wiki/Fernando_Alonso")}. However, in August, {wikiLink("Alonso", "https://en.wikipedia.org/wiki/Fernando_Alonso")} announced that he would leave the team to replace the retiring {wikiLink("Sebastian Vettel", "https://en.wikipedia.org/wiki/Sebastian_Vettel")} at {wikiLink("Aston Martin", "https://en.wikipedia.org/wiki/Aston_Martin_in_Formula_One")}. 
+    </p>
 
-      <figure className="float-right mr-4 mb-4 max-w-[250px] border border-gray-700 rounded-lg bg-gray-900 p-2 shadow-lg">
-        <img
-          src="/drivers/norris/car6.jpg"
-          alt="Norris racing at Monza during the 2016 Eurocup Formula Renault 2.0 championship"
-          className="w-full h-auto rounded"
-        />
-        <figcaption className="text-sm text-gray-400 text-center">
-         Norris at the {wikiLink("2020 Tuscan Grand Prix", "https://en.wikipedia.org/wiki/2020_Tuscan_Grand_Prix")}
-        </figcaption>
-      </figure>
+    <p>
+      {wikiLink("Alpine", "https://en.wikipedia.org/wiki/Alpine_F1_Team")} then announced that Piastri would replace Alonso in 2023, although the press release contained no quotes from Piastri himself. Piastri immediately rejected Alpine's announcement via a post on Twitter, stating that he had not signed a contract with the team and that he would not be driving for them in 2023. {wikiLink("Alpine team principal Otmar Szafnauer", "https://en.wikipedia.org/wiki/Otmar_Szafnauer")} followed up by criticising Piastri's actions and "integrity as a human being", saying that he expected loyalty from the former academy driver, and threatened to take the contract matters to court. Shortly after Piastri's rebuffal, rumours speculated that he instead was looking for a drive with {wikiLink("McLaren", "https://en.wikipedia.org/wiki/McLaren")}. 
+    </p>
 
-      <p>
-        At the season-opening {wikiLink("Austrian Grand Prix", "https://en.wikipedia.org/wiki/2020_Austrian_Grand_Prix")}, Norris qualified in fourth place but was elevated to third after a grid penalty for Lewis Hamilton. 
-        In the closing stages of the race, Hamilton was issued a five-second penalty for causing a collision with Alex Albon. Norris set the fastest lap of the race on the final lap to finish just within the five-second window, claiming his maiden Formula One podium.
-      </p>
+    <p>
+      A hearing of the FIA's Contract Recognition Board (CRB) commenced on 29 August to determine whether Piastri was contracted to Alpine, or if he was free to join a different team for 2023. Had Alpine won the case, they could have obligated Piastri to fulfil his contract and race for the team in 2023, or sought a compensation fee for Piastri's services from any other interested teams. Prior to the {wikiLink("Dutch Grand Prix", "https://en.wikipedia.org/wiki/2022_Dutch_Grand_Prix")}, the CRB ruled against Alpine, and Piastri shortly announced he would be joining {wikiLink("McLaren", "https://en.wikipedia.org/wiki/McLaren")} from 2023 onwards. 
+    </p>
 
-      <p>
-        Norris continued to impress throughout the season, securing consistent points finishes and earning praise for his racecraft. 
-        His highlight was a fifth-place finish at the {wikiLink("Styrian Grand Prix", "https://en.wikipedia.org/wiki/2020_Styrian_Grand_Prix")}, where he overtook multiple cars in the final laps. Norris ended the season ninth in the Drivers' Championship with 97 points.
-      </p>
-      
-      <section id="maiden-pole" className="space-y-4 scroll-mt-24"></section>
-      {/* 2021: Maiden Pole Position */}
-      <h3 className="text-2xl font-bold text-red-600 mt-6 mb-2">2021: Maiden Pole Position</h3>
+    <p>
+      In their final judgement, the CRB also revealed that Piastri had signed his {wikiLink("McLaren", "https://en.wikipedia.org/wiki/McLaren")} contract almost two months earlier on 4 July – the day after the {wikiLink("British Grand Prix", "https://en.wikipedia.org/wiki/2022_British_Grand_Prix")}. This contract initially only guaranteed Piastri a reserve role for 2023, with an upgrade to a race seat dependent on {wikiLink("McLaren", "https://en.wikipedia.org/wiki/McLaren")} agreeing a contract termination with {wikiLink("Daniel Ricciardo", "https://en.wikipedia.org/wiki/Daniel_Ricciardo")} – which they confirmed on 24 August, shortly before the CRB hearing. Piastri said a "breakdown in trust" between him and {wikiLink("Alpine", "https://en.wikipedia.org/wiki/Alpine_F1_Team")} was behind his decision to leave the Enstone-based team.
+    </p>
 
-      <figure className="float-left mr-4 mb-4 max-w-[250px] border border-gray-700 rounded-lg bg-gray-900 p-2 shadow-lg">
-        <img
-          src="/drivers/norris/car7.jpg"
-          alt="Norris racing at Monza during the 2016 Eurocup Formula Renault 2.0 championship"
-          className="w-full h-auto rounded"
-        />
-        <figcaption className="text-sm text-gray-400 text-center">
-         Norris at the {wikiLink("2021 Austrian Grand Prix", "https://en.wikipedia.org/wiki/2021_Austrian_Grand_Prix")}
-        </figcaption>
-      </figure>
+    <div className="clear-both"></div>
 
-      <p>
-        Norris remained at McLaren alongside new teammate Daniel Ricciardo. The season saw Norris achieve his maiden pole position at the {wikiLink("Russian Grand Prix", "https://en.wikipedia.org/wiki/2021_Russian_Grand_Prix")}, 
-        leading much of the race before late-race rain and strategic calls saw him finish seventh.
-      </p>
+    {/* McLaren (2023–present) */}
+    <section id="mclaren-2023-present" className="space-y-4 scroll-mt-24"></section>
 
-      <p>
-        During the season, Norris secured multiple podiums, including at the {wikiLink("Emilia Romagna Grand Prix", "https://en.wikipedia.org/wiki/2021_Emilia_Romagna_Grand_Prix")}, 
-        {wikiLink("Monaco Grand Prix", "https://en.wikipedia.org/wiki/2021_Monaco_Grand_Prix")}, and {wikiLink("Austrian Grand Prix", "https://en.wikipedia.org/wiki/2021_Austrian_Grand_Prix")}. 
-        He finished the season sixth in the Drivers' Championship with 160 points.
-      </p>
+    <h3 className="text-2xl font-bold text-red-600 mb-2">
+      McLaren (2023–present)
+    </h3>
 
-      <div className="clear-both"></div>
+    {/* 2023: Rookie season */}
+    <h4 className="text-lg font-semibold text-red-400 mb-1">
+      2023: Rookie season
+    </h4>
 
-      <section id="season-2022" className="space-y-4 scroll-mt-24"></section>
-      {/* 2022 Season */}
-      <h3 className="text-2xl font-bold text-red-600 mt-6 mb-2">2022 Season</h3>
+    <p>
+      Piastri raced for {wikiLink("McLaren", "https://en.wikipedia.org/wiki/McLaren")} in 2023 alongside {wikiLink("Lando Norris", "https://en.wikipedia.org/wiki/Lando_Norris")}. {wikiLink("Alpine", "https://en.wikipedia.org/wiki/Alpine_F1_Team")} agreed to end Piastri's contract early to allow him to join McLaren in the post-season testing session immediately after the {wikiLink("2022 Abu Dhabi Grand Prix", "https://en.wikipedia.org/wiki/2022_Abu_Dhabi_Grand_Prix")}. In his first race, the {wikiLink("Bahrain Grand Prix", "https://en.wikipedia.org/wiki/2023_Bahrain_Grand_Prix")}, he qualified 18th and was running in eighth place when an electrical issue forced his retirement.
+    </p>
 
-      <figure className="float-right mr-4 mb-4 max-w-[250px] border border-gray-700 rounded-lg bg-gray-900 p-2 shadow-lg">
-        <img
-          src="/drivers/norris/car8.jpg"
-          alt="Norris racing at Monza during the 2016 Eurocup Formula Renault 2.0 championship"
-          className="w-full h-auto rounded"
-        />
-        <figcaption className="text-sm text-gray-400 text-center">
-         Norris at the {wikiLink("2022 British Grand Prix", "https://en.wikipedia.org/wiki/2022_British_Grand_Prix")}
-        </figcaption>
-      </figure>
+    <figure className="float-left mr-4 mb-4 max-w-[250px] border border-gray-700 rounded-lg bg-gray-900 p-2 shadow-lg">
+      <img
+        src="/drivers/piastri/car5.jpg"
+        alt="Piastri at the 2024 Chinese Grand Prix with McLaren"
+        className="w-full h-auto rounded"
+      />
+      <figcaption className="text-sm text-gray-400 text-center">
+        Piastri at the {wikiLink("2023 Austrian Grand Prix", "https://en.wikipedia.org/wiki/2023_Austrian_Grand_Prix")} with {wikiLink("McLaren", "https://en.wikipedia.org/wiki/McLaren")}
+      </figcaption>
+    </figure>
 
-      <p>
-        Norris signed a contract extension with McLaren until at least the end of 2025. The 2022 season saw Norris secure McLaren's only podium of the year with a third-place finish at the {wikiLink("Emilia Romagna Grand Prix", "https://en.wikipedia.org/wiki/2022_Emilia_Romagna_Grand_Prix")}. Despite challenges, Norris consistently outperformed teammate Ricciardo, finishing seventh in the Drivers' Championship with 122 points.
-      </p>
+    <p>
+      He reached Q3 at the {wikiLink("Saudi Arabian Grand Prix", "https://en.wikipedia.org/wiki/2023_Saudi_Arabian_Grand_Prix")} and qualified eighth, but first-lap contact with {wikiLink("Pierre Gasly", "https://en.wikipedia.org/wiki/Pierre_Gasly")} necessitated a front wing change. His first points came at his first home race, the {wikiLink("Australian Grand Prix", "https://en.wikipedia.org/wiki/2023_Australian_Grand_Prix")}, finishing eighth. He reached Q3 again at the {wikiLink("Azerbaijan Grand Prix", "https://en.wikipedia.org/wiki/2023_Azerbaijan_Grand_Prix")}, but finished 11th. A "major failure" on his {wikiLink("MCL60", "https://en.wikipedia.org/wiki/McLaren_MCL60")} produced a 19th-place finish at the {wikiLink("Miami Grand Prix", "https://en.wikipedia.org/wiki/2023_Miami_Grand_Prix")}. 
+    </p>
 
-      <div className="clear-both"></div>
+    <p>
+      He scored points at the {wikiLink("Monaco Grand Prix", "https://en.wikipedia.org/wiki/2023_Monaco_Grand_Prix")} in 10th place. Upgrades brought to the {wikiLink("MCL60", "https://en.wikipedia.org/wiki/McLaren_MCL60")} produced an improved showing at the {wikiLink("British Grand Prix", "https://en.wikipedia.org/wiki/2023_British_Grand_Prix")} where Piastri qualified in third. He narrowly missed a podium after being jumped in the pits by {wikiLink("Lewis Hamilton", "https://en.wikipedia.org/wiki/Lewis_Hamilton")}, finishing fourth.
+    </p>
 
-      <section id="season-2023" className="space-y-4 scroll-mt-24"></section>
-      {/* 2023 Season */}
-      <h3 className="text-2xl font-bold text-red-600 mb-2 mt-6">2023 Season</h3>
+    <p>
+      He qualified fourth at the {wikiLink("Hungarian Grand Prix", "https://en.wikipedia.org/wiki/2023_Hungarian_Grand_Prix")} and ran in second place in the early laps before dropping to fifth. At the {wikiLink("Belgian Grand Prix", "https://en.wikipedia.org/wiki/2023_Belgian_Grand_Prix")}, he gained the lead in the sprint before being overtaken by {wikiLink("Max Verstappen", "https://en.wikipedia.org/wiki/Max_Verstappen")}, finishing second. On race day, Piastri retired after a collision with {wikiLink("Carlos Sainz Jr.", "https://en.wikipedia.org/wiki/Carlos_Sainz_Jr.")}. 
+    </p>
 
-      <figure className="float-left mr-4 mb-4 max-w-[250px] border border-gray-700 rounded-lg bg-gray-900 p-2 shadow-lg">
-        <img
-          src="/drivers/norris/car9.jpg"
-          alt="Norris racing at Monza during the 2016 Eurocup Formula Renault 2.0 championship"
-          className="w-full h-auto rounded"
-        />
-        <figcaption className="text-sm text-gray-400 text-center">
-          Norris racing at the {wikiLink("2023 Austrian Grand Prix", "https://en.wikipedia.org/wiki/2023_Austrian_Grand_Prix")}
-        </figcaption>
-      </figure>
+    <p>
+      On 20 September, Piastri signed a contract extension with McLaren until the end of 2026. He secured his first podium at the {wikiLink("Japanese Grand Prix", "https://en.wikipedia.org/wiki/2023_Japanese_Grand_Prix")} and followed it up with a sprint win at the {wikiLink("Qatar Grand Prix", "https://en.wikipedia.org/wiki/2023_Qatar_Grand_Prix")}. He earned his second podium in the main race at Qatar. Despite retirements and issues in subsequent races, Piastri ended the season ninth in the Drivers' Championship with 97 points.
+    </p>
 
-      <p>
-        Norris remained with McLaren for 2023, partnered by rookie {wikiLink("Oscar Piastri", "https://en.wikipedia.org/wiki/Oscar_Piastri")} who replaced Ricciardo. At the first race at Bahrain, both McLaren cars experienced reliability issues. 
-        Norris made six pit stops to manage the problem and finished seventeenth and last of the finishing drivers. He was eliminated in the first qualifying session (Q1) for the first time since 2019 at the {wikiLink("Saudi Arabian Grand Prix", 
-        "https://en.wikipedia.org/wiki/2023_Saudi_Arabian_Grand_Prix")} after hitting the wall.
-      </p>
+    <div className="clear-both"></div>
 
-      <p>
-        The Australian Grand Prix saw McLaren score their first points of the season; Piastri finished eighth and Norris improved from thirteenth at the start to sixth at the finish. He qualified third at the Spanish Grand Prix but first-lap contact 
-        with {wikiLink("Lewis Hamilton", "https://en.wikipedia.org/wiki/Lewis_Hamilton")} dropped him to the back.
-      </p>
+    <section id="season-2024" className="space-y-4 scroll-mt-24"></section>
+    {/* 2024: Maiden Wins */}
+    <h3 className="text-2xl font-bold text-red-600 mb-2 mt-6">2024: Maiden Wins</h3>
 
-      <p>
-        McLaren brought upgrades to Norris's MCL60 for the {wikiLink("Austrian Grand Prix", "https://en.wikipedia.org/wiki/2023_Austrian_Grand_Prix")}; team principal Andrea Stella commented that "pretty much the entire car" had been redesigned. 
-        Norris qualified fourth for the race, third for the sprint and finished fourth in the race.
-      </p>
+    <p>
+      Piastri began the 2024 season by qualifying and finishing eighth at the {wikiLink("Bahrain Grand Prix", "https://en.wikipedia.org/wiki/2024_Bahrain_Grand_Prix")}, followed by fourth-place finishes at the {wikiLink("Saudi Arabian Grand Prix", "https://en.wikipedia.org/wiki/2024_Saudi_Arabian_Grand_Prix")} and {wikiLink("Australian Grand Prix", "https://en.wikipedia.org/wiki/2024_Australian_Grand_Prix")} and further points at the {wikiLink("Japanese Grand Prix", "https://en.wikipedia.org/wiki/2024_Japanese_Grand_Prix")} and {wikiLink("Chinese Grand Prix", "https://en.wikipedia.org/wiki/2024_Chinese_Grand_Prix")}.
+    </p>
 
-      <p>
-        More success came at the {wikiLink("British Grand Prix", "https://en.wikipedia.org/wiki/2023_British_Grand_Prix")} where Norris and Piastri qualified second and third respectively, a result Norris described as "insane". 
-        He passed {wikiLink("Max Verstappen", "https://en.wikipedia.org/wiki/Max_Verstappen")} at the first corner and led the race for four laps before Verstappen regained the place. In the later stages of the race, 
-        Norris held off Hamilton to finish second, making him the first McLaren driver to finish on the podium at Silverstone Circuit since Hamilton in 2010.
-      </p>
+    <p>
+      At the {wikiLink("Miami Grand Prix", "https://en.wikipedia.org/wiki/2024_Miami_Grand_Prix")}, he finished sixth in the sprint but 13th in the main race, won by teammate Norris, following a collision with {wikiLink("Carlos Sainz Jr.", "https://en.wikipedia.org/wiki/Carlos_Sainz_Jr.")} in a battle for second place. Piastri qualified second at the {wikiLink("Emilia Romagna Grand Prix", "https://en.wikipedia.org/wiki/2024_Emilia_Romagna_Grand_Prix")}, but was demoted to fifth for impeding {wikiLink("Kevin Magnussen", "https://en.wikipedia.org/wiki/Kevin_Magnussen")} and went on to finish fourth.
+    </p>
 
-      <p>
-        He then qualified third and defended from {wikiLink("Sergio Pérez", "https://en.wikipedia.org/wiki/Sergio_P%C3%A9rez")} to finish second at the {wikiLink("Hungarian Grand Prix", "https://en.wikipedia.org/wiki/2023_Hungarian_Grand_Prix")}, 
-        the first consecutive podiums of his Formula One career.
-      </p>
+    <figure className="float-left mr-4 mb-4 max-w-[250px] border border-gray-700 rounded-lg bg-gray-900 p-2 shadow-lg">
+      <img
+        src="/drivers/piastri/car6.jpg"
+        alt="Piastri at the 2024 Chinese Grand Prix with McLaren"
+        className="w-full h-auto rounded"
+      />
+      <figcaption className="text-sm text-gray-400 text-center">
+        Piastri at the {wikiLink("2024 Chinese Grand Prix", "https://en.wikipedia.org/wiki/2024_Chinese_Grand_Prix")} with {wikiLink("McLaren", "https://en.wikipedia.org/wiki/McLaren")}
+      </figcaption>
+    </figure>
 
-      <div className="clear-both"></div>
+    <p>
+      He then qualified and finished second at the {wikiLink("Monaco Grand Prix", "https://en.wikipedia.org/wiki/2024_Monaco_Grand_Prix")}, taking his first podium of the season, and claimed further points at the {wikiLink("Canadian Grand Prix", "https://en.wikipedia.org/wiki/2024_Canadian_Grand_Prix")} and {wikiLink("Spanish Grand Prix", "https://en.wikipedia.org/wiki/2024_Spanish_Grand_Prix")}. At the {wikiLink("Austrian Grand Prix", "https://en.wikipedia.org/wiki/2024_Austrian_Grand_Prix")}, Piastri overtook Norris to finish second in the sprint, then benefited from a late collision between Norris and {wikiLink("Max Verstappen", "https://en.wikipedia.org/wiki/Max_Verstappen")} to finish second in the main race.
+    </p>
 
-      <section id="maiden-win" className="space-y-4 scroll-mt-24"></section>
-      {/* 2024 Season - Maiden Win */}
-      <h3 className="text-2xl font-bold text-red-600 mb-2 mt-6">2024: Maiden Win and Title Challenge</h3>
+    <p>
+      Piastri ran as high as second place at the {wikiLink("British Grand Prix", "https://en.wikipedia.org/wiki/2024_British_Grand_Prix")} after qualifying fifth but lost positions when McLaren switched him to intermediate tyres one lap later than Norris and went on to finish fourth. After qualifying second behind Norris at the {wikiLink("Hungarian Grand Prix", "https://en.wikipedia.org/wiki/2024_Hungarian_Grand_Prix")}, Piastri overtook his teammate at the first corner. He led the race until Norris pitted after him and later relinquished the position, allowing Piastri to take his maiden win.
+    </p>
 
-      <figure className="float-right mr-4 mb-4 max-w-[250px] border border-gray-700 rounded-lg bg-gray-900 p-2 shadow-lg">
-        <img
-          src="/drivers/norris/car10.jpg"
-          alt="Norris racing at Monza during the 2016 Eurocup Formula Renault 2.0 championship"
-          className="w-full h-auto rounded"
-        />
-        <figcaption className="text-sm text-gray-400 text-center">
-         Norris at the {wikiLink("2024 Chinese Grand Prix", "https://en.wikipedia.org/wiki/2024_Chinese_Grand_Prix")}
-        </figcaption>
-      </figure>
+    <p>
+      Piastri qualified sixth for the {wikiLink("Belgian Grand Prix", "https://en.wikipedia.org/wiki/2024_Belgian_Grand_Prix")} and crossed the finish line third but was promoted to second after {wikiLink("George Russell", "https://en.wikipedia.org/wiki/George_Russell_(racing_driver)")}'s disqualification. Piastri revealed he had broken a rib during the first half of the season, which had healed ahead of the {wikiLink("Dutch Grand Prix", "https://en.wikipedia.org/wiki/2024_Dutch_Grand_Prix")}, where he qualified third and finished fourth.
+    </p>
 
-      <p>
-        Ahead of the 2024 season, Norris signed a new multi-year contract with McLaren. He finished sixth at the first race, the {wikiLink("Bahrain Grand Prix", "https://en.wikipedia.org/wiki/2024_Bahrain_Grand_Prix")}, 
-        and took his first podium of the season at the {wikiLink("Australian Grand Prix", "https://en.wikipedia.org/wiki/2024_Australian_Grand_Prix")}, starting and finishing third.
-      </p>
+    <p>
+      He qualified second for the {wikiLink("Italian Grand Prix", "https://en.wikipedia.org/wiki/2024_Italian_Grand_Prix")}, overtook Norris and led before {wikiLink("Charles Leclerc", "https://en.wikipedia.org/wiki/Charles_Leclerc")} won with a one-stop strategy. At the {wikiLink("Azerbaijan Grand Prix", "https://en.wikipedia.org/wiki/2024_Azerbaijan_Grand_Prix")}, Piastri overtook Leclerc and claimed his second Formula One victory, helping {wikiLink("McLaren", "https://en.wikipedia.org/wiki/McLaren")} take the Constructors' Championship lead.
+    </p>
 
-      <p>
-        At the {wikiLink("Miami Grand Prix", "https://en.wikipedia.org/wiki/2024_Miami_Grand_Prix")}, Norris claimed his maiden Grand Prix victory after 110 races, tying the record for the most podiums before taking a first win. 
-        After Miami, Norris achieved five podiums before the summer break at circuits like {wikiLink("Imola", "https://en.wikipedia.org/wiki/Imola_Circuit")}, {wikiLink("Canada", "https://en.wikipedia.org/wiki/Canadian_Grand_Prix")}, 
-        and {wikiLink("Spain", "https://en.wikipedia.org/wiki/Spanish_Grand_Prix")}.
-      </p>
+    <p>
+      Piastri finished the season fourth in the Drivers' Championship with 292 points, scoring two wins, seven podiums and one fastest lap. His points helped McLaren win their first Constructors' Championship since 1998.
+    </p>
 
-      <p>
-        Following the summer break, Norris claimed victories at the {wikiLink("Dutch Grand Prix", "https://en.wikipedia.org/wiki/2024_Dutch_Grand_Prix")}, {wikiLink("Singapore Grand Prix", "https://en.wikipedia.org/wiki/2024_Singapore_Grand_Prix")}, 
-        and secured multiple pole positions, establishing himself as a legitimate title contender.
-      </p>
+    <div className="clear-both"></div>
 
-      <div className="clear-both"></div>
+    <section id="season-2025" className="space-y-4 scroll-mt-24"></section>
+    {/* 2025 Season */}
+    <h3 className="text-2xl font-bold text-red-600 mb-2 mt-6">2025</h3>
 
-      <section id="season-2025" className="space-y-4 scroll-mt-24"></section>
-      {/* 2025 Season - Title Challenge */}
-      <h3 className="text-2xl font-bold text-red-600 mb-2 mt-6">2025 Season: Title Challenge</h3>
+    <figure className="float-left mr-4 mb-4 max-w-[250px] border border-gray-700 rounded-lg bg-gray-900 p-2 shadow-lg">
+      <img
+        src="/drivers/piastri/car7.jpg"
+        alt="Piastri driving the McLaren MCL39 at the 2025 Japanese Grand Prix"
+        className="w-full h-auto rounded"
+      />
+      <figcaption className="text-sm text-gray-400 text-center">
+        Piastri (pictured at the {wikiLink("Japanese Grand Prix", "https://en.wikipedia.org/wiki/2025_Japanese_Grand_Prix")}) is one of the favourites for the 2025 World Drivers' Championship.
+      </figcaption>
+    </figure>
 
-      <figure className="float-left mr-4 mb-4 max-w-[250px] border border-gray-700 rounded-lg bg-gray-900 p-2 shadow-lg">
-        <img
-          src="/drivers/norris/car11.jpg"
-          alt="Norris racing at Monza during the 2016 Eurocup Formula Renault 2.0 championship"
-          className="w-full h-auto rounded"
-        />
-        <figcaption className="text-sm text-gray-400 text-center">
-         Norris (pictured at the {wikiLink("2025 Japanese Grand Prix", "https://en.wikipedia.org/wiki/2025_Japanese_Grand_Prix")}) and McLaren entered {wikiLink("2025", "https://en.wikipedia.org/wiki/2025_Formula_One_World_Championship")} as title favourites.
-        </figcaption>
-      </figure>
+    <p>
+      Three days prior to the start of his 2025 campaign, {wikiLink("McLaren", "https://en.wikipedia.org/wiki/McLaren")} announced a multi-year contract extension with Piastri until at least the end of the 2028 season. {wikiLink("McLaren", "https://en.wikipedia.org/wiki/McLaren")} entered 2025 as title favourites, with Piastri expected to challenge teammate {wikiLink("Lando Norris", "https://en.wikipedia.org/wiki/Lando_Norris")} for the {wikiLink("World Drivers' Championship", "https://en.wikipedia.org/wiki/2025_Formula_One_World_Championship")}.
+    </p>
 
-      <p>
-        McLaren entered 2025 as title favourites, with Norris stating he had learned "a lot of lessons" in his bid to become World Drivers' Champion. He took pole for the season-opening {wikiLink("Australian Grand Prix", 
-          "https://en.wikipedia.org/wiki/2025_Australian_Grand_Prix")}, defending the lead from teammate Oscar Piastri and Max Verstappen in wet conditions to claim victory and the championship lead.
-      </p>
+    <p>
+      He qualified on the front-row for the season-opening {wikiLink("Australian Grand Prix", "https://en.wikipedia.org/wiki/2025_Australian_Grand_Prix")}, behind teammate Norris; he challenged Norris for the lead before spinning in wet conditions, ultimately finishing ninth.
+    </p>
 
-      <p>
-        After finishing eighth in the {wikiLink("Chinese Grand Prix", "https://en.wikipedia.org/wiki/2025_Chinese_Grand_Prix")} sprint, he claimed second in the main race behind Piastri. 
-        In Japan, he finished second to Verstappen, who reduced his championship lead to a single point.
-      </p>
+    <p>
+      After finishing second in the sprint, he took his maiden pole position at the {wikiLink("Chinese Grand Prix", "https://en.wikipedia.org/wiki/2025_Chinese_Grand_Prix")}, dominating the race ahead of Norris to claim his first victory of the season. He finished third in {wikiLink("Japan", "https://en.wikipedia.org/wiki/2025_Japanese_Grand_Prix")} behind {wikiLink("Max Verstappen", "https://en.wikipedia.org/wiki/Max_Verstappen")} and Norris. Piastri took pole for the {wikiLink("Bahrain Grand Prix", "https://en.wikipedia.org/wiki/2025_Bahrain_Grand_Prix")}, cruising to a 15-second winning margin and moving within three points of Norris.
+    </p>
 
-      <div className="clear-both"></div>
+    <div className="clear-both"></div>
   </>
-  );
-  
-  export default f1Career;
-  
+);
+
+export default f1Career;
