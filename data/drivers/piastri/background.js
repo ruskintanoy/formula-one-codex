@@ -1,33 +1,31 @@
-const wikiLink = (text, url) => (
-    <a href={url} target="_blank" rel="noopener noreferrer" className="text-red-500 hover:underline"> {text}</a>);
-    
-  const background = (
-    <>
-      Lando Norris was born on 13 November 1999 in Bristol, England. His father Adam Norris is a retired pensions manager and is one of Bristol's wealthiest people as well as the 501st-richest person in the country (as of 2018).
-  
-      <br /><br />
-  
-      His mother Cisca (née Wauman) is from the Flanders region of Belgium. He has three siblings — two younger sisters, and an older brother Oliver, who was also involved in{" "}
-      {wikiLink("karting", "https://en.wikipedia.org/wiki/Karting")} on a competitive level until 2014.
-  
-      <br /><br />
-  
-      Norris holds both British and Belgian citizenship, and speaks a small amount of Flemish Dutch. In his early childhood, Norris tried horse riding, then quad biking and motorcycle riding before moving into karting after his father took him to watch the national British Karting Championships at age seven.
-  
-      <br /><br />
-  
-      Norris was educated at Millfield School in Street, Somerset. He left school without taking his GCSEs, but studied physics and mathematics with a full-time personal tutor. His family later moved to Glastonbury to allow him to become a day pupil and to pursue his racing career, citing{" "}
-      {wikiLink("Valentino Rossi", "https://en.wikipedia.org/wiki/Valentino_Rossi")} as an inspiration.
-  
-      <br /><br />
-  
-      At the start of his F1 career, he initially resided in Woking near the McLaren team headquarters, but later moved to Monaco in 2022 for financial reasons.
-  
-      <br /><br />
-  
-      Between August 2021 and September 2022, Norris dated Portuguese model Luísa Oliveira. Norris has stated that he and Oliveira were subjected to abuse and death threats from online trolls.
-    </>
-  );
-  
-  export default background;
-  
+const background = (
+  <>
+    <p>
+      Oscar Jack Piastri was born on 6 April 2001 to Chris and Nicole (née MacFadyen) Piastri in Melbourne, Victoria, Australia. 
+      He grew up in the inner-city suburb of Brighton with three younger sisters; Hattie, Edie and Mae.
+    </p>
+
+    <br></br>
+
+    <p>
+      He claims Italian, Yugoslavian and Chinese heritage from his father's side as well as Scottish and Irish heritage from his mother's side.
+      He was privately educated at Haileybury College Melbourne and then Haileybury and Imperial Service College in England as a boarding pupil on a sports scholarship.
+    </p>
+
+    <br></br>
+
+    <p>
+      Chris Piastri served as his son's mechanic during Oscar's early racing years in Australia and is the founder and owner of HP Tuners, a vehicle diagnostics automotive software company.
+      He is a keen Richmond Tigers supporter. As well as supporting Australia's national cricket team, he follows the Delhi Capitals in the IPL, after a post on his X profile asking for recommendations of which team to support.
+    </p>
+
+    <br></br>
+
+    <p>
+      As of July 2024, Piastri is dating Lily Zneimer, an engineering graduate whom he met during his schoolgoing years. 
+      The pair began dating the year before Piastri completed his education in 2019.
+    </p>
+  </>
+);
+
+export default background;
