@@ -23,6 +23,8 @@ const wikiLink = (text, url) => (
         {wikiLink("CIK-FIA World Championship", "https://en.wikipedia.org/wiki/Karting_World_Championship")} in KF class with Ricky Flynn Motorsport,
         making him the youngest karting world champion in that category.
       </p>
+
+      <div className="clear-both"></div>
   
       {/* Ginetta Junior Championship */}
       <section id="ginetta" className="space-y-4 scroll-mt-24"></section>
@@ -33,10 +35,14 @@ const wikiLink = (text, url) => (
         {wikiLink("British Touring Car Championship", "https://en.wikipedia.org/wiki/British_Touring_Car_Championship")}.
         He finished third in the championship, winning four races and claiming the Rookie Cup.
       </p>
+
+      <div className="clear-both"></div>
   
       {/* Lower Formulae */}
       <section id="lower-formulae" className="space-y-4 scroll-mt-24"></section>
       <h3 className="text-2xl font-bold text-red-600 mt-6 mb-2">Lower Formulae</h3>
+
+      <div className="clear-both"></div>
   
       {/* Formula 4 */}
       <section id="formula4" className="space-y-4 scroll-mt-24"></section>
