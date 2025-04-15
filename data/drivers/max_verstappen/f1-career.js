@@ -23,7 +23,7 @@ const f1Career = (
     <h3 className="text-2xl font-bold text-red-600 mb-2">Toro Rosso (2015–2016)</h3>
 
     <figure className="float-left mr-4 mb-4 max-w-[250px] border border-gray-700 rounded-lg bg-gray-900 p-2 shadow-lg">
-      <img src="/drivers/verstappen/car1.jpg" alt="Verstappen at the 2015 Malaysian Grand Prix" className="w-full h-auto rounded" />
+      <img src="/drivers/max_verstappen/car3.jpg" alt="Verstappen at the 2015 Malaysian Grand Prix" className="w-full h-auto rounded" />
       <figcaption className="text-sm text-gray-400 text-center">
         Verstappen (pictured at the {wikiLink("2015 Malaysian Grand Prix", "https://en.wikipedia.org/wiki/2015_Malaysian_Grand_Prix")}) became the youngest driver in Formula One history at the {wikiLink("2015 Australian Grand Prix", "https://en.wikipedia.org/wiki/2015_Australian_Grand_Prix")}, aged 17.
       </figcaption>
@@ -47,7 +47,7 @@ const f1Career = (
 
     <figure className="float-left mr-4 mb-4 max-w-[250px] border border-gray-700 rounded-lg bg-gray-900 p-2 shadow-lg">
       <img
-        src="/drivers/verstappen/2016_spain.jpg"
+        src="/drivers/max_verstappen/car5.jpg"
         alt="Verstappen celebrating victory at the 2016 Spanish Grand Prix"
         className="w-full h-auto rounded"
       />
@@ -80,7 +80,7 @@ const f1Career = (
 
     <figure className="float-right mr-4 mb-4 max-w-[250px] border border-gray-700 rounded-lg bg-gray-900 p-2 shadow-lg">
       <img
-        src="/drivers/verstappen/2017-malaysia.jpg"
+        src="/drivers/max_verstappen/car6.jpg"
         alt="Verstappen overtaking Lewis Hamilton for the lead of the 2017 Malaysian Grand Prix"
         className="w-full h-auto rounded"
       />
@@ -95,7 +95,7 @@ const f1Career = (
 
     <figure className="float-left mr-4 mb-4 max-w-[250px] border border-gray-700 rounded-lg bg-gray-900 p-2 shadow-lg">
       <img
-        src="/drivers/verstappen/2018-austria.jpg"
+        src="/drivers/max_verstappen/car7.jpg"
         alt="Verstappen at the 2018 Austrian Grand Prix"
         className="w-full h-auto rounded"
       />
@@ -124,7 +124,7 @@ const f1Career = (
 
     <figure className="float-left mr-4 mb-4 max-w-[250px] border border-gray-700 rounded-lg bg-gray-900 p-2 shadow-lg">
       <img
-        src="/drivers/verstappen/car8.jpg"
+        src="/drivers/max_verstappen/car8.jpg"
         alt="Verstappen at the 2019 Hungarian Grand Prix, where he started on pole position for the first time in his career"
         className="w-full h-auto rounded"
       />
@@ -147,7 +147,7 @@ const f1Career = (
 
     <figure className="float-right mr-4 mb-4 max-w-[250px] border border-gray-700 rounded-lg bg-gray-900 p-2 shadow-lg">
       <img
-        src="/drivers/verstappen/car7.jpg"
+        src="/drivers/max_verstappen/win1.jpg"
         alt="Verstappen on the podium after winning the 2019 Brazilian Grand Prix"
         className="w-full h-auto rounded"
       />
@@ -170,7 +170,7 @@ const f1Career = (
 
     <figure className="float-left mr-4 mb-4 max-w-[250px] border border-gray-700 rounded-lg bg-gray-900 p-2 shadow-lg">
       <img
-        src="/drivers/verstappen/car8.jpg"
+        src="/drivers/max_verstappen/car9.jpg"
         alt="Verstappen at pre-season testing in 2020"
         className="w-full h-auto rounded"
       />
@@ -211,7 +211,7 @@ const f1Career = (
 
     <figure className="float-right mr-4 mb-4 max-w-[250px] border border-gray-700 rounded-lg bg-gray-900 p-2 shadow-lg">
       <img
-        src="/drivers/verstappen/car6.jpg"
+        src="/drivers/max_verstappen/car10.jpg"
         alt="Verstappen at the 2021 Austrian Grand Prix"
         className="w-full h-auto rounded"
       />
@@ -296,7 +296,7 @@ const f1Career = (
 
     <figure className="float-right mr-4 mb-4 max-w-[250px] border border-gray-700 rounded-lg bg-gray-900 p-2 shadow-lg">
       <img
-        src="/drivers/verstappen/japan2022.jpg"
+        src="/drivers/max_verstappen/car11.jpg"
         alt="Verstappen at the 2022 Japanese Grand Prix, where he won his second World Drivers' Championship"
         className="w-full h-auto rounded"
       />
@@ -335,7 +335,7 @@ const f1Career = (
 
     <figure className="float-left mr-4 mb-4 max-w-[250px] border border-gray-700 rounded-lg bg-gray-900 p-2 shadow-lg">
       <img
-        src="/drivers/verstappen/2023-austria.jpg"
+        src="/drivers/max_verstappen/car12.jpg"
         alt="Verstappen leading the race at the 2023 Austrian Grand Prix"
         className="w-full h-auto rounded"
       />
@@ -374,7 +374,7 @@ const f1Career = (
 
     <figure className="float-right mr-4 mb-4 max-w-[250px] border border-gray-700 rounded-lg bg-gray-900 p-2 shadow-lg">
       <img
-        src="/drivers/verstappen/austria2024.jpg"
+        src="/drivers/max_verstappen/car13.jpg"
         alt="Verstappen during the 2024 Austrian Grand Prix"
         className="w-full h-auto rounded"
       />
@@ -387,9 +387,70 @@ const f1Career = (
       Verstappen began the {wikiLink("2024 Formula One World Championship", "https://en.wikipedia.org/wiki/2024_Formula_One_World_Championship")} season with his fifth career grand slam at the {wikiLink("2024 Bahrain Grand Prix", "https://en.wikipedia.org/wiki/2024_Bahrain_Grand_Prix")} and followed this with another pole and victory at the {wikiLink("2024 Saudi Arabian Grand Prix", "https://en.wikipedia.org/wiki/2024_Saudi_Arabian_Grand_Prix")}, his 100th Formula One podium. He took pole again at the {wikiLink("2024 Australian Grand Prix", "https://en.wikipedia.org/wiki/2024_Australian_Grand_Prix")} but retired on lap 4, his first retirement since the {wikiLink("2022 Australian Grand Prix", "https://en.wikipedia.org/wiki/2022_Australian_Grand_Prix")}, with a brake fire, ending his nine-race winning streak and 43 race-finishing streak. This was followed by a pole and win at the {wikiLink("2024 Japanese Grand Prix", "https://en.wikipedia.org/wiki/2024_Japanese_Grand_Prix")}. He won the sprint at the {wikiLink("2024 Chinese Grand Prix", "https://en.wikipedia.org/wiki/2024_Chinese_Grand_Prix")} after starting fourth, then claimed pole and victory in the race. He took another sprint win at the {wikiLink("2024 Miami Grand Prix", "https://en.wikipedia.org/wiki/2024_Miami_Grand_Prix")} but lost the lead to {wikiLink("Lando Norris", "https://en.wikipedia.org/wiki/Lando_Norris")} during the pit stops and was unable to reclaim the place, finishing the race second. He matched {wikiLink("Ayrton Senna", "https://en.wikipedia.org/wiki/Ayrton_Senna")}'s record of eight consecutive poles at the {wikiLink("2024 Emilia Romagna Grand Prix", "https://en.wikipedia.org/wiki/2024_Emilia_Romagna_Grand_Prix")} and converted this into his fifth victory of the season. His pole streak ended at the {wikiLink("2024 Monaco Grand Prix", "https://en.wikipedia.org/wiki/2024_Monaco_Grand_Prix")} where he qualified and finished sixth; Verstappen commented that his {wikiLink("Red Bull RB20", "https://en.wikipedia.org/wiki/Red_Bull_RB20")} was losing time to its rivals in low-speed corners.
     </p>
 
-    <div className="clear-both"></div>
+    <p>
+      Verstappen and {wikiLink("George Russell", "https://en.wikipedia.org/wiki/George_Russell_(racing_driver)")} set identical lap times in qualifying at the {wikiLink("2024 Canadian Grand Prix", "https://en.wikipedia.org/wiki/2024_Canadian_Grand_Prix")}, but Russell started on pole position as he had set the lap time first. Both drivers were overtaken by {wikiLink("Lando Norris", "https://en.wikipedia.org/wiki/Lando_Norris")}, but Verstappen later passed Russell then gained the lead from Norris during the pit stops to claim his 60th race win. He qualified second behind Norris at the {wikiLink("2024 Spanish Grand Prix", "https://en.wikipedia.org/wiki/2024_Spanish_Grand_Prix")} but passed him at the start and then overtook Russell to win for the seventh time in 2024. Verstappen won the sprint from pole at the {wikiLink("2024 Austrian Grand Prix", "https://en.wikipedia.org/wiki/2024_Austrian_Grand_Prix")} and then qualified fastest for the main race. He led most of the race but was challenged by Norris in the closing laps before the two drivers collided; Verstappen was handed a time penalty for causing the collision and finished the race fifth. He later commented that the crash did not affect his close friendship with Norris. He qualified fourth at the {wikiLink("2024 British Grand Prix", "https://en.wikipedia.org/wiki/2024_British_Grand_Prix")} and passed Norris in the closing laps to finish second behind {wikiLink("Lewis Hamilton", "https://en.wikipedia.org/wiki/Lewis_Hamilton")}. He started third at the {wikiLink("2024 Hungarian Grand Prix", "https://en.wikipedia.org/wiki/2024_Hungarian_Grand_Prix")} but collided with Hamilton and went on to finish fifth. He criticised his team's race strategy and suggested that the {wikiLink("Red Bull RB20", "https://en.wikipedia.org/wiki/Red_Bull_RB20")} was now behind the race-winning {wikiLink("McLaren MCL38", "https://en.wikipedia.org/wiki/McLaren_MCL38")} on pace. Verstappen qualified fastest at the {wikiLink("2024 Belgian Grand Prix", "https://en.wikipedia.org/wiki/2024_Belgian_Grand_Prix")} but started outside the top ten due to an engine component penalty. He recovered positions and was classified fourth in the race, extending his lead in the championship to 78 points over Norris going into the summer break.
+    </p>
 
-    
+    <figure className="float-left mr-4 mb-4 max-w-[250px] border border-gray-700 rounded-lg bg-gray-900 p-2 shadow-lg">
+      <img
+        src="/drivers/max_verstappen/car14.jpg"
+        alt="Verstappen led 17 laps and finished second to rival Norris at the 2024 Dutch Grand Prix"
+        className="w-full h-auto rounded"
+      />
+      <figcaption className="text-sm text-gray-400 text-center">
+        Verstappen led 17 laps and finished second to rival Norris at the {wikiLink("2024 Dutch Grand Prix", "https://en.wikipedia.org/wiki/2024_Dutch_Grand_Prix")}
+      </figcaption>
+    </figure>
+
+    <p>
+      At his home race, the {wikiLink("2024 Dutch Grand Prix", "https://en.wikipedia.org/wiki/2024_Dutch_Grand_Prix")}, Verstappen qualified second behind Norris and gained the lead at the first corner, but was later overtaken by Norris and finished second. He qualified and finished outside the top four at both the {wikiLink("2024 Italian Grand Prix", "https://en.wikipedia.org/wiki/2024_Italian_Grand_Prix")} and {wikiLink("2024 Azerbaijan Grand Prix", "https://en.wikipedia.org/wiki/2024_Azerbaijan_Grand_Prix")}, after which {wikiLink("Red Bull", "https://en.wikipedia.org/wiki/Red_Bull_Racing")} lost the lead of the Constructors' Championship to {wikiLink("McLaren", "https://en.wikipedia.org/wiki/McLaren")}. He then finished second to Norris at the {wikiLink("2024 Singapore Grand Prix", "https://en.wikipedia.org/wiki/2024_Singapore_Grand_Prix")}, reducing his championship advantage to 52 points. Verstappen described his car as "fucked" at the official press conference in Singapore, for which he received a punishment from the {wikiLink("FIA", "https://en.wikipedia.org/wiki/F%C3%A9d%C3%A9ration_Internationale_de_l%27Automobile")} to "accomplish some work of public interest". He responded by hosting an impromptu media session outside the press conference room in protest, and later suggested that the decision could push him to leave the sport. He won the sprint at the {wikiLink("2024 United States Grand Prix", "https://en.wikipedia.org/wiki/2024_United_States_Grand_Prix")} and was classified third in the race ahead of Norris, who was penalised for overtaking Verstappen off-track. This extended Verstappen's championship lead for the first time since the {wikiLink("2024 Belgian Grand Prix", "https://en.wikipedia.org/wiki/2024_Belgian_Grand_Prix")}. He started second at the {wikiLink("2024 Mexico City Grand Prix", "https://en.wikipedia.org/wiki/2024_Mexico_City_Grand_Prix")} but received 20 seconds worth of penalties for his driving during a battle for position with Norris, resulting in a sixth-place finish, reducing his championship lead to 47 points.
+    </p>
+
+    <figure className="float-right mr-4 mb-4 max-w-[250px] border border-gray-700 rounded-lg bg-gray-900 p-2 shadow-lg">
+      <blockquote className="italic text-gray-300 text-sm mb-2">
+        "I mean honestly [Russell and Norris] could have got a 10-second penalty and [Verstappen] could have won by 30 seconds but it didn't matter. He was so calm about it; he was calculating. Every time he made a passing move. I mean he was exemplary. For me, this was a masterclass of how a racing driver reaches the pinnacle of his career and becomes a four-time World Champion."
+      </blockquote>
+      <figcaption className="text-xs text-gray-400">
+        — {wikiLink("Eddie Jordan", "https://en.wikipedia.org/wiki/Eddie_Jordan")}, on Verstappen's victory at the {wikiLink("2024 São Paulo Grand Prix", "https://en.wikipedia.org/wiki/2024_S%C3%A3o_Paulo_Grand_Prix")}
+      </figcaption>
+    </figure>
+
+    <p>
+      Verstappen was classified fourth in the {wikiLink("2024 São Paulo Grand Prix", "https://en.wikipedia.org/wiki/2024_S%C3%A3o_Paulo_Grand_Prix")} sprint after receiving a {wikiLink("virtual safety car", "https://en.wikipedia.org/wiki/Virtual_safety_car")} infringement penalty and started the race from 17th following an engine penalty, whilst Norris qualified on pole. He gained seven positions on the opening lap, survived worsening conditions on intermediate tyres until the {wikiLink("red flag", "https://en.wikipedia.org/wiki/Racing_flags#Red_flag")}, then overtook {wikiLink("Esteban Ocon", "https://en.wikipedia.org/wiki/Esteban_Ocon")} for the lead. Verstappen set ten of the eleven fastest laps of the race and won by 19 seconds, increasing his championship lead to 62 points. Lauded by drivers and critics, {wikiLink("Giles Richards", "https://en.wikipedia.org/wiki/The_Guardian")} of {wikiLink("The Guardian", "https://en.wikipedia.org/wiki/The_Guardian")} described him as a {wikiLink("regenmeister", "https://en.wikipedia.org/wiki/Regenmeister_(disambiguation)")} ("rain master"). By finishing ahead of Norris at the {wikiLink("2024 Las Vegas Grand Prix", "https://en.wikipedia.org/wiki/2024_Las_Vegas_Grand_Prix")}, Verstappen secured his fourth world title with two races remaining. Winning eight Grands Prix, {wikiLink("Andrew Benson", "https://en.wikipedia.org/wiki/BBC_Sport")} of {wikiLink("BBC Sport", "https://en.wikipedia.org/wiki/BBC_Sport")} called it a "towering achievement from a driver recognised as one of the all-time greats of Formula 1", describing his season as "almost flawless" despite "not having the best car for the majority". Verstappen won the {wikiLink("2024 Qatar Grand Prix", "https://en.wikipedia.org/wiki/2024_Qatar_Grand_Prix")}, leading every lap after having his pole stripped for driving unnecessarily slowly in qualifying, leading to a feud with {wikiLink("George Russell", "https://en.wikipedia.org/wiki/George_Russell_(racing_driver)")}. After the {wikiLink("2024 Abu Dhabi Grand Prix", "https://en.wikipedia.org/wiki/2024_Abu_Dhabi_Grand_Prix")}, Verstappen became the first driver to win a title driving for a third-placed team in the {wikiLink("World Constructors' Championship", "https://en.wikipedia.org/wiki/World_Constructors%27_Championship")} since {wikiLink("Nelson Piquet", "https://en.wikipedia.org/wiki/Nelson_Piquet")} in {wikiLink("1983", "https://en.wikipedia.org/wiki/1983_Formula_One_World_Championship")}.
+    </p>
+
+    <section id="season-2025" className="space-y-4 scroll-mt-24">
+    <h4 className="text-lg font-semibold text-red-400 mb-1">2025: Challenger to McLaren</h4>
+
+    <figure className="float-left mr-4 mb-4 max-w-[250px] border border-gray-700 rounded-lg bg-gray-900 p-2 shadow-lg">
+      <img
+        src="/drivers/max_verstappen/car15.jpg"
+        alt="Verstappen driving the Red Bull RB21 at the 2025 Japanese Grand Prix"
+        className="w-full h-auto rounded"
+      />
+      <figcaption className="text-sm text-gray-400 text-center">
+        Verstappen received widespread acclaim for his surprise victory at the {wikiLink("2025 Japanese Grand Prix", "https://en.wikipedia.org/wiki/2025_Japanese_Grand_Prix")} in the {wikiLink("2025 Formula One World Championship", "https://en.wikipedia.org/wiki/2025_Formula_One_World_Championship")}, ahead of both {wikiLink("McLaren", "https://en.wikipedia.org/wiki/McLaren")} drivers.
+      </figcaption>
+    </figure>
+
+    <p>
+      Red Bull trailed {wikiLink("McLaren", "https://en.wikipedia.org/wiki/McLaren")} for performance into the {wikiLink("2025 Formula One World Championship", "https://en.wikipedia.org/wiki/2025_Formula_One_World_Championship")}, with Verstappen finishing second at the season-opening {wikiLink("2025 Australian Grand Prix", "https://en.wikipedia.org/wiki/2025_Australian_Grand_Prix")} after battling {wikiLink("Lando Norris", "https://en.wikipedia.org/wiki/Lando_Norris")} and {wikiLink("Oscar Piastri", "https://en.wikipedia.org/wiki/Oscar_Piastri")} for the lead in wet conditions.
+    </p>
+
+    <p>
+      He claimed third in the sprint and fourth in the main race in {wikiLink("2025 Chinese Grand Prix", "https://en.wikipedia.org/wiki/2025_Chinese_Grand_Prix")} amidst tyre wear and performance struggles with the {wikiLink("Red Bull Racing RB21", "https://en.wikipedia.org/wiki/Red_Bull_Racing_RB21")}, whilst new teammate {wikiLink("Liam Lawson", "https://en.wikipedia.org/wiki/Liam_Lawson")} finished outside the points; Verstappen claimed Red Bull had also dropped behind {wikiLink("Scuderia Ferrari", "https://en.wikipedia.org/wiki/Scuderia_Ferrari")} and {wikiLink("Mercedes", "https://en.wikipedia.org/wiki/Mercedes-Benz_in_Formula_One")}, as Lawson was replaced by {wikiLink("Yuki Tsunoda", "https://en.wikipedia.org/wiki/Yuki_Tsunoda")}.
+    </p>
+
+    <p>
+      He received widespread acclaim for his surprise pole position at the {wikiLink("2025 Japanese Grand Prix", "https://en.wikipedia.org/wiki/2025_Japanese_Grand_Prix")}, before holding off both McLaren drivers to claim his first victory of the year. {wikiLink("Andrew Benson", "https://en.wikipedia.org/wiki/BBC_Sport")} of BBC Sport described it as "a weekend of the sort of rare perfection that comes only from drivers of the very highest quality", adding that "many F1 observers regarded [Verstappen's qualifying lap] as one of the greatest of all time".
+    </p>
+
+    <p>
+      He finished sixth in {wikiLink("2025 Bahrain Grand Prix", "https://en.wikipedia.org/wiki/2025_Bahrain_Grand_Prix")} amidst further performance and {wikiLink("pit stop", "https://en.wikipedia.org/wiki/Pit_stop")} struggles.
+    </p>
+
+    <div className="clear-both"></div>
+  </section>
 
   </>
 );
