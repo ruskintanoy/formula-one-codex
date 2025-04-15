@@ -11,341 +11,274 @@ const wikiLink = (text, url) => (
   
   const f1Career = (
     <>
-      <section id="mclaren-driver-programme" className="space-y-4 scroll-mt-24"></section>
-      {/* McLaren Driver Development Programme */}
+      {/* Early Mercedes Association and F1 Tests */}
+      <section id="mercedes-junior-team" className="space-y-4 scroll-mt-24"></section>
+
       <h3 className="text-2xl font-bold text-red-600 mb-2">
-        McLaren Driver Development Programme
+        Early Mercedes Association and F1 Tests
       </h3>
 
-      <figure className="float-left mr-4 mb-4 max-w-[250px] border border-gray-700 rounded-lg bg-gray-900 p-2 shadow-lg">
-        <img
-          src="/drivers/norris/car4.jpg"
-          alt="Norris racing at Monza during the 2016 Eurocup Formula Renault 2.0 championship"
-          className="w-full h-auto rounded"
-        />
-        <figcaption className="text-sm text-gray-400 text-center">
-         Norris testing for McLaren during free practice at the {wikiLink("2018 Japanese Grand Prix", "https://en.wikipedia.org/wiki/2018_Japanese_Grand_Prix")}
-        </figcaption>
-      </figure>
+      <p>In October 2015, Russell drove a Formula One car for the first time, when he tested the {wikiLink("McLaren MP4-26", "https://en.wikipedia.org/wiki/McLaren_MP4-26")} at {wikiLink("Silverstone", "https://en.wikipedia.org/wiki/Silverstone_Circuit")} as a prize for winning the 2014 {wikiLink("Autosport BRDC Award", "https://en.wikipedia.org/wiki/Autosport_BRDC_Award")}.</p>
 
-      <p>
-        In February 2017, Norris joined the{" "}
-        {wikiLink("McLaren Driver Development Programme", "https://en.wikipedia.org/wiki/McLaren_Driver_Development_Programme")}.
-        Following the announcement,{" "}
-        {wikiLink("Zak Brown", "https://en.wikipedia.org/wiki/Zak_Brown")} said that Norris was
-        "a fabulous prospect" who deserved the award. Later that year, Norris tested for McLaren
-        in a scheduled mid-season test. He set the second fastest lap in the second day of testing
-        at the Hungaroring. In late 2017, Norris became the official McLaren test and reserve driver
-        for the 2018 season. Norris participated in his first official practice session at the{" "}
-        {wikiLink("Belgian Grand Prix", "https://en.wikipedia.org/wiki/2018_Belgian_Grand_Prix")},
-        recording 26 laps. Norris drove in six further practice sessions during the year.
-      </p>
+      <p>Russell signed with the {wikiLink("Mercedes Junior Team", "https://en.wikipedia.org/wiki/Mercedes_Junior_Team")} in early 2017, due to the high cost of racing in the junior categories. He had previously spent 2016 as a Mercedes simulator driver. In addition, he impressed Mercedes team principal {wikiLink("Toto Wolff", "https://en.wikipedia.org/wiki/Toto_Wolff")} with a {wikiLink("Microsoft PowerPoint", "https://en.wikipedia.org/wiki/Microsoft_PowerPoint")} presentation explaining why Wolff should sign him. Wolff "set hard targets" for Russell, asking him to win the GP3 and Formula 2 titles before progressing to Formula One.</p>
+
+      <p>During Russell's junior career, Mercedes gave him several opportunities to drive a Formula One car. He drove a Mercedes for the first time in April 2017, testing the 2015 {wikiLink("Mercedes F1 W06 Hybrid", "https://en.wikipedia.org/wiki/Mercedes_F1_W06_Hybrid")} at {wikiLink("Portimão", "https://en.wikipedia.org/wiki/Portimão_Circuit")}. He then conducted formal test drives for {wikiLink("Mercedes", "https://en.wikipedia.org/wiki/Mercedes-Benz_in_Formula_One")} (2017 and 2018) and {wikiLink("Force India", "https://en.wikipedia.org/wiki/Force_India")} (2018). Russell made his Grand Prix weekend debut at the end of the 2017 season, driving for Force India during free practice at the {wikiLink("2017 Brazilian Grand Prix", "https://en.wikipedia.org/wiki/2017_Brazilian_Grand_Prix")} and {wikiLink("2017 Abu Dhabi Grand Prix", "https://en.wikipedia.org/wiki/2017_Abu_Dhabi_Grand_Prix")}. Mercedes promoted him to first-team reserve driver in 2018.</p>
 
       <div className="clear-both"></div>
 
-      <section id="mclaren-2019-present" className="space-y-4 scroll-mt-24"></section>
-      {/* McLaren (2019-Present) */}
-      <h3 className="text-2xl font-bold text-red-600 mt-6 mb-2">
-        McLaren (2019–present)
-      </h3>
+      {/* Williams (2019–2021) */}
+    <section id="williams-2019-2021" className="space-y-4 scroll-mt-24"></section>
 
-      <section id="rookie-season" className="space-y-4 scroll-mt-24"></section>
-      {/* 2019: Rookie season */}
-      <h4 className="text-lg font-semibold text-red-400 mb-1">
-        2019: Rookie season
-      </h4>
+    <h3 className="text-2xl font-bold text-red-600 mb-2">Williams (2019–2021)</h3>
 
-      <figure className="float-left mr-4 mb-4 max-w-[250px] border border-gray-700 rounded-lg bg-gray-900 p-2 shadow-lg">
-        <img
-          src="/drivers/norris/car5.jpg"
-          alt="Norris racing at Monza during the 2016 Eurocup Formula Renault 2.0 championship"
-          className="w-full h-auto rounded"
-        />
-        <figcaption className="text-sm text-gray-400 text-center">
-         Norris at the {wikiLink("2019 Chinese Grand Prix", "https://en.wikipedia.org/wiki/2019_Chinese_Grand_Prix")}
-        </figcaption>
-      </figure>
+    <p>
+      In October 2018, Mercedes arranged for Russell to make his Formula One debut with engine customer {wikiLink("Williams", "https://en.wikipedia.org/wiki/Williams_Racing")}-Mercedes. Russell had previously applied for a Williams drive after winning the 2017 GP3 title, but Williams' {wikiLink("Paddy Lowe", "https://en.wikipedia.org/wiki/Paddy_Lowe")} was unmoved by his new PowerPoint presentation and Russell went to Formula Two. Russell signed a three-year contract with Williams but remained a Mercedes test driver. He was partnered by {wikiLink("Robert Kubica", "https://en.wikipedia.org/wiki/Robert_Kubica")} for the {wikiLink("2019 season", "https://en.wikipedia.org/wiki/2019_Formula_One_World_Championship")} and {wikiLink("Nicholas Latifi", "https://en.wikipedia.org/wiki/Nicholas_Latifi")} in {wikiLink("2020", "https://en.wikipedia.org/wiki/2020_Formula_One_World_Championship")} and {wikiLink("2021", "https://en.wikipedia.org/wiki/2021_Formula_One_World_Championship")}. His first appearance for Williams was at the 2018 post-season test at {wikiLink("Yas Marina Circuit", "https://en.wikipedia.org/wiki/Yas_Marina_Circuit")}, driving the {wikiLink("FW41", "https://en.wikipedia.org/wiki/Williams_FW41")}.
+    </p>
 
-      <p>
-        Norris was contracted to drive for {wikiLink("McLaren", "https://en.wikipedia.org/wiki/McLaren")} for the {wikiLink("2019 Formula One World Championship", "https://en.wikipedia.org/wiki/2019_Formula_One_World_Championship")}, 
-        partnering {wikiLink("Carlos Sainz Jr.", "https://en.wikipedia.org/wiki/Carlos_Sainz_Jr.")}. He qualified eighth on his debut at the {wikiLink("Australian Grand Prix", "https://en.wikipedia.org/wiki/2019_Australian_Grand_Prix")} 
-        and finished the race in twelfth place. He scored his first Formula One points by finishing sixth at the following race, the {wikiLink("Bahrain Grand Prix", "https://en.wikipedia.org/wiki/2019_Bahrain_Grand_Prix")}. 
-        The {wikiLink("Chinese Grand Prix", "https://en.wikipedia.org/wiki/2019_Chinese_Grand_Prix")} was the first of Norris' retirements that season, after damage from a first lap collision with {wikiLink("Daniil Kvyat", "https://en.wikipedia.org/wiki/Daniil_Kvyat")} 
-        caused him to retire later in the race. Further retirements came at the {wikiLink("Spanish Grand Prix", "https://en.wikipedia.org/wiki/2019_Spanish_Grand_Prix")} after a collision with {wikiLink("Lance Stroll", "https://en.wikipedia.org/wiki/Lance_Stroll")} and 
-        at the {wikiLink("Canadian Grand Prix", "https://en.wikipedia.org/wiki/2019_Canadian_Grand_Prix")} when a brake fire caused his suspension to fail.
-      </p>
+    <p>
+      Russell's years at Williams were difficult. Mercedes had hoped that Williams would field a competitive car; as Russell later noted, Williams had finished no worse than fifth in the constructors' standings from {wikiLink("2015", "https://en.wikipedia.org/wiki/2015_Formula_One_World_Championship")} to {wikiLink("2017", "https://en.wikipedia.org/wiki/2017_Formula_One_World_Championship")}. However, when Russell joined Williams, the team was well behind the rest of the field and did not produce a car that could reliably compete for points until 2021, Russell's final year with the team. The team was so strapped for cash that it considered replacing Russell with {wikiLink("Kevin Magnussen", "https://en.wikipedia.org/wiki/Kevin_Magnussen")} after the 2020 season if Magnussen could find enough sponsor money to keep the team afloat.
+    </p>
 
-      <p>
-        Norris was on course to finish seventh at the {wikiLink("French Grand Prix", "https://en.wikipedia.org/wiki/2019_French_Grand_Prix")} but suffered hydraulic problems late in the race and was eventually classified ninth. This was followed by a sixth-place 
-        finish at the {wikiLink("Austrian Grand Prix", "https://en.wikipedia.org/wiki/2019_Austrian_Grand_Prix")}, matching his best result. He was forced to start from the back at the {wikiLink("German Grand Prix", "https://en.wikipedia.org/wiki/2019_German_Grand_Prix")} 
-        due to penalties for exceeding the allowed number of engine components for the season. He later retired from the race after a power failure. At the {wikiLink("Belgian Grand Prix", "https://en.wikipedia.org/wiki/2019_Belgian_Grand_Prix")}, 
-        he made his way from eleventh up to fifth in the early stages of the race. He maintained this position and was set to record his best career finish but suffered a power failure on his final lap and was classified eleventh.
-      </p>
+    <p>
+      Due to Russell's extended run at Williams, he is third on the list of {wikiLink("most race starts in a career before scoring points", "https://en.wikipedia.org/wiki/List_of_Formula_One_driver_records#Most_races_before_scoring_points")}, with 37. However, the Formula One team principals viewed his performances more favorably. In 2020, a year where Russell scored only three points and finished 18th in the standings, the team principals ranked him that year's sixth-best driver. In addition, Russell led Williams back to respectability in 2021, scoring 16 points and recording a rare podium for Williams.
+    </p>
 
-      <p>
-        Three consecutive points finishes followed at the {wikiLink("Italian Grand Prix", "https://en.wikipedia.org/wiki/2019_Italian_Grand_Prix")}, {wikiLink("Singapore Grand Prix", "https://en.wikipedia.org/wiki/2019_Singapore_Grand_Prix")} 
-        and {wikiLink("Russian Grand Prix", "https://en.wikipedia.org/wiki/2019_Russian_Grand_Prix")}. At the {wikiLink("Japanese Grand Prix", "https://en.wikipedia.org/wiki/2019_Japanese_Grand_Prix")}, Norris was running in fifth place 
-        before {wikiLink("Alex Albon", "https://en.wikipedia.org/wiki/Alex_Albon")} collided with him during an overtake attempt. Norris dropped back after collecting floor damage and eventually finished eleventh. At the next race, 
-        the {wikiLink("Mexican Grand Prix", "https://en.wikipedia.org/wiki/2019_Mexican_Grand_Prix")}, he had a wheel fitted incorrectly after pitting from seventh place. He spent almost two minutes in the pits as his mechanics resolved the problem but he was eventually 
-        withdrawn from the race. He ended the season with three consecutive points finishes.
-      </p>
+    <div className="clear-both"></div>
 
-      <p>
-        Norris finished his debut Formula One season eleventh in the drivers' championship with 49 points. Teammate Sainz scored 96 points, however Norris out-qualified Sainz at eleven of the twenty-one races. During his debut year, Norris signed a multi-year contract to 
-        stay with McLaren for the {wikiLink("2020 Formula One World Championship", "https://en.wikipedia.org/wiki/2020_Formula_One_World_Championship")} until the {wikiLink("2022 Formula One World Championship", 
-          "https://en.wikipedia.org/wiki/2022_Formula_One_World_Championship")}.
-      </p>
+    {/* 2019–2020: Rookie season and first points */}
+    <section id="rookie-season" className="space-y-4 scroll-mt-24"></section>
+    <h4 className="text-lg font-semibold text-red-400 mb-1">2019–2020: Rookie season and first points</h4>
 
-      <div className="clear-both"></div>
-      
-      <section id="maiden-podium" className="space-y-4 scroll-mt-24"></section>
-      {/* 2020: Maiden Podium */}
-      <h4 className="text-lg font-semibold text-red-400 mb-1">2020: Maiden Podium</h4>
+    <figure className="float-left mr-4 mb-4 max-w-[250px] border border-gray-700 rounded-lg bg-gray-900 p-2 shadow-lg">
+      <img
+        src="/drivers/russell/car4.jpg"
+        alt="Russell at the 2020 Tuscan Grand Prix, where he finished 11th"
+        className="w-full h-auto rounded"
+      />
+      <figcaption className="text-sm text-gray-400 text-center">
+        Russell at the {wikiLink("2020 Tuscan Grand Prix", "https://en.wikipedia.org/wiki/2020_Tuscan_Grand_Prix")}, where he finished 11th
+      </figcaption>
+    </figure>
 
-      <p>
-        At the season-opening {wikiLink("Austrian Grand Prix", "https://en.wikipedia.org/wiki/2020_Austrian_Grand_Prix")}, Norris qualified in fourth place but was elevated to third after a grid penalty 
-        for {wikiLink("Lewis Hamilton", "https://en.wikipedia.org/wiki/Lewis_Hamilton")}, the highest grid position of his career at the time and the highest for McLaren since 
-        the {wikiLink("2016 Austrian Grand Prix", "https://en.wikipedia.org/wiki/2016_Austrian_Grand_Prix")}. In the closing stages of the race, third-placed Hamilton was issued a five-second penalty for causing a collision with Alex Albon. 
-        Norris set the fastest lap of the race on the final lap to finish 4.802 seconds behind Hamilton, allowing Norris to claim the first podium finish of his career. This made Norris the third youngest podium-finisher in Formula One history. 
-        At the {wikiLink("Styrian Grand Prix", "https://en.wikipedia.org/wiki/2020_Styrian_Grand_Prix")}, Norris qualified sixth but was given a three-place grid penalty for overtaking under yellow flags during practice. He passed three cars in the 
-        final two laps of the race to finish fifth, in what he described as "one of the best races of [his] career".
-      </p>
+    <p>In 2019, Williams struggled for form. At Russell's Formula One race debut, the {wikiLink("2019 Australian Grand Prix", "https://en.wikipedia.org/wiki/2019_Australian_Grand_Prix")}, Russell qualified 19th and finished 16th.<sup>[86]</sup> He acknowledged that his experience was difficult, remarking that the car was "four seconds off the pace" and that he was lapped multiple times.<sup>[87]</sup> Williams' slow pace continued into the season, and in most races {wikiLink("Robert Kubica", "https://en.wikipedia.org/wiki/Robert_Kubica")} was Russell's only on-track competition: Russell did not finish ahead of a car from another team until round six, the {wikiLink("2019 Monaco Grand Prix", "https://en.wikipedia.org/wiki/2019_Monaco_Grand_Prix")}. He also outqualified Kubica at all twenty-one races.<sup>[88]</sup></p>
 
-      <figure className="float-right mr-4 mb-4 max-w-[250px] border border-gray-700 rounded-lg bg-gray-900 p-2 shadow-lg">
-        <img
-          src="/drivers/norris/car6.jpg"
-          alt="Norris racing at Monza during the 2016 Eurocup Formula Renault 2.0 championship"
-          className="w-full h-auto rounded"
-        />
-        <figcaption className="text-sm text-gray-400 text-center">
-         Norris at the {wikiLink("2020 Tuscan Grand Prix", "https://en.wikipedia.org/wiki/2020_Tuscan_Grand_Prix")}
-        </figcaption>
-      </figure>
+    <p>Russell's best placement was 11th at the rain-affected {wikiLink("2019 German Grand Prix", "https://en.wikipedia.org/wiki/2019_German_Grand_Prix")}, where Williams rolled out an upgrade.<sup>[89]</sup> Six cars retired without classifying,<sup>[90]</sup> and another two cars received time penalties after the race.<sup>[91]</sup> He came close to finishing 10th, but unsuccessfully asked to pit for slick tyres during a safety car and ran wide on turn two several laps later,<sup>[92]</sup> allowing {wikiLink("Robert Kubica", "https://en.wikipedia.org/wiki/Robert_Kubica")} to overtake him and score the team's only point that year.<sup>[91]</sup> In 2023, Russell remarked that it was the most disappointing moment of his career.<sup>[93]</sup></p>
 
-      <p>
-        Six consecutive points finishes came between the {wikiLink("British Grand Prix", "https://en.wikipedia.org/wiki/2020_British_Grand_Prix")} and {wikiLink("Tuscan Grand Prix", "https://en.wikipedia.org/wiki/2020_Tuscan_Grand_Prix")}. 
-        Norris collected damage on the opening lap of the {wikiLink("Russian Grand Prix", "https://en.wikipedia.org/wiki/2020_Russian_Grand_Prix")} and finished the race fifteenth. At the {wikiLink("Eifel Grand Prix", "https://en.wikipedia.org/wiki/2020_Eifel_Grand_Prix")}, 
-        he retired from sixth place with power unit failure. During the {wikiLink("Portuguese Grand Prix", "https://en.wikipedia.org/wiki/2020_Portuguese_Grand_Prix")}, a collision with {wikiLink("Lance Stroll", "https://en.wikipedia.org/wiki/Lance_Stroll")} and 
-        a puncture resulted in a thirteenth-place finish. Following this, Norris faced criticism over his remarks that Stroll "doesn't seem to learn" and his perceived downplaying of {wikiLink("Lewis Hamilton", "https://en.wikipedia.org/wiki/Lewis_Hamilton")}'s achievement 
-        of most Grand Prix wins, describing it as meaning "nothing to him". Subsequently, Norris apologised for his comments about Stroll and also offered a personal apology to Hamilton, stating that his comments were "careless" and that he "[hadn't] shown the 
-        respect I should have to certain people".
-      </p>
+    <p>Russell also finished 12th at the {wikiLink("2019 Brazilian Grand Prix", "https://en.wikipedia.org/wiki/2019_Brazilian_Grand_Prix")} after a late safety car allowed him to unlap himself, missing out on points by 1.668 seconds.<sup>[94]</sup> He finished 20th in the Drivers' Championship, scoring no points to Kubica's one.<sup>[95]</sup> Russell later remarked that as a competitor, it was hard for him to watch fellow rookies {wikiLink("Alex Albon", "https://en.wikipedia.org/wiki/Alex_Albon")} and {wikiLink("Lando Norris", "https://en.wikipedia.org/wiki/Lando_Norris")} competing for points and podiums after beating them the year before in F2.<sup>[87]</sup></p>
 
-      <p>
-        At the wet {wikiLink("Turkish Grand Prix", "https://en.wikipedia.org/wiki/2020_Turkish_Grand_Prix")}, Norris had what he called "[the] worst start of everyone's career ever". He started from fourteenth place after a five-place grid penalty for failing to respect 
-        yellow flags in qualifying, but recovered to finish eighth and recorded the fastest lap of the race. Norris finished fourth at the {wikiLink("Bahrain Grand Prix", "https://en.wikipedia.org/wiki/2020_Bahrain_Grand_Prix")} and fifth at the 
-        season-finale {wikiLink("Abu Dhabi Grand Prix", "https://en.wikipedia.org/wiki/2020_Abu_Dhabi_Grand_Prix")}, which alongside the points scored by teammate Sainz, assisted McLaren in claiming third place in the constructors' 
-        championship over {wikiLink("Racing Point", "https://en.wikipedia.org/wiki/Racing_Point")}. Norris ended the season ninth in the drivers' championship with 97 points, eight points behind Sainz.
-      </p>
+    <p>Williams was more competitive on track in 2020, but it did not show up in the standings, as Williams did not score any points all year.<sup>[96]</sup> However, Russell came close to scoring on several occasions, such as the {wikiLink("2020 Styrian Grand Prix", "https://en.wikipedia.org/wiki/2020_Styrian_Grand_Prix")} (starting 11th but falling to 16th after running into the gravel during a re-start lap),<sup>[97][98]</sup> the {wikiLink("2020 British Grand Prix", "https://en.wikipedia.org/wiki/2020_British_Grand_Prix")} (finishing 12th), the {wikiLink("2020 Tuscan Grand Prix", "https://en.wikipedia.org/wiki/2020_Tuscan_Grand_Prix")} (reaching 9th at one point before dropping back to 11th),<sup>[99]</sup> and the {wikiLink("2020 Emilia Romagna Grand Prix", "https://en.wikipedia.org/wiki/2020_Emilia_Romagna_Grand_Prix")} (crashing out from 10th place under safety car conditions).<sup>[100]</sup></p>
 
-      
-      <section id="maiden-pole" className="space-y-4 scroll-mt-24"></section>
-      {/* 2021: Maiden Pole Position */}
-      <h4 className="text-lg font-semibold text-red-400 mb-1">2021: Maiden Pole Position</h4>
+    <p>Russell scored his first points at the {wikiLink("2020 Sakhir Grand Prix", "https://en.wikipedia.org/wiki/2020_Sakhir_Grand_Prix")}, following a surprise promotion to the Mercedes senior team when {wikiLink("Lewis Hamilton", "https://en.wikipedia.org/wiki/Lewis_Hamilton")} tested positive for COVID-19.<sup>[101]</sup> His performance at Sakhir was widely acclaimed by both Mercedes and the media.<sup>[102][103]</sup> He narrowly missed out on pole position,<sup>[104]</sup> overtook teammate {wikiLink("Valtteri Bottas", "https://en.wikipedia.org/wiki/Valtteri_Bottas")} at the first corner, and led the majority of the race. However, he was forced to pit twice in-a-row when the Mercedes pit crew accidentally fitted Bottas' front tyres on his car, following a radio failure.<sup>[105][106]</sup> He overtook Bottas a second time, recovered to second place, and was closing in on race leader {wikiLink("Sergio Pérez", "https://en.wikipedia.org/wiki/Sergio_Pérez")} when a puncture forced him to pit again with ten laps to go.<sup>[107]</sup> He finished ninth, picking up two points for the finish and one point for the fastest lap.<sup>[108][109]</sup></p>
 
-      <p>
-        Norris remained at {wikiLink("McLaren", "https://en.wikipedia.org/wiki/McLaren")} for the {wikiLink("2021 season", "https://en.wikipedia.org/wiki/2021_Formula_One_World_Championship")}, 
-        partnering {wikiLink("Daniel Ricciardo", "https://en.wikipedia.org/wiki/Daniel_Ricciardo")} as Sainz left the team for {wikiLink("Ferrari", "https://en.wikipedia.org/wiki/Scuderia_Ferrari")}. Norris qualified seventh for the 
-        season-opening {wikiLink("Bahrain Grand Prix", "https://en.wikipedia.org/wiki/2021_Bahrain_Grand_Prix")} and finished the race fourth. At the following race, the {wikiLink("Emilia Romagna Grand Prix", "https://en.wikipedia.org/wiki/2021_Emilia_Romagna_Grand_Prix")}, 
-        a qualifying time that would have placed him third on the grid was deleted for exceeding track limits, and he started the race seventh. Norris had run in second place before being passed by {wikiLink("Lewis Hamilton", "https://en.wikipedia.org/wiki/Lewis_Hamilton")} 
-        with three laps remaining. He finished third to claim his second Formula One podium finish. At the {wikiLink("Monaco Grand Prix", "https://en.wikipedia.org/wiki/2021_Monaco_Grand_Prix")}, Norris started fifth and benefited 
-        from {wikiLink("Charles Leclerc", "https://en.wikipedia.org/wiki/Charles_Leclerc")}'s failure to start the race and {wikiLink("Valtteri Bottas", "https://en.wikipedia.org/wiki/Valtteri_Bottas")}' retirement to claim another podium finish. Norris was issued a 
-        grid penalty and started ninth at the {wikiLink("Azerbaijan Grand Prix", "https://en.wikipedia.org/wiki/2021_Azerbaijan_Grand_Prix")} for failing to enter the pits during a red flag period in qualifying, a sanction he criticised as "unfair". 
-        He recovered places in the race to finish fifth, assisted by crashes and mistakes from drivers ahead.
-      </p>
+    <p>He later remarked that while "I was the same driver [in Sakhir] as I had been before ... I was exactly the same driver a week later [driving for Williams at the season-ending {wikiLink("2020 Abu Dhabi Grand Prix", "https://en.wikipedia.org/wiki/2020_Abu_Dhabi_Grand_Prix")}] when I was out in Q1."<sup>[110][111]</sup> In Abu Dhabi, he donned a special helmet to honor the Williams family, who had sold the team in October.<sup>[112][113]</sup> He finished 18th in the Drivers' Championship, scoring 3 points, all for Mercedes.<sup>[83]</sup></p>
 
-      <figure className="float-left mr-4 mb-4 max-w-[250px] border border-gray-700 rounded-lg bg-gray-900 p-2 shadow-lg">
-        <img
-          src="/drivers/norris/car7.jpg"
-          alt="Norris racing at Monza during the 2016 Eurocup Formula Renault 2.0 championship"
-          className="w-full h-auto rounded"
-        />
-        <figcaption className="text-sm text-gray-400 text-center">
-         Norris at the {wikiLink("2021 Austrian Grand Prix", "https://en.wikipedia.org/wiki/2021_Austrian_Grand_Prix")}
-        </figcaption>
-      </figure>
+    <div className="clear-both"></div>
 
-      <p>
-        Norris equalled his then-highest grid position at the {wikiLink("Styrian Grand Prix", "https://en.wikipedia.org/wiki/2021_Styrian_Grand_Prix")} in Austria, starting third after Bottas was issued with a grid penalty. He finished fifth for the third consecutive race. 
-        He bettered this qualifying position at the following weekend's {wikiLink("Austrian Grand Prix", "https://en.wikipedia.org/wiki/2021_Austrian_Grand_Prix")}, starting in second place after setting a time 0.048 seconds behind 
-        pole-sitter {wikiLink("Max Verstappen", "https://en.wikipedia.org/wiki/Max_Verstappen")}. Norris received a penalty during the race after being judged to have forced Sergio Pérez off the track. He finished the race third to claim his third podium of the season. 
-        He set the sixth fastest time in Friday qualifying at the {wikiLink("British Grand Prix", "https://en.wikipedia.org/wiki/2021_British_Grand_Prix")}, before finishing fifth in the new-format sprint qualifying and fourth in the Grand Prix. This result moved 
-        him up to third place in the drivers' championship. He qualified sixth for the {wikiLink("Hungarian Grand Prix", "https://en.wikipedia.org/wiki/2021_Hungarian_Grand_Prix")}. He improved to third place by the first corner but was hit from behind by Bottas, 
-        causing him to collide with Verstappen. Norris retired from the race two laps later due to heavy damage. At the {wikiLink("Italian Grand Prix", "https://en.wikipedia.org/wiki/2021_Italian_Grand_Prix")}, Norris finished fourth in sprint qualifying, which 
-        became third on the grid for the race as Bottas incurred an engine penalty. Norris finished the race second behind teammate Ricciardo, scoring his fourth podium of the season and securing McLaren's first one-two finish since 
-        the {wikiLink("2010 Canadian Grand Prix", "https://en.wikipedia.org/wiki/2010_Canadian_Grand_Prix")}.
-      </p>
+    {/* 2021: Maiden podium */}
+    <section id="season-2021" className="space-y-4 scroll-mt-24"></section>
+    <h4 className="text-lg font-semibold text-red-400 mb-1">2021: Maiden podium</h4>
 
-      <p>
-        Norris took his first Formula One pole position in changing weather conditions in qualifying at the {wikiLink("Russian Grand Prix", "https://en.wikipedia.org/wiki/2021_Russian_Grand_Prix")}. He lost the lead to Carlos Sainz on the first lap before regaining it on 
-        lap 13. Norris continued to lead the race with Lewis Hamilton close behind until rain began to fall in the closing laps. Norris decided to stay out on dry-weather tyres while Hamilton pitted for intermediate tyres. The rain soon worsened, allowing Hamilton to 
-        overtake and forcing Norris to pit for intermediates. Norris finished seventh, recording the fastest lap of the race. Norris scored points in each of the remaining seven races of the season, but did not finish higher than seventh. He qualified third at the 
-        season-ending {wikiLink("Abu Dhabi Grand Prix", "https://en.wikipedia.org/wiki/2023_Abu_Dhabi_Grand_Prix")} and was the first of the five cars controversially permitted to unlap themselves on the penultimate lap of the race. He criticised the decision to resume 
-        the race on the final lap and described it as being done "for the TV". The result of the final race dropped Norris to sixth in the World Drivers' Championship, 4.5 points behind former teammate Sainz. Nevertheless, Norris achieved his career best result in the 
-        standings and scored 160 points to teammate Ricciardo's 115.
-      </p>
+    <p>Following Russell's strong performances in 2020, Mercedes looked into finding him a new team for the {wikiLink("2021 season", "https://en.wikipedia.org/wiki/2021_Formula_One_World_Championship")}, but {wikiLink("Williams", "https://en.wikipedia.org/wiki/Williams_Racing")} declined to release him from his contract.</p>
 
-      <div className="clear-both"></div>
+    <p>In addition, the media speculated that he would replace {wikiLink("Valtteri Bottas", "https://en.wikipedia.org/wiki/Valtteri_Bottas")} at {wikiLink("Mercedes", "https://en.wikipedia.org/wiki/Mercedes-Benz_in_Formula_One")} in 2022 once their respective contracts expired.</p>
 
-      <section id="season-2022" className="space-y-4 scroll-mt-24"></section>
-      {/* 2022 Season */}
-      <h4 className="text-lg font-semibold text-red-400 mb-1">2022 Season</h4>
+    <p>The two aspirants clashed at the {wikiLink("2021 Emilia Romagna Grand Prix", "https://en.wikipedia.org/wiki/2021_Emilia_Romagna_Grand_Prix")}, when Russell found himself alongside Bottas on lap 30. He attempted to overtake Bottas, but drove onto a wet patch and lost control of his car, crashing into Bottas and causing a double retirement.</p>
 
-      <figure className="float-right mr-4 mb-4 max-w-[250px] border border-gray-700 rounded-lg bg-gray-900 p-2 shadow-lg">
-        <img
-          src="/drivers/norris/car8.jpg"
-          alt="Norris racing at Monza during the 2016 Eurocup Formula Renault 2.0 championship"
-          className="w-full h-auto rounded"
-        />
-        <figcaption className="text-sm text-gray-400 text-center">
-         Norris at the {wikiLink("2022 British Grand Prix", "https://en.wikipedia.org/wiki/2022_British_Grand_Prix")}
-        </figcaption>
-      </figure>
+    <p>Russell initially blamed the incident on Bottas, walking over to Bottas after the crash and slapping his helmet (Bottas responded with a middle finger), and accusing him of "trying to kill [them] both".</p>
 
-      <p>
-        In February 2022 Norris signed a contract extension with {wikiLink("McLaren", "https://en.wikipedia.org/wiki/McLaren")} that will see him be with the team until at least 2025. He completed all three days of pre-season testing in Bahrain after teammate Ricciardo 
-        tested positive for COVID-19 and was unable to attend.
-      </p>
+    <p>However, Russell later retracted his claims and apologised to Bottas and Williams. {wikiLink("Toto Wolff", "https://en.wikipedia.org/wiki/Toto_Wolff")} acknowledged that Bottas should not have been side by side with a Williams in the first place, but reserved the bulk of his criticism for Russell, a Mercedes junior who had just taken out a Mercedes.</p>
 
-      <p>
-        Both McLaren drivers qualified and finished outside the top ten at the season-opening {wikiLink("Bahrain Grand Prix", "https://en.wikipedia.org/wiki/2022_Bahrain_Grand_Prix")}. Norris then scored points at 
-        the {wikiLink("Saudi Arabian Grand Prix", "https://en.wikipedia.org/wiki/2022_Saudi_Arabian_Grand_Prix")} and {wikiLink("Australian Grand Prix", "https://en.wikipedia.org/wiki/2022_Australian_Grand_Prix")} before achieving the team's only podium finish of the 
-        season with third place at the {wikiLink("Emilia Romagna Grand Prix", "https://en.wikipedia.org/wiki/2022_Emilia_Romagna_Grand_Prix")}. At the new {wikiLink("Miami Grand Prix", "https://en.wikipedia.org/wiki/2022_Miami_Grand_Prix")}, the safety car was deployed 
-        when Norris was involved in a crash with {wikiLink("Pierre Gasly", "https://en.wikipedia.org/wiki/Pierre_Gasly")}'s {wikiLink("AlphaTauri", "https://en.wikipedia.org/wiki/Scuderia_AlphaTauri")}. Despite suffering with tonsillitis, Norris came sixth in 
-        the {wikiLink("Monaco Grand Prix", "https://en.wikipedia.org/wiki/2022_Monaco_Grand_Prix")} and secured the fastest lap. He qualified fifteenth at the {wikiLink("Austrian Grand Prix", "https://en.wikipedia.org/wiki/2022_Austrian_Grand_Prix")} but recovered in 
-        the sprint and the race to finish seventh. He then qualified fourth for the {wikiLink("Hungarian Grand Prix", "https://en.wikipedia.org/wiki/2022_Hungarian_Grand_Prix")} but was unable to keep {wikiLink("Lewis Hamilton", "https://en.wikipedia.org/wiki/Lewis_Hamilton")} 
-        and the two {wikiLink("Red Bulls", "https://en.wikipedia.org/wiki/Red_Bull_Racing")} behind and finished seventh.
-      </p>
+    <p>Both drivers sought to downplay the dispute, at least publicly, after Bottas rejoined Mercedes in {wikiLink("2025", "https://en.wikipedia.org/wiki/2025_Formula_One_World_Championship")}.</p>
 
-      <p>
-        Norris started seventeenth at the {wikiLink("Belgian Grand Prix", "https://en.wikipedia.org/wiki/2022_Belgian_Grand_Prix")} with a power unit components penalty and failed to score points, finishing twelfth. He started third at 
-        the {wikiLink("Italian Grand Prix", "https://en.wikipedia.org/wiki/2022_Italian_Grand_Prix")} but again lost out to the Red Bulls and finished seventh. His best result since Emilia Romagna came at the {wikiLink("Singapore Grand Prix", "https://en.wikipedia.org/wiki/2022_Singapore_Grand_Prix")} 
-        where he and Ricciardo finished fourth and fifth respectively, briefly promoting McLaren to fourth place above {wikiLink("Alpine", "https://en.wikipedia.org/wiki/Alpine_F1_Team")} in the Constructors' Championship. He scored points in 
-        the {wikiLink("São Paulo Grand Prix", "https://en.wikipedia.org/wiki/2022_S%C3%A3o_Paulo_Grand_Prix")} sprint, but a gearbox failure eliminated him from the points positions in the race. He ended the season with sixth place and the fastest lap at 
-        the {wikiLink("Abu Dhabi Grand Prix", "https://en.wikipedia.org/wiki/2022_Abu_Dhabi_Grand_Prix")}. He finished seventh in the Drivers' Championship and scored 122 points to Ricciardo's 37.
-      </p>
 
-      <div className="clear-both"></div>
+    <figure className="float-left mr-4 mb-4 max-w-[250px] border border-gray-700 rounded-lg bg-gray-900 p-2 shadow-lg">
+      <img
+        src="/drivers/russell/car5.jpg"
+        alt="Russell at the 2021 Austrian Grand Prix"
+        className="w-full h-auto rounded"
+      />
+      <figcaption className="text-sm text-gray-400 text-center">
+        Russell at the {wikiLink("2021 Austrian Grand Prix", "https://en.wikipedia.org/wiki/2021_Austrian_Grand_Prix")}. He finished 11th, but received praise from {wikiLink("Fernando Alonso", "https://en.wikipedia.org/wiki/Fernando_Alonso")} for his performance.
+      </figcaption>
+    </figure>
 
-      <section id="season-2023" className="space-y-4 scroll-mt-24"></section>
-      {/* 2023 Season */}
-      <h4 className="text-lg font-semibold text-red-400 mb-1">2023 Season</h4>
+    <p>
+      Despite his DNF at Imola, Russell helped Williams to its best season in several years. He came close to scoring points at a number of races, including the{" "}
+      {wikiLink("Azerbaijan Grand Prix", "https://en.wikipedia.org/wiki/2021_Azerbaijan_Grand_Prix")} (gearbox failure following a restart in 15th place), the{" "}
+      {wikiLink("French Grand Prix", "https://en.wikipedia.org/wiki/2021_French_Grand_Prix")} (rising from 19th to 12th without help from driver retirements), the{" "}
+      {wikiLink("Styrian Grand Prix", "https://en.wikipedia.org/wiki/2021_Styrian_Grand_Prix")} (hydraulic failure after qualifying in 10th), and the{" "}
+      {wikiLink("British Grand Prix", "https://en.wikipedia.org/wiki/2021_British_Grand_Prix")} (12th place).
+    </p>
 
-      <p>
-        Norris remained with {wikiLink("McLaren", "https://en.wikipedia.org/wiki/McLaren")} for the 2023 season, partnered by rookie {wikiLink("Oscar Piastri", "https://en.wikipedia.org/wiki/Oscar_Piastri")} who replaced Ricciardo. At the first race at the {wikiLink("Bahrain Grand Prix", "https://en.wikipedia.org/wiki/2023_Bahrain_Grand_Prix")}, both McLaren cars experienced reliability issues. Norris made six pit stops to manage the problem and finished seventeenth and last of the finishing drivers. He was eliminated in the first qualifying session (Q1) for the first time since 2019 at the {wikiLink("Saudi Arabian Grand Prix", "https://en.wikipedia.org/wiki/2023_Saudi_Arabian_Grand_Prix")} after hitting the wall. He received damage from debris on the opening lap and again finished seventeenth. The {wikiLink("Australian Grand Prix", "https://en.wikipedia.org/wiki/2023_Australian_Grand_Prix")} saw McLaren score their first points of the season; Piastri finished eighth and Norris improved from thirteenth at the start to sixth at the finish. Another Q1 knockout at the {wikiLink("Miami Grand Prix", "https://en.wikipedia.org/wiki/2023_Miami_Grand_Prix")} and contact with {wikiLink("Nyck de Vries", "https://en.wikipedia.org/wiki/Nyck_de_Vries")} at the start resulted in another finish outside the points. He qualified third at the {wikiLink("Spanish Grand Prix", "https://en.wikipedia.org/wiki/2023_Spanish_Grand_Prix")} but first-lap contact with {wikiLink("Lewis Hamilton", "https://en.wikipedia.org/wiki/Lewis_Hamilton")} dropped him to the back. He was demoted from a points finish at the {wikiLink("Canadian Grand Prix", "https://en.wikipedia.org/wiki/2023_Canadian_Grand_Prix")} with a penalty for "unsportsmanlike behaviour" after slowing excessively whilst entering the pit lane to create a gap to Piastri ahead.
-      </p>
+    <p>
+      At the {wikiLink("Austrian Grand Prix", "https://en.wikipedia.org/wiki/2021_Austrian_Grand_Prix")}, Russell qualified in 8th place, Williams' highest grid position since 2017.
+      He was still in 10th near the end of the race, but after a fourteen-lap defensive battle,{" "}
+      {wikiLink("Fernando Alonso", "https://en.wikipedia.org/wiki/Fernando_Alonso")} passed him with three laps to go. After the race, Alonso consoled Russell with a hug. 
+      The Spaniard ruefully explained that “I was hoping it was anyone but him. ... He will have more opportunities hopefully for podiums or wins in the future.”
+    </p>
 
-      <figure className="float-left mr-4 mb-4 max-w-[250px] border border-gray-700 rounded-lg bg-gray-900 p-2 shadow-lg">
-        <img
-          src="/drivers/norris/car9.jpg"
-          alt="Norris racing at Monza during the 2016 Eurocup Formula Renault 2.0 championship"
-          className="w-full h-auto rounded"
-        />
-        <figcaption className="text-sm text-gray-400 text-center">
-          Norris racing at the {wikiLink("2023 Austrian Grand Prix", "https://en.wikipedia.org/wiki/2023_Austrian_Grand_Prix")}
-        </figcaption>
-      </figure>
+    <p>
+      Russell scored his first points for Williams two races later at the{" "}
+      {wikiLink("Hungarian Grand Prix", "https://en.wikipedia.org/wiki/2021_Hungarian_Grand_Prix")}, moving from 17th on the grid to 8th.
+      Following the race, Mercedes agreed to promote Russell to the senior team for the 2022 season.
+    </p>
 
-      <p>
-        McLaren brought upgrades to Norris's {wikiLink("MCL60", "https://en.wikipedia.org/wiki/McLaren_MCL60")} for the {wikiLink("Austrian Grand Prix", "https://en.wikipedia.org/wiki/2023_Austrian_Grand_Prix")}; team principal {wikiLink("Andrea Stella", "https://en.wikipedia.org/wiki/Andrea_Stella_(engineer)")} commented that "pretty much the entire car" had been redesigned. Norris qualified fourth for the race, third for the sprint and finished fourth in the race. More success came at the {wikiLink("British Grand Prix", "https://en.wikipedia.org/wiki/2023_British_Grand_Prix")} where Norris and Piastri qualified second and third respectively, a result Norris described as "insane". He passed {wikiLink("Max Verstappen", "https://en.wikipedia.org/wiki/Max_Verstappen")} at the first corner and led the race for four laps before Verstappen regained the place. In the later stages of the race, Norris held off Lewis Hamilton to finish second, making him the first McLaren driver to finish on the podium at {wikiLink("Silverstone Circuit", "https://en.wikipedia.org/wiki/2010_British_Grand_Prix")} since Hamilton in 2010. He then qualified third and defended from {wikiLink("Sergio Pérez", "https://en.wikipedia.org/wiki/Sergio_P%C3%A9rez")} to finish second at the {wikiLink("Hungarian Grand Prix", "https://en.wikipedia.org/wiki/2023_Hungarian_Grand_Prix")}, the first consecutive podiums of his Formula One career. He accidentally broke Verstappen's first place trophy during the podium celebrations; the trophy was later replaced. He started second at the {wikiLink("Dutch Grand Prix", "https://en.wikipedia.org/wiki/2023_Dutch_Grand_Prix")} but criticised his team's decision not to change tyres during a rain shower; he went on to finish seventh.
-      </p>
+    <p>
+      In the very next race, Russell collected his maiden podium at the{" "}
+      {wikiLink("Belgian Grand Prix", "https://en.wikipedia.org/wiki/2021_Belgian_Grand_Prix")} under unusual circumstances. He qualified in second after a rain-affected Saturday,
+      the first front-row start for Williams since the{" "}
+      {wikiLink("2017 Italian Grand Prix", "https://en.wikipedia.org/wiki/2017_Italian_Grand_Prix")}.
+      The downpour continued into race day, so the race director ran the race for two laps under safety car conditions before calling it off, handing Russell his first Formula One podium finish.
+    </p>
 
-      <p>
-        Four consecutive podiums began with the {wikiLink("Singapore Grand Prix", "https://en.wikipedia.org/wiki/2023_Singapore_Grand_Prix")}, where he held off the {wikiLink("Mercedes", "https://en.wikipedia.org/wiki/Mercedes_in_F1")} duo of Hamilton and George Russell and finished less than a second behind race winner Carlos Sainz Jr., his former McLaren teammate. He qualified third, behind teammate Piastri, at the {wikiLink("Japanese Grand Prix", "https://en.wikipedia.org/wiki/2023_Japanese_Grand_Prix")}, but passed him in the race to finish second. He led much of the {wikiLink("United States Grand Prix", "https://en.wikipedia.org/wiki/2023_United_States_Grand_Prix")} having qualified second and passed Charles Leclerc at the start, but was ultimately overtaken by Verstappen and Hamilton. Hamilton's post-race disqualification promoted Norris to second place. Norris failed to set a competitive qualifying time at the {wikiLink("Mexico City Grand Prix", "https://en.wikipedia.org/wiki/2023_Mexico_City_Grand_Prix")}, starting seventeenth, but recovered to finish the race fifth. At the {wikiLink("São Paulo Grand Prix", "https://en.wikipedia.org/wiki/2023_S%C3%A3o_Paulo_Grand_Prix")}, he claimed sprint race pole position but was overtaken by Verstappen at the first corner and finished second. He also finished second in the main race, having started sixth and gained four places at the start. His only retirement of the season came at the penultimate round, the {wikiLink("Las Vegas Grand Prix", "https://en.wikipedia.org/wiki/2023_Las_Vegas_Grand_Prix")}. He qualified sixteenth and crashed heavily on the third lap. He was taken to hospital for precautionary checks and was discharged the same day.
-      </p>
+    <p>
+      Russell also scored points at the{" "}
+      {wikiLink("Italian Grand Prix", "https://en.wikipedia.org/wiki/2021_Italian_Grand_Prix")} (9th) and the{" "}
+      {wikiLink("Russian Grand Prix", "https://en.wikipedia.org/wiki/2021_Russian_Grand_Prix")} (10th, after qualifying in 3rd). He placed 15th in the Drivers' Championship, scoring 16 points to Latifi's 7.
+    </p>
 
-      <p>
-        Norris scored 205 points in total to Piastri's 97 and placed sixth in the Drivers' Championship, matching his result from 2021. He finished only one point behind fourth place, as {wikiLink("Fernando Alonso", "https://en.wikipedia.org/wiki/Fernando_Alonso")} and Charles Leclerc tied on 206 points.
-      </p>
+    <div className="clear-both"></div>
 
-      <div className="clear-both"></div>
+    <section id="mercedes-2022-present" className="space-y-4 scroll-mt-24"></section>
+    {/* Mercedes (2022–present) */}
+    <h3 className="text-2xl font-bold text-red-600 mb-2">
+      Mercedes (2022–present)
+    </h3>
 
-      <section id="maiden-win" className="space-y-4 scroll-mt-24"></section>
-      {/* 2024 Season - Maiden Win */}
-      <h4 className="text-lg font-semibold text-red-400 mb-1">2024: Maiden Win and Title Challenge</h4>
+    <p>
+      Russell joined Mercedes in {wikiLink("2022", "https://en.wikipedia.org/wiki/2022_Formula_One_World_Championship")} and was paired with seven-time World Drivers' Champion {wikiLink("Lewis Hamilton", "https://en.wikipedia.org/wiki/Lewis_Hamilton")} from 2022 to 2024.{/* cite [135][136] */} His timing was unfortunate, as the move coincided with a regulations change that ended Mercedes' dominance of the sport. The team placed third in 2022, second in 2023, and fourth in 2024 (although it scored four wins that year). Hamilton left Mercedes for {wikiLink("Ferrari", "https://en.wikipedia.org/wiki/Ferrari")} after the 2024 season.{/* cite [136] */}
+    </p>
 
-      <figure className="float-right mr-4 mb-4 max-w-[250px] border border-gray-700 rounded-lg bg-gray-900 p-2 shadow-lg">
-        <img
-          src="/drivers/norris/car10.jpg"
-          alt="Norris racing at Monza during the 2016 Eurocup Formula Renault 2.0 championship"
-          className="w-full h-auto rounded"
-        />
-        <figcaption className="text-sm text-gray-400 text-center">
-         Norris at the {wikiLink("2024 Chinese Grand Prix", "https://en.wikipedia.org/wiki/2024_Chinese_Grand_Prix")}
-        </figcaption>
-      </figure>
+    <p>
+      During Russell's three years with Hamilton, the drivers were evenly matched on track.{/* cite [137] */} Russell outscored Hamilton in two out of three seasons, recorded three wins to Hamilton's two, and outqualified Hamilton 39–29,{/* cite [138] */} while Hamilton scored 20 podiums to Russell's 14{/* cite [139] */} and beat Russell on total points (697–695) after overtaking him on the final lap of his {wikiLink("final race with Mercedes", "https://en.wikipedia.org/wiki/2024_Abu_Dhabi_Grand_Prix")}.{/* cite [140] */}
+      After the 2024 season ended, Russell said that he "learned so much from [] Lewis as a driver and a person,"{/* cite [140] */} and wrote on his personal website that Hamilton "is not only the greatest driver of all time," but also "the type of person that every racing driver should aspire to be."{/* cite [141] */}
+    </p>
 
-      <p>
-        Ahead of the 2024 season, Norris signed a new multi-year contract with {wikiLink("McLaren", "https://en.wikipedia.org/wiki/McLaren")}.
-        He finished sixth at the first race, the {wikiLink("Bahrain Grand Prix", "https://en.wikipedia.org/wiki/2024_Bahrain_Grand_Prix")} and took his first podium of the season at the {wikiLink("Australian Grand Prix", "https://en.wikipedia.org/wiki/2024_Australian_Grand_Prix")}, starting and finishing third. He took the season's first sprint pole at the {wikiLink("Chinese Grand Prix", "https://en.wikipedia.org/wiki/2024_Chinese_Grand_Prix")}, but dropped positions on the opening lap of the sprint and finished sixth. For the main race, he qualified fourth, overtook {wikiLink("Fernando Alonso", "https://en.wikipedia.org/wiki/Fernando_Alonso")} and gained on {wikiLink("Sergio Pérez", "https://en.wikipedia.org/wiki/Sergio_P%C3%A9rez")} in the pits to finish second, his fifteenth Formula One podium.
-      </p>
+    <div className="clear-both"></div>
 
-      <p>
-        At the {wikiLink("Miami Grand Prix", "https://en.wikipedia.org/wiki/2024_Miami_Grand_Prix")}, he retired from the sprint after a first-corner collision with Alonso. He qualified fifth for the main race and led the race after the drivers ahead had made pit stops. A subsequent safety car allowed Norris to pit and retain his lead, which he held ahead of {wikiLink("Max Verstappen", "https://en.wikipedia.org/wiki/Max_Verstappen")} at the restart to claim his maiden Grand Prix victory after 110 races and his 16th podium finish.
-      </p>
+    <section id="season-2022-2023" className="space-y-4 scroll-mt-24"></section>
+    {/* 2022–2023: Maiden win and pole position */}
+    <h4 className="text-lg font-semibold text-red-400 mb-1">
+      2022–2023: Maiden win and pole position
+    </h4>
 
-      <p>
-        After Miami, Norris achieved five podiums before the summer break. He scored podiums at {wikiLink("Imola", "https://en.wikipedia.org/wiki/2024_Emilia_Romagna_Grand_Prix")}, {wikiLink("Canada", "https://en.wikipedia.org/wiki/2024_Canadian_Grand_Prix")}, and {wikiLink("Spain", "https://en.wikipedia.org/wiki/2024_Spanish_Grand_Prix")}, where he took pole position. Norris failed to score a podium at {wikiLink("Monaco", "https://en.wikipedia.org/wiki/2024_Monaco_Grand_Prix")} and in {wikiLink("Austria", "https://en.wikipedia.org/wiki/2024_Austrian_Grand_Prix")}, where he sparred with Verstappen before making race-ending contact with him.
-      </p>
+    <p>
+      2022 and 2023 were difficult years for Mercedes, whose new aerodynamics concept performed very well in simulations but was difficult to drive in real life. The team scored one victory in two years.
+    </p>
 
-      <figure className="float-left mr-4 mb-4 max-w-[250px] border border-gray-700 rounded-lg bg-gray-900 p-2 shadow-lg">
-        <img
-          src="/drivers/norris/celeb1.jpg"
-          alt="Norris racing at Monza during the 2016 Eurocup Formula Renault 2.0 championship"
-          className="w-full h-auto rounded"
-        />
-        <figcaption className="text-sm text-gray-400 text-center">
-         Norris (centre) on the podium after winning the {wikiLink("2024 Dutch Grand Prix", "https://en.wikipedia.org/wiki/2024_Dutch_Grand_Prix")}
-        </figcaption>
-      </figure>
+    <p>
+      Russell and Hamilton spent the first nine races of the 2022 season testing experimental parts for the Mercedes car. Although the drivers swapped testing duties every race, Russell accumulated a 34-point lead over Hamilton after round nine, which team boss Toto Wolff attributed to Hamilton's experiments backfiring.
+    </p>
 
-      <p>
-        Following the summer break, Norris achieved pole position at the {wikiLink("Dutch Grand Prix", "https://en.wikipedia.org/wiki/2024_Dutch_Grand_Prix")}. He reclaimed first place during the race and extended the lead to win McLaren's first at Circuit Zandvoort since 1985. He then took pole position for the {wikiLink("Italian Grand Prix", "https://en.wikipedia.org/wiki/2024_Italian_Grand_Prix")} marking consecutive poles for the first time in his career. He finished third behind teammate {wikiLink("Oscar Piastri", "https://en.wikipedia.org/wiki/Oscar_Piastri")} and {wikiLink("Charles Leclerc", "https://en.wikipedia.org/wiki/Charles_Leclerc")}. 
-      </p>
+    <p>
+      After round nine, Russell and Hamilton finished out the season essentially level on points, with Russell scoring one more point than his teammate. Despite the unfortunate season, Russell checked off several career firsts in 2022, including his first podium in a full-length race at Melbourne; his first pole position at Hungary; and his first Grand Prix and sprint race victories at Interlagos.
+    </p>
 
-      <p>
-        Norris took his fifth pole of the season at the {wikiLink("Singapore Grand Prix", "https://en.wikipedia.org/wiki/2024_Singapore_Grand_Prix")} and claimed victory leading every lap. He battled Verstappen at the {wikiLink("United States Grand Prix", "https://en.wikipedia.org/wiki/2024_United_States_Grand_Prix")} but was denied a podium after a penalty. At the {wikiLink("Mexico City Grand Prix", "https://en.wikipedia.org/wiki/2024_Mexico_City_Grand_Prix")}, Norris finished second.
-      </p>
+    <p>
+      He finished fourth in the Drivers' Championship, outscoring teammate Hamilton by 35 points.
+    </p>
 
-      <p>
-        Despite winning the sprint at the {wikiLink("São Paulo Grand Prix", "https://en.wikipedia.org/wiki/2024_S%C3%A3o_Paulo_Grand_Prix")}, Norris finished seventh in the main race after various setbacks. He concluded the season with a victory at the {wikiLink("Abu Dhabi Grand Prix", "https://en.wikipedia.org/wiki/2024_Abu_Dhabi_Grand_Prix")}, securing McLaren's first constructors' title since 1998.
-      </p>
+    <figure className="float-left mr-4 mb-4 max-w-[250px] border border-gray-700 rounded-lg bg-gray-900 p-2 shadow-lg">
+      <img
+        src="/drivers/russell/car6.jpg"
+        alt="Russell at the 2023 Austrian Grand Prix"
+        className="w-full h-auto rounded"
+      />
+      <figcaption className="text-sm text-gray-400 text-center">
+        Russell at the {wikiLink("2023 Austrian Grand Prix", "https://en.wikipedia.org/wiki/2023_Austrian_Grand_Prix")}
+      </figcaption>
+    </figure>
 
-      <div className="clear-both"></div>
+    <p>
+      2023 was another difficult year for Mercedes and for Russell in particular. After some promising performances at the start of the season — leading the {wikiLink("Australian Grand Prix", "https://en.wikipedia.org/wiki/2023_Australian_Grand_Prix")} until an untimely red flag and scoring a podium at {wikiLink("Barcelona", "https://en.wikipedia.org/wiki/2023_Spanish_Grand_Prix")} — Russell's results declined in the second half of the season for a variety of reasons.
+    </p>
 
-      <section id="season-2025" className="space-y-4 scroll-mt-24"></section>
-      {/* 2025 Season - Title Challenge */}
-      <h4 className="text-lg font-semibold text-red-400 mb-1">2025 Season: Title Challenge</h4>
+    <p>
+      These included a record seven pit stops in one race at {wikiLink("Zandvoort", "https://en.wikipedia.org/wiki/2023_Dutch_Grand_Prix")}, an accidental last-lap crash at {wikiLink("Singapore", "https://en.wikipedia.org/wiki/2023_Singapore_Grand_Prix")}, an over-aggressive strategy call at {wikiLink("Suzuka", "https://en.wikipedia.org/wiki/2023_Japanese_Grand_Prix")}, and {wikiLink("Hamilton", "https://en.wikipedia.org/wiki/Lewis_Hamilton")} colliding into him after a front-row start at {wikiLink("Lusail", "https://en.wikipedia.org/wiki/2023_Qatar_Grand_Prix")}.
+    </p>
 
-      <figure className="float-left mr-4 mb-4 max-w-[250px] border border-gray-700 rounded-lg bg-gray-900 p-2 shadow-lg">
-        <img
-          src="/drivers/norris/car11.jpg"
-          alt="Norris racing at Monza during the 2016 Eurocup Formula Renault 2.0 championship"
-          className="w-full h-auto rounded"
-        />
-        <figcaption className="text-sm text-gray-400 text-center">
-         Norris (pictured at the {wikiLink("2025 Japanese Grand Prix", "https://en.wikipedia.org/wiki/2025_Japanese_Grand_Prix")}) and McLaren entered {wikiLink("2025", "https://en.wikipedia.org/wiki/2025_Formula_One_World_Championship")} as title favourites.
-        </figcaption>
-      </figure>
+    <p>
+      Russell salvaged a measure of pride with a third-place finish at the {wikiLink("2023 Abu Dhabi Grand Prix", "https://en.wikipedia.org/wiki/2023_Abu_Dhabi_Grand_Prix")}, which clinched second place in the Constructors' Championship for Mercedes.
+    </p>
 
-      <p>
-        {wikiLink("McLaren", "https://en.wikipedia.org/wiki/McLaren")} entered the{" "}
-        {wikiLink("2025 Formula One World Championship", "https://en.wikipedia.org/wiki/2025_Formula_One_World_Championship")} as title favourites, with Norris stating he had learned 
-        "a lot of lessons" in his bid to become World Drivers' Champion. He took pole for the season-opening{" "}
-        {wikiLink("Australian Grand Prix", "https://en.wikipedia.org/wiki/2025_Australian_Grand_Prix")}, defending the lead from teammate{" "}
-        {wikiLink("Oscar Piastri", "https://en.wikipedia.org/wiki/Oscar_Piastri")} and{" "}
-        {wikiLink("Max Verstappen", "https://en.wikipedia.org/wiki/Max_Verstappen")} in wet conditions to claim victory and the championship lead.
-      </p>
+    <p>
+      He finished eighth in the Drivers' Championship, the lowest for a Mercedes driver since {wikiLink("2012", "https://en.wikipedia.org/wiki/2012_Formula_One_World_Championship")}, and 59 points behind {wikiLink("Hamilton", "https://en.wikipedia.org/wiki/Lewis_Hamilton")}. After the Abu Dhabi race, Russell commented that he had "let the side down a couple of times this year", but that it meant "a huge amount" to help the team finish second.
+    </p>
 
-      <p>
-        After finishing eighth in the{" "}
-        {wikiLink("Chinese Grand Prix", "https://en.wikipedia.org/wiki/2025_Chinese_Grand_Prix")} sprint, he claimed second in the main race behind Piastri. In{" "}
-        {wikiLink("Japan", "https://en.wikipedia.org/wiki/2025_Japanese_Grand_Prix")}, he finished second to Verstappen, who reduced his championship lead to a single point. 
-        Norris increased his championship lead to three points over Piastri with his third-placed finish at the{" "}
-        {wikiLink("Bahrain Grand Prix", "https://en.wikipedia.org/wiki/2025_Bahrain_Grand_Prix")}, after qualifying sixth and receiving a penalty for a start infringement.
-      </p>
+    <p>
+      Although he called his own season "a complete disaster", Mercedes extended his contract until the end of {wikiLink("2025", "https://en.wikipedia.org/wiki/2025_Formula_One_World_Championship")}.
+    </p>
 
-      <div className="clear-both"></div>
+    <div className="clear-both"></div>
+
+    {/* 2024 */}
+    <section id="season-2024" className="space-y-4 scroll-mt-24"></section>
+    <h4 className="text-lg font-semibold text-red-400 mb-1">
+      2024
+    </h4>
+
+    <figure className="float-left mr-4 mb-4 max-w-[250px] border border-gray-700 rounded-lg bg-gray-900 p-2 shadow-lg">
+      <img
+        src="/drivers/russell/car7.jpg"
+        alt="Russell at the 2024 Austrian Grand Prix where he took his second career win"
+        className="w-full h-auto rounded"
+      />
+      <figcaption className="text-sm text-gray-400 text-center">
+        Russell at the {wikiLink("2024 Austrian Grand Prix", "https://en.wikipedia.org/wiki/2024_Austrian_Grand_Prix")}, where he took his second career win.
+      </figcaption>
+    </figure>
+
+    <p>For the {wikiLink("2024 season", "https://en.wikipedia.org/wiki/2024_Formula_One_World_Championship")}, Mercedes fundamentally changed its design concept. The new {wikiLink("Mercedes W15", "https://en.wikipedia.org/wiki/Mercedes_W15")} was fast but inconsistent, hard on tyres, and difficult to set up properly. Although the team was not competitive until midseason, Russell commented that the staff was "making progress" behind the scenes. At round three, the {wikiLink("Australian Grand Prix", "https://en.wikipedia.org/wiki/2024_Australian_Grand_Prix")}, Russell crashed heavily while trying to overtake {wikiLink("Fernando Alonso", "https://en.wikipedia.org/wiki/Fernando_Alonso")} for sixth place on the penultimate lap. The accident left him immobile and defenceless behind a 250 km/h blind turn for ten seconds before the race director deployed the virtual safety car. However, he emerged unscathed and met with Alonso to smooth things over. Following the race, he called for automated safety cars to prevent similar incidents.</p>
+
+    <p>
+    At midseason, Mercedes scored podium finishes in six consecutive races. Russell reeled off some of his best results in years, including a pole and podium in {wikiLink("Montreal", "https://en.wikipedia.org/wiki/2024_Canadian_Grand_Prix")}, his second career race victory at {wikiLink("Spielberg", "https://en.wikipedia.org/wiki/2024_Austrian_Grand_Prix")} (albeit after the first two drivers collided in front of him), a pole at {wikiLink("Silverstone", "https://en.wikipedia.org/wiki/2024_British_Grand_Prix")} followed by a mechanical retirement, and the first Formula One race win lost to a post-race disqualification since 1994 at {wikiLink("Spa", "https://en.wikipedia.org/wiki/2024_Belgian_Grand_Prix")}, for which the team took responsibility. However, the media opined that he could have won the Canadian Grand Prix.
+    </p>
+
+    <p>
+    The team's form became more inconsistent as the year went on, but Russell challenged for wins at several races. At the {wikiLink("São Paulo Grand Prix", "https://en.wikipedia.org/wiki/2024_São_Paulo_Grand_Prix")}, Russell was leading the race until Mercedes ordered him to pit for new tyres right before a red flag gave his competitors a free tyre change. Russell dominated the {wikiLink("Las Vegas Grand Prix", "https://en.wikipedia.org/wiki/2024_Las_Vegas_Grand_Prix")}, qualifying on pole and leading 49 of 50 laps to take his third career victory. Russell again qualified on pole in {wikiLink("Qatar", "https://en.wikipedia.org/wiki/2024_Qatar_Grand_Prix")} after {wikiLink("Max Verstappen", "https://en.wikipedia.org/wiki/Max_Verstappen")} was handed a grid penalty for driving unnecessarily slowly ahead of Russell, who was on an out-lap. Verstappen condemned Russell's appeals to the stewards for his penalty, stating he "lost all respect" for him and warned Russell that he would overtake him at any cost. Verstappen overtook him into turn one, with Russell finishing fourth after two safety car periods.
+    </p>
+
+    <p>
+    Russell finished sixth in the Drivers' Championship, 22 points ahead of Hamilton.
+    </p>
+
+    <div className="clear-both"></div>
+
+    {/* 2025 */}
+    <section id="season-2025" className="space-y-4 scroll-mt-24"></section>
+
+    <h4 className="text-lg font-semibold text-red-400 mb-1">
+      2025
+    </h4>
+
+    <figure className="float-right ml-4 mb-4 max-w-[250px] border border-gray-700 rounded-lg bg-gray-900 p-2 shadow-lg">
+      <img
+        src="/drivers/russell/car8.jpg"
+        alt="Russell driving the Mercedes W16 at the 2025 Japanese Grand Prix"
+        className="w-full h-auto rounded"
+      />
+      <figcaption className="text-sm text-gray-400 text-center">
+        Russell (pictured at the {wikiLink("Japanese Grand Prix", "https://en.wikipedia.org/wiki/2025_Japanese_Grand_Prix")}) is partnered by rookie {wikiLink("Andrea Kimi Antonelli", "https://en.wikipedia.org/wiki/Andrea_Kimi_Antonelli")} in {wikiLink("2025", "https://en.wikipedia.org/wiki/2025_Formula_One_World_Championship")}.
+      </figcaption>
+    </figure>
+
+    <p>
+      In {wikiLink("2025", "https://en.wikipedia.org/wiki/2025_Formula_One_World_Championship")}, following Hamilton's departure for Ferrari, Mercedes partnered Russell with {wikiLink("Junior Team", "https://en.wikipedia.org/wiki/Mercedes_Junior_Team")} member {wikiLink("Andrea Kimi Antonelli", "https://en.wikipedia.org/wiki/Andrea_Kimi_Antonelli")}. Russell's contract expires at the end of the season, although team principal Toto Wolff suggested that there are “options” to extend the contract to an unspecified date.
+    </p>
+
+    <p>
+      Going into 2025, defending constructors' champion {wikiLink("McLaren", "https://en.wikipedia.org/wiki/McLaren")} were heavily favoured to defend their title, and McLaren's {wikiLink("Lando Norris", "https://en.wikipedia.org/wiki/Lando_Norris")} and {wikiLink("Oscar Piastri", "https://en.wikipedia.org/wiki/Oscar_Piastri")} were also favoured to win the drivers' title. Russell opined that the {wikiLink("McLaren MCL39", "https://en.wikipedia.org/wiki/McLaren_MCL39")} was fast enough to win every race in 2025, although McLaren dismissed his claim as hyperbolic.
+    </p>
+
+    <p>
+      Russell started 2025 with three podiums in four races at {wikiLink("Albert Park", "https://en.wikipedia.org/wiki/2025_Australian_Grand_Prix")}, {wikiLink("Shanghai", "https://en.wikipedia.org/wiki/2025_Chinese_Grand_Prix")}, and {wikiLink("Sakhir", "https://en.wikipedia.org/wiki/2025_Bahrain_Grand_Prix")}, although in each case, he spent most of the race trailing one or both of the dominant McLarens. In Australia, he raced conservatively in intermittently rainy conditions and inherited third place when Piastri went off track. At Shanghai, Russell qualified second for the feature race, splitting the two McLarens; however, good teamwork from the McLarens allowed Norris to pass him at turn one, and Russell finished third despite a late charge when Norris' brakes failed. Russell also finished fourth in the Chinese sprint race after multiple battles with {wikiLink("Charles Leclerc", "https://en.wikipedia.org/wiki/Charles_Leclerc")}, who finished fifth.
+    </p>
+
+    <p>
+      After an uneventful fifth-place finish at {wikiLink("Suzuka", "https://en.wikipedia.org/wiki/2025_Japanese_Grand_Prix")} with almost no overtaking within the top ten, Russell bounced back in Bahrain. He fended off Norris in the closing laps to finish second, overcoming a one-place grid penalty and faulty brakes and electronics, and received widespread praise from the racing press for his adaptive performance. Even so, race winner Piastri beat him by fifteen seconds.
+    </p>
+
+    <div className="clear-both"></div>
   </>
   );
   
