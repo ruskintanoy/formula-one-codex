@@ -14,170 +14,197 @@ const juniorCareer = (
     {/* Karting */}
     <section id="karting" className="space-y-4 scroll-mt-24"></section>
     <h3 className="text-2xl font-bold text-red-600 mb-2">Karting</h3>
+
+    <div className="clear-both"></div>
+
+    {/* 2005–2009: Dominance in national championships */}
+    <h4 className="text-lg font-semibold text-red-400 mb-1">2005–2009: Dominance in national championships</h4>
+
     <p>
-      Piastri started racing remote-controlled cars at a national level before beginning his karting career in 2011. Having gone professional and competed in various Australian races and championships in 2014, Piastri began competing in European and other CIK-FIA sanctioned karting championships with Ricky Flynn Motorsport the following year. He moved to the United Kingdom to further his racing career in 2016, finishing sixth in the 2016 World Championship in {wikiLink("Bahrain", "https://en.wikipedia.org/wiki/Bahrain_International_Circuit")}.
+      Verstappen started racing in karts at the age of four and competing in championships at the age of seven.
+      In 2005, he competed in the Mini Junior championship of his home province of Limburg, Belgium and won the VAS Championship in the same category.
+      In 2006, he repeated his success.
+    </p>
+
+    <p>
+      In 2007, Verstappen graduated to the{" "}
+      {wikiLink("Rotax Max", "https://en.wikipedia.org/wiki/Rotax_Max")} Mini Max class and won the Rotax Max Challenge Belgium and the Dutch Championship in that category.
+    </p>
+
+    <p>
+      In 2008, racing in a{" "}
+      {wikiLink("CRG", "https://en.wikipedia.org/wiki/CRG_(kart_manufacturer)")} kart entered by his father, Verstappen won the Belgian Cadet Championship, as well as the Rotax Max Challenge Belgium and Benelux Karting Series in Mini Max class.
+    </p>
+
+    <p>
+      In 2009, Verstappen joined Pex Racing, a CRG customer team. That year, he defended his titles in the Mini Max championships and won the Belgian KF5 Championship.
     </p>
 
     <div className="clear-both"></div>
 
-    {/* Formula 4 */}
-    <section id="formula4" className="space-y-4 scroll-mt-24"></section>
-    <h3 className="text-2xl font-bold text-red-600 mt-6 mb-2">Formula 4</h3>
+    {/* 2010–2012: Entering the international karting scene */}
+    <h4 className="text-lg font-semibold text-red-400 mb-1">2010–2012: Entering the international karting scene</h4>
+
+    <p>
+      Verstappen was signed by <strong>CRG</strong> to race in their factory team and stepped up to international karting in 2010. 
+      At the{" "}
+      {wikiLink("KF3 World Cup", "https://en.wikipedia.org/wiki/FIA_Karting_World_Championship")}, 
+      Verstappen finished second to the more experienced{" "}
+      {wikiLink("Alexander Albon", "https://en.wikipedia.org/wiki/Alexander_Albon")} 
+      (who would eventually become his Formula One teammate at Red Bull Racing), 
+      but beat him at the{" "} {wikiLink("WSK Euro Series", "https://en.wikipedia.org/wiki/2010_WSK_Euro_Series")} and also won the WSK World Series, beating{" "}
+      {wikiLink("Robert Vișoiu", "https://en.wikipedia.org/wiki/Robert_Vi%C8%99oiu")}.
+    </p>
+
+    <p>
+      He finished fifth in the{" "}
+      {wikiLink("CIK-FIA European Championship", "https://en.wikipedia.org/wiki/CIK-FIA_Karting_European_Championship")} and won the WSK Nations Cup, as well as the final of the Bridgestone Cup where, during a 28-lap race in the rain, 
+      he beat{" "}
+      {wikiLink("Dennis Olsen", "https://en.wikipedia.org/wiki/Dennis_Olsen_(racing_driver)")} by over 11 seconds.
+    </p>
+
+    <p>
+      In 2011, Verstappen won the{" "}
+      {wikiLink("WSK Euro Series", "https://en.wikipedia.org/wiki/2011_WSK_Euro_Series")} 
+      ahead of{" "}
+      {wikiLink("Esteban Ocon", "https://en.wikipedia.org/wiki/Esteban_Ocon")} 
+      in a Parilla-powered CRG kart. However, it was not a successful year for him, 
+      as he finished 14th in the{" "}
+      {wikiLink("CIK-FIA European Championship", "https://en.wikipedia.org/wiki/CIK-FIA_Karting_European_Championship")} and got taken out in the{" "}
+      {wikiLink("FIA Karting World Cup", "https://en.wikipedia.org/wiki/FIA_Karting_World_Championship")} by{" "}
+      {wikiLink("Charles Leclerc", "https://en.wikipedia.org/wiki/Charles_Leclerc")}.
+    </p>
+
+    <p>
+      In the following year, Verstappen joined the Intrepid Driver Program to race in the{" "}
+      {wikiLink("KF2", "https://en.wikipedia.org/wiki/KF2")} and{" "}
+      {wikiLink("KZ2", "https://en.wikipedia.org/wiki/KZ2")} classes. He won the{" "}
+      {wikiLink("WSK Master Series", "https://en.wikipedia.org/wiki/WSK_Super_Master_Series")} in the KF2 class, beating the CRG driver Felice Tiene.
+    </p>
+
+    <p>
+      Verstappen won the South Garda Winter Cup in the KF2 class, beating{" "}
+      {wikiLink("Dennis Olsen", "https://en.wikipedia.org/wiki/Dennis_Olsen_(racing_driver)")} and{" "}
+      {wikiLink("Antonio Fuoco", "https://en.wikipedia.org/wiki/Antonio_Fuoco")}. He finished sixth in the{" "}
+      {wikiLink("WSK Euro Series", "https://en.wikipedia.org/wiki/WSK_Euro_Series")}. He was the youngest driver taking part in the World Championship in{" "}
+      {wikiLink("KF1", "https://en.wikipedia.org/wiki/KF1")} class and finished eighth.
+    </p>
+
+    <p>
+      In July 2012, it was announced that Verstappen would leave Intrepid. After a short stint with CRG-built{" "}
+      {wikiLink("Zanardi", "https://en.wikipedia.org/wiki/Alex_Zanardi")} karts, Verstappen returned to the factory CRG team. He finished second at the World Cup in the KF2 class and competed at the SKUSA SuperNationals in the KZ2 class in a CRG, finishing 21st.
+    </p>
+
+    <div className="clear-both"></div>
+
+    {/* Record-breaking Season */}
+    <section id="record-breaking-season" className="space-y-4 scroll-mt-24"></section>
+    <h4 className="text-lg font-semibold text-red-400 mb-1">2013: Record-breaking season</h4>
 
     <figure className="float-left mr-4 mb-4 max-w-[250px] border border-gray-700 rounded-lg bg-gray-900 p-2 shadow-lg">
-        <img
-          src="/drivers/piastri/car1.JPG"
-          alt="Norris racing for Mücke Motorsport in Formula 4 in 2015"
-          className="w-full h-auto rounded"
-        />
-        <figcaption className="text-sm text-gray-400 text-center">
-         Piastri racing in {wikiLink("British F4", "https://en.wikipedia.org/wiki/F4_British_Championship")} in 2017
-        </figcaption>
-      </figure>
+      <img
+        src="/drivers/max_verstappen/car1.jpg"
+        alt="Verstappen at the KF World Championship in 2013"
+        className="w-full h-auto rounded"
+      />
+      <figcaption className="text-sm text-gray-400 text-center">
+        Verstappen (left) completed a record-breaking karting season in 2013 with {wikiLink("CRG", "https://en.wikipedia.org/wiki/CRG_(kart_manufacturer)")}, 
+        pictured at the {wikiLink("KF World Championship", "https://en.wikipedia.org/wiki/Karting_World_Championship#FIA_Karting_World_champions_(direct_drive_&_primary_category)")}
+      </figcaption>
+    </figure>
 
     <p>
-      In early 2016, Piastri landed his first major sponsorship, HP Tuners (founded and owned by his father), which helped fund his racing career. Later in 2016, Piastri made his single-seater debut in selected rounds of the {wikiLink("Formula 4 UAE Championship", "https://en.wikipedia.org/wiki/2016-17_Formula_4_UAE_Championship")} with Dragon F4, claiming two podiums to take sixth in the championship.
+      In 2013, Verstappen completed a record-breaking season in karting, having progressed to the senior{" "}
+      {wikiLink("KF", "https://en.wikipedia.org/wiki/KF2")} and{" "}
+      {wikiLink("KZ", "https://en.wikipedia.org/wiki/KZ_(karting)")} categories. Aged 15, he won three{" "}
+      {wikiLink("CIK-FIA", "https://en.wikipedia.org/wiki/CIK-FIA")} championships in a single season: two{" "}
+      {wikiLink("European Championships", "https://en.wikipedia.org/wiki/Karting_European_Championship")} and a{" "}
+      {wikiLink("World Championship", "https://en.wikipedia.org/wiki/Karting_World_Championship")}; an unprecedented feat in the history of the discipline. He became the first driver since his father{" "}
+      {wikiLink("Jos Verstappen", "https://en.wikipedia.org/wiki/Jos_Verstappen")} to win two European Championships in the same season, and the first to do so in both{" "}
+      {wikiLink("direct-drive", "https://en.wikipedia.org/wiki/Direct-drive")} and{" "}
+      {wikiLink("gearbox", "https://en.wikipedia.org/wiki/Gearbox")} classes. By winning the{" "}
+      {wikiLink("2013 KZ World Championship", "https://en.wikipedia.org/wiki/Karting_World_Championship#125_Gearbox_FIA_Karting_world_champions_and_World_Cup_winners")} at{" "}
+      {wikiLink("Varennes-sur-Allier", "https://en.wikipedia.org/wiki/Varennes-sur-Allier")}, beating{" "}
+      {wikiLink("Charles Leclerc", "https://en.wikipedia.org/wiki/Charles_Leclerc")} to the title, Verstappen became the youngest-ever driver to win the gearbox World Championship.
     </p>
-    <p>
-      In September 2022, {wikiLink("Red Bull Racing", "https://en.wikipedia.org/wiki/Red_Bull_Racing")} principal {wikiLink("Christian Horner", "https://en.wikipedia.org/wiki/Christian_Horner")} revealed that he missed a chance to sign Piastri to their {wikiLink("Red Bull Junior Team", "https://en.wikipedia.org/wiki/Red_Bull_Junior_Team")} during his Formula 4 years. In 2017, Piastri was named as part of the {wikiLink("TRS Arden Junior Racing Team", "https://en.wikipedia.org/wiki/Arden_International")}'s line-up for the {wikiLink("British F4 championship", "https://en.wikipedia.org/wiki/2017_F4_British_Championship")}. There he claimed six wins and six pole positions to finish as runner-up to {wikiLink("Jamie Caroline", "https://en.wikipedia.org/wiki/Jamie_Caroline")}.
-    </p>
 
-    <div className="clear-both"></div>
-
-    {/* Formula Renault Eurocup */}
-    <section id="formula-renault-eurocup" className="space-y-4 scroll-mt-24"></section>
-    <h3 className="text-2xl font-bold text-red-600 mt-6 mb-2">Formula Renault Eurocup</h3>
-
-    <figure className="float-left mr-4 mb-4 max-w-[250px] border border-gray-700 rounded-lg bg-gray-900 p-2 shadow-lg">
-        <img
-          src="/drivers/piastri/car2.JPG"
-          alt="Norris racing for Mücke Motorsport in Formula 4 in 2015"
-          className="w-full h-auto rounded"
-        />
-        <figcaption className="text-sm text-gray-400 text-center">
-         Piastri racing at Monza in the {wikiLink("2018 Formula Renault Eurocup Championship", "https://en.wikipedia.org/wiki/2018_Formula_Renault_Eurocup")}
-        </figcaption>
-      </figure>
-      
     <p>
-      In 2018, Piastri made his debut in the {wikiLink("Formula Renault Eurocup", "https://en.wikipedia.org/wiki/2018_Formula_Renault_Eurocup")}, reuniting with Arden. Claiming three podiums, with a highest placed finish of second at the second race at {wikiLink("Hockenheim", "https://en.wikipedia.org/wiki/Hockenheimring")}, he finished the season ninth in the championship.
-    </p>
-    <p>
-      In December 2018, it was announced Piastri would switch to reigning team champions {wikiLink("R-ace GP", "https://en.wikipedia.org/wiki/R-ace_GP")} for the {wikiLink("2019 championship", "https://en.wikipedia.org/wiki/2019_Formula_Renault_Eurocup")}. He claimed his first victory in the series at Silverstone and repeated with a second win at the same venue a day later. He became the first driver to win three races in 2019 after taking victory at {wikiLink("Spa-Francorchamps", "https://en.wikipedia.org/wiki/Circuit_de_Spa-Francorchamps")} in July, and became the champion after taking a win and fourth place at the final round at Yas Marina.
+      Further adding to his accolades in 2013, Verstappen also finished third at the{" "}
+      {wikiLink("KF World Championship", "https://en.wikipedia.org/wiki/Karting_World_Championship#FIA_Karting_World_champions_(direct_drive_&_primary_category)")} after being disqualified for a move on{" "}
+      {wikiLink("Nicklas Nielsen", "https://en.wikipedia.org/wiki/Nicklas_Nielsen")} in the final race, having won the opening round and pre-final. This was the only championship he failed to win in 2013 whilst completing all rounds. Verstappen won the South Garda Winter Cup in{" "}
+      {wikiLink("KF2", "https://en.wikipedia.org/wiki/KF2")}, as well as the{" "}
+      {wikiLink("WSK Euro Series", "https://en.wikipedia.org/wiki/WSK_Euro_Series")} and the{" "}
+      {wikiLink("WSK Super Master Series", "https://en.wikipedia.org/wiki/WSK_Super_Master_Series")} in{" "}
+      {wikiLink("KZ1", "https://en.wikipedia.org/wiki/KZ1_(karting)")} and{" "}
+      {wikiLink("KZ2", "https://en.wikipedia.org/wiki/KZ2")}, respectively.
     </p>
 
     <div className="clear-both"></div>
 
-    {/* FIA Formula 3 Championship */}
-    <section id="fia-f3" className="space-y-4 scroll-mt-24"></section>
-    <h3 className="text-2xl font-bold text-red-600 mt-6 mb-2">
-      FIA Formula 3 Championship
-    </h3>
+    {/* Lower Formulae */}
+    <section id="lower-formulae" className="space-y-4 scroll-mt-24"></section>
+    <h3 className="text-2xl font-bold text-red-600 mt-6 mb-2">Lower Formulae</h3>
+
+    <figure className="float-right ml-4 mb-4 max-w-[250px] border border-gray-700 rounded-lg bg-gray-900 p-2 shadow-lg">
+      <img
+        src="/drivers/max_verstappen/car2.jpg"
+        alt="Verstappen competed in the FIA Formula 3 European Championship in 2014, after joining the Red Bull Junior Team."
+        className="w-full h-auto rounded"
+      />
+      <figcaption className="text-sm text-gray-400 text-center">
+        Verstappen competed in the {wikiLink("FIA Formula 3 European Championship", "https://en.wikipedia.org/wiki/FIA_Formula_3_European_Championship")} in {wikiLink("2014", "https://en.wikipedia.org/wiki/2014_FIA_Formula_3_European_Championship")}, after joining 
+        the {wikiLink("Red Bull Junior Team", "https://en.wikipedia.org/wiki/Red_Bull_Junior_Team")}
+      </figcaption>
+    </figure>
 
     <p>
-      In December 2018, Piastri took part in the {wikiLink("GP3 Series", "https://en.wikipedia.org/wiki/GP3_Series")} post-season test at {wikiLink("Yas Marina", "https://en.wikipedia.org/wiki/Yas_Marina_Circuit")} with {wikiLink("Trident", "https://en.wikipedia.org/wiki/Trident_Racing")}.
+      Verstappen's first experience in a racing car was at the{" "}
+      {wikiLink("Pembrey Circuit", "https://en.wikipedia.org/wiki/Pembrey_Circuit")} on 11 October 2013. He drove 160 laps in a{" "}
+      {wikiLink("Barazi-Epsilon", "https://en.wikipedia.org/wiki/Barazi-Epsilon")} FR2.0–10{" "}
+      {wikiLink("Formula Renault", "https://en.wikipedia.org/wiki/Formula_Renault")} car. The car was provided by Dutch team{" "}
+      {wikiLink("MP Motorsport", "https://en.wikipedia.org/wiki/MP_Motorsport")}.
     </p>
 
     <p>
-      In October 2019, Piastri joined the post-season test with reigning {wikiLink("FIA Formula 3", "https://en.wikipedia.org/wiki/FIA_Formula_3_Championship")} team champions {wikiLink("Prema Racing", "https://en.wikipedia.org/wiki/Prema_Powerteam")}. In January 2020, the Italian outfit signed Piastri to contest the upcoming season, alongside {wikiLink("Logan Sargeant", "https://en.wikipedia.org/wiki/Logan_Sargeant")} and 2019 {wikiLink("Formula Regional European champion", "https://en.wikipedia.org/wiki/2019_Formula_Regional_European_Championship")} {wikiLink("Frederik Vesti", "https://en.wikipedia.org/wiki/Frederik_Vesti")}.
+      He tested for several Formula Renault 2.0 teams in 2013. In December 2013, Verstappen tested a{" "}
+      {wikiLink("Dallara", "https://en.wikipedia.org/wiki/Dallara")} F311{" "}
+      {wikiLink("Formula 3", "https://en.wikipedia.org/wiki/Formula_Three")} car run by{" "}
+      {wikiLink("Motopark Academy", "https://en.wikipedia.org/wiki/Motopark_Academy")}. An additional Formula Renault test followed in December at{" "}
+      {wikiLink("Circuito de Jerez", "https://en.wikipedia.org/wiki/Circuito_de_Jerez")}. Driving for{" "}
+      {wikiLink("Josef Kaufmann Racing", "https://en.wikipedia.org/wiki/Josef_Kaufmann_Racing")}, Verstappen went faster than Formula Renault regulars like{" "}
+      {wikiLink("Steijn Schothorst", "https://en.wikipedia.org/wiki/Steijn_Schothorst")} and{" "}
+      {wikiLink("Matt Parry", "https://en.wikipedia.org/wiki/Matt_Parry")}.
     </p>
 
     <p>
-      Piastri started third on the grid for his debut race at the {wikiLink("Red Bull Ring", "https://en.wikipedia.org/wiki/Red_Bull_Ring")}. He collided with pole-sitter {wikiLink("Sebastián Fernández", "https://en.wikipedia.org/wiki/Sebasti%C3%A1n_Fern%C3%A1ndez_(racing_driver)")} at the first corner but avoided damage and went on to take victory.
-    </p>
-
-    <figure className="float-right mr-4 mb-4 max-w-[250px] border border-gray-700 rounded-lg bg-gray-900 p-2 shadow-lg">
-        <img
-          src="/drivers/piastri/car3.JPG"
-          alt="Norris racing for Mücke Motorsport in Formula 4 in 2015"
-          className="w-full h-auto rounded"
-        />
-        <figcaption className="text-sm text-gray-400 text-center">
-         Piastri after his win at {wikiLink("Spa-Francorchamps", "https://en.wikipedia.org/wiki/Circuit_de_Spa-Francorchamps")}, {wikiLink("2019 Formula Renault Eurocup", "https://en.wikipedia.org/wiki/2019_Formula_Renault_Eurocup")}
-        </figcaption>
-      </figure>
-
-    <p>
-      He took three consecutive second-place finishes at both {wikiLink("Hungaroring", "https://en.wikipedia.org/wiki/Hungaroring")} races and the first Silverstone feature race, before his first retirement of the season came at the following Silverstone sprint race due to a stuck-open DRS. 
-    </p>
-
-    <p>
-      Teammate Sargeant took the lead of the championship at the second Silverstone feature race after Piastri struggled with reliability issues in qualifying. Piastri started fifth for the sprint race in {wikiLink("Barcelona", "https://en.wikipedia.org/wiki/Circuit_de_Barcelona-Catalunya")}, overtook multiple cars and held his position to take his second victory.
-    </p>
-
-    <p>
-      At {wikiLink("Spa-Francorchamps", "https://en.wikipedia.org/wiki/Circuit_de_Spa-Francorchamps")}, Piastri reclaimed the championship lead but was penalised in the sprint race, which Sargeant won.
-    </p>
-
-    <p>
-      At {wikiLink("Monza", "https://en.wikipedia.org/wiki/Autodromo_Nazionale_di_Monza")}, Piastri was penalised in qualifying for impeding {wikiLink("Jake Hughes", "https://en.wikipedia.org/wiki/Jake_Hughes")} but recovered to third in the feature race. He retired from the sprint race after being hit by {wikiLink("Clément Novalak", "https://en.wikipedia.org/wiki/Cl%C3%A9ment_Novalak")} and was issued a five-place grid penalty for forcing {wikiLink("David Beckmann", "https://en.wikipedia.org/wiki/David_Beckmann")} off track.
-    </p>
-
-    <p>
-      Piastri lined up 16th on the grid for the final feature race at the {wikiLink("Mugello Circuit", "https://en.wikipedia.org/wiki/Mugello_Circuit")} and failed to score points after finishing 11th. 
-    </p>
-
-    <p>
-      Title rival Sargeant finished sixth, leaving both drivers tied on 160 points going into the final race. Sargeant was eliminated on the first lap. Piastri's only remaining rival, {wikiLink("Théo Pourchaire", "https://en.wikipedia.org/wiki/Th%C3%A9o_Pourchaire")}, was unable to bridge the points gap. Piastri finished seventh to claim the championship title, three points ahead of Pourchaire and four ahead of Sargeant.
+      At the{" "}
+      {wikiLink("Circuit Ricardo Tormo", "https://en.wikipedia.org/wiki/Circuit_Ricardo_Tormo")} near Valencia, Verstappen set a faster lap time than the more experienced{" "}
+      {wikiLink("Eddie Cheever III", "https://en.wikipedia.org/wiki/Eddie_Cheever_III")}.
     </p>
 
     <div className="clear-both"></div>
 
-    {/* FIA Formula 2 Championship */}
-    <section id="fia-f2" className="space-y-4 scroll-mt-24"></section>
-
-    <h3 className="text-2xl font-bold text-red-600 mt-6 mb-2">
-      FIA Formula 2 Championship
-    </h3>
+    {/* Florida Winter Series and Formula Three */}
+    <section id="florida-formula3" className="space-y-4 scroll-mt-24"></section>
+    <h3 className="text-2xl font-bold text-red-600 mt-6 mb-2">2014: Florida Winter Series and Formula Three</h3>
 
     <p>
-      In December 2020, Piastri announced that he would continue with {wikiLink("Prema Racing", "https://en.wikipedia.org/wiki/Prema_Racing")} into {wikiLink("Formula 2", "https://en.wikipedia.org/wiki/FIA_Formula_2_Championship")}, replacing the departing {wikiLink("Mick Schumacher", "https://en.wikipedia.org/wiki/Mick_Schumacher")} and partnering {wikiLink("Ferrari Driver Academy", "https://en.wikipedia.org/wiki/Ferrari_Driver_Academy")} member {wikiLink("Robert Shwartzman", "https://en.wikipedia.org/wiki/Robert_Shwartzman")} for the {wikiLink("2021 season", "https://en.wikipedia.org/wiki/2021_Formula_2_Championship")}.
+      On 16 January 2014, it was announced Verstappen would make his racing debut in the non-championship{" "}
+      {wikiLink("Florida Winter Series", "https://en.wikipedia.org/wiki/Florida_Winter_Series")}. On 5 February, at the second race weekend, Verstappen won the race at{" "}
+      {wikiLink("Palm Beach International Raceway", "https://en.wikipedia.org/wiki/Palm_Beach_International_Raceway")} after he started from pole. A few weeks later, Verstappen won his second race of the series at{" "}
+      {wikiLink("Homestead–Miami Speedway", "https://en.wikipedia.org/wiki/Homestead%E2%80%93Miami_Speedway")} after beating{" "}
+      {wikiLink("Nicholas Latifi", "https://en.wikipedia.org/wiki/Nicholas_Latifi")} by 0.004 seconds.
     </p>
 
     <p>
-      Piastri finished fifth in his debut race. In the second race, Piastri started from sixth and made up places before overtaking fellow {wikiLink("Alpine junior", "https://en.wikipedia.org/wiki/Alpine_F1_Team")} {wikiLink("Zhou Guanyu", "https://en.wikipedia.org/wiki/Zhou_Guanyu")} on the final lap to take the lead, claiming his first Formula 2 race win.
+      Following his single-seater debut in the inaugural Florida Winter Series, Verstappen drove in the{" "}
+      {wikiLink("2014 FIA Formula 3 European Championship", "https://en.wikipedia.org/wiki/2014_FIA_Formula_3_European_Championship")} for{" "}
+      {wikiLink("Van Amersfoort Racing", "https://en.wikipedia.org/wiki/Van_Amersfoort_Racing")}. Aged 16, Verstappen achieved 10 victories in total — including a record six consecutive wins at{" "}
+      {wikiLink("Spa-Francorchamps", "https://en.wikipedia.org/wiki/Spa-Francorchamps")} and the{" "}
+      {wikiLink("Norisring", "https://en.wikipedia.org/wiki/Norisring")} — along with eight retirements and one missed start, becoming the youngest race winner and polesitter in{" "}
+      {wikiLink("Formula Three", "https://en.wikipedia.org/wiki/Formula_Three")} history at the{" "}
+      {wikiLink("Hockenheimring", "https://en.wikipedia.org/wiki/Hockenheimring")}; he placed third in the overall standings, with the most wins.
     </p>
-
-    <p>
-      Piastri started the feature race from eighth place but passed multiple cars to take the lead by lap 13 of 32. He was later forced into retirement after making contact with {wikiLink("Dan Ticktum", "https://en.wikipedia.org/wiki/Dan_Ticktum")} and spinning with two laps remaining.
-    </p>
-
-    <p>
-      Piastri took consecutive second-place finishes at the {wikiLink("Monaco round", "https://en.wikipedia.org/wiki/2021_Monte_Carlo_Formula_2_round")} to take second place in the championship standings behind Zhou.
-    </p>
-
-    <p>
-      Piastri retired from the first sprint race in {wikiLink("Baku", "https://en.wikipedia.org/wiki/2021_Baku_Formula_2_round")} after a collision on the first lap, but finished second in the feature race. He claimed pole position at {wikiLink("Silverstone", "https://en.wikipedia.org/wiki/2021_Silverstone_Formula_2_round")}, and took the lead of the championship after finishing sixth in the first sprint race.
-    </p>
-
-    <figure className="float-right mr-4 mb-4 max-w-[250px] border border-gray-700 rounded-lg bg-gray-900 p-2 shadow-lg">
-        <img
-          src="/drivers/piastri/car4.JPG"
-          alt="Norris racing for Mücke Motorsport in Formula 4 in 2015"
-          className="w-full h-auto rounded"
-        />
-        <figcaption className="text-sm text-gray-400 text-center">
-         Piastri driving the {wikiLink("Dallara F2 2018", "https://en.wikipedia.org/wiki/Dallara_F2_2018")} during the {wikiLink("2021 Silverstone Formula 2 round", " 2021 Silverstone Formula 2 round")}
-        </figcaption>
-      </figure>
-
-    <p>
-      At {wikiLink("Monza", "https://en.wikipedia.org/wiki/2021_Monza_Formula_2_round")}, Piastri took his first feature win in the series which included a battle on lap 25 with Zhou, and increased his championship lead with another pole and win at {wikiLink("Sochi", "https://en.wikipedia.org/wiki/2021_Sochi_Formula_2_round")}.
-    </p>
-
-    <p>
-      Piastri became the second driver that season after Juri Vips to win two races on the same weekend, finishing first in Jeddah's second sprint race and being in the lead at the time the feature race was aborted.
-    </p>
-
-    <p>
-      The Australian clinched the title with a podium in race one at {wikiLink("Yas Marina", "https://en.wikipedia.org/wiki/2021_Yas_Island_Formula_2_round")}, thus becoming the third driver to win the championship in their rookie season. He capped off his season with a win in the feature race, his fourth in a row, which meant that Piastri had won six races, more than any other driver that season.
-    </p>
-
-    <p>
-      With his championship, Piastri joined an illustrious company of {wikiLink("Nico Rosberg", "https://en.wikipedia.org/wiki/Nico_Rosberg")}, {wikiLink("Lewis Hamilton", "https://en.wikipedia.org/wiki/Lewis_Hamilton")}, {wikiLink("Nico Hulkenberg", "https://en.wikipedia.org/wiki/Nico_H%C3%BClkenberg")}, {wikiLink("Charles Leclerc", "https://en.wikipedia.org/wiki/Charles_Leclerc")}, and {wikiLink("George Russell", "https://en.wikipedia.org/wiki/George_Russell_(racing_driver)")}, as the only drivers to win the GP2/F2 title in their rookie seasons. He also became just the fifth driver after Hamilton, Hülkenberg, Leclerc and Russell to win the GP3/F3 title, and then the GP2/F2 title the following year, and the first driver in history to win {wikiLink("Formula Renault", "https://en.wikipedia.org/wiki/Formula_Renault")}, {wikiLink("Formula Three", "https://en.wikipedia.org/wiki/Formula_Three")} and {wikiLink("Formula Two", "https://en.wikipedia.org/wiki/Formula_Two")} championships in successive seasons.
-    </p>
-
-    <div className="clear-both"></div>
 
   </>
 );
