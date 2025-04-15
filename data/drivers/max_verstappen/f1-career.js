@@ -37,11 +37,11 @@ const f1Career = (
 
     <div className="clear-both"></div>
 
-    <section id="red-bull-2016" className="space-y-4 scroll-mt-24"></section>
+    <section id="red-bull-2016-present" className="space-y-4 scroll-mt-24"></section>
     {/* Red Bull (2016–present) */}
     <h3 className="text-2xl font-bold text-red-600 mt-6 mb-2">Red Bull (2016–present)</h3>
 
-    <section id="youngest-gp-winner" className="space-y-4 scroll-mt-24"></section>
+    <section id="2016-maiden-win" className="space-y-4 scroll-mt-24"></section>
     {/* 2016: Youngest Grand Prix winner */}
     <h4 className="text-lg font-semibold text-red-400 mb-1">2016: Youngest Grand Prix winner</h4>
 
@@ -74,7 +74,7 @@ const f1Career = (
 
     <div className="clear-both"></div>
 
-    <section id="rise-to-prominence" className="space-y-4 scroll-mt-24"></section>
+    <section id="2017-2018-rise" className="space-y-4 scroll-mt-24"></section>
     {/* 2017–2018: Reliability issues and rise to prominence */}
     <h4 className="text-lg font-semibold text-red-400 mb-1">2017–2018: Reliability issues and rise to prominence</h4>
 
@@ -118,7 +118,7 @@ const f1Career = (
 
     <div className="clear-both"></div>
 
-    <section id="dominance-over-teammates" className="space-y-4 scroll-mt-24"></section>
+    <section id="2019-2020-teammates" className="space-y-4 scroll-mt-24"></section>
     {/* 2019–2020: Dominance over teammates */}
     <h4 className="text-lg font-semibold text-red-400 mb-1">2019–2020: Dominance over teammates</h4>
 
@@ -205,7 +205,7 @@ const f1Career = (
 
     <div className="clear-both"></div>
 
-    <section id="season-2021" className="space-y-4 scroll-mt-24"></section>
+    <section id="2021-title-battle" className="space-y-4 scroll-mt-24"></section>
     {/* 2021: World Champion amid title battle vs. Hamilton */}
     <h4 className="text-lg font-semibold text-red-400 mb-1">2021: World Champion amid title battle vs. Hamilton</h4>
 
@@ -290,7 +290,7 @@ const f1Career = (
 
     <div className="clear-both"></div>
 
-    <section id="season-2022-title" className="space-y-4 scroll-mt-24"></section>
+    <section id="2022-second-title" className="space-y-4 scroll-mt-24"></section>
     {/* 2022: Dominant second title */}
     <h4 className="text-lg font-semibold text-red-400 mb-1">2022: Dominant second title</h4>
 
@@ -327,7 +327,7 @@ const f1Career = (
 
     <div className="clear-both"></div>
 
-    <section id="record-breaking-third-title" className="space-y-4 scroll-mt-24"></section>
+    <section id="2023-third-title" className="space-y-4 scroll-mt-24"></section>
     {/* 2023: Record-breaking third title */}
     <h4 className="text-lg font-semibold text-red-400 mb-1">
       2023: Record-breaking third title
@@ -366,7 +366,7 @@ const f1Career = (
 
     <div className="clear-both"></div>
 
-    <section id="fourth-title-struggles" className="space-y-4 scroll-mt-24"></section>
+    <section id="2024-fourth-title" className="space-y-4 scroll-mt-24"></section>
     {/* 2024: Fourth title amid struggles at Red Bull */}
     <h4 className="text-lg font-semibold text-red-400 mb-1">
       2024: Fourth title amid struggles at Red Bull
@@ -419,7 +419,7 @@ const f1Career = (
       Verstappen was classified fourth in the {wikiLink("2024 São Paulo Grand Prix", "https://en.wikipedia.org/wiki/2024_S%C3%A3o_Paulo_Grand_Prix")} sprint after receiving a {wikiLink("virtual safety car", "https://en.wikipedia.org/wiki/Virtual_safety_car")} infringement penalty and started the race from 17th following an engine penalty, whilst Norris qualified on pole. He gained seven positions on the opening lap, survived worsening conditions on intermediate tyres until the {wikiLink("red flag", "https://en.wikipedia.org/wiki/Racing_flags#Red_flag")}, then overtook {wikiLink("Esteban Ocon", "https://en.wikipedia.org/wiki/Esteban_Ocon")} for the lead. Verstappen set ten of the eleven fastest laps of the race and won by 19 seconds, increasing his championship lead to 62 points. Lauded by drivers and critics, {wikiLink("Giles Richards", "https://en.wikipedia.org/wiki/The_Guardian")} of {wikiLink("The Guardian", "https://en.wikipedia.org/wiki/The_Guardian")} described him as a {wikiLink("regenmeister", "https://en.wikipedia.org/wiki/Regenmeister_(disambiguation)")} ("rain master"). By finishing ahead of Norris at the {wikiLink("2024 Las Vegas Grand Prix", "https://en.wikipedia.org/wiki/2024_Las_Vegas_Grand_Prix")}, Verstappen secured his fourth world title with two races remaining. Winning eight Grands Prix, {wikiLink("Andrew Benson", "https://en.wikipedia.org/wiki/BBC_Sport")} of {wikiLink("BBC Sport", "https://en.wikipedia.org/wiki/BBC_Sport")} called it a "towering achievement from a driver recognised as one of the all-time greats of Formula 1", describing his season as "almost flawless" despite "not having the best car for the majority". Verstappen won the {wikiLink("2024 Qatar Grand Prix", "https://en.wikipedia.org/wiki/2024_Qatar_Grand_Prix")}, leading every lap after having his pole stripped for driving unnecessarily slowly in qualifying, leading to a feud with {wikiLink("George Russell", "https://en.wikipedia.org/wiki/George_Russell_(racing_driver)")}. After the {wikiLink("2024 Abu Dhabi Grand Prix", "https://en.wikipedia.org/wiki/2024_Abu_Dhabi_Grand_Prix")}, Verstappen became the first driver to win a title driving for a third-placed team in the {wikiLink("World Constructors' Championship", "https://en.wikipedia.org/wiki/World_Constructors%27_Championship")} since {wikiLink("Nelson Piquet", "https://en.wikipedia.org/wiki/Nelson_Piquet")} in {wikiLink("1983", "https://en.wikipedia.org/wiki/1983_Formula_One_World_Championship")}.
     </p>
 
-    <section id="season-2025" className="space-y-4 scroll-mt-24">
+    <section id="2025-challenger" className="space-y-4 scroll-mt-24">
     <h4 className="text-lg font-semibold text-red-400 mb-1">2025: Challenger to McLaren</h4>
 
     <figure className="float-left mr-4 mb-4 max-w-[250px] border border-gray-700 rounded-lg bg-gray-900 p-2 shadow-lg">

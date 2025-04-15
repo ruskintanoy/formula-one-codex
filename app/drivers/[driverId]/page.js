@@ -44,7 +44,7 @@ export default async function DriverProfilePage({ params }) {
           </section>
 
           {/* Background */}
-          <section id="background" className="space-y-4">
+          <section id="background" className="space-y-4 scroll-mt-24">
             <h2 className="text-2xl font-bold text-red-600 border-b border-gray-700 pb-2 text-center">
               Background
             </h2>
@@ -52,7 +52,7 @@ export default async function DriverProfilePage({ params }) {
           </section>
 
           {/* Junior Racing Career */}
-          <section id="junior-career" className="space-y-4">
+          <section id="junior-career" className="space-y-4 scroll-mt-24">
             <h2 className="text-2xl font-bold text-red-600 border-b border-gray-700 pb-2 text-center">
               Junior Racing Career
             </h2>
@@ -60,7 +60,7 @@ export default async function DriverProfilePage({ params }) {
           </section>
 
           {/* Formula One Career */}
-          <section id="f1-career" className="space-y-4">
+          <section id="f1-career" className="space-y-4 scroll-mt-24">
             <h2 className="text-2xl font-bold text-red-600 border-b border-gray-700 pb-2 text-center">
               Formula One Career
             </h2>
@@ -71,13 +71,13 @@ export default async function DriverProfilePage({ params }) {
 
 
           {/* Formula One Statistical Overview */}
-          <section id="stats-overview" className="space-y-6">
+          <section id="stats-overview" className="space-y-6 scroll-mt-24">
             <h2 className="text-2xl font-bold text-red-600 border-b border-gray-700 pb-2 text-center">
               Formula One Statistical Overview
             </h2>
 
             {/* Racing Career Summary */}
-            <section id="career-summary" className="space-y-2">
+            <section id="career-summary" className="space-y-2 scroll-mt-24">
               <h3 className="text-xl font-extrabold text-red-500 border-b border-gray-700 pb-1">
                 Racing Career Summary
               </h3>
@@ -88,7 +88,7 @@ export default async function DriverProfilePage({ params }) {
             </section>
 
             {/* Career Statistics */}
-            <section id="career-statistics" className="space-y-2">
+            <section id="career-statistics" className="space-y-2 scroll-mt-24">
               <h3 className="text-xl font-extrabold text-red-500 border-b border-gray-700 pb-1">
                 Career Statistics
               </h3>

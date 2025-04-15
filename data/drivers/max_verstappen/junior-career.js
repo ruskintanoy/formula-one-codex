@@ -17,6 +17,7 @@ const juniorCareer = (
 
     <div className="clear-both"></div>
 
+    <section id="karting-2005-2009" className="space-y-4 scroll-mt-24"></section>
     {/* 2005–2009: Dominance in national championships */}
     <h4 className="text-lg font-semibold text-red-400 mb-1">2005–2009: Dominance in national championships</h4>
 
@@ -42,6 +43,7 @@ const juniorCareer = (
 
     <div className="clear-both"></div>
 
+    <section id="karting-2010-2012" className="space-y-4 scroll-mt-24"></section>
     {/* 2010–2012: Entering the international karting scene */}
     <h4 className="text-lg font-semibold text-red-400 mb-1">2010–2012: Entering the international karting scene</h4>
 
@@ -98,7 +100,7 @@ const juniorCareer = (
     <div className="clear-both"></div>
 
     {/* Record-breaking Season */}
-    <section id="record-breaking-season" className="space-y-4 scroll-mt-24"></section>
+    <section id="karting-2013" className="space-y-4 scroll-mt-24"></section>
     <h4 className="text-lg font-semibold text-red-400 mb-1">2013: Record-breaking season</h4>
 
     <figure className="float-left mr-4 mb-4 max-w-[250px] border border-gray-700 rounded-lg bg-gray-900 p-2 shadow-lg">
@@ -185,7 +187,7 @@ const juniorCareer = (
     <div className="clear-both"></div>
 
     {/* Florida Winter Series and Formula Three */}
-    <section id="florida-formula3" className="space-y-4 scroll-mt-24"></section>
+    <section id="2014-career" className="space-y-4 scroll-mt-24"></section>
     <h3 className="text-2xl font-bold text-red-600 mt-6 mb-2">2014: Florida Winter Series and Formula Three</h3>
 
     <p>
