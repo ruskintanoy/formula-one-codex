@@ -1,68 +1,87 @@
 const wikiLink = (text, url) => (
-    <a href={url} target="_blank" rel="noopener noreferrer" className="text-red-500 hover:underline"> {text}</a>);
-  
-  const summary = (
-    <>
-      {wikiLink("Lando Norris", "https://en.wikipedia.org/wiki/Lando_Norris")} (born 13 November 1999) is a British racing driver, who competes in{" "}
-      {wikiLink("Formula One", "https://en.wikipedia.org/wiki/Formula_One")} for{" "}
-      {wikiLink("McLaren", "https://en.wikipedia.org/wiki/McLaren")}.
-  
-      Norris was runner-up in the{" "}
-      {wikiLink("2024 Formula One World Championship", "https://en.wikipedia.org/wiki/2024_Formula_One_World_Championship")} with McLaren, and has won five{" "}
-      {wikiLink("Grands Prix", "https://en.wikipedia.org/wiki/List_of_Formula_One_Grands_Prix")} across seven seasons.
-  
-      <br /><br />
-  
-      Born in Bristol and raised in Glastonbury to an English father and Belgian mother, Norris began competitive{" "}
-      {wikiLink("kart racing", "https://en.wikipedia.org/wiki/Kart_racing")} aged seven. After a successful karting career — culminating in his victory at the{" "}
-      {wikiLink("Karting World Championship", "https://en.wikipedia.org/wiki/Karting_World_Championship")} in 2014 — Norris graduated to junior formulae.
-  
-      He won his first title at the{" "}
-      {wikiLink("2015 MSA Formula Championship", "https://en.wikipedia.org/wiki/2015_MSA_Formula_Championship")} with{" "}
-      {wikiLink("Carlin", "https://en.wikipedia.org/wiki/Carlin_Motorsport")}.
-  
-      <br /><br />
-  
-      He then won the{" "}
-      {wikiLink("Toyota Racing Series", "https://en.wikipedia.org/wiki/2016_Toyota_Racing_Series")},{" "}
-      {wikiLink("Formula Renault Eurocup", "https://en.wikipedia.org/wiki/2016_Eurocup_Formula_Renault_2.0")}, and{" "}
-      {wikiLink("Formula Renault NEC", "https://en.wikipedia.org/wiki/2016_Formula_Renault_2.0_Northern_European_Cup")} in 2016, receiving the{" "}
-      {wikiLink("Autosport BRDC Award", "https://en.wikipedia.org/wiki/Autosport_BRDC_Award")} that year.
-  
-      <br /><br />
-  
-      Norris won the{" "}
-      {wikiLink("FIA Formula 3 European Championship", "https://en.wikipedia.org/wiki/FIA_Formula_3_European_Championship")} in 2017, and finished runner-up to{" "}
-      {wikiLink("George Russell", "https://en.wikipedia.org/wiki/George_Russell_(racing_driver)")} in the{" "}
-      {wikiLink("FIA Formula 2 Championship", "https://en.wikipedia.org/wiki/FIA_Formula_2_Championship")} in 2018, both with Carlin.
-  
-      <br /><br />
-  
-      A member of the{" "}
-      {wikiLink("McLaren Young Driver Programme", "https://en.wikipedia.org/wiki/McLaren_Young_Driver_Programme")} since 2017, Norris joined McLaren in 2019 to partner{" "}
-      {wikiLink("Carlos Sainz Jr.", "https://en.wikipedia.org/wiki/Carlos_Sainz_Jr.")}, making his Formula One debut at the{" "}
-      {wikiLink("2019 Australian Grand Prix", "https://en.wikipedia.org/wiki/2019_Australian_Grand_Prix")}.
-  
-      <br /><br />
-  
-      He achieved his maiden podium finish and fastest lap at the season-opening{" "}
-      {wikiLink("2020 Austrian Grand Prix", "https://en.wikipedia.org/wiki/2020_Austrian_Grand_Prix")}, before achieving his maiden pole position at the{" "}
-      {wikiLink("2021 Russian Grand Prix", "https://en.wikipedia.org/wiki/2021_Russian_Grand_Prix")}.
-  
-      <br /><br />
-  
-      In 2024, Norris took his maiden career win at the{" "}
-      {wikiLink("2024 Miami Grand Prix", "https://en.wikipedia.org/wiki/2024_Miami_Grand_Prix")}, repeating this feat in the{" "}
-      {wikiLink("2024 Dutch Grand Prix", "https://en.wikipedia.org/wiki/2024_Dutch_Grand_Prix")},{" "}
-      {wikiLink("2024 Singapore Grand Prix", "https://en.wikipedia.org/wiki/2024_Singapore_Grand_Prix")}, and{" "}
-      {wikiLink("2024 Abu Dhabi Grand Prix", "https://en.wikipedia.org/wiki/2024_Abu_Dhabi_Grand_Prix")}.
-  
-      <br /><br />
-  
-      As of the{" "}
-      {wikiLink("2025 Bahrain Grand Prix", "https://en.wikipedia.org/wiki/2025_Bahrain_Grand_Prix")}, Norris has achieved five race wins, 10 pole positions, 14 fastest laps, and 29 podiums in Formula One. He is contracted to remain at McLaren until at least the end of the 2027 season.
-    </>
-  );
-  
-  export default summary;
-  
+  <a href={url} target="_blank" rel="noopener noreferrer" className="text-red-500 hover:underline">
+    {text}
+  </a>
+);
+
+const summary = (
+  <>
+    <b>George William Russell</b> (born 15 February 1998) is a British{" "}
+    {wikiLink("racing driver", "https://en.wikipedia.org/wiki/Racing_driver")}, who competes in{" "}
+    {wikiLink("Formula One", "https://en.wikipedia.org/wiki/Formula_One")} for{" "}
+    {wikiLink("Mercedes", "https://en.wikipedia.org/wiki/Mercedes-Benz_in_Formula_One")}.
+
+    Russell has won three{" "}
+    {wikiLink("Formula One Grands Prix", "https://en.wikipedia.org/wiki/Formula_One_Grands_Prix")} across seven seasons.
+
+    <br /><br />
+
+    Born and raised in{" "}
+    {wikiLink("King's Lynn, Norfolk", "https://en.wikipedia.org/wiki/King%27s_Lynn,_Norfolk")}, Russell began competitive{" "}
+    {wikiLink("kart racing", "https://en.wikipedia.org/wiki/Kart_racing")} aged seven. After a successful karting career — culminating in back-to-back victories at the{" "}
+    {wikiLink("Karting European Championship", "https://en.wikipedia.org/wiki/Karting_European_Championship")} in 2011 and 2012 — Russell graduated to{" "}
+    {wikiLink("junior formulae", "https://en.wikipedia.org/wiki/Junior_formulae")}.
+
+    <br /><br />
+
+    He won his first title at the{" "}
+    {wikiLink("2014 BRDC F4 Championship", "https://en.wikipedia.org/wiki/2014_BRDC_Formula_4_Championship")}.
+
+    <br /><br />
+
+    Russell then won the{" "}
+    {wikiLink("2017 GP3 Series", "https://en.wikipedia.org/wiki/2017_GP3_Series")} and the{" "}
+    {wikiLink("2018 FIA Formula 2 Championship", "https://en.wikipedia.org/wiki/2018_FIA_Formula_2_Championship")} back-to-back with{" "}
+    {wikiLink("ART", "https://en.wikipedia.org/wiki/ART_Grand_Prix")}, becoming the fifth driver to win the{" "}
+    {wikiLink("GP2", "https://en.wikipedia.org/wiki/GP2_Series")} /{" "}
+    {wikiLink("Formula 2", "https://en.wikipedia.org/wiki/FIA_Formula_2_Championship")} championship in their rookie season and the second driver to win both titles in their respective rookie seasons.
+
+    <br /><br />
+
+    A member of the{" "}
+    {wikiLink("Mercedes Junior Team", "https://en.wikipedia.org/wiki/Mercedes_Junior_Team")} since 2017, Russell signed for{" "}
+    {wikiLink("Williams", "https://en.wikipedia.org/wiki/Williams_Racing")} in{" "}
+    {wikiLink("2019", "https://en.wikipedia.org/wiki/2019_Formula_One_World_Championship")} to partner{" "}
+    {wikiLink("Robert Kubica", "https://en.wikipedia.org/wiki/Robert_Kubica")}, making his Formula One debut at the{" "}
+    {wikiLink("2019 Australian Grand Prix", "https://en.wikipedia.org/wiki/2019_Australian_Grand_Prix")}.
+
+    <br /><br />
+
+    He substituted for{" "}
+    {wikiLink("Lewis Hamilton", "https://en.wikipedia.org/wiki/Lewis_Hamilton")} at the{" "}
+    {wikiLink("2020 Sakhir Grand Prix", "https://en.wikipedia.org/wiki/2020_Sakhir_Grand_Prix")} for Mercedes, but was denied victory due to a team error and a puncture after leading the majority of the race.
+
+    <br /><br />
+
+    Russell scored his maiden podium at the curtailed{" "}
+    {wikiLink("2021 Belgian Grand Prix", "https://en.wikipedia.org/wiki/2021_Belgian_Grand_Prix")} with Williams.
+
+    <br /><br />
+
+    In{" "}
+    {wikiLink("2022", "https://en.wikipedia.org/wiki/2022_Formula_One_World_Championship")}, Russell replaced{" "}
+    {wikiLink("Valtteri Bottas", "https://en.wikipedia.org/wiki/Valtteri_Bottas")} at Mercedes to partner Hamilton; in his first season, Russell achieved his maiden{" "}
+    {wikiLink("pole position", "https://en.wikipedia.org/wiki/List_of_Formula_One_polesitters")} in{" "}
+    {wikiLink("Hungary", "https://en.wikipedia.org/wiki/2022_Hungarian_Grand_Prix")} and his maiden{" "}
+    {wikiLink("win", "https://en.wikipedia.org/wiki/List_of_Formula_One_Grand_Prix_winners")} in{" "}
+    {wikiLink("São Paulo", "https://en.wikipedia.org/wiki/2022_S%C3%A3o_Paulo_Grand_Prix")}, finishing fourth in the{" "}
+    {wikiLink("World Drivers' Championship", "https://en.wikipedia.org/wiki/World_Drivers%27_Championship")}.
+
+    <br /><br />
+
+    After a winless season for Mercedes in{" "}
+    {wikiLink("2023", "https://en.wikipedia.org/wiki/2023_Formula_One_World_Championship")}, Russell won the{" "}
+    {wikiLink("2024 Austrian Grand Prix", "https://en.wikipedia.org/wiki/2024_Austrian_Grand_Prix")} and{" "}
+    {wikiLink("2024 Las Vegas Grand Prix", "https://en.wikipedia.org/wiki/2024_Las_Vegas_Grand_Prix")} in{" "}
+    {wikiLink("2024", "https://en.wikipedia.org/wiki/2024_Formula_One_World_Championship")}, and became the first driver in{" "}
+    {wikiLink("30 years", "https://en.wikipedia.org/wiki/1994_Belgian_Grand_Prix")} to have been disqualified from a race win at the{" "}
+    {wikiLink("2024 Belgian Grand Prix", "https://en.wikipedia.org/wiki/2024_Belgian_Grand_Prix")}.
+
+    <br /><br />
+
+    As of the{" "}
+    {wikiLink("2025 Bahrain Grand Prix", "https://en.wikipedia.org/wiki/2025_Bahrain_Grand_Prix")}, Russell has achieved three race wins, five pole positions, eight fastest laps and 18 podiums in Formula One. Russell is contracted to remain at Mercedes until at least the end of the 2025 season.
+  </>
+);
+
+export default summary;
