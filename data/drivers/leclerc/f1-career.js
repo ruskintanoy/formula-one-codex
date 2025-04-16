@@ -79,9 +79,11 @@ const wikiLink = (text, url) => (
       <div className="clear-both"></div>
 
       {/* Ferrari (2019–present) */}
+      <section id="ferrari-2019-present" className="space-y-4 scroll-mt-24"></section>
       <h3 className="text-2xl font-bold text-red-600 mt-6 mb-2">Ferrari (2019–present)</h3>
 
       {/* 2019: Maiden victories and il Predestinato */}
+      <section id="season-2019" className="space-y-4 scroll-mt-24"></section>
       <h4 className="text-lg font-semibold text-red-400 mb-1">2019: Maiden victories and <em>il Predestinato</em></h4>
 
       <figure className="float-left mr-4 mb-4 max-w-[250px] border border-gray-700 rounded-lg bg-gray-900 p-2 shadow-lg">

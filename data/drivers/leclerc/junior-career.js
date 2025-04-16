@@ -112,8 +112,11 @@ const juniorCareer = (
     <div className="clear-both" />
 
     {/* Formula Renault 2.0 (2014) */}
-    <section id="formula-renault-2.0-alps" className="space-y-4 scroll-mt-24"></section>
+    <section id="formula-renault-2.0" className="space-y-4 scroll-mt-24"></section>
       <h3 className="text-2xl font-bold text-red-600 mb-2">Formula Renault 2.0 (2014)</h3>
+
+      {/* Formula Renault 2.0 Alps */}
+      <section id="formula-renault-2.0-alps" className="space-y-4 scroll-mt-24"></section>
       <h4 className="text-lg font-semibold text-red-400 mb-1">Formula Renault 2.0 Alps</h4>
 
       <p>
@@ -156,12 +159,13 @@ const juniorCareer = (
       <div className="clear-both" />
 
       {/* Formula Three (2015) */}
-      <section id="fia-f3" className="space-y-4 scroll-mt-24"></section>
+      <section id="formula-three-2015" className="space-y-4 scroll-mt-24"></section>
       <h3 className="text-2xl font-bold text-red-600 mb-2">
         Formula Three (2015)
       </h3>
 
       {/* FIA European Formula 3 */}
+      <section id="fia-f3" className="space-y-4 scroll-mt-24"></section>
       <h4 className="text-lg font-semibold text-red-400 mb-1">
         FIA European Formula 3
       </h4>
