@@ -120,6 +120,7 @@ const wikiLink = (text, url) => (
       <h3 className="text-2xl font-bold text-red-600 mb-2">Mercedes (2013–2024)</h3>
 
       {/* 2013–2016: Teammates with Rosberg */}
+      <section id="rosberg-era" className="space-y-4 scroll-mt-24"></section>
       <h4 className="text-lg font-semibold text-red-400 mb-1">2013–2016: Teammates with Rosberg</h4>
 
       <figure className="float-left mr-4 mb-4 max-w-[250px] border border-gray-700 rounded-lg bg-gray-900 p-2 shadow-lg">
@@ -224,6 +225,7 @@ const wikiLink = (text, url) => (
 
       <div className="clear-both"></div>
 
+      {/* 2021: Title battle vs. Verstappen */}
       <section id="hamilton-2021" className="space-y-4 scroll-mt-24"></section>
       <h4 className="text-lg font-semibold text-red-400 mb-1">2021: Title battle vs. Verstappen</h4>
 
@@ -293,6 +295,7 @@ const wikiLink = (text, url) => (
 
       <div className="clear-both"></div>
 
+      {/* Ferrari (2025 onwards) */}
       <section id="ferrari-2025-onwards" className="space-y-4 scroll-mt-24"></section>
       <h3 className="text-2xl font-bold text-red-600 mb-2">Ferrari (2025 onwards)</h3>
 
