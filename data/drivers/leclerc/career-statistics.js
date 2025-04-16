@@ -1,27 +1,37 @@
+const wikiLink = (text, url) => (
+  <a
+    href={url}
+    target="_blank"
+    rel="noopener noreferrer"
+    className="text-red-500 hover:underline"
+  >
+    {text}
+  </a>
+);
+
 const careerStatistics = {
-    updatedTo: "2025 Australian Grand Prix",
-    stats: [
-      { label: "Entries", value: 125 },
-      { label: "Starts", value: 125 },
-      { label: "Pole Positions", value: 9 },
-      { label: "Front Row Starts", value: 15 },
-      { label: "Race Wins", value: 5 },
-      { label: "Podiums", value: 27 },
-      { label: "Fastest Laps", value: 13 },
-      { label: "Points", value: 1007 },
-      { label: "Laps Raced", value: 6880 },
-      { label: "Distance Raced", value: "34,691 km (21,556 mi)" },
-      { label: "Races Led", value: 17 },
-      { label: "Laps Led", value: 207 },
-      { label: "Distance Led", value: "1,054 km (655 mi)" },
-      { label: "Doubles", value: 2 },
-      { label: "Hat-Tricks", value: 1 },
-      { label: "Sprint Poles", value: 3 },
-      { label: "Sprint Wins", value: 1 },
-      { label: "Sprint Podiums", value: 6 },
-      { label: "Sprint Fastest Laps", value: 1 },
-    ],
-  };
-  
-  export default careerStatistics;
-  
+  updatedTo: wikiLink("2025 Australian Grand Prix", "https://f1.fandom.com/wiki/2025_Australian_Grand_Prix"),
+  stats: [
+    { label: "Entries", value: 146 },
+    { label: "Starts", value: 144 },
+    { label: "Pole Positions", value: 26 },
+    { label: "Front Row Starts", value: 38 },
+    { label: "Race Wins", value: 8 },
+    { label: "Podiums", value: 42, },
+    { label: "Fastest Laps", value: 10 },
+    { label: "Points", value: 1430 },
+    { label: "Laps Raced", value: 7507 },
+    { label: "Distance Raced", value: "38,213 km (23,744 mi)" },
+    { label: "Races Led", value: 39 },
+    { label: "Laps Led", value: 779 },
+    { label: "Distance Led", value: "3,987 km (2,477 mi)" },
+    { label: "Doubles", value: 5 }, // Pole & Win same weekend
+    { label: "Hat-Tricks", value: 2 }, // Pole, Win, Fastest Lap
+    { label: "Grand Chelems", value: 1 },
+    { label: "Sprint Poles", value: 1 },
+    { label: "Sprint Podiums", value: 6 },
+    { label: "Sprint Fastest Laps", value: 2 },
+  ],
+};
+
+export default careerStatistics;
