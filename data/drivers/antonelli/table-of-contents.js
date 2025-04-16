@@ -57,6 +57,14 @@ const tableOfContents = [
       },
     ],
   },
+  {
+    id: "stats-overview",
+    label: "Formula One Statistical Overview",
+    children: [
+      { id: "career-summary", label: "Racing Career Summary" },
+      { id: "career-statistics", label: "Career Statistics" },
+    ],
+  },
 ];
 
 export default tableOfContents;
