@@ -313,7 +313,6 @@ const wikiLink = (text, url) => (
 
       <div className="clear-both"></div>
 
-
   </>
   );
   
