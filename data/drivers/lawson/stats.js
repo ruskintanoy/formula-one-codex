@@ -10,16 +10,15 @@ const wikiLink = (text, url) => (
 );
 
 const stats = {
-  "Seasons Active": "2019 - Present",
+  "Seasons Active": "2023 - Present",
   Championships: 0,
-  Races: "132 (131 starts)",
-  Poles: 10,
-  Wins: 5,
-  Podiums: 29,
-  "Fastest Laps": 14,
-  Points: 1069,
-  "First Race": wikiLink("2019 Australian Grand Prix", "https://en.wikipedia.org/wiki/2019_Australian_Grand_Prix"),
-  "Last Win": wikiLink("2025 Australian Grand Prix", "https://en.wikipedia.org/wiki/2025_Australian_Grand_Prix"),
+  Races: "15 (15 starts)",
+  Poles: 0,
+  Wins: 0,
+  Podiums: 0,
+  "Fastest Laps": 0,
+  Points: 6,
+  "First Race": wikiLink("2023 Dutch Grand Prix", "https://en.wikipedia.org/wiki/2023_Dutch_Grand_Prix"),
 };
 
 export default stats;
