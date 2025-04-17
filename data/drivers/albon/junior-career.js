@@ -78,6 +78,7 @@ const juniorCareer = (
     <div className="clear-both" />
 
     {/* KTR (2013–2014) */}
+    <section id="ktr-2013-2014" className="space-y-4 scroll-mt-24"></section>
     <h4 className="text-lg font-semibold text-red-400 mb-1">
       KTR (2013–2014)
     </h4>
@@ -101,6 +102,7 @@ const juniorCareer = (
     <div className="clear-both" />
 
     {/* FIA European Formula 3 (2015) */}
+    <section id="fia-european-f3-2015" className="space-y-4 scroll-mt-24"></section>
     <h3 className="text-2xl font-bold text-red-600 mb-2">FIA European Formula 3 (2015)</h3>
 
     <div className="clear-both" />
@@ -130,6 +132,7 @@ const juniorCareer = (
     <div className="clear-both" />
 
     {/* GP3 Series (2016) */}
+    <section id="gp3-series-2016" className="space-y-4 scroll-mt-24"></section>
     <h3 className="text-2xl font-bold text-red-600 mb-2">GP3 Series (2016)</h3>
     <p>
       In December 2015, Albon partook in post-season testing with{" "}
@@ -141,6 +144,7 @@ const juniorCareer = (
     </p>
 
     {/* Formula 2 Championship (2017) */}
+    <section id="formula-2-championship" className="space-y-4 scroll-mt-24"></section>
     <h3 className="text-2xl font-bold text-red-600 mb-2">Formula 2 Championship (2017)</h3>
 
     {/* ART Grand Prix (2017) */}
