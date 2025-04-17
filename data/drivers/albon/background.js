@@ -1,33 +1,36 @@
 const wikiLink = (text, url) => (
     <a href={url} target="_blank" rel="noopener noreferrer" className="text-red-500 hover:underline"> {text}</a>);
     
-  const background = (
-    <>
-      Lando Norris was born on 13 November 1999 in Bristol, England. His father Adam Norris is a retired pensions manager and is one of Bristol's wealthiest people as well as the 501st-richest person in the country (as of 2018).
-  
-      <br /><br />
-  
-      His mother Cisca (née Wauman) is from the Flanders region of Belgium. He has three siblings — two younger sisters, and an older brother Oliver, who was also involved in{" "}
-      {wikiLink("karting", "https://en.wikipedia.org/wiki/Karting")} on a competitive level until 2014.
-  
-      <br /><br />
-  
-      Norris holds both British and Belgian citizenship, and speaks a small amount of Flemish Dutch. In his early childhood, Norris tried horse riding, then quad biking and motorcycle riding before moving into karting after his father took him to watch the national British Karting Championships at age seven.
-  
-      <br /><br />
-  
-      Norris was educated at Millfield School in Street, Somerset. He left school without taking his GCSEs, but studied physics and mathematics with a full-time personal tutor. His family later moved to Glastonbury to allow him to become a day pupil and to pursue his racing career, citing{" "}
-      {wikiLink("Valentino Rossi", "https://en.wikipedia.org/wiki/Valentino_Rossi")} as an inspiration.
-  
-      <br /><br />
-  
-      At the start of his F1 career, he initially resided in Woking near the McLaren team headquarters, but later moved to Monaco in 2022 for financial reasons.
-  
-      <br /><br />
-  
-      Between August 2021 and September 2022, Norris dated Portuguese model Luísa Oliveira. Norris has stated that he and Oliveira were subjected to abuse and death threats from online trolls.
-    </>
-  );
-  
-  export default background;
+    const background = (
+      <>
+        Albon was born at the{" "}
+        {wikiLink("Portland Hospital", "https://en.wikipedia.org/wiki/Portland_Hospital")} in the{" "}
+        {wikiLink("City of Westminster", "https://en.wikipedia.org/wiki/City_of_Westminster")}, London, England, on 23 March 1996. His father,{" "}
+        {wikiLink("Nigel Albon", "https://en.wikipedia.org/wiki/Nigel_Albon")} is a British former racing driver who participated in the{" "}
+        {wikiLink("British Touring Car Championship", "https://en.wikipedia.org/wiki/British_Touring_Car_Championship")} and{" "}
+        {wikiLink("Porsche Carrera Cup", "https://en.wikipedia.org/wiki/Porsche_Carrera_Cup")}. His mother, Kankamol, is from Thailand. His uncle,{" "}
+        {wikiLink("Mark Albon", "https://en.wikipedia.org/wiki/Mark_Albon")}, is a former racing driver who competed in one round of{" "}
+        {wikiLink("International Formula 3000", "https://en.wikipedia.org/wiki/International_Formula_3000")}.
+    
+        <br /><br />
+    
+        Growing up in{" "}
+        {wikiLink("Bures", "https://en.wikipedia.org/wiki/Bures,_England")},{" "}
+        {wikiLink("Suffolk", "https://en.wikipedia.org/wiki/Suffolk")} alongside a younger brother, Luca, and three sisters, Chloe, Zoe and Alicia, Albon attended{" "}
+        {wikiLink("Ipswich School", "https://en.wikipedia.org/wiki/Ipswich_School")} before leaving to pursue his professional racing career, citing{" "}
+        {wikiLink("Michael Schumacher", "https://en.wikipedia.org/wiki/Michael_Schumacher")} and{" "}
+        {wikiLink("Valentino Rossi", "https://en.wikipedia.org/wiki/Valentino_Rossi")} as being inspirational figures when he was younger.
+    
+        <br /><br />
+    
+        Albon holds{" "}
+        {wikiLink("dual", "https://en.wikipedia.org/wiki/Dual_national")} British and Thai nationality, and races under the Thai flag. Albon practises{" "}
+        {wikiLink("Buddhism", "https://en.wikipedia.org/wiki/Buddhism")}. Albon and his family own a number of pets, consisting of at least twelve cats, a dog and two horses. He has been publicly dating Chinese{" "}
+        {wikiLink("LPGA", "https://en.wikipedia.org/wiki/LPGA")} golfer{" "}
+        {wikiLink("Lily He", "https://en.wikipedia.org/wiki/Muni_He")} since 2019.
+      </>
+    );
+    
+    export default background;
+    
   
