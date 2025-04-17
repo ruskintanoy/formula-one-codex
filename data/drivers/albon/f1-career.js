@@ -11,338 +11,290 @@ const wikiLink = (text, url) => (
   
   const f1Career = (
     <>
-      <section id="mclaren-driver-programme" className="space-y-4 scroll-mt-24"></section>
-      {/* McLaren Driver Development Programme */}
-      <h3 className="text-2xl font-bold text-red-600 mb-2">
-        McLaren Driver Development Programme
-      </h3>
+      <section id="toro-rosso-2019" className="space-y-4 scroll-mt-24"></section>
+      {/* Toro Rosso (2019) */}
+      <h3 className="text-2xl font-bold text-red-600 mb-2">Toro Rosso (2019)</h3>
+
+      {/* 2019 */}
+      <section id="season-2019" className="space-y-4 scroll-mt-24"></section>
+      <h4 className="text-lg font-semibold text-red-400 mb-1">2019</h4>
 
       <figure className="float-left mr-4 mb-4 max-w-[250px] border border-gray-700 rounded-lg bg-gray-900 p-2 shadow-lg">
         <img
-          src="/drivers/norris/car4.jpg"
-          alt="Norris racing at Monza during the 2016 Eurocup Formula Renault 2.0 championship"
+          src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/FIA_F1_Austria_2019_Nr._23_Albon_2.jpg/500px-FIA_F1_Austria_2019_Nr._23_Albon_2.jpg"
+          alt="Albon driving for Toro Rosso at the 2019 Austrian Grand Prix"
           className="w-full h-auto rounded"
         />
         <figcaption className="text-sm text-gray-400 text-center">
-         Norris testing for McLaren during free practice at the {wikiLink("2018 Japanese Grand Prix", "https://en.wikipedia.org/wiki/2018_Japanese_Grand_Prix")}
+          Albon driving for {wikiLink("Toro Rosso", "https://en.wikipedia.org/wiki/Scuderia_Toro_Rosso")} at the {wikiLink("2019 Austrian Grand Prix", "https://en.wikipedia.org/wiki/2019_Austrian_Grand_Prix")}
         </figcaption>
       </figure>
 
       <p>
-        In February 2017, Norris joined the{" "}
-        {wikiLink("McLaren Driver Development Programme", "https://en.wikipedia.org/wiki/McLaren_Driver_Development_Programme")}.
-        Following the announcement,{" "}
-        {wikiLink("Zak Brown", "https://en.wikipedia.org/wiki/Zak_Brown")} said that Norris was
-        "a fabulous prospect" who deserved the award. Later that year, Norris tested for McLaren
-        in a scheduled mid-season test. He set the second fastest lap in the second day of testing
-        at the Hungaroring. In late 2017, Norris became the official McLaren test and reserve driver
-        for the 2018 season. Norris participated in his first official practice session at the{" "}
-        {wikiLink("Belgian Grand Prix", "https://en.wikipedia.org/wiki/2018_Belgian_Grand_Prix")},
-        recording 26 laps. Norris drove in six further practice sessions during the year.
+        On 26 November 2018, {wikiLink("Nissan e.dams", "https://en.wikipedia.org/wiki/DAMS")} terminated their {wikiLink("Formula E", "https://en.wikipedia.org/wiki/Formula_E")} contract with Albon after rumours he was to sign for {wikiLink("Scuderia Toro Rosso", "https://en.wikipedia.org/wiki/Scuderia_Toro_Rosso")} in Formula One. On the same day, Toro Rosso announced Albon would join the team for {wikiLink("2019", "https://en.wikipedia.org/wiki/2019_Formula_One_World_Championship")} alongside {wikiLink("Daniil Kvyat", "https://en.wikipedia.org/wiki/Daniil_Kvyat")}, and thus Albon's relationship with {wikiLink("Red Bull Racing", "https://en.wikipedia.org/wiki/Red_Bull_Racing")}, which had ended seven years prior, was restored. He is the second {wikiLink("Thai driver", "https://en.wikipedia.org/wiki/Formula_One_drivers_from_Thailand")} to compete in Formula One and the first since {wikiLink("Prince Birabongse Bhanudej", "https://en.wikipedia.org/wiki/Birabongse_Bhanudej")} competed in {wikiLink("1954", "https://en.wikipedia.org/wiki/1954_Formula_One_season")}.
+      </p>
+
+      <p>
+        Albon qualified thirteenth and finished fourteenth in his debut race, the {wikiLink("2019 Australian Grand Prix", "https://en.wikipedia.org/wiki/2019_Australian_Grand_Prix")}. He scored his first points at the following race, the {wikiLink("2019 Bahrain Grand Prix", "https://en.wikipedia.org/wiki/2019_Bahrain_Grand_Prix")}, finishing ninth. A heavy crash in practice for the {wikiLink("2019 Chinese Grand Prix", "https://en.wikipedia.org/wiki/2019_Chinese_Grand_Prix")} forced him to miss qualifying and start the race from the pit lane. He recovered in the race to finish tenth and win the <i>Driver Of The Day</i> award. He reached the third qualifying session (Q3) for the first time at the {wikiLink("2019 Monaco Grand Prix", "https://en.wikipedia.org/wiki/2019_Monaco_Grand_Prix")} and finished the race eighth. Damage caused by contact with {wikiLink("Antonio Giovinazzi", "https://en.wikipedia.org/wiki/Antonio_Giovinazzi")} on the first lap of the {wikiLink("2019 Canadian Grand Prix", "https://en.wikipedia.org/wiki/2019_Canadian_Grand_Prix")} later led to Albon's first race retirement.
       </p>
 
       <div className="clear-both"></div>
 
-      <section id="mclaren-2019-present" className="space-y-4 scroll-mt-24"></section>
-      {/* McLaren (2019-Present) */}
-      <h3 className="text-2xl font-bold text-red-600 mt-6 mb-2">
-        McLaren (2019–present)
-      </h3>
-
-      <section id="rookie-season" className="space-y-4 scroll-mt-24"></section>
-      {/* 2019: Rookie season */}
-      <h4 className="text-lg font-semibold text-red-400 mb-1">
-        2019: Rookie season
-      </h4>
-
-      <figure className="float-left mr-4 mb-4 max-w-[250px] border border-gray-700 rounded-lg bg-gray-900 p-2 shadow-lg">
-        <img
-          src="/drivers/norris/car5.jpg"
-          alt="Norris racing at Monza during the 2016 Eurocup Formula Renault 2.0 championship"
-          className="w-full h-auto rounded"
-        />
-        <figcaption className="text-sm text-gray-400 text-center">
-         Norris at the {wikiLink("2019 Chinese Grand Prix", "https://en.wikipedia.org/wiki/2019_Chinese_Grand_Prix")}
-        </figcaption>
-      </figure>
-
       <p>
-        Norris was contracted to drive for {wikiLink("McLaren", "https://en.wikipedia.org/wiki/McLaren")} for the {wikiLink("2019 Formula One World Championship", "https://en.wikipedia.org/wiki/2019_Formula_One_World_Championship")}, 
-        partnering {wikiLink("Carlos Sainz Jr.", "https://en.wikipedia.org/wiki/Carlos_Sainz_Jr.")}. He qualified eighth on his debut at the {wikiLink("Australian Grand Prix", "https://en.wikipedia.org/wiki/2019_Australian_Grand_Prix")} 
-        and finished the race in twelfth place. He scored his first Formula One points by finishing sixth at the following race, the {wikiLink("Bahrain Grand Prix", "https://en.wikipedia.org/wiki/2019_Bahrain_Grand_Prix")}. 
-        The {wikiLink("Chinese Grand Prix", "https://en.wikipedia.org/wiki/2019_Chinese_Grand_Prix")} was the first of Norris' retirements that season, after damage from a first lap collision with {wikiLink("Daniil Kvyat", "https://en.wikipedia.org/wiki/Daniil_Kvyat")} 
-        caused him to retire later in the race. Further retirements came at the {wikiLink("Spanish Grand Prix", "https://en.wikipedia.org/wiki/2019_Spanish_Grand_Prix")} after a collision with {wikiLink("Lance Stroll", "https://en.wikipedia.org/wiki/Lance_Stroll")} and 
-        at the {wikiLink("Canadian Grand Prix", "https://en.wikipedia.org/wiki/2019_Canadian_Grand_Prix")} when a brake fire caused his suspension to fail.
-      </p>
-
-      <p>
-        Norris was on course to finish seventh at the {wikiLink("French Grand Prix", "https://en.wikipedia.org/wiki/2019_French_Grand_Prix")} but suffered hydraulic problems late in the race and was eventually classified ninth. This was followed by a sixth-place 
-        finish at the {wikiLink("Austrian Grand Prix", "https://en.wikipedia.org/wiki/2019_Austrian_Grand_Prix")}, matching his best result. He was forced to start from the back at the {wikiLink("German Grand Prix", "https://en.wikipedia.org/wiki/2019_German_Grand_Prix")} 
-        due to penalties for exceeding the allowed number of engine components for the season. He later retired from the race after a power failure. At the {wikiLink("Belgian Grand Prix", "https://en.wikipedia.org/wiki/2019_Belgian_Grand_Prix")}, 
-        he made his way from eleventh up to fifth in the early stages of the race. He maintained this position and was set to record his best career finish but suffered a power failure on his final lap and was classified eleventh.
-      </p>
-
-      <p>
-        Three consecutive points finishes followed at the {wikiLink("Italian Grand Prix", "https://en.wikipedia.org/wiki/2019_Italian_Grand_Prix")}, {wikiLink("Singapore Grand Prix", "https://en.wikipedia.org/wiki/2019_Singapore_Grand_Prix")} 
-        and {wikiLink("Russian Grand Prix", "https://en.wikipedia.org/wiki/2019_Russian_Grand_Prix")}. At the {wikiLink("Japanese Grand Prix", "https://en.wikipedia.org/wiki/2019_Japanese_Grand_Prix")}, Norris was running in fifth place 
-        before {wikiLink("Alex Albon", "https://en.wikipedia.org/wiki/Alex_Albon")} collided with him during an overtake attempt. Norris dropped back after collecting floor damage and eventually finished eleventh. At the next race, 
-        the {wikiLink("Mexican Grand Prix", "https://en.wikipedia.org/wiki/2019_Mexican_Grand_Prix")}, he had a wheel fitted incorrectly after pitting from seventh place. He spent almost two minutes in the pits as his mechanics resolved the problem but he was eventually 
-        withdrawn from the race. He ended the season with three consecutive points finishes.
-      </p>
-
-      <p>
-        Norris finished his debut Formula One season eleventh in the drivers' championship with 49 points. Teammate Sainz scored 96 points, however Norris out-qualified Sainz at eleven of the twenty-one races. During his debut year, Norris signed a multi-year contract to 
-        stay with McLaren for the {wikiLink("2020 Formula One World Championship", "https://en.wikipedia.org/wiki/2020_Formula_One_World_Championship")} until the {wikiLink("2022 Formula One World Championship", 
-          "https://en.wikipedia.org/wiki/2022_Formula_One_World_Championship")}.
-      </p>
-
-      <div className="clear-both"></div>
-      
-      <section id="maiden-podium" className="space-y-4 scroll-mt-24"></section>
-      {/* 2020: Maiden Podium */}
-      <h4 className="text-lg font-semibold text-red-400 mb-1">2020: Maiden Podium</h4>
-
-      <p>
-        At the season-opening {wikiLink("Austrian Grand Prix", "https://en.wikipedia.org/wiki/2020_Austrian_Grand_Prix")}, Norris qualified in fourth place but was elevated to third after a grid penalty 
-        for {wikiLink("Lewis Hamilton", "https://en.wikipedia.org/wiki/Lewis_Hamilton")}, the highest grid position of his career at the time and the highest for McLaren since 
-        the {wikiLink("2016 Austrian Grand Prix", "https://en.wikipedia.org/wiki/2016_Austrian_Grand_Prix")}. In the closing stages of the race, third-placed Hamilton was issued a five-second penalty for causing a collision with Alex Albon. 
-        Norris set the fastest lap of the race on the final lap to finish 4.802 seconds behind Hamilton, allowing Norris to claim the first podium finish of his career. This made Norris the third youngest podium-finisher in Formula One history. 
-        At the {wikiLink("Styrian Grand Prix", "https://en.wikipedia.org/wiki/2020_Styrian_Grand_Prix")}, Norris qualified sixth but was given a three-place grid penalty for overtaking under yellow flags during practice. He passed three cars in the 
-        final two laps of the race to finish fifth, in what he described as "one of the best races of [his] career".
-      </p>
-
-      <figure className="float-right mr-4 mb-4 max-w-[250px] border border-gray-700 rounded-lg bg-gray-900 p-2 shadow-lg">
-        <img
-          src="/drivers/norris/car6.jpg"
-          alt="Norris racing at Monza during the 2016 Eurocup Formula Renault 2.0 championship"
-          className="w-full h-auto rounded"
-        />
-        <figcaption className="text-sm text-gray-400 text-center">
-         Norris at the {wikiLink("2020 Tuscan Grand Prix", "https://en.wikipedia.org/wiki/2020_Tuscan_Grand_Prix")}
-        </figcaption>
-      </figure>
-
-      <p>
-        Six consecutive points finishes came between the {wikiLink("British Grand Prix", "https://en.wikipedia.org/wiki/2020_British_Grand_Prix")} and {wikiLink("Tuscan Grand Prix", "https://en.wikipedia.org/wiki/2020_Tuscan_Grand_Prix")}. 
-        Norris collected damage on the opening lap of the {wikiLink("Russian Grand Prix", "https://en.wikipedia.org/wiki/2020_Russian_Grand_Prix")} and finished the race fifteenth. At the {wikiLink("Eifel Grand Prix", "https://en.wikipedia.org/wiki/2020_Eifel_Grand_Prix")}, 
-        he retired from sixth place with power unit failure. During the {wikiLink("Portuguese Grand Prix", "https://en.wikipedia.org/wiki/2020_Portuguese_Grand_Prix")}, a collision with {wikiLink("Lance Stroll", "https://en.wikipedia.org/wiki/Lance_Stroll")} and 
-        a puncture resulted in a thirteenth-place finish. Following this, Norris faced criticism over his remarks that Stroll "doesn't seem to learn" and his perceived downplaying of {wikiLink("Lewis Hamilton", "https://en.wikipedia.org/wiki/Lewis_Hamilton")}'s achievement 
-        of most Grand Prix wins, describing it as meaning "nothing to him". Subsequently, Norris apologised for his comments about Stroll and also offered a personal apology to Hamilton, stating that his comments were "careless" and that he "[hadn't] shown the 
-        respect I should have to certain people".
-      </p>
-
-      <p>
-        At the wet {wikiLink("Turkish Grand Prix", "https://en.wikipedia.org/wiki/2020_Turkish_Grand_Prix")}, Norris had what he called "[the] worst start of everyone's career ever". He started from fourteenth place after a five-place grid penalty for failing to respect 
-        yellow flags in qualifying, but recovered to finish eighth and recorded the fastest lap of the race. Norris finished fourth at the {wikiLink("Bahrain Grand Prix", "https://en.wikipedia.org/wiki/2020_Bahrain_Grand_Prix")} and fifth at the 
-        season-finale {wikiLink("Abu Dhabi Grand Prix", "https://en.wikipedia.org/wiki/2020_Abu_Dhabi_Grand_Prix")}, which alongside the points scored by teammate Sainz, assisted McLaren in claiming third place in the constructors' 
-        championship over {wikiLink("Racing Point", "https://en.wikipedia.org/wiki/Racing_Point")}. Norris ended the season ninth in the drivers' championship with 97 points, eight points behind Sainz.
-      </p>
-
-      
-      <section id="maiden-pole" className="space-y-4 scroll-mt-24"></section>
-      {/* 2021: Maiden Pole Position */}
-      <h4 className="text-lg font-semibold text-red-400 mb-1">2021: Maiden Pole Position</h4>
-
-      <p>
-        Norris remained at {wikiLink("McLaren", "https://en.wikipedia.org/wiki/McLaren")} for the {wikiLink("2021 season", "https://en.wikipedia.org/wiki/2021_Formula_One_World_Championship")}, 
-        partnering {wikiLink("Daniel Ricciardo", "https://en.wikipedia.org/wiki/Daniel_Ricciardo")} as Sainz left the team for {wikiLink("Ferrari", "https://en.wikipedia.org/wiki/Scuderia_Ferrari")}. Norris qualified seventh for the 
-        season-opening {wikiLink("Bahrain Grand Prix", "https://en.wikipedia.org/wiki/2021_Bahrain_Grand_Prix")} and finished the race fourth. At the following race, the {wikiLink("Emilia Romagna Grand Prix", "https://en.wikipedia.org/wiki/2021_Emilia_Romagna_Grand_Prix")}, 
-        a qualifying time that would have placed him third on the grid was deleted for exceeding track limits, and he started the race seventh. Norris had run in second place before being passed by {wikiLink("Lewis Hamilton", "https://en.wikipedia.org/wiki/Lewis_Hamilton")} 
-        with three laps remaining. He finished third to claim his second Formula One podium finish. At the {wikiLink("Monaco Grand Prix", "https://en.wikipedia.org/wiki/2021_Monaco_Grand_Prix")}, Norris started fifth and benefited 
-        from {wikiLink("Charles Leclerc", "https://en.wikipedia.org/wiki/Charles_Leclerc")}'s failure to start the race and {wikiLink("Valtteri Bottas", "https://en.wikipedia.org/wiki/Valtteri_Bottas")}' retirement to claim another podium finish. Norris was issued a 
-        grid penalty and started ninth at the {wikiLink("Azerbaijan Grand Prix", "https://en.wikipedia.org/wiki/2021_Azerbaijan_Grand_Prix")} for failing to enter the pits during a red flag period in qualifying, a sanction he criticised as "unfair". 
-        He recovered places in the race to finish fifth, assisted by crashes and mistakes from drivers ahead.
-      </p>
-
-      <figure className="float-left mr-4 mb-4 max-w-[250px] border border-gray-700 rounded-lg bg-gray-900 p-2 shadow-lg">
-        <img
-          src="/drivers/norris/car7.jpg"
-          alt="Norris racing at Monza during the 2016 Eurocup Formula Renault 2.0 championship"
-          className="w-full h-auto rounded"
-        />
-        <figcaption className="text-sm text-gray-400 text-center">
-         Norris at the {wikiLink("2021 Austrian Grand Prix", "https://en.wikipedia.org/wiki/2021_Austrian_Grand_Prix")}
-        </figcaption>
-      </figure>
-
-      <p>
-        Norris equalled his then-highest grid position at the {wikiLink("Styrian Grand Prix", "https://en.wikipedia.org/wiki/2021_Styrian_Grand_Prix")} in Austria, starting third after Bottas was issued with a grid penalty. He finished fifth for the third consecutive race. 
-        He bettered this qualifying position at the following weekend's {wikiLink("Austrian Grand Prix", "https://en.wikipedia.org/wiki/2021_Austrian_Grand_Prix")}, starting in second place after setting a time 0.048 seconds behind 
-        pole-sitter {wikiLink("Max Verstappen", "https://en.wikipedia.org/wiki/Max_Verstappen")}. Norris received a penalty during the race after being judged to have forced Sergio Pérez off the track. He finished the race third to claim his third podium of the season. 
-        He set the sixth fastest time in Friday qualifying at the {wikiLink("British Grand Prix", "https://en.wikipedia.org/wiki/2021_British_Grand_Prix")}, before finishing fifth in the new-format sprint qualifying and fourth in the Grand Prix. This result moved 
-        him up to third place in the drivers' championship. He qualified sixth for the {wikiLink("Hungarian Grand Prix", "https://en.wikipedia.org/wiki/2021_Hungarian_Grand_Prix")}. He improved to third place by the first corner but was hit from behind by Bottas, 
-        causing him to collide with Verstappen. Norris retired from the race two laps later due to heavy damage. At the {wikiLink("Italian Grand Prix", "https://en.wikipedia.org/wiki/2021_Italian_Grand_Prix")}, Norris finished fourth in sprint qualifying, which 
-        became third on the grid for the race as Bottas incurred an engine penalty. Norris finished the race second behind teammate Ricciardo, scoring his fourth podium of the season and securing McLaren's first one-two finish since 
-        the {wikiLink("2010 Canadian Grand Prix", "https://en.wikipedia.org/wiki/2010_Canadian_Grand_Prix")}.
-      </p>
-
-      <p>
-        Norris took his first Formula One pole position in changing weather conditions in qualifying at the {wikiLink("Russian Grand Prix", "https://en.wikipedia.org/wiki/2021_Russian_Grand_Prix")}. He lost the lead to Carlos Sainz on the first lap before regaining it on 
-        lap 13. Norris continued to lead the race with Lewis Hamilton close behind until rain began to fall in the closing laps. Norris decided to stay out on dry-weather tyres while Hamilton pitted for intermediate tyres. The rain soon worsened, allowing Hamilton to 
-        overtake and forcing Norris to pit for intermediates. Norris finished seventh, recording the fastest lap of the race. Norris scored points in each of the remaining seven races of the season, but did not finish higher than seventh. He qualified third at the 
-        season-ending {wikiLink("Abu Dhabi Grand Prix", "https://en.wikipedia.org/wiki/2023_Abu_Dhabi_Grand_Prix")} and was the first of the five cars controversially permitted to unlap themselves on the penultimate lap of the race. He criticised the decision to resume 
-        the race on the final lap and described it as being done "for the TV". The result of the final race dropped Norris to sixth in the World Drivers' Championship, 4.5 points behind former teammate Sainz. Nevertheless, Norris achieved his career best result in the 
-        standings and scored 160 points to teammate Ricciardo's 115.
+        Albon's best qualifying result with Toro Rosso came at the {wikiLink("2019 British Grand Prix", "https://en.wikipedia.org/wiki/2019_British_Grand_Prix")} with ninth place, although he failed to score points in the race. Albon started the {wikiLink("2019 German Grand Prix", "https://en.wikipedia.org/wiki/2019_German_Grand_Prix")} in sixteenth place. He and Toro Rosso took advantage of changing weather conditions to run as high as fourth and eventually finish sixth, albeit behind teammate {wikiLink("Daniil Kvyat", "https://en.wikipedia.org/wiki/Daniil_Kvyat")} who claimed the team's first podium finish in over ten years. At this stage of the season, Albon had scored 16 points to Kvyat's 27.
       </p>
 
       <div className="clear-both"></div>
 
+      <section id="red-bull-2019" className="space-y-4 scroll-mt-24"></section>
+      {/* Red Bull (2019–2021) */}
+      <h3 className="text-2xl font-bold text-red-600 mb-2">Red Bull (2019–2021)</h3>
+
+      {/* 2019 */}
+      <section id="red-bull-season-2019" className="space-y-4 scroll-mt-24"></section>
+      <h4 className="text-lg font-semibold text-red-400 mb-1">2019</h4>
+
+      <div className="clear-both"></div>
+
+      <figure className="float-left mr-4 mb-4 max-w-[250px] border border-gray-700 rounded-lg bg-gray-900 p-2 shadow-lg">
+        <img
+          src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Alexander_Albon_at_2019_Italian_Grand_Prix_%28qualifying%29.jpg/500px-Alexander_Albon_at_2019_Italian_Grand_Prix_%28qualifying%29.jpg"
+          alt="Albon driving for Red Bull at the 2019 Italian Grand Prix"
+          className="w-full h-auto rounded"
+        />
+        <figcaption className="text-sm text-gray-400 text-center">
+          Albon driving for {wikiLink("Red Bull", "https://en.wikipedia.org/wiki/Red_Bull_Racing")} at the {wikiLink("2019 Italian Grand Prix", "https://en.wikipedia.org/wiki/2019_Italian_Grand_Prix")}
+        </figcaption>
+      </figure>
+
+      <p>
+        After the {wikiLink("2019 Hungarian Grand Prix", "https://en.wikipedia.org/wiki/2019_Hungarian_Grand_Prix")}, {wikiLink("Red Bull Racing", "https://en.wikipedia.org/wiki/Red_Bull_Racing")} announced that Albon would be replacing {wikiLink("Pierre Gasly", "https://en.wikipedia.org/wiki/Pierre_Gasly")} and partnering {wikiLink("Max Verstappen", "https://en.wikipedia.org/wiki/Max_Verstappen")} at the team from the {wikiLink("2019 Belgian Grand Prix", "https://en.wikipedia.org/wiki/2019_Belgian_Grand_Prix")} onwards, with Gasly returning to {wikiLink("Toro Rosso", "https://en.wikipedia.org/wiki/Scuderia_Toro_Rosso")}. On the mid-season change, Red Bull stated: "The team will use the next nine races to evaluate Alex's performance in order to make an informed decision as to who will drive alongside Max in 2020."
+      </p>
+
+      <p>
+        At the {wikiLink("Belgian Grand Prix", "https://en.wikipedia.org/wiki/2019_Belgian_Grand_Prix")}, Albon was forced to start from seventeenth place due to a power unit change. He recovered to finish fifth in the race after passing {wikiLink("Sergio Pérez", "https://en.wikipedia.org/wiki/Sergio_P%C3%A9rez")} on the final lap. After sixth-place finishes at the {wikiLink("2019 Italian Grand Prix", "https://en.wikipedia.org/wiki/2019_Italian_Grand_Prix")} and {wikiLink("2019 Singapore Grand Prix", "https://en.wikipedia.org/wiki/2019_Singapore_Grand_Prix")} Grands Prix, Albon finished fifth at the {wikiLink("2019 Russian Grand Prix", "https://en.wikipedia.org/wiki/2019_Russian_Grand_Prix")} having crashed in qualifying and started from the pit lane. Albon and Verstappen set identical lap times in qualifying at the {wikiLink("2019 Japanese Grand Prix", "https://en.wikipedia.org/wiki/2019_Japanese_Grand_Prix")} and Albon finished a career-best fourth in the race. He finished fifth at both the {wikiLink("2019 Mexican Grand Prix", "https://en.wikipedia.org/wiki/2019_Mexican_Grand_Prix")} and {wikiLink("2019 United States Grand Prix", "https://en.wikipedia.org/wiki/2019_United_States_Grand_Prix")}, despite taking damage on the opening lap and making three pit stops at the latter. He was in second place on the penultimate lap of the {wikiLink("2019 Brazilian Grand Prix", "https://en.wikipedia.org/wiki/2019_Brazilian_Grand_Prix")}, but was hit by {wikiLink("Lewis Hamilton", "https://en.wikipedia.org/wiki/Lewis_Hamilton")} during an overtaking attempt, dropping Albon to fourteenth place at the finish. He finished sixth at the {wikiLink("2019 Abu Dhabi Grand Prix", "https://en.wikipedia.org/wiki/2019_Abu_Dhabi_Grand_Prix")} to close out the season.
+      </p>
+
+      <p>
+        Albon ended his debut season eighth in the World Drivers' Championship with 92 points. He scored 76 points during his nine races at Red Bull, compared to 97 for Verstappen over the same period. Albon received the <i>Rookie of the Year</i> award at the {wikiLink("FIA Prize Giving Ceremony", "https://en.wikipedia.org/wiki/FIA_Prize_Giving_Ceremony")}.
+      </p>
+
+      <div className="clear-both"></div>
+
+      {/* 2020 */}
+      <section id="albon-2020" className="space-y-4 scroll-mt-24"></section>
+      <h4 className="text-lg font-semibold text-red-400 mb-1">2020</h4>
+
+      <div className="clear-both"></div>
+
+      <figure className="float-left mr-4 mb-4 max-w-[250px] border border-gray-700 rounded-lg bg-gray-900 p-2 shadow-lg">
+        <img
+          src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Alexander_Albon-Red_Bull_RB16_%284%29.jpg/500px-Alexander_Albon-Red_Bull_RB16_%284%29.jpg"
+          alt="Albon driving for Red Bull in Barcelona in 2020 during pre-season testing"
+          className="w-full h-auto rounded"
+        />
+        <figcaption className="text-sm text-gray-400 text-center">
+          Albon driving for {wikiLink("Red Bull", "https://en.wikipedia.org/wiki/Red_Bull_Racing")} in {wikiLink("Barcelona", "https://en.wikipedia.org/wiki/Circuit_de_Barcelona-Catalunya")} in {wikiLink("2020", "https://en.wikipedia.org/wiki/2020_Formula_One_World_Championship")} during pre-season testing
+        </figcaption>
+      </figure>
+
+      <p>
+        Albon continued racing for Red Bull alongside {wikiLink("Verstappen", "https://en.wikipedia.org/wiki/Max_Verstappen")} in {wikiLink("2020", "https://en.wikipedia.org/wiki/2020_Formula_One_World_Championship")}. In the closing stages of the season-opening {wikiLink("Austrian Grand Prix", "https://en.wikipedia.org/wiki/2020_Austrian_Grand_Prix")}, Albon was in third place at the {wikiLink("safety car", "https://en.wikipedia.org/wiki/Safety_car")} restart on new {wikiLink("soft-compound tyres", "https://en.wikipedia.org/wiki/Formula_One_tyres")}, behind the leading {wikiLink("Mercedes", "https://en.wikipedia.org/wiki/Mercedes-Benz_in_Formula_One")} cars on older hard tyres. Albon attempted to overtake {wikiLink("Lewis Hamilton", "https://en.wikipedia.org/wiki/Lewis_Hamilton")} but the two made contact, sending Albon into the gravel. He later retired with an electrical failure, which engine supplier {wikiLink("Honda", "https://en.wikipedia.org/wiki/Honda_in_Formula_One")} blamed on the collision.
+      </p>
+
+      <p>
+        He came under pressure from {wikiLink("Racing Point", "https://en.wikipedia.org/wiki/Racing_Point_F1_Team")}'s {wikiLink("Sergio Pérez", "https://en.wikipedia.org/wiki/Sergio_P%C3%A9rez")} in the final laps of the {wikiLink("Styrian Grand Prix", "https://en.wikipedia.org/wiki/2020_Styrian_Grand_Prix")}, but maintained fourth place after the drivers made contact, damaging Pérez's front wing. {wikiLink("Red Bull", "https://en.wikipedia.org/wiki/Red_Bull_Racing")} commented that they were unsure why Albon lacked pace in the race. He started thirteenth and recovered to fifth at the {wikiLink("Hungarian Grand Prix", "https://en.wikipedia.org/wiki/2020_Hungarian_Grand_Prix")}.
+      </p>
+
+      <div className="clear-both"></div>
+
+      <figure className="float-left mr-4 mb-4 max-w-[250px] border border-gray-700 rounded-lg bg-gray-900 p-2 shadow-lg">
+      <img
+        src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Alexander_Albon_2020_Tuscan_Grand_Prix_-_race_day.jpg/500px-Alexander_Albon_2020_Tuscan_Grand_Prix_-_race_day.jpg"
+        alt="Albon racing at the 2020 Tuscan Grand Prix, where he achieved his maiden podium"
+        className="w-full h-auto rounded"
+      />
+      <figcaption className="text-sm text-gray-400 text-center">
+        Albon racing at the {wikiLink("2020 Tuscan Grand Prix", "https://en.wikipedia.org/wiki/2020_Tuscan_Grand_Prix")}, where he achieved his maiden podium
+      </figcaption>
+    </figure>
+
+    <p>
+      Albon crashed heavily in practice for the {wikiLink("2020 British Grand Prix", "https://en.wikipedia.org/wiki/2020_British_Grand_Prix")} and went on to qualify twelfth. He received a penalty in the race for causing a collision with {wikiLink("Kevin Magnussen", "https://en.wikipedia.org/wiki/Kevin_Magnussen")} and dropped to the back of the field before ultimately finishing eighth. He qualified fifth for the {wikiLink("2020 Belgian Grand Prix", "https://en.wikipedia.org/wiki/2020_Belgian_Grand_Prix")}, but finished sixth after being passed by {wikiLink("Esteban Ocon", "https://en.wikipedia.org/wiki/Esteban_Ocon")} on the final lap.
+      He was fifteenth at the {wikiLink("2020 Italian Grand Prix", "https://en.wikipedia.org/wiki/2020_Italian_Grand_Prix")} having taken collision damage and a time penalty on the opening lap. Albon took his maiden Formula One podium at the {wikiLink("2020 Tuscan Grand Prix", "https://en.wikipedia.org/wiki/2020_Tuscan_Grand_Prix")} by overtaking {wikiLink("Daniel Ricciardo", "https://en.wikipedia.org/wiki/Daniel_Ricciardo")} in the closing laps, becoming the first {wikiLink("Thai Formula One driver", "https://en.wikipedia.org/wiki/Formula_One_drivers_from_Thailand")} to achieve a podium finish.
+    </p>
+
+    <p>
+        Albon claimed only a single point over the next four races; he finished tenth at the {wikiLink("Russian Grand Prix", "https://en.wikipedia.org/wiki/2020_Russian_Grand_Prix")}, collided with former teammate {wikiLink("Daniil Kvyat", "https://en.wikipedia.org/wiki/Daniil_Kvyat")} and later retired with a damaged radiator at the {wikiLink("Eifel Grand Prix", "https://en.wikipedia.org/wiki/2020_Eifel_Grand_Prix")}, was lapped by Verstappen and finished twelfth at the {wikiLink("Portuguese Grand Prix", "https://en.wikipedia.org/wiki/2020_Portuguese_Grand_Prix")}, and dropped to fifteenth at the {wikiLink("Emilia Romagna Grand Prix", "https://en.wikipedia.org/wiki/2020_Emilia_Romagna_Grand_Prix")} due to a spin with five laps remaining. He led a race for the first time at the {wikiLink("Turkish Grand Prix", "https://en.wikipedia.org/wiki/2020_Turkish_Grand_Prix")} on his way to seventh place, and took his second podium finish at the {wikiLink("Bahrain Grand Prix", "https://en.wikipedia.org/wiki/2020_Bahrain_Grand_Prix")} after Pérez retired from third with an engine failure—making him the first {wikiLink("Asian driver", "https://en.wikipedia.org/wiki/Formula_One_drivers_from_Asia")} to score more than one podium. He finished sixth at the {wikiLink("Sakhir Grand Prix", "https://en.wikipedia.org/wiki/2020_Sakhir_Grand_Prix")}, and fourth at the {wikiLink("Abu Dhabi Grand Prix", "https://en.wikipedia.org/wiki/2020_Abu_Dhabi_Grand_Prix")}, pressuring Hamilton in the closing stages.
+      </p>
+
+      <p>
+        Albon finished the season seventh in the {wikiLink("World Drivers' Championship", "https://en.wikipedia.org/wiki/World_Drivers%27_Championship")}, scoring 105 points to Verstappen's 214.
+      </p>
+
+      <p>
+        He was demoted to the role of test and reserve driver with Red Bull for {wikiLink("2021", "https://en.wikipedia.org/wiki/2021_Formula_One_World_Championship")}, his race seat being taken by {wikiLink("Sergio Pérez", "https://en.wikipedia.org/wiki/Sergio_P%C3%A9rez")}. Following his demotion, Albon remarked that "it hurts" but hoped to return to a race seat for {wikiLink("2022", "https://en.wikipedia.org/wiki/2022_Formula_One_World_Championship")}. After finishing his {wikiLink("2021 DTM", "https://en.wikipedia.org/wiki/2021_Deutsche_Tourenwagen_Masters")} campaign, he took on a coaching role for {wikiLink("AlphaTauri", "https://en.wikipedia.org/wiki/Scuderia_AlphaTauri")} driver {wikiLink("Yuki Tsunoda", "https://en.wikipedia.org/wiki/Yuki_Tsunoda")} starting from the {wikiLink("2021 Turkish Grand Prix", "https://en.wikipedia.org/wiki/2021_Turkish_Grand_Prix")}.
+      </p>
+
+      <div className="clear-both"></div>
+
+      {/* Williams (2022–) */}
+      <section id="williams-2022" className="space-y-4 scroll-mt-24"></section>
+      <h3 className="text-2xl font-bold text-red-600 mb-2">Williams (2022–)</h3>
+
+      {/* 2022 */}
       <section id="season-2022" className="space-y-4 scroll-mt-24"></section>
-      {/* 2022 Season */}
-      <h4 className="text-lg font-semibold text-red-400 mb-1">2022 Season</h4>
+      <h4 className="text-lg font-semibold text-red-400 mb-1">2022</h4>
 
-      <figure className="float-right mr-4 mb-4 max-w-[250px] border border-gray-700 rounded-lg bg-gray-900 p-2 shadow-lg">
+      <div className="clear-both"></div>
+
+      <figure className="float-left mr-4 mb-4 max-w-[250px] border border-gray-700 rounded-lg bg-gray-900 p-2 shadow-lg">
         <img
-          src="/drivers/norris/car8.jpg"
-          alt="Norris racing at Monza during the 2016 Eurocup Formula Renault 2.0 championship"
+          src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/Alex_Albon_2022.jpg/500px-Alex_Albon_2022.jpg"
+          alt="Alex Albon at the 2022 Emilia Romagna Grand Prix"
           className="w-full h-auto rounded"
         />
         <figcaption className="text-sm text-gray-400 text-center">
-         Norris at the {wikiLink("2022 British Grand Prix", "https://en.wikipedia.org/wiki/2022_British_Grand_Prix")}
+          Alex Albon at the {wikiLink("2022 Emilia Romagna Grand Prix", "https://en.wikipedia.org/wiki/2022_Emilia_Romagna_Grand_Prix")}
         </figcaption>
       </figure>
 
       <p>
-        In February 2022 Norris signed a contract extension with {wikiLink("McLaren", "https://en.wikipedia.org/wiki/McLaren")} that will see him be with the team until at least 2025. He completed all three days of pre-season testing in Bahrain after teammate Ricciardo 
-        tested positive for COVID-19 and was unable to attend.
+        Albon returned to a Formula One race seat in {wikiLink("2022", "https://en.wikipedia.org/wiki/2022_Formula_One_World_Championship")} with {wikiLink("Williams", "https://en.wikipedia.org/wiki/Williams_Grand_Prix_Engineering")}, replacing {wikiLink("George Russell", "https://en.wikipedia.org/wiki/George_Russell_(racing_driver)")} and partnering former {wikiLink("Formula 2", "https://en.wikipedia.org/wiki/FIA_Formula_2_Championship")} teammate {wikiLink("Nicholas Latifi", "https://en.wikipedia.org/wiki/Nicholas_Latifi")}. {wikiLink("Red Bull", "https://en.wikipedia.org/wiki/Red_Bull_Racing")} team principal {wikiLink("Christian Horner", "https://en.wikipedia.org/wiki/Christian_Horner")} revealed that Albon retained "a link to Red Bull" and that the team had an option to recall him for {wikiLink("2023", "https://en.wikipedia.org/wiki/2023_Formula_One_World_Championship")}.
       </p>
 
       <p>
-        Both McLaren drivers qualified and finished outside the top ten at the season-opening {wikiLink("Bahrain Grand Prix", "https://en.wikipedia.org/wiki/2022_Bahrain_Grand_Prix")}. Norris then scored points at 
-        the {wikiLink("Saudi Arabian Grand Prix", "https://en.wikipedia.org/wiki/2022_Saudi_Arabian_Grand_Prix")} and {wikiLink("Australian Grand Prix", "https://en.wikipedia.org/wiki/2022_Australian_Grand_Prix")} before achieving the team's only podium finish of the 
-        season with third place at the {wikiLink("Emilia Romagna Grand Prix", "https://en.wikipedia.org/wiki/2022_Emilia_Romagna_Grand_Prix")}. At the new {wikiLink("Miami Grand Prix", "https://en.wikipedia.org/wiki/2022_Miami_Grand_Prix")}, the safety car was deployed 
-        when Norris was involved in a crash with {wikiLink("Pierre Gasly", "https://en.wikipedia.org/wiki/Pierre_Gasly")}'s {wikiLink("AlphaTauri", "https://en.wikipedia.org/wiki/Scuderia_AlphaTauri")}. Despite suffering with tonsillitis, Norris came sixth in 
-        the {wikiLink("Monaco Grand Prix", "https://en.wikipedia.org/wiki/2022_Monaco_Grand_Prix")} and secured the fastest lap. He qualified fifteenth at the {wikiLink("Austrian Grand Prix", "https://en.wikipedia.org/wiki/2022_Austrian_Grand_Prix")} but recovered in 
-        the sprint and the race to finish seventh. He then qualified fourth for the {wikiLink("Hungarian Grand Prix", "https://en.wikipedia.org/wiki/2022_Hungarian_Grand_Prix")} but was unable to keep {wikiLink("Lewis Hamilton", "https://en.wikipedia.org/wiki/Lewis_Hamilton")} 
-        and the two {wikiLink("Red Bulls", "https://en.wikipedia.org/wiki/Red_Bull_Racing")} behind and finished seventh.
+        In his first race for Williams, the {wikiLink("2022 Bahrain Grand Prix", "https://en.wikipedia.org/wiki/2022_Bahrain_Grand_Prix")}, Albon out-qualified Latifi and finished thirteenth. He was in twelfth late in the {wikiLink("2022 Saudi Arabian Grand Prix", "https://en.wikipedia.org/wiki/2022_Saudi_Arabian_Grand_Prix")}, but retired following a collision with {wikiLink("Lance Stroll", "https://en.wikipedia.org/wiki/Lance_Stroll")}, for which he was penalised. At the {wikiLink("2022 Australian Grand Prix", "https://en.wikipedia.org/wiki/2022_Australian_Grand_Prix")}, he scored his first point for Williams by finishing tenth—starting last and pitting with one lap to go.
       </p>
 
       <p>
-        Norris started seventeenth at the {wikiLink("Belgian Grand Prix", "https://en.wikipedia.org/wiki/2022_Belgian_Grand_Prix")} with a power unit components penalty and failed to score points, finishing twelfth. He started third at 
-        the {wikiLink("Italian Grand Prix", "https://en.wikipedia.org/wiki/2022_Italian_Grand_Prix")} but again lost out to the Red Bulls and finished seventh. His best result since Emilia Romagna came at the {wikiLink("Singapore Grand Prix", "https://en.wikipedia.org/wiki/2022_Singapore_Grand_Prix")} 
-        where he and Ricciardo finished fourth and fifth respectively, briefly promoting McLaren to fourth place above {wikiLink("Alpine", "https://en.wikipedia.org/wiki/Alpine_F1_Team")} in the Constructors' Championship. He scored points in 
-        the {wikiLink("São Paulo Grand Prix", "https://en.wikipedia.org/wiki/2022_S%C3%A3o_Paulo_Grand_Prix")} sprint, but a gearbox failure eliminated him from the points positions in the race. He ended the season with sixth place and the fastest lap at 
-        the {wikiLink("Abu Dhabi Grand Prix", "https://en.wikipedia.org/wiki/2022_Abu_Dhabi_Grand_Prix")}. He finished seventh in the Drivers' Championship and scored 122 points to Ricciardo's 37.
+        He again started last at the {wikiLink("2022 Emilia Romagna Grand Prix", "https://en.wikipedia.org/wiki/2022_Emilia_Romagna_Grand_Prix")} due to a brake fire in qualifying, recovering to finish eleventh. Albon then classified ninth at the {wikiLink("2022 Miami Grand Prix", "https://en.wikipedia.org/wiki/2022_Miami_Grand_Prix")} from eighteenth on the grid—his second points finish of the year. At the {wikiLink("2022 British Grand Prix", "https://en.wikipedia.org/wiki/2022_British_Grand_Prix")}, he was involved in a first-lap crash with {wikiLink("Yuki Tsunoda", "https://en.wikipedia.org/wiki/Yuki_Tsunoda")} and {wikiLink("Esteban Ocon", "https://en.wikipedia.org/wiki/Esteban_Ocon")} after contact from {wikiLink("Sebastian Vettel", "https://en.wikipedia.org/wiki/Sebastian_Vettel")}, resulting in a precautionary hospital checkup with no serious injuries.
+      </p>
+
+      <p>
+        At the {wikiLink("2022 Belgian Grand Prix", "https://en.wikipedia.org/wiki/2022_Belgian_Grand_Prix")}, Albon reached Q3 for the first time with Williams, qualifying ninth and starting sixth due to grid penalties for other drivers. He finished tenth, securing another point. He missed the {wikiLink("2022 Italian Grand Prix", "https://en.wikipedia.org/wiki/2022_Italian_Grand_Prix")} due to {wikiLink("appendicitis", "https://en.wikipedia.org/wiki/Appendicitis")} and was replaced by {wikiLink("Nyck de Vries", "https://en.wikipedia.org/wiki/Nyck_de_Vries")}. Williams later revealed Albon suffered {wikiLink("anaesthetic-related respiratory failure", "https://en.wikipedia.org/wiki/Respiratory_failure")} post-surgery but recovered in time for the {wikiLink("2022 Singapore Grand Prix", "https://en.wikipedia.org/wiki/2022_Singapore_Grand_Prix")}, where he retired after hitting the wall.
+      </p>
+
+      <p>
+        He retired again on the opening lap of the {wikiLink("2022 Japanese Grand Prix", "https://en.wikipedia.org/wiki/2022_Japanese_Grand_Prix")} after a collision with {wikiLink("Kevin Magnussen", "https://en.wikipedia.org/wiki/Kevin_Magnussen")}. After starting eighth at the {wikiLink("2022 United States Grand Prix", "https://en.wikipedia.org/wiki/2022_United_States_Grand_Prix")}, he finished thirteenth. At the {wikiLink("2022 São Paulo Grand Prix", "https://en.wikipedia.org/wiki/2022_S%C3%A3o_Paulo_Grand_Prix")}, a puncture forced retirement from the sprint, sending him to the back of the grid. Albon ended the year nineteenth in the championship, scoring 4 of Williams’ 8 points.
       </p>
 
       <div className="clear-both"></div>
 
+      {/* 2023 */}
       <section id="season-2023" className="space-y-4 scroll-mt-24"></section>
-      {/* 2023 Season */}
-      <h4 className="text-lg font-semibold text-red-400 mb-1">2023 Season</h4>
-
-      <p>
-        Norris remained with {wikiLink("McLaren", "https://en.wikipedia.org/wiki/McLaren")} for the 2023 season, partnered by rookie {wikiLink("Oscar Piastri", "https://en.wikipedia.org/wiki/Oscar_Piastri")} who replaced Ricciardo. At the first race at the {wikiLink("Bahrain Grand Prix", "https://en.wikipedia.org/wiki/2023_Bahrain_Grand_Prix")}, both McLaren cars experienced reliability issues. Norris made six pit stops to manage the problem and finished seventeenth and last of the finishing drivers. He was eliminated in the first qualifying session (Q1) for the first time since 2019 at the {wikiLink("Saudi Arabian Grand Prix", "https://en.wikipedia.org/wiki/2023_Saudi_Arabian_Grand_Prix")} after hitting the wall. He received damage from debris on the opening lap and again finished seventeenth. The {wikiLink("Australian Grand Prix", "https://en.wikipedia.org/wiki/2023_Australian_Grand_Prix")} saw McLaren score their first points of the season; Piastri finished eighth and Norris improved from thirteenth at the start to sixth at the finish. Another Q1 knockout at the {wikiLink("Miami Grand Prix", "https://en.wikipedia.org/wiki/2023_Miami_Grand_Prix")} and contact with {wikiLink("Nyck de Vries", "https://en.wikipedia.org/wiki/Nyck_de_Vries")} at the start resulted in another finish outside the points. He qualified third at the {wikiLink("Spanish Grand Prix", "https://en.wikipedia.org/wiki/2023_Spanish_Grand_Prix")} but first-lap contact with {wikiLink("Lewis Hamilton", "https://en.wikipedia.org/wiki/Lewis_Hamilton")} dropped him to the back. He was demoted from a points finish at the {wikiLink("Canadian Grand Prix", "https://en.wikipedia.org/wiki/2023_Canadian_Grand_Prix")} with a penalty for "unsportsmanlike behaviour" after slowing excessively whilst entering the pit lane to create a gap to Piastri ahead.
-      </p>
-
-      <figure className="float-left mr-4 mb-4 max-w-[250px] border border-gray-700 rounded-lg bg-gray-900 p-2 shadow-lg">
-        <img
-          src="/drivers/norris/car9.jpg"
-          alt="Norris racing at Monza during the 2016 Eurocup Formula Renault 2.0 championship"
-          className="w-full h-auto rounded"
-        />
-        <figcaption className="text-sm text-gray-400 text-center">
-          Norris racing at the {wikiLink("2023 Austrian Grand Prix", "https://en.wikipedia.org/wiki/2023_Austrian_Grand_Prix")}
-        </figcaption>
-      </figure>
-
-      <p>
-        McLaren brought upgrades to Norris's {wikiLink("MCL60", "https://en.wikipedia.org/wiki/McLaren_MCL60")} for the {wikiLink("Austrian Grand Prix", "https://en.wikipedia.org/wiki/2023_Austrian_Grand_Prix")}; team principal {wikiLink("Andrea Stella", "https://en.wikipedia.org/wiki/Andrea_Stella_(engineer)")} commented that "pretty much the entire car" had been redesigned. Norris qualified fourth for the race, third for the sprint and finished fourth in the race. More success came at the {wikiLink("British Grand Prix", "https://en.wikipedia.org/wiki/2023_British_Grand_Prix")} where Norris and Piastri qualified second and third respectively, a result Norris described as "insane". He passed {wikiLink("Max Verstappen", "https://en.wikipedia.org/wiki/Max_Verstappen")} at the first corner and led the race for four laps before Verstappen regained the place. In the later stages of the race, Norris held off Lewis Hamilton to finish second, making him the first McLaren driver to finish on the podium at {wikiLink("Silverstone Circuit", "https://en.wikipedia.org/wiki/2010_British_Grand_Prix")} since Hamilton in 2010. He then qualified third and defended from {wikiLink("Sergio Pérez", "https://en.wikipedia.org/wiki/Sergio_P%C3%A9rez")} to finish second at the {wikiLink("Hungarian Grand Prix", "https://en.wikipedia.org/wiki/2023_Hungarian_Grand_Prix")}, the first consecutive podiums of his Formula One career. He accidentally broke Verstappen's first place trophy during the podium celebrations; the trophy was later replaced. He started second at the {wikiLink("Dutch Grand Prix", "https://en.wikipedia.org/wiki/2023_Dutch_Grand_Prix")} but criticised his team's decision not to change tyres during a rain shower; he went on to finish seventh.
-      </p>
-
-      <p>
-        Four consecutive podiums began with the {wikiLink("Singapore Grand Prix", "https://en.wikipedia.org/wiki/2023_Singapore_Grand_Prix")}, where he held off the {wikiLink("Mercedes", "https://en.wikipedia.org/wiki/Mercedes_in_F1")} duo of Hamilton and George Russell and finished less than a second behind race winner Carlos Sainz Jr., his former McLaren teammate. He qualified third, behind teammate Piastri, at the {wikiLink("Japanese Grand Prix", "https://en.wikipedia.org/wiki/2023_Japanese_Grand_Prix")}, but passed him in the race to finish second. He led much of the {wikiLink("United States Grand Prix", "https://en.wikipedia.org/wiki/2023_United_States_Grand_Prix")} having qualified second and passed Charles Leclerc at the start, but was ultimately overtaken by Verstappen and Hamilton. Hamilton's post-race disqualification promoted Norris to second place. Norris failed to set a competitive qualifying time at the {wikiLink("Mexico City Grand Prix", "https://en.wikipedia.org/wiki/2023_Mexico_City_Grand_Prix")}, starting seventeenth, but recovered to finish the race fifth. At the {wikiLink("São Paulo Grand Prix", "https://en.wikipedia.org/wiki/2023_S%C3%A3o_Paulo_Grand_Prix")}, he claimed sprint race pole position but was overtaken by Verstappen at the first corner and finished second. He also finished second in the main race, having started sixth and gained four places at the start. His only retirement of the season came at the penultimate round, the {wikiLink("Las Vegas Grand Prix", "https://en.wikipedia.org/wiki/2023_Las_Vegas_Grand_Prix")}. He qualified sixteenth and crashed heavily on the third lap. He was taken to hospital for precautionary checks and was discharged the same day.
-      </p>
-
-      <p>
-        Norris scored 205 points in total to Piastri's 97 and placed sixth in the Drivers' Championship, matching his result from 2021. He finished only one point behind fourth place, as {wikiLink("Fernando Alonso", "https://en.wikipedia.org/wiki/Fernando_Alonso")} and Charles Leclerc tied on 206 points.
-      </p>
-
-      <div className="clear-both"></div>
-
-      <section id="maiden-win" className="space-y-4 scroll-mt-24"></section>
-      {/* 2024 Season - Maiden Win */}
-      <h4 className="text-lg font-semibold text-red-400 mb-1">2024: Maiden Win and Title Challenge</h4>
+      <h4 className="text-lg font-semibold text-red-400 mb-1">2023</h4>
 
       <figure className="float-right mr-4 mb-4 max-w-[250px] border border-gray-700 rounded-lg bg-gray-900 p-2 shadow-lg">
         <img
-          src="/drivers/norris/car10.jpg"
-          alt="Norris racing at Monza during the 2016 Eurocup Formula Renault 2.0 championship"
+          src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/FIA_F1_Austria_2023_Nr._23_%281%29.jpg/500px-FIA_F1_Austria_2023_Nr._23_%281%29.jpg"
+          alt="Albon at the 2023 Austrian Grand Prix"
           className="w-full h-auto rounded"
         />
         <figcaption className="text-sm text-gray-400 text-center">
-         Norris at the {wikiLink("2024 Chinese Grand Prix", "https://en.wikipedia.org/wiki/2024_Chinese_Grand_Prix")}
+          Albon at the {wikiLink("2023 Austrian Grand Prix", "https://en.wikipedia.org/wiki/2023_Austrian_Grand_Prix")}
         </figcaption>
       </figure>
 
       <p>
-        Ahead of the 2024 season, Norris signed a new multi-year contract with {wikiLink("McLaren", "https://en.wikipedia.org/wiki/McLaren")}.
-        He finished sixth at the first race, the {wikiLink("Bahrain Grand Prix", "https://en.wikipedia.org/wiki/2024_Bahrain_Grand_Prix")} and took his first podium of the season at the {wikiLink("Australian Grand Prix", "https://en.wikipedia.org/wiki/2024_Australian_Grand_Prix")}, starting and finishing third. He took the season's first sprint pole at the {wikiLink("Chinese Grand Prix", "https://en.wikipedia.org/wiki/2024_Chinese_Grand_Prix")}, but dropped positions on the opening lap of the sprint and finished sixth. For the main race, he qualified fourth, overtook {wikiLink("Fernando Alonso", "https://en.wikipedia.org/wiki/Fernando_Alonso")} and gained on {wikiLink("Sergio Pérez", "https://en.wikipedia.org/wiki/Sergio_P%C3%A9rez")} in the pits to finish second, his fifteenth Formula One podium.
+        Albon was retained by {wikiLink("Williams", "https://en.wikipedia.org/wiki/Williams_Grand_Prix_Engineering")} for {wikiLink("2023", "https://en.wikipedia.org/wiki/2023_Formula_One_World_Championship")} on a multi-year contract, partnering {wikiLink("Logan Sargeant", "https://en.wikipedia.org/wiki/Logan_Sargeant")}, who replaced Nicholas Latifi. Albon's contract extension marked the end of his affiliation with {wikiLink("Red Bull", "https://en.wikipedia.org/wiki/Red_Bull_GmbH")}, although he stated he still maintained "a very close relationship" with the team; the logo of {wikiLink("Monsoon Valley", "https://en.wikipedia.org/wiki/Red_Bull_GmbH")}—a wine brand founded by Red Bull co-owner {wikiLink("Chalerm Yoovidhya", "https://en.wikipedia.org/wiki/Chalerm_Yoovidhya")}—features on his race helmet.
       </p>
 
       <p>
-        At the {wikiLink("Miami Grand Prix", "https://en.wikipedia.org/wiki/2024_Miami_Grand_Prix")}, he retired from the sprint after a first-corner collision with Alonso. He qualified fifth for the main race and led the race after the drivers ahead had made pit stops. A subsequent safety car allowed Norris to pit and retain his lead, which he held ahead of {wikiLink("Max Verstappen", "https://en.wikipedia.org/wiki/Max_Verstappen")} at the restart to claim his maiden Grand Prix victory after 110 races and his 16th podium finish.
-      </p>
-
-      <p>
-        After Miami, Norris achieved five podiums before the summer break. He scored podiums at {wikiLink("Imola", "https://en.wikipedia.org/wiki/2024_Emilia_Romagna_Grand_Prix")}, {wikiLink("Canada", "https://en.wikipedia.org/wiki/2024_Canadian_Grand_Prix")}, and {wikiLink("Spain", "https://en.wikipedia.org/wiki/2024_Spanish_Grand_Prix")}, where he took pole position. Norris failed to score a podium at {wikiLink("Monaco", "https://en.wikipedia.org/wiki/2024_Monaco_Grand_Prix")} and in {wikiLink("Austria", "https://en.wikipedia.org/wiki/2024_Austrian_Grand_Prix")}, where he sparred with Verstappen before making race-ending contact with him.
-      </p>
-
-      <figure className="float-left mr-4 mb-4 max-w-[250px] border border-gray-700 rounded-lg bg-gray-900 p-2 shadow-lg">
-        <img
-          src="/drivers/norris/celeb1.jpg"
-          alt="Norris racing at Monza during the 2016 Eurocup Formula Renault 2.0 championship"
-          className="w-full h-auto rounded"
-        />
-        <figcaption className="text-sm text-gray-400 text-center">
-         Norris (centre) on the podium after winning the {wikiLink("2024 Dutch Grand Prix", "https://en.wikipedia.org/wiki/2024_Dutch_Grand_Prix")}
-        </figcaption>
-      </figure>
-
-      <p>
-        Following the summer break, Norris achieved pole position at the {wikiLink("Dutch Grand Prix", "https://en.wikipedia.org/wiki/2024_Dutch_Grand_Prix")}. He reclaimed first place during the race and extended the lead to win McLaren's first at Circuit Zandvoort since 1985. He then took pole position for the {wikiLink("Italian Grand Prix", "https://en.wikipedia.org/wiki/2024_Italian_Grand_Prix")} marking consecutive poles for the first time in his career. He finished third behind teammate {wikiLink("Oscar Piastri", "https://en.wikipedia.org/wiki/Oscar_Piastri")} and {wikiLink("Charles Leclerc", "https://en.wikipedia.org/wiki/Charles_Leclerc")}. 
-      </p>
-
-      <p>
-        Norris took his fifth pole of the season at the {wikiLink("Singapore Grand Prix", "https://en.wikipedia.org/wiki/2024_Singapore_Grand_Prix")} and claimed victory leading every lap. He battled Verstappen at the {wikiLink("United States Grand Prix", "https://en.wikipedia.org/wiki/2024_United_States_Grand_Prix")} but was denied a podium after a penalty. At the {wikiLink("Mexico City Grand Prix", "https://en.wikipedia.org/wiki/2024_Mexico_City_Grand_Prix")}, Norris finished second.
-      </p>
-
-      <p>
-        Despite winning the sprint at the {wikiLink("São Paulo Grand Prix", "https://en.wikipedia.org/wiki/2024_S%C3%A3o_Paulo_Grand_Prix")}, Norris finished seventh in the main race after various setbacks. He concluded the season with a victory at the {wikiLink("Abu Dhabi Grand Prix", "https://en.wikipedia.org/wiki/2024_Abu_Dhabi_Grand_Prix")}, securing McLaren's first constructors' title since 1998.
+        He qualified fifteenth at the season-opening {wikiLink("Bahrain Grand Prix", "https://en.wikipedia.org/wiki/2023_Bahrain_Grand_Prix")}, failing to set a time in Q2 due to front wing damage, but recovered in the race to score a point with tenth place. He retired from the {wikiLink("Saudi Arabian Grand Prix", "https://en.wikipedia.org/wiki/2023_Saudi_Arabian_Grand_Prix")} with a brake failure. He qualified eighth at the {wikiLink("Australian Grand Prix", "https://en.wikipedia.org/wiki/2023_Australian_Grand_Prix")} and ran as high as sixth in the opening laps before crashing heavily on lap six. At the {wikiLink("Azerbaijan Grand Prix", "https://en.wikipedia.org/wiki/2023_Azerbaijan_Grand_Prix")}, he qualified and finished the sprint race in the top ten but failed to score points after finishing twelfth in the main race.
       </p>
 
       <div className="clear-both"></div>
 
-      <section id="season-2025" className="space-y-4 scroll-mt-24"></section>
-      {/* 2025 Season - Title Challenge */}
-      <h4 className="text-lg font-semibold text-red-400 mb-1">2025 Season: Title Challenge</h4>
-
       <figure className="float-left mr-4 mb-4 max-w-[250px] border border-gray-700 rounded-lg bg-gray-900 p-2 shadow-lg">
         <img
-          src="/drivers/norris/car11.jpg"
-          alt="Norris racing at Monza during the 2016 Eurocup Formula Renault 2.0 championship"
+          src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Alexander_Albon_-_2023_Italian_Grand_Prix.jpg/500px-Alexander_Albon_-_2023_Italian_Grand_Prix.jpg"
+          alt="Albon at the 2023 Italian Grand Prix"
           className="w-full h-auto rounded"
         />
         <figcaption className="text-sm text-gray-400 text-center">
-         Norris (pictured at the {wikiLink("2025 Japanese Grand Prix", "https://en.wikipedia.org/wiki/2025_Japanese_Grand_Prix")}) and McLaren entered {wikiLink("2025", "https://en.wikipedia.org/wiki/2025_Formula_One_World_Championship")} as title favourites.
+          Albon at the {wikiLink("2023 Italian Grand Prix", "https://en.wikipedia.org/wiki/2023_Italian_Grand_Prix")}
         </figcaption>
       </figure>
 
       <p>
-        {wikiLink("McLaren", "https://en.wikipedia.org/wiki/McLaren")} entered the{" "}
-        {wikiLink("2025 Formula One World Championship", "https://en.wikipedia.org/wiki/2025_Formula_One_World_Championship")} as title favourites, with Norris stating he had learned 
-        "a lot of lessons" in his bid to become World Drivers' Champion. He took pole for the season-opening{" "}
-        {wikiLink("Australian Grand Prix", "https://en.wikipedia.org/wiki/2025_Australian_Grand_Prix")}, defending the lead from teammate{" "}
-        {wikiLink("Oscar Piastri", "https://en.wikipedia.org/wiki/Oscar_Piastri")} and{" "}
-        {wikiLink("Max Verstappen", "https://en.wikipedia.org/wiki/Max_Verstappen")} in wet conditions to claim victory and the championship lead.
+        Albon started ninth at the {wikiLink("2023 Canadian Grand Prix", "https://en.wikipedia.org/wiki/2023_Canadian_Grand_Prix")}, executed a successful one-stop strategy and held behind the faster cars of Sergio Pérez and George Russell for much of the race to finish seventh, his best result thus far for Williams. He received praise from Red Bull team principal Christian Horner for his performance. Another Q3 appearance came at the {wikiLink("2023 Austrian Grand Prix", "https://en.wikipedia.org/wiki/2023_Austrian_Grand_Prix")} followed by an eleventh-place finish. He qualified in the top ten for the third consecutive race at the {wikiLink("2023 British Grand Prix", "https://en.wikipedia.org/wiki/2023_British_Grand_Prix")} and finished ahead of both {wikiLink("Ferraris", "https://en.wikipedia.org/wiki/Scuderia_Ferrari")} in eighth place. He matched his highest career qualifying position at the {wikiLink("2023 Dutch Grand Prix", "https://en.wikipedia.org/wiki/2023_Dutch_Grand_Prix")}, starting fourth. Despite staying on {wikiLink("slick tyres", "https://en.wikipedia.org/wiki/Racing_slicks")} during a rain shower in the early laps and dropping to fifteenth place, he recovered to finish eighth. He scored points again at the {wikiLink("2023 Italian Grand Prix", "https://en.wikipedia.org/wiki/2023_Italian_Grand_Prix")} where he qualified sixth and defended against {wikiLink("Lando Norris", "https://en.wikipedia.org/wiki/Lando_Norris")} to finish seventh.
+      </p>
+
+      <div className="clear-both"></div>
+
+      <figure className="float-left mr-4 mb-4 max-w-[250px] border border-gray-700 rounded-lg bg-gray-900 p-2 shadow-lg">
+        <img
+          src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/Alex_Albon.jpg/250px-Alex_Albon.jpg"
+          alt="Albon speaking to the media at the launch event for the Williams FW46 at the Puma Flagship Store in New York City."
+          className="w-full h-auto rounded"
+        />
+        <figcaption className="text-sm text-gray-400 text-center">
+          Albon speaking to the media at the {wikiLink("Williams FW46", "https://en.wikipedia.org/wiki/Williams_FW46")} launch event at the Puma Flagship Store in {wikiLink("New York City", "https://en.wikipedia.org/wiki/New_York_City")}.
+        </figcaption>
+      </figure>
+
+      <p>
+        Albon started seventeenth for the {wikiLink("Qatar Grand Prix", "https://en.wikipedia.org/wiki/2023_Qatar_Grand_Prix")} sprint and gained ten places to score points in seventh place. He received two penalties for track limits infringements and failed to score in the main race. More points came at the {wikiLink("United States Grand Prix", "https://en.wikipedia.org/wiki/2023_United_States_Grand_Prix")} and {wikiLink("Mexico City Grand Prix", "https://en.wikipedia.org/wiki/2023_Mexico_City_Grand_Prix")}; he finished ninth in both races having started outside the top ten. He was then eliminated in a first-corner collision with {wikiLink("Kevin Magnussen", "https://en.wikipedia.org/wiki/Kevin_Magnussen")} at the {wikiLink("São Paulo Grand Prix", "https://en.wikipedia.org/wiki/2023_S%C3%A3o_Paulo_Grand_Prix")}, having started thirteenth.
+        Albon and teammate {wikiLink("Logan Sargeant", "https://en.wikipedia.org/wiki/Logan_Sargeant")} started fifth and sixth respectively for the {wikiLink("Las Vegas Grand Prix", "https://en.wikipedia.org/wiki/2023_Las_Vegas_Grand_Prix")}, but both failed to score in the race, finishing twelfth despite the timing of the {wikiLink("safety car", "https://en.wikipedia.org/wiki/Safety_car")} going against them. Albon ended the season thirteenth in the {wikiLink("Drivers' Championship", "https://en.wikipedia.org/wiki/Formula_One_World_Drivers%27_Championship")}. He scored 27 points to Sargeant's one point, securing {wikiLink("Williams", "https://en.wikipedia.org/wiki/Williams_Grand_Prix_Engineering")} seventh place in the {wikiLink("Constructors' Championship", "https://en.wikipedia.org/wiki/Formula_One_World_Constructors%27_Championship")}.
+      </p>
+
+      <div className="clear-both"></div>
+
+      {/* 2024 */}
+      <section id="season-2024" className="space-y-4 scroll-mt-24"></section>
+      <h4 className="text-lg font-semibold text-red-400 mb-1">2024</h4>
+
+      <figure className="float-right mr-4 mb-4 max-w-[250px] border border-gray-700 rounded-lg bg-gray-900 p-2 shadow-lg">
+        <img
+          src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/Alex_Albon_2024_Chinese_GP.jpg/500px-Alex_Albon_2024_Chinese_GP.jpg"
+          alt="Albon at the 2024 Chinese Grand Prix"
+          className="w-full h-auto rounded"
+        />
+        <figcaption className="text-sm text-gray-400 text-center">
+          Albon at the {wikiLink("2024 Chinese Grand Prix", "https://en.wikipedia.org/wiki/2024_Chinese_Grand_Prix")}
+        </figcaption>
+      </figure>
+
+      <p>
+        Albon continued at {wikiLink("Williams", "https://en.wikipedia.org/wiki/Williams_Grand_Prix_Engineering")} alongside {wikiLink("Sargeant", "https://en.wikipedia.org/wiki/Logan_Sargeant")} for {wikiLink("2024", "https://en.wikipedia.org/wiki/2024_Formula_One_World_Championship")}. He qualified and finished outside the top ten at the season-opening {wikiLink("Bahrain Grand Prix", "https://en.wikipedia.org/wiki/2024_Bahrain_Grand_Prix")}, with the team stating that both drivers were dealing with engine overheating issues during the race. He and {wikiLink("Kevin Magnussen", "https://en.wikipedia.org/wiki/Kevin_Magnussen")} collided at the {wikiLink("Saudi Arabian Grand Prix", "https://en.wikipedia.org/wiki/2024_Saudi_Arabian_Grand_Prix")} and Albon went on to finish eleventh.
       </p>
 
       <p>
-        After finishing eighth in the{" "}
-        {wikiLink("Chinese Grand Prix", "https://en.wikipedia.org/wiki/2025_Chinese_Grand_Prix")} sprint, he claimed second in the main race behind Piastri. In{" "}
-        {wikiLink("Japan", "https://en.wikipedia.org/wiki/2025_Japanese_Grand_Prix")}, he finished second to Verstappen, who reduced his championship lead to a single point. 
-        Norris increased his championship lead to three points over Piastri with his third-placed finish at the{" "}
-        {wikiLink("Bahrain Grand Prix", "https://en.wikipedia.org/wiki/2025_Bahrain_Grand_Prix")}, after qualifying sixth and receiving a penalty for a start infringement.
+        He crashed in the first practice session at the {wikiLink("Australian Grand Prix", "https://en.wikipedia.org/wiki/2024_Australian_Grand_Prix")} and Williams were unable to repair his car, nor did they have a spare chassis. Team principal {wikiLink("James Vowles", "https://en.wikipedia.org/wiki/James_Vowles")} described the situation as "a reflection of how behind we were in the winter period". The team decided to withdraw Sargeant from the event and allow Albon to use the one remaining car. He finished the race eleventh. He qualified fourteenth for the {wikiLink("Japanese Grand Prix", "https://en.wikipedia.org/wiki/2024_Japanese_Grand_Prix")} but was eliminated in a first-lap crash with {wikiLink("Daniel Ricciardo", "https://en.wikipedia.org/wiki/Daniel_Ricciardo")}. On 15 May, Williams confirmed that Albon has signed a multi-year extension to stay with the team.
+      </p>
+
+      <p>
+        Albon did not score points in the next three races which included him retiring in {wikiLink("Imola", "https://en.wikipedia.org/wiki/2024_Emilia_Romagna_Grand_Prix")} due to issues putting the tyre on at his pit stop taking him out of the points battle. Looking to bounce back Albon qualified 9th at the {wikiLink("Monaco Grand Prix", "https://en.wikipedia.org/wiki/2024_Monaco_Grand_Prix")}. He then kept hold of his position to finish in 9th place which marked his and Williams' first points of the season. Albon then qualified 10th for the {wikiLink("Canadian Grand Prix", "https://en.wikipedia.org/wiki/2024_Canadian_Grand_Prix")} but retired from the race whilst running in the points on lap 52 after {wikiLink("Carlos Sainz", "https://en.wikipedia.org/wiki/Carlos_Sainz_Jr.")} spun into him sending him into the wall.
+      </p>
+
+      <p>
+        After finishing out of the points in {wikiLink("Spain", "https://en.wikipedia.org/wiki/2024_Spanish_Grand_Prix")} and {wikiLink("Austria", "https://en.wikipedia.org/wiki/2024_Austrian_Grand_Prix")}, Albon then earned his second points finish of the season by finishing 9th at the {wikiLink("British Grand Prix", "https://en.wikipedia.org/wiki/2024_British_Grand_Prix")}. This meant at the halfway point of the season Albon was 17th in the drivers' championship with 4 points. After the {wikiLink("Dutch Grand Prix", "https://en.wikipedia.org/wiki/2024_Dutch_Grand_Prix")}, {wikiLink("Franco Colapinto", "https://en.wikipedia.org/wiki/Franco_Colapinto")} became Albon's new teammate from the {wikiLink("Italian Grand Prix", "https://en.wikipedia.org/wiki/2024_Italian_Grand_Prix")} onwards. At {wikiLink("Monza", "https://en.wikipedia.org/wiki/2024_Italian_Grand_Prix")}, Albon scored Williams' third points finish of the season taking another 9th place. During the {wikiLink("Azerbaijan Grand Prix", "https://en.wikipedia.org/wiki/2024_Azerbaijan_Grand_Prix")}, Albon benefitted from a late crash between {wikiLink("Sergio Pérez", "https://en.wikipedia.org/wiki/Sergio_P%C3%A9rez")} and {wikiLink("Carlos Sainz Jr.", "https://en.wikipedia.org/wiki/Carlos_Sainz_Jr.")}, which saw Albon finish seventh, allowing Williams to overtake Alpine in the {wikiLink("World Constructors' Championship", "https://en.wikipedia.org/wiki/World_Constructors%27_Championship")}.
+      </p>
+
+      <p>
+        Albon did not start the {wikiLink("São Paulo Grand Prix", "https://en.wikipedia.org/wiki/2024_S%C3%A3o_Paulo_Grand_Prix")} after crashing heavily in the third qualifying session; qualifying had been rescheduled to Sunday morning, leaving Williams unable to repair his chassis in time for the race two hours later. A cooling issue forced Albon to retire midway through the {wikiLink("Las Vegas Grand Prix", "https://en.wikipedia.org/wiki/2024_Las_Vegas_Grand_Prix")}, while he finished 15th and 11th in the {wikiLink("Qatar Grand Prix", "https://en.wikipedia.org/wiki/2024_Qatar_Grand_Prix")} and {wikiLink("Abu Dhabi Grand Prix", "https://en.wikipedia.org/wiki/2024_Abu_Dhabi_Grand_Prix")}, respectively. Albon finished the season 16th in the Drivers' Championship with 12 points.
+      </p>
+
+      <div className="clear-both"></div>
+
+      {/* 2025 */}
+      <section id="season-2025" className="space-y-4 scroll-mt-24"></section>
+      <h4 className="text-lg font-semibold text-red-400 mb-1">2025</h4>
+
+      <figure className="float-right mr-4 mb-4 max-w-[250px] border border-gray-700 rounded-lg bg-gray-900 p-2 shadow-lg">
+        <img
+          src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/2025_Japan_GP_-_Williams_-_Alex_Albon_-_FP2.jpg/500px-2025_Japan_GP_-_Williams_-_Alex_Albon_-_FP2.jpg"
+          alt="Albon driving the Williams FW47 at the 2025 Japanese Grand Prix"
+          className="w-full h-auto rounded"
+        />
+        <figcaption className="text-sm text-gray-400 text-center">
+          Albon (pictured at the {wikiLink("Japanese Grand Prix", "https://en.wikipedia.org/wiki/2025_Japanese_Grand_Prix")}) is partnered by {wikiLink("Carlos Sainz Jr.", "https://en.wikipedia.org/wiki/Carlos_Sainz_Jr.")} from {wikiLink("2025", "https://en.wikipedia.org/wiki/2025_Formula_One_World_Championship")} onwards.
+        </figcaption>
+      </figure>
+
+      <p>
+        Albon is partnered by {wikiLink("Carlos Sainz Jr.", "https://en.wikipedia.org/wiki/Carlos_Sainz_Jr.")} from {wikiLink("2025", "https://en.wikipedia.org/wiki/2025_Formula_One_World_Championship")} onwards. He qualified sixth and finished fifth at the rain-affected {wikiLink("Australian Grand Prix", "https://en.wikipedia.org/wiki/2025_Australian_Grand_Prix")}. He then finished seventh at the {wikiLink("Chinese Grand Prix", "https://en.wikipedia.org/wiki/2025_Chinese_Grand_Prix")} after disqualifications for {wikiLink("Charles Leclerc", "https://en.wikipedia.org/wiki/Charles_Leclerc")} and {wikiLink("Lewis Hamilton", "https://en.wikipedia.org/wiki/Lewis_Hamilton")}. He achieved a further points finish with ninth in {wikiLink("Japan", "https://en.wikipedia.org/wiki/2025_Japanese_Grand_Prix")}, before claiming twelfth in {wikiLink("Bahrain", "https://en.wikipedia.org/wiki/2025_Bahrain_Grand_Prix")}.
       </p>
 
       <div className="clear-both"></div>
