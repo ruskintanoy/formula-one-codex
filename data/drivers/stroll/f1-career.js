@@ -293,14 +293,14 @@ const wikiLink = (text, url) => (
 
       <div className="clear-both"></div>
 
-      <figure className="float-right mr-4 mb-4 max-w-[250px] border border-gray-700 rounded-lg bg-gray-900 p-2 shadow-lg">
+      <figure className="mb-4 w-120 mx-auto border border-gray-700 rounded-lg bg-gray-900 p-2 shadow-lg">
         <img
           src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/2025_Japan_GP_-_Aston_Martin_-_Lance_Stroll_-_FP3.jpg/500px-2025_Japan_GP_-_Aston_Martin_-_Lance_Stroll_-_FP3.jpg"
           alt="Stroll driving the Aston Martin AMR25 at the 2025 Japanese Grand Prix"
-          className="w-full h-auto rounded"
+          className="rounded-lg w-120 h-80 mx-auto"
         />
-        <figcaption className="text-sm text-gray-400 text-center">
-          Stroll (pictured at the {wikiLink("2025 Japanese Grand Prix", "https://en.wikipedia.org/wiki/2025_Japanese_Grand_Prix")}) retained his seat for {wikiLink("2025", "https://en.wikipedia.org/wiki/2025_Formula_One_World_Championship")}.
+        <figcaption className="text-sm text-gray-400 mt-2 text-center">
+        Stroll (pictured at the {wikiLink("2025 Japanese Grand Prix", "https://en.wikipedia.org/wiki/2025_Japanese_Grand_Prix")}) retained his seat for {wikiLink("2025", "https://en.wikipedia.org/wiki/2025_Formula_One_World_Championship")}
         </figcaption>
       </figure>
 
