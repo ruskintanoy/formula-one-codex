@@ -48,7 +48,7 @@ export default async function DriverProfilePage({ params }) {
             <h2 className="text-2xl font-bold text-red-600 border-b border-gray-700 pb-2 text-center">
               Background
             </h2>
-            <p className="text-gray-300">{background}</p>
+            <div className="text-gray-300 space-y-4">{background}</div>
           </section>
 
           {/* Junior Racing Career */}
