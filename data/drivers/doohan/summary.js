@@ -1,68 +1,70 @@
 const wikiLink = (text, url) => (
-    <a href={url} target="_blank" rel="noopener noreferrer" className="text-red-500 hover:underline"> {text}</a>);
-  
-  const summary = (
-    <>
-      {wikiLink("Lando Norris", "https://en.wikipedia.org/wiki/Lando_Norris")} (born 13 November 1999) is a British racing driver, who competes in{" "}
-      {wikiLink("Formula One", "https://en.wikipedia.org/wiki/Formula_One")} for{" "}
-      {wikiLink("McLaren", "https://en.wikipedia.org/wiki/McLaren")}.
-  
-      Norris was runner-up in the{" "}
-      {wikiLink("2024 Formula One World Championship", "https://en.wikipedia.org/wiki/2024_Formula_One_World_Championship")} with McLaren, and has won five{" "}
-      {wikiLink("Grands Prix", "https://en.wikipedia.org/wiki/List_of_Formula_One_Grands_Prix")} across seven seasons.
-  
-      <br /><br />
-  
-      Born in Bristol and raised in Glastonbury to an English father and Belgian mother, Norris began competitive{" "}
-      {wikiLink("kart racing", "https://en.wikipedia.org/wiki/Kart_racing")} aged seven. After a successful karting career — culminating in his victory at the{" "}
-      {wikiLink("Karting World Championship", "https://en.wikipedia.org/wiki/Karting_World_Championship")} in 2014 — Norris graduated to junior formulae.
-  
-      He won his first title at the{" "}
-      {wikiLink("2015 MSA Formula Championship", "https://en.wikipedia.org/wiki/2015_MSA_Formula_Championship")} with{" "}
-      {wikiLink("Carlin", "https://en.wikipedia.org/wiki/Carlin_Motorsport")}.
-  
-      <br /><br />
-  
-      He then won the{" "}
-      {wikiLink("Toyota Racing Series", "https://en.wikipedia.org/wiki/2016_Toyota_Racing_Series")},{" "}
-      {wikiLink("Formula Renault Eurocup", "https://en.wikipedia.org/wiki/2016_Eurocup_Formula_Renault_2.0")}, and{" "}
-      {wikiLink("Formula Renault NEC", "https://en.wikipedia.org/wiki/2016_Formula_Renault_2.0_Northern_European_Cup")} in 2016, receiving the{" "}
-      {wikiLink("Autosport BRDC Award", "https://en.wikipedia.org/wiki/Autosport_BRDC_Award")} that year.
-  
-      <br /><br />
-  
-      Norris won the{" "}
-      {wikiLink("FIA Formula 3 European Championship", "https://en.wikipedia.org/wiki/FIA_Formula_3_European_Championship")} in 2017, and finished runner-up to{" "}
-      {wikiLink("George Russell", "https://en.wikipedia.org/wiki/George_Russell_(racing_driver)")} in the{" "}
-      {wikiLink("FIA Formula 2 Championship", "https://en.wikipedia.org/wiki/FIA_Formula_2_Championship")} in 2018, both with Carlin.
-  
-      <br /><br />
-  
-      A member of the{" "}
-      {wikiLink("McLaren Young Driver Programme", "https://en.wikipedia.org/wiki/McLaren_Young_Driver_Programme")} since 2017, Norris joined McLaren in 2019 to partner{" "}
-      {wikiLink("Carlos Sainz Jr.", "https://en.wikipedia.org/wiki/Carlos_Sainz_Jr.")}, making his Formula One debut at the{" "}
-      {wikiLink("2019 Australian Grand Prix", "https://en.wikipedia.org/wiki/2019_Australian_Grand_Prix")}.
-  
-      <br /><br />
-  
-      He achieved his maiden podium finish and fastest lap at the season-opening{" "}
-      {wikiLink("2020 Austrian Grand Prix", "https://en.wikipedia.org/wiki/2020_Austrian_Grand_Prix")}, before achieving his maiden pole position at the{" "}
-      {wikiLink("2021 Russian Grand Prix", "https://en.wikipedia.org/wiki/2021_Russian_Grand_Prix")}.
-  
-      <br /><br />
-  
-      In 2024, Norris took his maiden career win at the{" "}
-      {wikiLink("2024 Miami Grand Prix", "https://en.wikipedia.org/wiki/2024_Miami_Grand_Prix")}, repeating this feat in the{" "}
-      {wikiLink("2024 Dutch Grand Prix", "https://en.wikipedia.org/wiki/2024_Dutch_Grand_Prix")},{" "}
-      {wikiLink("2024 Singapore Grand Prix", "https://en.wikipedia.org/wiki/2024_Singapore_Grand_Prix")}, and{" "}
-      {wikiLink("2024 Abu Dhabi Grand Prix", "https://en.wikipedia.org/wiki/2024_Abu_Dhabi_Grand_Prix")}.
-  
-      <br /><br />
-  
-      As of the{" "}
-      {wikiLink("2025 Bahrain Grand Prix", "https://en.wikipedia.org/wiki/2025_Bahrain_Grand_Prix")}, Norris has achieved five race wins, 10 pole positions, 14 fastest laps, and 29 podiums in Formula One. He is contracted to remain at McLaren until at least the end of the 2027 season.
-    </>
-  );
-  
-  export default summary;
-  
+  <a href={url} target="_blank" rel="noopener noreferrer" className="text-red-500 hover:underline">
+    {text}
+  </a>
+);
+
+const summary = (
+  <>
+    <b>Jack Doohan</b> (born 20 January 2003) is an Australian{" "}
+    {wikiLink("racing driver", "https://en.wikipedia.org/wiki/Racing_driver")}, who competes in{" "}
+    {wikiLink("Formula One", "https://en.wikipedia.org/wiki/Formula_One")} for{" "}
+    {wikiLink("Alpine", "https://en.wikipedia.org/wiki/Alpine_F1_Team")}.
+
+    <br /><br />
+
+    Born and raised in the{" "}
+    {wikiLink("Gold Coast, Queensland", "https://en.wikipedia.org/wiki/Gold_Coast,_Queensland")}, Doohan is the son of five-time{" "}
+    {wikiLink("Grand Prix motorcycle World Champion", "https://en.wikipedia.org/wiki/List_of_500cc/MotoGP_Motorcycle_World_Champions")}{" "}
+    {wikiLink("Mick Doohan", "https://en.wikipedia.org/wiki/Mick_Doohan")}.
+
+    He began{" "}
+    {wikiLink("kart racing", "https://en.wikipedia.org/wiki/Kart_racing")} aged nine in a{" "}
+    {wikiLink("go-kart", "https://en.wikipedia.org/wiki/Go-kart")} gifted to him by{" "}
+    {wikiLink("Michael Schumacher", "https://en.wikipedia.org/wiki/Michael_Schumacher")}, winning multiple national titles.
+
+    <br /><br />
+
+    Graduating to{" "}
+    {wikiLink("junior formulae", "https://en.wikipedia.org/wiki/Junior_formulae")} in 2018, Doohan began his career in the{" "}
+    {wikiLink("F4 British Championship", "https://en.wikipedia.org/wiki/2018_F4_British_Championship")}.
+
+    He finished runner-up to{" "}
+    {wikiLink("Joey Alders", "https://en.wikipedia.org/wiki/Joey_Alders")} in the{" "}
+    {wikiLink("2019–20 F3 Asian Championship", "https://en.wikipedia.org/wiki/2019%E2%80%9320_F3_Asian_Championship")} before progressing to{" "}
+    {wikiLink("FIA Formula 3", "https://en.wikipedia.org/wiki/FIA_Formula_3")} in{" "}
+    {wikiLink("2020", "https://en.wikipedia.org/wiki/2020_FIA_Formula_3_Championship")}.
+
+    Doohan finished runner-up to{" "}
+    {wikiLink("Dennis Hauger", "https://en.wikipedia.org/wiki/Dennis_Hauger")} in the{" "}
+    {wikiLink("2021 FIA Formula 3 Championship", "https://en.wikipedia.org/wiki/2021_FIA_Formula_3_Championship")} with{" "}
+    {wikiLink("Trident", "https://en.wikipedia.org/wiki/Trident_Motorsport")}.
+
+    <br /><br />
+
+    He moved to{" "}
+    {wikiLink("FIA Formula 2", "https://en.wikipedia.org/wiki/FIA_Formula_2")}, scoring multiple wins in both the{" "}
+    {wikiLink("2022", "https://en.wikipedia.org/wiki/2022_Formula_2_Championship")} and{" "}
+    {wikiLink("2023", "https://en.wikipedia.org/wiki/2023_Formula_2_Championship")} seasons with{" "}
+    {wikiLink("Virtuosi", "https://en.wikipedia.org/wiki/Virtuosi_Racing")}, finishing third overall in 2023.
+
+    <br /><br />
+
+    A member of the{" "}
+    {wikiLink("Alpine Academy", "https://en.wikipedia.org/wiki/Alpine_Academy")} since 2022—and formerly part of the{" "}
+    {wikiLink("Red Bull Junior Team", "https://en.wikipedia.org/wiki/Red_Bull_Junior_Team")}—Doohan served as a reserve driver for{" "}
+    {wikiLink("Alpine", "https://en.wikipedia.org/wiki/Alpine_F1_Team")} in{" "}
+    {wikiLink("2023", "https://en.wikipedia.org/wiki/2023_Formula_One_World_Championship")} and{" "}
+    {wikiLink("2024", "https://en.wikipedia.org/wiki/2024_Formula_One_World_Championship")}.
+
+    He debuted at the{" "}
+    {wikiLink("2024 Abu Dhabi Grand Prix", "https://en.wikipedia.org/wiki/2024_Abu_Dhabi_Grand_Prix")} as a replacement for{" "}
+    {wikiLink("Esteban Ocon", "https://en.wikipedia.org/wiki/Esteban_Ocon")}.
+
+    Doohan was promoted to a full-time seat in{" "}
+    {wikiLink("2025", "https://en.wikipedia.org/wiki/2025_Formula_One_World_Championship")}, partnering{" "}
+    {wikiLink("Pierre Gasly", "https://en.wikipedia.org/wiki/Pierre_Gasly")}, and is contracted to remain at Alpine until at least the end of the 2025 season.
+  </>
+);
+
+export default summary;
