@@ -143,6 +143,10 @@ const wikiLink = (text, url) => (
 
       <div className="clear-both"></div>
 
+      {/* Renault / Alpine (2020–2024) */}
+      <section id="renault-alpine" className="space-y-4 scroll-mt-24"></section>
+      <h3 className="text-2xl font-bold text-red-600 mb-2">Renault / Alpine (2020–2024)</h3>
+
       <section id="renault-2020" className="space-y-4 scroll-mt-24"></section>
       {/* 2020: Maiden podium */}
       <h4 className="text-lg font-semibold text-red-400 mb-1">2020: Maiden podium</h4>
