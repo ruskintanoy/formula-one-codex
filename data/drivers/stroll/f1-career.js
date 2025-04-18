@@ -293,7 +293,7 @@ const wikiLink = (text, url) => (
 
       <div className="clear-both"></div>
 
-      <figure className="mb-4 w-120 mx-auto border border-gray-700 rounded-lg bg-gray-900 p-2 shadow-lg">
+      <figure className="mb-4 w-120 h-80 mx-auto border border-gray-700 rounded-lg bg-gray-900 p-2 shadow-lg">
         <img
           src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/2025_Japan_GP_-_Aston_Martin_-_Lance_Stroll_-_FP3.jpg/500px-2025_Japan_GP_-_Aston_Martin_-_Lance_Stroll_-_FP3.jpg"
           alt="Stroll driving the Aston Martin AMR25 at the 2025 Japanese Grand Prix"
