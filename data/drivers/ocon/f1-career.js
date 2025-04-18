@@ -11,341 +11,348 @@ const wikiLink = (text, url) => (
   
   const f1Career = (
     <>
-      <section id="mclaren-driver-programme" className="space-y-4 scroll-mt-24"></section>
-      {/* McLaren Driver Development Programme */}
-      <h3 className="text-2xl font-bold text-red-600 mb-2">
-        McLaren Driver Development Programme
-      </h3>
-
       <figure className="float-left mr-4 mb-4 max-w-[250px] border border-gray-700 rounded-lg bg-gray-900 p-2 shadow-lg">
         <img
-          src="/drivers/norris/car4.jpg"
-          alt="Norris racing at Monza during the 2016 Eurocup Formula Renault 2.0 championship"
+          src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/Esteban_Ocon_-_Mercedes_%2832729175350%29.jpg/500px-Esteban_Ocon_-_Mercedes_%2832729175350%29.jpg"
+          alt="Ocon driving the Mercedes F1 W07 Hybrid"
           className="w-full h-auto rounded"
         />
         <figcaption className="text-sm text-gray-400 text-center">
-         Norris testing for McLaren during free practice at the {wikiLink("2018 Japanese Grand Prix", "https://en.wikipedia.org/wiki/2018_Japanese_Grand_Prix")}
+          Ocon driving the {wikiLink("Mercedes F1 W07 Hybrid", "https://en.wikipedia.org/wiki/Mercedes_F1_W07_Hybrid")}
         </figcaption>
       </figure>
 
       <p>
-        In February 2017, Norris joined the{" "}
-        {wikiLink("McLaren Driver Development Programme", "https://en.wikipedia.org/wiki/McLaren_Driver_Development_Programme")}.
-        Following the announcement,{" "}
-        {wikiLink("Zak Brown", "https://en.wikipedia.org/wiki/Zak_Brown")} said that Norris was
-        "a fabulous prospect" who deserved the award. Later that year, Norris tested for McLaren
-        in a scheduled mid-season test. He set the second fastest lap in the second day of testing
-        at the Hungaroring. In late 2017, Norris became the official McLaren test and reserve driver
-        for the 2018 season. Norris participated in his first official practice session at the{" "}
-        {wikiLink("Belgian Grand Prix", "https://en.wikipedia.org/wiki/2018_Belgian_Grand_Prix")},
-        recording 26 laps. Norris drove in six further practice sessions during the year.
+        In {wikiLink("May 2015", "https://en.wikipedia.org/wiki/2015_Formula_One_World_Championship")}, Ocon was called up by {wikiLink("Force India", "https://en.wikipedia.org/wiki/Force_India")} to drive at the post-race test in {wikiLink("Barcelona", "https://en.wikipedia.org/wiki/Circuit_de_Barcelona-Catalunya")}, after {wikiLink("Pascal Wehrlein", "https://en.wikipedia.org/wiki/Pascal_Wehrlein")} was forced to withdraw due to illness. Prior to him claiming the GP3 title, it was announced that Ocon would enter the {wikiLink("Mercedes Junior Team", "https://en.wikipedia.org/wiki/Mercedes_Junior_Team")}. In {wikiLink("February 2016", "https://en.wikipedia.org/wiki/2016_Formula_One_World_Championship")}, it was announced that Ocon would also act as reserve driver for the {wikiLink("Renault Sport F1", "https://en.wikipedia.org/wiki/Renault_in_Formula_One")} team for the {wikiLink("2016", "https://en.wikipedia.org/wiki/2016_Formula_One_World_Championship")} season. He took part in Friday practice sessions at four Grands Prix for the team.
       </p>
 
       <div className="clear-both"></div>
 
-      <section id="mclaren-2019-present" className="space-y-4 scroll-mt-24"></section>
-      {/* McLaren (2019-Present) */}
-      <h3 className="text-2xl font-bold text-red-600 mt-6 mb-2">
-        McLaren (2019–present)
-      </h3>
+      {/* Manor (2016) */}
+      <section id="manor-2016" className="space-y-4 scroll-mt-24"></section>
+      <h3 className="text-2xl font-bold text-red-600 mb-2">Manor (2016)</h3>
 
-      <section id="rookie-season" className="space-y-4 scroll-mt-24"></section>
-      {/* 2019: Rookie season */}
-      <h4 className="text-lg font-semibold text-red-400 mb-1">
-        2019: Rookie season
-      </h4>
+      <div className="clear-both"></div>
 
       <figure className="float-left mr-4 mb-4 max-w-[250px] border border-gray-700 rounded-lg bg-gray-900 p-2 shadow-lg">
         <img
-          src="/drivers/norris/car5.jpg"
-          alt="Norris racing at Monza during the 2016 Eurocup Formula Renault 2.0 championship"
+          src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Esteban_Ocon_2016_Malaysia_FP3.jpg/500px-Esteban_Ocon_2016_Malaysia_FP3.jpg"
+          alt="Ocon driving for Manor at the 2016 Malaysian Grand Prix"
           className="w-full h-auto rounded"
         />
         <figcaption className="text-sm text-gray-400 text-center">
-         Norris at the {wikiLink("2019 Chinese Grand Prix", "https://en.wikipedia.org/wiki/2019_Chinese_Grand_Prix")}
+          Ocon driving for {wikiLink("Manor", "https://en.wikipedia.org/wiki/Manor_Racing")} at the {wikiLink("2016 Malaysian Grand Prix", "https://en.wikipedia.org/wiki/2016_Malaysian_Grand_Prix")}
         </figcaption>
       </figure>
 
       <p>
-        Norris was contracted to drive for {wikiLink("McLaren", "https://en.wikipedia.org/wiki/McLaren")} for the {wikiLink("2019 Formula One World Championship", "https://en.wikipedia.org/wiki/2019_Formula_One_World_Championship")}, 
-        partnering {wikiLink("Carlos Sainz Jr.", "https://en.wikipedia.org/wiki/Carlos_Sainz_Jr.")}. He qualified eighth on his debut at the {wikiLink("Australian Grand Prix", "https://en.wikipedia.org/wiki/2019_Australian_Grand_Prix")} 
-        and finished the race in twelfth place. He scored his first Formula One points by finishing sixth at the following race, the {wikiLink("Bahrain Grand Prix", "https://en.wikipedia.org/wiki/2019_Bahrain_Grand_Prix")}. 
-        The {wikiLink("Chinese Grand Prix", "https://en.wikipedia.org/wiki/2019_Chinese_Grand_Prix")} was the first of Norris' retirements that season, after damage from a first lap collision with {wikiLink("Daniil Kvyat", "https://en.wikipedia.org/wiki/Daniil_Kvyat")} 
-        caused him to retire later in the race. Further retirements came at the {wikiLink("Spanish Grand Prix", "https://en.wikipedia.org/wiki/2019_Spanish_Grand_Prix")} after a collision with {wikiLink("Lance Stroll", "https://en.wikipedia.org/wiki/Lance_Stroll")} and 
-        at the {wikiLink("Canadian Grand Prix", "https://en.wikipedia.org/wiki/2019_Canadian_Grand_Prix")} when a brake fire caused his suspension to fail.
-      </p>
-
-      <p>
-        Norris was on course to finish seventh at the {wikiLink("French Grand Prix", "https://en.wikipedia.org/wiki/2019_French_Grand_Prix")} but suffered hydraulic problems late in the race and was eventually classified ninth. This was followed by a sixth-place 
-        finish at the {wikiLink("Austrian Grand Prix", "https://en.wikipedia.org/wiki/2019_Austrian_Grand_Prix")}, matching his best result. He was forced to start from the back at the {wikiLink("German Grand Prix", "https://en.wikipedia.org/wiki/2019_German_Grand_Prix")} 
-        due to penalties for exceeding the allowed number of engine components for the season. He later retired from the race after a power failure. At the {wikiLink("Belgian Grand Prix", "https://en.wikipedia.org/wiki/2019_Belgian_Grand_Prix")}, 
-        he made his way from eleventh up to fifth in the early stages of the race. He maintained this position and was set to record his best career finish but suffered a power failure on his final lap and was classified eleventh.
-      </p>
-
-      <p>
-        Three consecutive points finishes followed at the {wikiLink("Italian Grand Prix", "https://en.wikipedia.org/wiki/2019_Italian_Grand_Prix")}, {wikiLink("Singapore Grand Prix", "https://en.wikipedia.org/wiki/2019_Singapore_Grand_Prix")} 
-        and {wikiLink("Russian Grand Prix", "https://en.wikipedia.org/wiki/2019_Russian_Grand_Prix")}. At the {wikiLink("Japanese Grand Prix", "https://en.wikipedia.org/wiki/2019_Japanese_Grand_Prix")}, Norris was running in fifth place 
-        before {wikiLink("Alex Albon", "https://en.wikipedia.org/wiki/Alex_Albon")} collided with him during an overtake attempt. Norris dropped back after collecting floor damage and eventually finished eleventh. At the next race, 
-        the {wikiLink("Mexican Grand Prix", "https://en.wikipedia.org/wiki/2019_Mexican_Grand_Prix")}, he had a wheel fitted incorrectly after pitting from seventh place. He spent almost two minutes in the pits as his mechanics resolved the problem but he was eventually 
-        withdrawn from the race. He ended the season with three consecutive points finishes.
-      </p>
-
-      <p>
-        Norris finished his debut Formula One season eleventh in the drivers' championship with 49 points. Teammate Sainz scored 96 points, however Norris out-qualified Sainz at eleven of the twenty-one races. During his debut year, Norris signed a multi-year contract to 
-        stay with McLaren for the {wikiLink("2020 Formula One World Championship", "https://en.wikipedia.org/wiki/2020_Formula_One_World_Championship")} until the {wikiLink("2022 Formula One World Championship", 
-          "https://en.wikipedia.org/wiki/2022_Formula_One_World_Championship")}.
+        On 10 August {wikiLink("2016", "https://en.wikipedia.org/wiki/2016_Formula_One_World_Championship")}, {wikiLink("Rio Haryanto", "https://en.wikipedia.org/wiki/Rio_Haryanto")} was dropped from the {wikiLink("backmarker", "https://en.wikipedia.org/wiki/Glossary_of_motorsport_terms#B")} {wikiLink("Manor Racing", "https://en.wikipedia.org/wiki/Manor_Racing")} team after his sponsors had failed to meet their contractual obligations. Ocon was named as his replacement for the second half of the season, driving alongside {wikiLink("Pascal Wehrlein", "https://en.wikipedia.org/wiki/Pascal_Wehrlein")}. Ocon made his Formula One debut at the {wikiLink("2016 Belgian Grand Prix", "https://en.wikipedia.org/wiki/2016_Belgian_Grand_Prix")}, finishing sixteenth. He earned his best result of twelfth in the rain-affected {wikiLink("2016 Brazilian Grand Prix", "https://en.wikipedia.org/wiki/2016_Brazilian_Grand_Prix")}, dropping out of the points positions on the final lap. This result placed Ocon 23rd in the {wikiLink("World Drivers' Championship", "https://en.wikipedia.org/wiki/World_Drivers%27_Championship")}, ahead of Haryanto.
       </p>
 
       <div className="clear-both"></div>
-      
-      <section id="maiden-podium" className="space-y-4 scroll-mt-24"></section>
-      {/* 2020: Maiden Podium */}
-      <h4 className="text-lg font-semibold text-red-400 mb-1">2020: Maiden Podium</h4>
+
+      <section id="force-india-2017-2018" className="space-y-4 scroll-mt-24"></section>
+      {/* Force India (2017–2018) */}
+      <h3 className="text-2xl font-bold text-red-600 mb-2">Force India (2017–2018)</h3>
+
+      <section id="season-2017" className="space-y-4 scroll-mt-24"></section>
+      {/* 2017 season */}
+      <h4 className="text-lg font-semibold text-red-400 mb-1">2017 season</h4>
+
+      <div className="clear-both"></div>
+
+      <figure className="float-left mr-4 mb-4 max-w-[250px] border border-gray-700 rounded-lg bg-gray-900 p-2 shadow-lg">
+        <img
+          src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Esteban_Ocon_Chinese_GP_2017.jpg/250px-Esteban_Ocon_Chinese_GP_2017.jpg"
+          alt="Ocon driving for Force India at the 2017 Chinese Grand Prix"
+          className="w-full h-auto rounded"
+        />
+        <figcaption className="text-sm text-gray-400 text-center">
+          Ocon driving for {wikiLink("Force India", "https://en.wikipedia.org/wiki/Force_India")} at the {wikiLink("2017 Chinese Grand Prix", "https://en.wikipedia.org/wiki/2017_Chinese_Grand_Prix")}
+        </figcaption>
+      </figure>
 
       <p>
-        At the season-opening {wikiLink("Austrian Grand Prix", "https://en.wikipedia.org/wiki/2020_Austrian_Grand_Prix")}, Norris qualified in fourth place but was elevated to third after a grid penalty 
-        for {wikiLink("Lewis Hamilton", "https://en.wikipedia.org/wiki/Lewis_Hamilton")}, the highest grid position of his career at the time and the highest for McLaren since 
-        the {wikiLink("2016 Austrian Grand Prix", "https://en.wikipedia.org/wiki/2016_Austrian_Grand_Prix")}. In the closing stages of the race, third-placed Hamilton was issued a five-second penalty for causing a collision with Alex Albon. 
-        Norris set the fastest lap of the race on the final lap to finish 4.802 seconds behind Hamilton, allowing Norris to claim the first podium finish of his career. This made Norris the third youngest podium-finisher in Formula One history. 
-        At the {wikiLink("Styrian Grand Prix", "https://en.wikipedia.org/wiki/2020_Styrian_Grand_Prix")}, Norris qualified sixth but was given a three-place grid penalty for overtaking under yellow flags during practice. He passed three cars in the 
-        final two laps of the race to finish fifth, in what he described as "one of the best races of [his] career".
+        On 10 November {wikiLink("2016", "https://en.wikipedia.org/wiki/2016_Formula_One_World_Championship")}, {wikiLink("Force India", "https://en.wikipedia.org/wiki/Force_India")} announced that they had signed Ocon for the {wikiLink("2017", "https://en.wikipedia.org/wiki/2017_Formula_One_World_Championship")} season as part of his multi-year contract with {wikiLink("Mercedes", "https://en.wikipedia.org/wiki/Mercedes-Benz_in_Formula_One")}, with {wikiLink("Sergio Pérez", "https://en.wikipedia.org/wiki/Sergio_P%C3%A9rez")} as his new teammate.
+        Ocon scored his first {wikiLink("Formula One", "https://en.wikipedia.org/wiki/Formula_One")} point in his first race for Force India at the {wikiLink("2017 Australian Grand Prix", "https://en.wikipedia.org/wiki/2017_Australian_Grand_Prix")}, and scored points at the next four races including fifth place at the {wikiLink("2017 Spanish Grand Prix", "https://en.wikipedia.org/wiki/2017_Spanish_Grand_Prix")}.
       </p>
+
+      <div className="clear-both"></div>
 
       <figure className="float-right mr-4 mb-4 max-w-[250px] border border-gray-700 rounded-lg bg-gray-900 p-2 shadow-lg">
         <img
-          src="/drivers/norris/car6.jpg"
-          alt="Norris racing at Monza during the 2016 Eurocup Formula Renault 2.0 championship"
+          src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/Esteban_Ocon_2017_Malaysia_1.jpg/250px-Esteban_Ocon_2017_Malaysia_1.jpg"
+          alt="Ocon in 2017"
           className="w-full h-auto rounded"
         />
-        <figcaption className="text-sm text-gray-400 text-center">
-         Norris at the {wikiLink("2020 Tuscan Grand Prix", "https://en.wikipedia.org/wiki/2020_Tuscan_Grand_Prix")}
-        </figcaption>
+        <figcaption className="text-sm text-gray-400 text-center">Ocon in 2017</figcaption>
       </figure>
 
       <p>
-        Six consecutive points finishes came between the {wikiLink("British Grand Prix", "https://en.wikipedia.org/wiki/2020_British_Grand_Prix")} and {wikiLink("Tuscan Grand Prix", "https://en.wikipedia.org/wiki/2020_Tuscan_Grand_Prix")}. 
-        Norris collected damage on the opening lap of the {wikiLink("Russian Grand Prix", "https://en.wikipedia.org/wiki/2020_Russian_Grand_Prix")} and finished the race fifteenth. At the {wikiLink("Eifel Grand Prix", "https://en.wikipedia.org/wiki/2020_Eifel_Grand_Prix")}, 
-        he retired from sixth place with power unit failure. During the {wikiLink("Portuguese Grand Prix", "https://en.wikipedia.org/wiki/2020_Portuguese_Grand_Prix")}, a collision with {wikiLink("Lance Stroll", "https://en.wikipedia.org/wiki/Lance_Stroll")} and 
-        a puncture resulted in a thirteenth-place finish. Following this, Norris faced criticism over his remarks that Stroll "doesn't seem to learn" and his perceived downplaying of {wikiLink("Lewis Hamilton", "https://en.wikipedia.org/wiki/Lewis_Hamilton")}'s achievement 
-        of most Grand Prix wins, describing it as meaning "nothing to him". Subsequently, Norris apologised for his comments about Stroll and also offered a personal apology to Hamilton, stating that his comments were "careless" and that he "[hadn't] shown the 
-        respect I should have to certain people".
+        Following a twelfth place finish at the {wikiLink("Monaco Grand Prix", "https://en.wikipedia.org/wiki/2017_Monaco_Grand_Prix")}, Ocon recorded twelve consecutive points finishes but was often involved in incidents with teammate {wikiLink("Sergio Pérez", "https://en.wikipedia.org/wiki/Sergio_P%C3%A9rez")}. At the {wikiLink("Canadian Grand Prix", "https://en.wikipedia.org/wiki/2017_Canadian_Grand_Prix")}, Pérez ignored requests from the team to let Ocon past to challenge {wikiLink("Daniel Ricciardo", "https://en.wikipedia.org/wiki/Daniel_Ricciardo")} for third place. The two drivers collided at the {wikiLink("Azerbaijan Grand Prix", "https://en.wikipedia.org/wiki/2017_Azerbaijan_Grand_Prix")}, forcing Pérez into retirement and giving Ocon a puncture. They made contact again at the {wikiLink("Belgian Grand Prix", "https://en.wikipedia.org/wiki/2017_Belgian_Grand_Prix")}, where Ocon was squeezed towards a wall leading up to the Eau Rouge complex. Ocon later remarked that he was "furious" with Pérez and that he "risked [their] lives". Force India team owner {wikiLink("Vijay Mallya", "https://en.wikipedia.org/wiki/Vijay_Mallya")} stated that the repeated incidents were "very concerning" and that he would enforce {wikiLink("team orders", "https://en.wikipedia.org/wiki/Team_orders")} thereon.
       </p>
 
       <p>
-        At the wet {wikiLink("Turkish Grand Prix", "https://en.wikipedia.org/wiki/2020_Turkish_Grand_Prix")}, Norris had what he called "[the] worst start of everyone's career ever". He started from fourteenth place after a five-place grid penalty for failing to respect 
-        yellow flags in qualifying, but recovered to finish eighth and recorded the fastest lap of the race. Norris finished fourth at the {wikiLink("Bahrain Grand Prix", "https://en.wikipedia.org/wiki/2020_Bahrain_Grand_Prix")} and fifth at the 
-        season-finale {wikiLink("Abu Dhabi Grand Prix", "https://en.wikipedia.org/wiki/2020_Abu_Dhabi_Grand_Prix")}, which alongside the points scored by teammate Sainz, assisted McLaren in claiming third place in the constructors' 
-        championship over {wikiLink("Racing Point", "https://en.wikipedia.org/wiki/Racing_Point")}. Norris ended the season ninth in the drivers' championship with 97 points, eight points behind Sainz.
-      </p>
-
-      
-      <section id="maiden-pole" className="space-y-4 scroll-mt-24"></section>
-      {/* 2021: Maiden Pole Position */}
-      <h4 className="text-lg font-semibold text-red-400 mb-1">2021: Maiden Pole Position</h4>
-
-      <p>
-        Norris remained at {wikiLink("McLaren", "https://en.wikipedia.org/wiki/McLaren")} for the {wikiLink("2021 season", "https://en.wikipedia.org/wiki/2021_Formula_One_World_Championship")}, 
-        partnering {wikiLink("Daniel Ricciardo", "https://en.wikipedia.org/wiki/Daniel_Ricciardo")} as Sainz left the team for {wikiLink("Ferrari", "https://en.wikipedia.org/wiki/Scuderia_Ferrari")}. Norris qualified seventh for the 
-        season-opening {wikiLink("Bahrain Grand Prix", "https://en.wikipedia.org/wiki/2021_Bahrain_Grand_Prix")} and finished the race fourth. At the following race, the {wikiLink("Emilia Romagna Grand Prix", "https://en.wikipedia.org/wiki/2021_Emilia_Romagna_Grand_Prix")}, 
-        a qualifying time that would have placed him third on the grid was deleted for exceeding track limits, and he started the race seventh. Norris had run in second place before being passed by {wikiLink("Lewis Hamilton", "https://en.wikipedia.org/wiki/Lewis_Hamilton")} 
-        with three laps remaining. He finished third to claim his second Formula One podium finish. At the {wikiLink("Monaco Grand Prix", "https://en.wikipedia.org/wiki/2021_Monaco_Grand_Prix")}, Norris started fifth and benefited 
-        from {wikiLink("Charles Leclerc", "https://en.wikipedia.org/wiki/Charles_Leclerc")}'s failure to start the race and {wikiLink("Valtteri Bottas", "https://en.wikipedia.org/wiki/Valtteri_Bottas")}' retirement to claim another podium finish. Norris was issued a 
-        grid penalty and started ninth at the {wikiLink("Azerbaijan Grand Prix", "https://en.wikipedia.org/wiki/2021_Azerbaijan_Grand_Prix")} for failing to enter the pits during a red flag period in qualifying, a sanction he criticised as "unfair". 
-        He recovered places in the race to finish fifth, assisted by crashes and mistakes from drivers ahead.
-      </p>
-
-      <figure className="float-left mr-4 mb-4 max-w-[250px] border border-gray-700 rounded-lg bg-gray-900 p-2 shadow-lg">
-        <img
-          src="/drivers/norris/car7.jpg"
-          alt="Norris racing at Monza during the 2016 Eurocup Formula Renault 2.0 championship"
-          className="w-full h-auto rounded"
-        />
-        <figcaption className="text-sm text-gray-400 text-center">
-         Norris at the {wikiLink("2021 Austrian Grand Prix", "https://en.wikipedia.org/wiki/2021_Austrian_Grand_Prix")}
-        </figcaption>
-      </figure>
-
-      <p>
-        Norris equalled his then-highest grid position at the {wikiLink("Styrian Grand Prix", "https://en.wikipedia.org/wiki/2021_Styrian_Grand_Prix")} in Austria, starting third after Bottas was issued with a grid penalty. He finished fifth for the third consecutive race. 
-        He bettered this qualifying position at the following weekend's {wikiLink("Austrian Grand Prix", "https://en.wikipedia.org/wiki/2021_Austrian_Grand_Prix")}, starting in second place after setting a time 0.048 seconds behind 
-        pole-sitter {wikiLink("Max Verstappen", "https://en.wikipedia.org/wiki/Max_Verstappen")}. Norris received a penalty during the race after being judged to have forced Sergio Pérez off the track. He finished the race third to claim his third podium of the season. 
-        He set the sixth fastest time in Friday qualifying at the {wikiLink("British Grand Prix", "https://en.wikipedia.org/wiki/2021_British_Grand_Prix")}, before finishing fifth in the new-format sprint qualifying and fourth in the Grand Prix. This result moved 
-        him up to third place in the drivers' championship. He qualified sixth for the {wikiLink("Hungarian Grand Prix", "https://en.wikipedia.org/wiki/2021_Hungarian_Grand_Prix")}. He improved to third place by the first corner but was hit from behind by Bottas, 
-        causing him to collide with Verstappen. Norris retired from the race two laps later due to heavy damage. At the {wikiLink("Italian Grand Prix", "https://en.wikipedia.org/wiki/2021_Italian_Grand_Prix")}, Norris finished fourth in sprint qualifying, which 
-        became third on the grid for the race as Bottas incurred an engine penalty. Norris finished the race second behind teammate Ricciardo, scoring his fourth podium of the season and securing McLaren's first one-two finish since 
-        the {wikiLink("2010 Canadian Grand Prix", "https://en.wikipedia.org/wiki/2010_Canadian_Grand_Prix")}.
-      </p>
-
-      <p>
-        Norris took his first Formula One pole position in changing weather conditions in qualifying at the {wikiLink("Russian Grand Prix", "https://en.wikipedia.org/wiki/2021_Russian_Grand_Prix")}. He lost the lead to Carlos Sainz on the first lap before regaining it on 
-        lap 13. Norris continued to lead the race with Lewis Hamilton close behind until rain began to fall in the closing laps. Norris decided to stay out on dry-weather tyres while Hamilton pitted for intermediate tyres. The rain soon worsened, allowing Hamilton to 
-        overtake and forcing Norris to pit for intermediates. Norris finished seventh, recording the fastest lap of the race. Norris scored points in each of the remaining seven races of the season, but did not finish higher than seventh. He qualified third at the 
-        season-ending {wikiLink("Abu Dhabi Grand Prix", "https://en.wikipedia.org/wiki/2023_Abu_Dhabi_Grand_Prix")} and was the first of the five cars controversially permitted to unlap themselves on the penultimate lap of the race. He criticised the decision to resume 
-        the race on the final lap and described it as being done "for the TV". The result of the final race dropped Norris to sixth in the World Drivers' Championship, 4.5 points behind former teammate Sainz. Nevertheless, Norris achieved his career best result in the 
-        standings and scored 160 points to teammate Ricciardo's 115.
+        Ocon started the {wikiLink("Italian Grand Prix", "https://en.wikipedia.org/wiki/2017_Italian_Grand_Prix")} in third place after the {wikiLink("Red Bull", "https://en.wikipedia.org/wiki/Red_Bull_Racing")} drivers faced penalties, the highest grid position of his career. He went on to finish the race sixth. He spent much of the {wikiLink("Mexican Grand Prix", "https://en.wikipedia.org/wiki/2017_Mexican_Grand_Prix")} in third place and eventually finished fifth. His streak of finishing twenty-seven consecutive races ended at the {wikiLink("Brazilian Grand Prix", "https://en.wikipedia.org/wiki/2017_Brazilian_Grand_Prix")}, where he collided with {wikiLink("Romain Grosjean", "https://en.wikipedia.org/wiki/Romain_Grosjean")} on the first lap. He finished his first full season in Formula One eighth in the drivers' championship, scoring 87 points to Pérez's 100.
       </p>
 
       <div className="clear-both"></div>
 
+      {/* 2018 season */}
+      <section id="ocon-2018" className="space-y-4 scroll-mt-24"></section>
+      <h4 className="text-lg font-semibold text-red-400 mb-1">2018 season</h4>
+
+      <div className="clear-both"></div>
+
+      <figure className="float-right mr-4 mb-4 max-w-[250px] border border-gray-700 rounded-lg bg-gray-900 p-2 shadow-lg">
+        <img
+          src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Canadian_F1_Grand_Prix_%2842908105521%29.jpg/250px-Canadian_F1_Grand_Prix_%2842908105521%29.jpg"
+          alt="Ocon at the 2018 Canadian Grand Prix"
+          className="w-full h-auto rounded"
+        />
+        <figcaption className="text-sm text-gray-400 text-center">
+          Ocon at the {wikiLink("2018 Canadian Grand Prix", "https://en.wikipedia.org/wiki/2018_Canadian_Grand_Prix")}
+        </figcaption>
+      </figure>
+
+      <p>
+        Ocon continued alongside {wikiLink("Pérez", "https://en.wikipedia.org/wiki/Sergio_P%C3%A9rez")} at {wikiLink("Force India", "https://en.wikipedia.org/wiki/Force_India")} in {wikiLink("2018", "https://en.wikipedia.org/wiki/2018_Formula_One_World_Championship")}. Ocon's first points of the season came with a tenth-place finish at the {wikiLink("Bahrain Grand Prix", "https://en.wikipedia.org/wiki/2018_Bahrain_Grand_Prix")}. At the {wikiLink("Azerbaijan Grand Prix", "https://en.wikipedia.org/wiki/2018_Azerbaijan_Grand_Prix")}, he was involved in a first-lap collision with {wikiLink("Kimi Räikkönen", "https://en.wikipedia.org/wiki/Kimi_R%C3%A4ikk%C3%B6nen")} that ended his race, whilst teammate Pérez went on to claim a podium finish. Ocon retired with an oil leak at the next race, the {wikiLink("Spanish Grand Prix", "https://en.wikipedia.org/wiki/2018_Spanish_Grand_Prix")}. He recorded five more points finishes before the summer break, but retired from his home race, the {wikiLink("French Grand Prix", "https://en.wikipedia.org/wiki/2018_French_Grand_Prix")}, after a first-lap collision with {wikiLink("Pierre Gasly", "https://en.wikipedia.org/wiki/Pierre_Gasly")}.
+      </p>
+
+      <p>
+        After {wikiLink("Force India's", "https://en.wikipedia.org/wiki/Force_India")} financial collapse and the purchasing of its assets by Canadian businessman {wikiLink("Lawrence Stroll", "https://en.wikipedia.org/wiki/Lawrence_Stroll")} – father of {wikiLink("Williams", "https://en.wikipedia.org/wiki/Williams_Grand_Prix_Engineering")} driver {wikiLink("Lance Stroll", "https://en.wikipedia.org/wiki/Lance_Stroll")} – during the summer break, the new owners confirmed that Ocon and Pérez would remain with the team for the rest of the season. It was later revealed that Ocon had an "informal agreement" to join {wikiLink("Renault", "https://en.wikipedia.org/wiki/Renault_in_Formula_One")} for {wikiLink("2019", "https://en.wikipedia.org/wiki/2019_Formula_One_World_Championship")} before the team unexpectedly signed {wikiLink("Daniel Ricciardo", "https://en.wikipedia.org/wiki/Daniel_Ricciardo")}, leaving Ocon's future in doubt.
+      </p>
+
+      <p>
+        At {wikiLink("Racing Point Force India's", "https://en.wikipedia.org/wiki/Racing_Point_Force_India")} first race, the {wikiLink("2018 Belgian Grand Prix", "https://en.wikipedia.org/wiki/2018_Belgian_Grand_Prix")}, Ocon achieved the joint-highest starting position of his career with third and went on to finish sixth. Ocon and Pérez collided on the first lap of the {wikiLink("Singapore Grand Prix", "https://en.wikipedia.org/wiki/2018_Singapore_Grand_Prix")}, causing Ocon to crash into a wall and end his race. The team described the collision as "unacceptable" and banned the drivers from racing each other. Pérez later apologized for his role in the accident. Ocon was disqualified from eighth place at the {wikiLink("United States Grand Prix", "https://en.wikipedia.org/wiki/2018_United_States_Grand_Prix")} after his car was found to have exceeded fuel flow limits. At the {wikiLink("Brazilian Grand Prix", "https://en.wikipedia.org/wiki/2018_Brazilian_Grand_Prix")}, he collided with race leader {wikiLink("Max Verstappen", "https://en.wikipedia.org/wiki/Max_Verstappen")} whilst attempting to un-lap himself, damaging both cars. Both drivers were able to continue racing and Ocon received a ten-second stop-and-go penalty for the incident. They argued just after the race (in which Verstappen finished second) and pushed each other several times. Both drivers were summoned by the {wikiLink("FIA", "https://en.wikipedia.org/wiki/FIA")} and Verstappen was ordered to undertake two days of public service "at the discretion of the FIA" for making deliberate physical contact with Ocon.
+      </p>
+
+      <p>
+        Ocon finished the season twelfth in the {wikiLink("Drivers' Championship", "https://en.wikipedia.org/wiki/Formula_One_World_Drivers%27_Championship")}, scoring 49 points to Pérez's 62.
+      </p>
+
+      <div className="clear-both"></div>
+
+      {/* Mercedes reserve driver (2019) */}
+      <section id="mercedes-reserve-driver-2019" className="space-y-4 scroll-mt-24"></section>
+      <h3 className="text-2xl font-bold text-red-600 mb-2">Mercedes reserve driver (2019)</h3>
+
+      <p>
+        For the {wikiLink("2019 season", "https://en.wikipedia.org/wiki/2019_Formula_One_World_Championship")}, Ocon was replaced at {wikiLink("Racing Point", "https://en.wikipedia.org/wiki/Racing_Point_F1_Team")} by {wikiLink("Lance Stroll", "https://en.wikipedia.org/wiki/Lance_Stroll")}. There was an agreement in principle for Ocon to move to {wikiLink("Renault", "https://en.wikipedia.org/wiki/Renault_in_Formula_One")}, which subsequently fell through. Ocon joined {wikiLink("Mercedes", "https://en.wikipedia.org/wiki/Mercedes-Benz_in_Formula_One")} as their reserve driver for 2019 to drive their {wikiLink("Mercedes AMG F1 W10 EQ Power+", "https://en.wikipedia.org/wiki/Mercedes_AMG_F1_W10_EQ_Power%2B")}. Ocon did not take part in a Grand Prix weekend during the year. He claimed to have been in discussions with Mercedes for the {wikiLink("2020 season", "https://en.wikipedia.org/wiki/2020_Formula_One_World_Championship")}, remarking that he was "very close" to replacing {wikiLink("Valtteri Bottas", "https://en.wikipedia.org/wiki/Valtteri_Bottas")} at the team. Mercedes ultimately decided to continue with Bottas.
+      </p>
+
+      <div className="clear-both"></div>
+
+      <section id="renault-2020" className="space-y-4 scroll-mt-24"></section>
+      {/* 2020: Maiden podium */}
+      <h4 className="text-lg font-semibold text-red-400 mb-1">2020: Maiden podium</h4>
+
+      <div className="clear-both"></div>
+
+      <figure className="float-left mr-4 mb-4 max-w-[250px] border border-gray-700 rounded-lg bg-gray-900 p-2 shadow-lg">
+        <img
+          src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d8/Esteban_Ocon%2C_2020_pre-season_testing.jpg/250px-Esteban_Ocon%2C_2020_pre-season_testing.jpg"
+          alt="Ocon during pre-season testing in 2020"
+          className="w-full h-auto rounded"
+        />
+        <figcaption className="text-sm text-gray-400 text-center">
+          Ocon during {wikiLink("pre-season testing in 2020", "https://en.wikipedia.org/wiki/2020_Formula_One_pre-season_testing")}
+        </figcaption>
+      </figure>
+
+      <p>
+        Ocon joined {wikiLink("Renault", "https://en.wikipedia.org/wiki/Renault_in_F1")} for {wikiLink("2020", "https://en.wikipedia.org/wiki/2020_Formula_One_World_Championship")}, signing a two-year contract and marking his return to Formula One as a full-time driver. He replaced {wikiLink("Nico Hülkenberg", "https://en.wikipedia.org/wiki/Nico_H%C3%BClkenberg")} and partnered with {wikiLink("Daniel Ricciardo", "https://en.wikipedia.org/wiki/Daniel_Ricciardo")}.
+      </p>
+
+      <p>
+        Ocon qualified fourteenth on his Renault debut at the {wikiLink("2020 Austrian Grand Prix", "https://en.wikipedia.org/wiki/2020_Austrian_Grand_Prix")} and finished eighth. He was running in seventh place at the {wikiLink("Styrian Grand Prix", "https://en.wikipedia.org/wiki/2020_Styrian_Grand_Prix")} when he retired with a cooling issue. At the {wikiLink("70th Anniversary Grand Prix", "https://en.wikipedia.org/wiki/70th_Anniversary_Grand_Prix")}, he was issued a grid penalty after impeding {wikiLink("George Russell", "https://en.wikipedia.org/wiki/George_Russell_(racing_driver)")} in qualifying and started fourteenth, but improved to finish eighth in the race. His best race finish since 2017 came at the {wikiLink("Belgian Grand Prix", "https://en.wikipedia.org/wiki/2020_Belgian_Grand_Prix")}, where he qualified sixth and finished fifth behind teammate Ricciardo.
+      </p>
+
+      <p>
+        Ocon's brakes caught fire during a {wikiLink("safety car", "https://en.wikipedia.org/wiki/Safety_car")} period at the {wikiLink("Tuscan Grand Prix", "https://en.wikipedia.org/wiki/2020_Tuscan_Grand_Prix")}. The team was unable to repair the damage during the {wikiLink("red flag", "https://en.wikipedia.org/wiki/Racing_flags#Red_flag")} period which occurred soon after, and Ocon failed to make the restart. He experienced further mechanical retirements at the {wikiLink("Eifel Grand Prix", "https://en.wikipedia.org/wiki/2020_Eifel_Grand_Prix")} and the {wikiLink("Emilia Romagna Grand Prix", "https://en.wikipedia.org/wiki/2020_Emilia_Romagna_Grand_Prix")}. He qualified seventh for the {wikiLink("Turkish Grand Prix", "https://en.wikipedia.org/wiki/2020_Turkish_Grand_Prix")} and made his way into third place by the first corner, but separate collisions with Ricciardo and {wikiLink("Valtteri Bottas", "https://en.wikipedia.org/wiki/Valtteri_Bottas")} resulted in him finishing outside the points in eleventh place.
+      </p>
+
+      <p>
+        Ocon started eleventh at the {wikiLink("Sakhir Grand Prix", "https://en.wikipedia.org/wiki/2020_Sakhir_Grand_Prix")}. He had improved to fifth place by lap 54 of 87, assisted by collisions on the opening lap and drivers making second pit stops. A {wikiLink("virtual safety car", "https://en.wikipedia.org/wiki/Virtual_safety_car")} (VSC) period followed, which third-placed {wikiLink("Carlos Sainz Jr.", "https://en.wikipedia.org/wiki/Carlos_Sainz_Jr.")} and fourth-placed Ricciardo attempted to take advantage of by entering the pits. However, the VSC period ended whilst they were in the pit lane, nullifying their advantage and promoting Ocon to third place. He was soon overtaken by {wikiLink("Sergio Pérez", "https://en.wikipedia.org/wiki/Sergio_P%C3%A9rez")}, however pit stop issues for the leading {wikiLink("Mercedes", "https://en.wikipedia.org/wiki/Mercedes-Benz_in_Formula_One")} cars allowed Ocon to claim his first Formula One podium by finishing second, {wikiLink("Renault's", "https://en.wikipedia.org/wiki/Renault_in_Formula_One")} best race result since {wikiLink("2010", "https://en.wikipedia.org/wiki/2010_Formula_One_World_Championship")}. He ended the season twelfth in the drivers' championship, scoring 62 points to Ricciardo's 119.
+      </p>
+
+      <div className="clear-both"></div>
+
+      {/* 2021: Maiden victory */}
+      <section id="season-2021" className="space-y-4 scroll-mt-24"></section>
+      <h4 className="text-lg font-semibold text-red-400 mb-1">2021: Maiden victory</h4>
+
+      <div className="clear-both"></div>
+
+      <figure className="float-left mr-4 mb-4 max-w-[250px] border border-gray-700 rounded-lg bg-gray-900 p-2 shadow-lg">
+        <img
+          src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/FIA_F1_Austria_2021_Nr._31_Ocon.jpg/500px-FIA_F1_Austria_2021_Nr._31_Ocon.jpg"
+          alt="Ocon at the 2021 Austrian Grand Prix"
+          className="w-full h-auto rounded"
+        />
+        <figcaption className="text-sm text-gray-400 text-center">
+          Ocon at the {wikiLink("2021 Austrian Grand Prix", "https://en.wikipedia.org/wiki/2021_Austrian_Grand_Prix")}
+        </figcaption>
+      </figure>
+
+      <p>
+        {wikiLink("Renault", "https://en.wikipedia.org/wiki/Alpine_F1_Team")} rebranded as the {wikiLink("Alpine F1 Team", "https://en.wikipedia.org/wiki/Alpine_F1_Team")} for the {wikiLink("2021", "https://en.wikipedia.org/wiki/2021_Formula_One_World_Championship")} season. The team signed two-time world champion {wikiLink("Fernando Alonso", "https://en.wikipedia.org/wiki/Fernando_Alonso")} to partner Ocon after {wikiLink("Daniel Ricciardo", "https://en.wikipedia.org/wiki/Daniel_Ricciardo")} left for {wikiLink("McLaren", "https://en.wikipedia.org/wiki/McLaren")}. In the team's first race as Alpine, the {wikiLink("2021 Bahrain Grand Prix", "https://en.wikipedia.org/wiki/2021_Bahrain_Grand_Prix")}, Ocon was rear-ended by {wikiLink("Sebastian Vettel", "https://en.wikipedia.org/wiki/Sebastian_Vettel")} in the {wikiLink("Aston Martin", "https://en.wikipedia.org/wiki/Aston_Martin_Cognizant_Formula_One_Team")}. Ocon finished the race thirteenth and Vettel later apologised for the incident.
+      </p>
+
+      <p>
+        Ocon was classified ninth at the {wikiLink("2021 Emilia Romagna Grand Prix", "https://en.wikipedia.org/wiki/2021_Emilia_Romagna_Grand_Prix")} ahead of Alonso in tenth, earning the team their first points under the Alpine name. His first retirement of the season came at the {wikiLink("2021 Azerbaijan Grand Prix", "https://en.wikipedia.org/wiki/2021_Azerbaijan_Grand_Prix")} with a turbocharger failure. He struggled with tyre wear and finished fourteenth at the {wikiLink("2021 French Grand Prix", "https://en.wikipedia.org/wiki/2021_French_Grand_Prix")}, qualified seventeenth for both the {wikiLink("2021 Styrian Grand Prix", "https://en.wikipedia.org/wiki/2021_Styrian_Grand_Prix")} and {wikiLink("2021 Austrian Grand Prix", "https://en.wikipedia.org/wiki/2021_Austrian_Grand_Prix")} and retired from the latter after a first-lap collision with {wikiLink("Antonio Giovinazzi", "https://en.wikipedia.org/wiki/Antonio_Giovinazzi")}.
+  
+        Prior to the French Grand Prix, it was announced that Ocon had signed a contract extension with Alpine running to the end of {wikiLink("2024", "https://en.wikipedia.org/wiki/2024_Formula_One_World_Championship")}.
+      </p>
+
+      <p>
+        Ocon started eighth at the {wikiLink("Hungarian Grand Prix", "https://en.wikipedia.org/wiki/2021_Hungarian_Grand_Prix")}. Multiple collisions ahead saw him promoted to second place at the first corner, which became first place when race leader {wikiLink("Lewis Hamilton", "https://en.wikipedia.org/wiki/Lewis_Hamilton")} pitted for dry-weather tyres one lap later than the rest of the field. Ocon held on to the lead for the remainder of the race, fending off {wikiLink("Sebastian Vettel", "https://en.wikipedia.org/wiki/Sebastian_Vettel")} to take his and Alpine's maiden Formula One victory. This win was followed by points finishes at the next three races.
+      
+        The {wikiLink("Turkish Grand Prix", "https://en.wikipedia.org/wiki/2021_Turkish_Grand_Prix")} took place in damp conditions and Ocon finished tenth having run the entire race distance on one set of intermediate-weather tyres. This was the first time a driver had completed a full race distance without making a pit stop since {wikiLink("1997", "https://en.wikipedia.org/wiki/1997_Formula_One_World_Championship")}.
+      </p>
+
+      <p>
+        A collision with {wikiLink("Antonio Giovinazzi", "https://en.wikipedia.org/wiki/Antonio_Giovinazzi")} at the {wikiLink("United States Grand Prix", "https://en.wikipedia.org/wiki/2021_United_States_Grand_Prix")} broke Ocon's front wing and ultimately led to retirement. A fifth-place finish at the {wikiLink("Qatar Grand Prix", "https://en.wikipedia.org/wiki/2021_Qatar_Grand_Prix")} was followed by a near-podium at the {wikiLink("Saudi Arabian Grand Prix", "https://en.wikipedia.org/wiki/2021_Saudi_Arabian_Grand_Prix")}; Ocon briefly led the race at its first restart and ran in third place for most of the race, but was passed by {wikiLink("Valtteri Bottas", "https://en.wikipedia.org/wiki/Valtteri_Bottas")} shortly before the chequered flag, finishing just 0.102 seconds behind.
+     
+        Ocon ended the season eleventh in the drivers' championship, scoring 74 points to {wikiLink("Alonso", "https://en.wikipedia.org/wiki/Fernando_Alonso")}'s 81.
+      </p>
+
+      <div className="clear-both"></div>
+
+      {/* 2022 season */}
       <section id="season-2022" className="space-y-4 scroll-mt-24"></section>
-      {/* 2022 Season */}
-      <h4 className="text-lg font-semibold text-red-400 mb-1">2022 Season</h4>
+      <h4 className="text-lg font-semibold text-red-400 mb-1">2022 season</h4>
 
-      <figure className="float-right mr-4 mb-4 max-w-[250px] border border-gray-700 rounded-lg bg-gray-900 p-2 shadow-lg">
+      <div className="clear-both"></div>
+
+      <figure className="float-left mr-4 mb-4 max-w-[250px] border border-gray-700 rounded-lg bg-gray-900 p-2 shadow-lg">
         <img
-          src="/drivers/norris/car8.jpg"
-          alt="Norris racing at Monza during the 2016 Eurocup Formula Renault 2.0 championship"
+          src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Esteban_Ocon_2022_Emilia_Romagna_GP.jpg/250px-Esteban_Ocon_2022_Emilia_Romagna_GP.jpg"
+          alt="Ocon at the 2022 Emilia Romagna Grand Prix"
           className="w-full h-auto rounded"
         />
         <figcaption className="text-sm text-gray-400 text-center">
-         Norris at the {wikiLink("2022 British Grand Prix", "https://en.wikipedia.org/wiki/2022_British_Grand_Prix")}
+          Ocon at the {wikiLink("2022 Emilia Romagna Grand Prix", "https://en.wikipedia.org/wiki/2022_Emilia_Romagna_Grand_Prix")}
         </figcaption>
       </figure>
 
       <p>
-        In February 2022 Norris signed a contract extension with {wikiLink("McLaren", "https://en.wikipedia.org/wiki/McLaren")} that will see him be with the team until at least 2025. He completed all three days of pre-season testing in Bahrain after teammate Ricciardo 
-        tested positive for COVID-19 and was unable to attend.
+        Alpine retained Ocon and Alonso for the {wikiLink("2022", "https://en.wikipedia.org/wiki/2022_Formula_One_World_Championship")} season. Ocon finished seventh at the season-opening {wikiLink("Bahrain Grand Prix", "https://en.wikipedia.org/wiki/2022_Bahrain_Grand_Prix")} despite receiving a penalty for colliding with {wikiLink("Mick Schumacher", "https://en.wikipedia.org/wiki/Mick_Schumacher")}. He qualified fifth and finished sixth at the {wikiLink("Saudi Arabian Grand Prix", "https://en.wikipedia.org/wiki/2022_Saudi_Arabian_Grand_Prix")} where a close battle with Alonso ended with Ocon being ordered by the team to hold his position. A crash in practice for the {wikiLink("Miami Grand Prix", "https://en.wikipedia.org/wiki/2022_Miami_Grand_Prix")} forced him to miss qualifying and start last on the grid. He recovered in the race to finish ninth and was promoted to eighth when Alonso received a penalty. At the {wikiLink("Spanish Grand Prix", "https://en.wikipedia.org/wiki/2022_Spanish_Grand_Prix")}, Ocon qualified twelfth and finished seventh, ahead of Alonso, after holding off the fast-charging {wikiLink("Lando Norris", "https://en.wikipedia.org/wiki/Lando_Norris")}. Ocon finished ninth at the {wikiLink("Monaco Grand Prix", "https://en.wikipedia.org/wiki/2022_Monaco_Grand_Prix")} but was demoted to twelfth by a penalty for colliding with {wikiLink("Lewis Hamilton", "https://en.wikipedia.org/wiki/Lewis_Hamilton")}.
       </p>
 
       <p>
-        Both McLaren drivers qualified and finished outside the top ten at the season-opening {wikiLink("Bahrain Grand Prix", "https://en.wikipedia.org/wiki/2022_Bahrain_Grand_Prix")}. Norris then scored points at 
-        the {wikiLink("Saudi Arabian Grand Prix", "https://en.wikipedia.org/wiki/2022_Saudi_Arabian_Grand_Prix")} and {wikiLink("Australian Grand Prix", "https://en.wikipedia.org/wiki/2022_Australian_Grand_Prix")} before achieving the team's only podium finish of the 
-        season with third place at the {wikiLink("Emilia Romagna Grand Prix", "https://en.wikipedia.org/wiki/2022_Emilia_Romagna_Grand_Prix")}. At the new {wikiLink("Miami Grand Prix", "https://en.wikipedia.org/wiki/2022_Miami_Grand_Prix")}, the safety car was deployed 
-        when Norris was involved in a crash with {wikiLink("Pierre Gasly", "https://en.wikipedia.org/wiki/Pierre_Gasly")}'s {wikiLink("AlphaTauri", "https://en.wikipedia.org/wiki/Scuderia_AlphaTauri")}. Despite suffering with tonsillitis, Norris came sixth in 
-        the {wikiLink("Monaco Grand Prix", "https://en.wikipedia.org/wiki/2022_Monaco_Grand_Prix")} and secured the fastest lap. He qualified fifteenth at the {wikiLink("Austrian Grand Prix", "https://en.wikipedia.org/wiki/2022_Austrian_Grand_Prix")} but recovered in 
-        the sprint and the race to finish seventh. He then qualified fourth for the {wikiLink("Hungarian Grand Prix", "https://en.wikipedia.org/wiki/2022_Hungarian_Grand_Prix")} but was unable to keep {wikiLink("Lewis Hamilton", "https://en.wikipedia.org/wiki/Lewis_Hamilton")} 
-        and the two {wikiLink("Red Bulls", "https://en.wikipedia.org/wiki/Red_Bull_Racing")} behind and finished seventh.
+        At the {wikiLink("British Grand Prix", "https://en.wikipedia.org/wiki/2022_British_Grand_Prix")}, he qualified fifteenth with battery issues and retired due to a fuel pump failure. He then scored five consecutive points finishes, including fifth at the {wikiLink("Austrian Grand Prix", "https://en.wikipedia.org/wiki/2022_Austrian_Grand_Prix")}. He qualified fifth at the {wikiLink("Belgian Grand Prix", "https://en.wikipedia.org/wiki/2022_Belgian_Grand_Prix")} but took an engine penalty, dropping to sixteenth; he recovered to finish seventh.
       </p>
 
       <p>
-        Norris started seventeenth at the {wikiLink("Belgian Grand Prix", "https://en.wikipedia.org/wiki/2022_Belgian_Grand_Prix")} with a power unit components penalty and failed to score points, finishing twelfth. He started third at 
-        the {wikiLink("Italian Grand Prix", "https://en.wikipedia.org/wiki/2022_Italian_Grand_Prix")} but again lost out to the Red Bulls and finished seventh. His best result since Emilia Romagna came at the {wikiLink("Singapore Grand Prix", "https://en.wikipedia.org/wiki/2022_Singapore_Grand_Prix")} 
-        where he and Ricciardo finished fourth and fifth respectively, briefly promoting McLaren to fourth place above {wikiLink("Alpine", "https://en.wikipedia.org/wiki/Alpine_F1_Team")} in the Constructors' Championship. He scored points in 
-        the {wikiLink("São Paulo Grand Prix", "https://en.wikipedia.org/wiki/2022_S%C3%A3o_Paulo_Grand_Prix")} sprint, but a gearbox failure eliminated him from the points positions in the race. He ended the season with sixth place and the fastest lap at 
-        the {wikiLink("Abu Dhabi Grand Prix", "https://en.wikipedia.org/wiki/2022_Abu_Dhabi_Grand_Prix")}. He finished seventh in the Drivers' Championship and scored 122 points to Ricciardo's 37.
+        Brake problems in qualifying for the {wikiLink("Singapore Grand Prix", "https://en.wikipedia.org/wiki/2022_Singapore_Grand_Prix")} left him seventeenth on the grid, and he retired with engine failure. His season-best result came at the {wikiLink("Japanese Grand Prix", "https://en.wikipedia.org/wiki/2022_Japanese_Grand_Prix")}, finishing fourth while holding off Hamilton. After a pit lane start at the {wikiLink("United States Grand Prix", "https://en.wikipedia.org/wiki/2022_United_States_Grand_Prix")}, he climbed to eleventh. In the {wikiLink("São Paulo Grand Prix", "https://en.wikipedia.org/wiki/2022_S%C3%A3o_Paulo_Grand_Prix")} sprint, Ocon made contact with Alonso and dropped to seventeenth, but recovered to score points in the main race.
+      </p>
+
+      <p>
+        Ocon ended the season eighth in the {wikiLink("World Drivers' Championship", "https://en.wikipedia.org/wiki/World_Drivers%27_Championship")} with 92 points—his joint-best result—beating teammate Alonso by 11 points.
       </p>
 
       <div className="clear-both"></div>
 
+      {/* 2023 season */}
       <section id="season-2023" className="space-y-4 scroll-mt-24"></section>
-      {/* 2023 Season */}
-      <h4 className="text-lg font-semibold text-red-400 mb-1">2023 Season</h4>
-
-      <p>
-        Norris remained with {wikiLink("McLaren", "https://en.wikipedia.org/wiki/McLaren")} for the 2023 season, partnered by rookie {wikiLink("Oscar Piastri", "https://en.wikipedia.org/wiki/Oscar_Piastri")} who replaced Ricciardo. At the first race at the {wikiLink("Bahrain Grand Prix", "https://en.wikipedia.org/wiki/2023_Bahrain_Grand_Prix")}, both McLaren cars experienced reliability issues. Norris made six pit stops to manage the problem and finished seventeenth and last of the finishing drivers. He was eliminated in the first qualifying session (Q1) for the first time since 2019 at the {wikiLink("Saudi Arabian Grand Prix", "https://en.wikipedia.org/wiki/2023_Saudi_Arabian_Grand_Prix")} after hitting the wall. He received damage from debris on the opening lap and again finished seventeenth. The {wikiLink("Australian Grand Prix", "https://en.wikipedia.org/wiki/2023_Australian_Grand_Prix")} saw McLaren score their first points of the season; Piastri finished eighth and Norris improved from thirteenth at the start to sixth at the finish. Another Q1 knockout at the {wikiLink("Miami Grand Prix", "https://en.wikipedia.org/wiki/2023_Miami_Grand_Prix")} and contact with {wikiLink("Nyck de Vries", "https://en.wikipedia.org/wiki/Nyck_de_Vries")} at the start resulted in another finish outside the points. He qualified third at the {wikiLink("Spanish Grand Prix", "https://en.wikipedia.org/wiki/2023_Spanish_Grand_Prix")} but first-lap contact with {wikiLink("Lewis Hamilton", "https://en.wikipedia.org/wiki/Lewis_Hamilton")} dropped him to the back. He was demoted from a points finish at the {wikiLink("Canadian Grand Prix", "https://en.wikipedia.org/wiki/2023_Canadian_Grand_Prix")} with a penalty for "unsportsmanlike behaviour" after slowing excessively whilst entering the pit lane to create a gap to Piastri ahead.
-      </p>
-
-      <figure className="float-left mr-4 mb-4 max-w-[250px] border border-gray-700 rounded-lg bg-gray-900 p-2 shadow-lg">
-        <img
-          src="/drivers/norris/car9.jpg"
-          alt="Norris racing at Monza during the 2016 Eurocup Formula Renault 2.0 championship"
-          className="w-full h-auto rounded"
-        />
-        <figcaption className="text-sm text-gray-400 text-center">
-          Norris racing at the {wikiLink("2023 Austrian Grand Prix", "https://en.wikipedia.org/wiki/2023_Austrian_Grand_Prix")}
-        </figcaption>
-      </figure>
-
-      <p>
-        McLaren brought upgrades to Norris's {wikiLink("MCL60", "https://en.wikipedia.org/wiki/McLaren_MCL60")} for the {wikiLink("Austrian Grand Prix", "https://en.wikipedia.org/wiki/2023_Austrian_Grand_Prix")}; team principal {wikiLink("Andrea Stella", "https://en.wikipedia.org/wiki/Andrea_Stella_(engineer)")} commented that "pretty much the entire car" had been redesigned. Norris qualified fourth for the race, third for the sprint and finished fourth in the race. More success came at the {wikiLink("British Grand Prix", "https://en.wikipedia.org/wiki/2023_British_Grand_Prix")} where Norris and Piastri qualified second and third respectively, a result Norris described as "insane". He passed {wikiLink("Max Verstappen", "https://en.wikipedia.org/wiki/Max_Verstappen")} at the first corner and led the race for four laps before Verstappen regained the place. In the later stages of the race, Norris held off Lewis Hamilton to finish second, making him the first McLaren driver to finish on the podium at {wikiLink("Silverstone Circuit", "https://en.wikipedia.org/wiki/2010_British_Grand_Prix")} since Hamilton in 2010. He then qualified third and defended from {wikiLink("Sergio Pérez", "https://en.wikipedia.org/wiki/Sergio_P%C3%A9rez")} to finish second at the {wikiLink("Hungarian Grand Prix", "https://en.wikipedia.org/wiki/2023_Hungarian_Grand_Prix")}, the first consecutive podiums of his Formula One career. He accidentally broke Verstappen's first place trophy during the podium celebrations; the trophy was later replaced. He started second at the {wikiLink("Dutch Grand Prix", "https://en.wikipedia.org/wiki/2023_Dutch_Grand_Prix")} but criticised his team's decision not to change tyres during a rain shower; he went on to finish seventh.
-      </p>
-
-      <p>
-        Four consecutive podiums began with the {wikiLink("Singapore Grand Prix", "https://en.wikipedia.org/wiki/2023_Singapore_Grand_Prix")}, where he held off the {wikiLink("Mercedes", "https://en.wikipedia.org/wiki/Mercedes_in_F1")} duo of Hamilton and George Russell and finished less than a second behind race winner Carlos Sainz Jr., his former McLaren teammate. He qualified third, behind teammate Piastri, at the {wikiLink("Japanese Grand Prix", "https://en.wikipedia.org/wiki/2023_Japanese_Grand_Prix")}, but passed him in the race to finish second. He led much of the {wikiLink("United States Grand Prix", "https://en.wikipedia.org/wiki/2023_United_States_Grand_Prix")} having qualified second and passed Charles Leclerc at the start, but was ultimately overtaken by Verstappen and Hamilton. Hamilton's post-race disqualification promoted Norris to second place. Norris failed to set a competitive qualifying time at the {wikiLink("Mexico City Grand Prix", "https://en.wikipedia.org/wiki/2023_Mexico_City_Grand_Prix")}, starting seventeenth, but recovered to finish the race fifth. At the {wikiLink("São Paulo Grand Prix", "https://en.wikipedia.org/wiki/2023_S%C3%A3o_Paulo_Grand_Prix")}, he claimed sprint race pole position but was overtaken by Verstappen at the first corner and finished second. He also finished second in the main race, having started sixth and gained four places at the start. His only retirement of the season came at the penultimate round, the {wikiLink("Las Vegas Grand Prix", "https://en.wikipedia.org/wiki/2023_Las_Vegas_Grand_Prix")}. He qualified sixteenth and crashed heavily on the third lap. He was taken to hospital for precautionary checks and was discharged the same day.
-      </p>
-
-      <p>
-        Norris scored 205 points in total to Piastri's 97 and placed sixth in the Drivers' Championship, matching his result from 2021. He finished only one point behind fourth place, as {wikiLink("Fernando Alonso", "https://en.wikipedia.org/wiki/Fernando_Alonso")} and Charles Leclerc tied on 206 points.
-      </p>
-
-      <div className="clear-both"></div>
-
-      <section id="maiden-win" className="space-y-4 scroll-mt-24"></section>
-      {/* 2024 Season - Maiden Win */}
-      <h4 className="text-lg font-semibold text-red-400 mb-1">2024: Maiden Win and Title Challenge</h4>
+      <h4 className="text-lg font-semibold text-red-400 mb-1">2023 season</h4>
 
       <figure className="float-right mr-4 mb-4 max-w-[250px] border border-gray-700 rounded-lg bg-gray-900 p-2 shadow-lg">
         <img
-          src="/drivers/norris/car10.jpg"
-          alt="Norris racing at Monza during the 2016 Eurocup Formula Renault 2.0 championship"
+          src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/FIA_F1_Austria_2023_Nr._31_%281%29.jpg/500px-FIA_F1_Austria_2023_Nr._31_%281%29.jpg"
+          alt="Ocon at the 2023 Austrian Grand Prix"
           className="w-full h-auto rounded"
         />
         <figcaption className="text-sm text-gray-400 text-center">
-         Norris at the {wikiLink("2024 Chinese Grand Prix", "https://en.wikipedia.org/wiki/2024_Chinese_Grand_Prix")}
+          Ocon at the {wikiLink("2023 Austrian Grand Prix", "https://en.wikipedia.org/wiki/2023_Austrian_Grand_Prix")}
         </figcaption>
       </figure>
 
       <p>
-        Ahead of the 2024 season, Norris signed a new multi-year contract with {wikiLink("McLaren", "https://en.wikipedia.org/wiki/McLaren")}.
-        He finished sixth at the first race, the {wikiLink("Bahrain Grand Prix", "https://en.wikipedia.org/wiki/2024_Bahrain_Grand_Prix")} and took his first podium of the season at the {wikiLink("Australian Grand Prix", "https://en.wikipedia.org/wiki/2024_Australian_Grand_Prix")}, starting and finishing third. He took the season's first sprint pole at the {wikiLink("Chinese Grand Prix", "https://en.wikipedia.org/wiki/2024_Chinese_Grand_Prix")}, but dropped positions on the opening lap of the sprint and finished sixth. For the main race, he qualified fourth, overtook {wikiLink("Fernando Alonso", "https://en.wikipedia.org/wiki/Fernando_Alonso")} and gained on {wikiLink("Sergio Pérez", "https://en.wikipedia.org/wiki/Sergio_P%C3%A9rez")} in the pits to finish second, his fifteenth Formula One podium.
+        For {wikiLink("2023", "https://en.wikipedia.org/wiki/2023_Formula_One_World_Championship")}, Ocon gained a new teammate in former karting rival {wikiLink("Pierre Gasly", "https://en.wikipedia.org/wiki/Pierre_Gasly")} as Alonso departed to {wikiLink("Aston Martin", "https://en.wikipedia.org/wiki/Aston_Martin_in_Formula_One")}. His training was impacted prior to the start of the season when he got "very sick" with a lung virus.
       </p>
 
       <p>
-        At the {wikiLink("Miami Grand Prix", "https://en.wikipedia.org/wiki/2024_Miami_Grand_Prix")}, he retired from the sprint after a first-corner collision with Alonso. He qualified fifth for the main race and led the race after the drivers ahead had made pit stops. A subsequent safety car allowed Norris to pit and retain his lead, which he held ahead of {wikiLink("Max Verstappen", "https://en.wikipedia.org/wiki/Max_Verstappen")} at the restart to claim his maiden Grand Prix victory after 110 races and his 16th podium finish.
+        At the season-opening {wikiLink("Bahrain Grand Prix", "https://en.wikipedia.org/wiki/2023_Bahrain_Grand_Prix")}, Ocon received penalties for being out of position on the grid, failing to serve the penalty correctly and for speeding in the pit lane. He eventually retired from the race with mechanical issues. He started sixth and scored his first points of the season at the {wikiLink("Saudi Arabian Grand Prix", "https://en.wikipedia.org/wiki/2023_Saudi_Arabian_Grand_Prix")}, finishing eighth. Running in tenth place at the final restart of the {wikiLink("Australian Grand Prix", "https://en.wikipedia.org/wiki/2023_Australian_Grand_Prix")}, Ocon was involved in a heavy collision with teammate Gasly, who apologised for his role in the incident.
       </p>
 
       <p>
-        After Miami, Norris achieved five podiums before the summer break. He scored podiums at {wikiLink("Imola", "https://en.wikipedia.org/wiki/2024_Emilia_Romagna_Grand_Prix")}, {wikiLink("Canada", "https://en.wikipedia.org/wiki/2024_Canadian_Grand_Prix")}, and {wikiLink("Spain", "https://en.wikipedia.org/wiki/2024_Spanish_Grand_Prix")}, where he took pole position. Norris failed to score a podium at {wikiLink("Monaco", "https://en.wikipedia.org/wiki/2024_Monaco_Grand_Prix")} and in {wikiLink("Austria", "https://en.wikipedia.org/wiki/2024_Austrian_Grand_Prix")}, where he sparred with Verstappen before making race-ending contact with him.
-      </p>
-
-      <figure className="float-left mr-4 mb-4 max-w-[250px] border border-gray-700 rounded-lg bg-gray-900 p-2 shadow-lg">
-        <img
-          src="/drivers/norris/celeb1.jpg"
-          alt="Norris racing at Monza during the 2016 Eurocup Formula Renault 2.0 championship"
-          className="w-full h-auto rounded"
-        />
-        <figcaption className="text-sm text-gray-400 text-center">
-         Norris (centre) on the podium after winning the {wikiLink("2024 Dutch Grand Prix", "https://en.wikipedia.org/wiki/2024_Dutch_Grand_Prix")}
-        </figcaption>
-      </figure>
-
-      <p>
-        Following the summer break, Norris achieved pole position at the {wikiLink("Dutch Grand Prix", "https://en.wikipedia.org/wiki/2024_Dutch_Grand_Prix")}. He reclaimed first place during the race and extended the lead to win McLaren's first at Circuit Zandvoort since 1985. He then took pole position for the {wikiLink("Italian Grand Prix", "https://en.wikipedia.org/wiki/2024_Italian_Grand_Prix")} marking consecutive poles for the first time in his career. He finished third behind teammate {wikiLink("Oscar Piastri", "https://en.wikipedia.org/wiki/Oscar_Piastri")} and {wikiLink("Charles Leclerc", "https://en.wikipedia.org/wiki/Charles_Leclerc")}. 
+        Ocon crashed in qualifying at the {wikiLink("Azerbaijan Grand Prix", "https://en.wikipedia.org/wiki/2023_Azerbaijan_Grand_Prix")}. Alpine then made changes to his car under {wikiLink("parc fermé", "https://en.wikipedia.org/wiki/Parc_fermé")} conditions, forcing him to start the sprint race and the main race from the pit lane. During the race, Ocon ran on the hard tyres until the last lap. Photographers began to enter the pit lane, not realising Ocon was yet to pit, and narrowly avoided being hit by his car.
       </p>
 
       <p>
-        Norris took his fifth pole of the season at the {wikiLink("Singapore Grand Prix", "https://en.wikipedia.org/wiki/2024_Singapore_Grand_Prix")} and claimed victory leading every lap. He battled Verstappen at the {wikiLink("United States Grand Prix", "https://en.wikipedia.org/wiki/2024_United_States_Grand_Prix")} but was denied a podium after a penalty. At the {wikiLink("Mexico City Grand Prix", "https://en.wikipedia.org/wiki/2024_Mexico_City_Grand_Prix")}, Norris finished second.
+        He started third at the {wikiLink("2023 Monaco Grand Prix", "https://en.wikipedia.org/wiki/2023_Monaco_Grand_Prix")} after {wikiLink("Charles Leclerc", "https://en.wikipedia.org/wiki/Charles_Leclerc")} ahead received a penalty. Ocon held off Carlos Sainz Jr. in the first half of the race but lost a place to {wikiLink("George Russell", "https://en.wikipedia.org/wiki/George_Russell_(racing_driver)")} during the pit stops. A mistake and a penalty for Russell allowed Ocon back into third place, earning him his third career podium and the <i>Driver Of The Day</i> award. More points came at the {wikiLink("2023 Spanish Grand Prix", "https://en.wikipedia.org/wiki/2023_Spanish_Grand_Prix")} and {wikiLink("2023 Canadian Grand Prix", "https://en.wikipedia.org/wiki/2023_Canadian_Grand_Prix")} and in the rain-affected {wikiLink("2023 Austrian Grand Prix", "https://en.wikipedia.org/wiki/2023_Austrian_Grand_Prix")} sprint race where he held off Ferrari's Leclerc and McLaren's Lando Norris. In the main race, Ocon finished outside the points after receiving a penalty for an unsafe pit box release. Post race, he received another four penalties for {wikiLink("track limits", "https://en.wikipedia.org/wiki/Track_limits")} violations, totalling 30 seconds. His five penalties for the Grand Prix gave him the record for the most driving penalties in a single race in the history of Formula One.
+     
+        Consecutive retirements followed with a hydraulics leak at the {wikiLink("2023 British Grand Prix", "https://en.wikipedia.org/wiki/2023_British_Grand_Prix")} and a first-lap crash at the {wikiLink("2023 Hungarian Grand Prix", "https://en.wikipedia.org/wiki/2023_Hungarian_Grand_Prix")}. He improved from fourteenth on the grid at the {wikiLink("2023 Belgian Grand Prix", "https://en.wikipedia.org/wiki/2023_Belgian_Grand_Prix")} to score points in eighth place.
       </p>
 
       <p>
-        Despite winning the sprint at the {wikiLink("São Paulo Grand Prix", "https://en.wikipedia.org/wiki/2024_S%C3%A3o_Paulo_Grand_Prix")}, Norris finished seventh in the main race after various setbacks. He concluded the season with a victory at the {wikiLink("Abu Dhabi Grand Prix", "https://en.wikipedia.org/wiki/2024_Abu_Dhabi_Grand_Prix")}, securing McLaren's first constructors' title since 1998.
+        Ocon retired from the {wikiLink("2023 Italian Grand Prix", "https://en.wikipedia.org/wiki/2023_Italian_Grand_Prix")} "for safety reasons" due to a steering issue. He then retired from sixth place at the {wikiLink("2023 Singapore Grand Prix", "https://en.wikipedia.org/wiki/2023_Singapore_Grand_Prix")} with a gearbox problem, his fourth non-finish in six races. He finished the {wikiLink("2023 Qatar Grand Prix", "https://en.wikipedia.org/wiki/2023_Qatar_Grand_Prix")} in seventh despite the hot weather conditions causing him to vomit into his helmet. His seventh retirement of the season came at the {wikiLink("2023 United States Grand Prix", "https://en.wikipedia.org/wiki/2023_United_States_Grand_Prix")} after a collision with {wikiLink("Oscar Piastri", "https://en.wikipedia.org/wiki/Oscar_Piastri")}. Ocon started sixteenth at the inaugural {wikiLink("2023 Las Vegas Grand Prix", "https://en.wikipedia.org/wiki/2023_Las_Vegas_Grand_Prix")}, avoided collisions to improve to eighth on the first lap and climbed to fourth place by the end of the race.
+      
+        He ended the season twelfth in the {wikiLink("World Drivers' Championship", "https://en.wikipedia.org/wiki/World_Drivers%27_Championship")} with 58 points, one place and four points behind teammate Gasly.
       </p>
 
       <div className="clear-both"></div>
 
-      <section id="season-2025" className="space-y-4 scroll-mt-24"></section>
-      {/* 2025 Season - Title Challenge */}
-      <h4 className="text-lg font-semibold text-red-400 mb-1">2025 Season: Title Challenge</h4>
+      {/* 2024: Early departure */}
+      <section id="ocon-2024" className="space-y-4 scroll-mt-24"></section>
+      <h4 className="text-lg font-semibold text-red-400 mb-1">2024: Early departure</h4>
 
-      <figure className="float-left mr-4 mb-4 max-w-[250px] border border-gray-700 rounded-lg bg-gray-900 p-2 shadow-lg">
+      <div className="clear-both"></div>
+
+      <figure className="float-right mr-4 mb-4 max-w-[250px] border border-gray-700 rounded-lg bg-gray-900 p-2 shadow-lg">
         <img
-          src="/drivers/norris/car11.jpg"
-          alt="Norris racing at Monza during the 2016 Eurocup Formula Renault 2.0 championship"
+          src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Esteban_Ocon_2024_Chinese_GP.jpg/250px-Esteban_Ocon_2024_Chinese_GP.jpg"
+          alt="Ocon at the 2024 Chinese Grand Prix"
           className="w-full h-auto rounded"
         />
         <figcaption className="text-sm text-gray-400 text-center">
-         Norris (pictured at the {wikiLink("2025 Japanese Grand Prix", "https://en.wikipedia.org/wiki/2025_Japanese_Grand_Prix")}) and McLaren entered {wikiLink("2025", "https://en.wikipedia.org/wiki/2025_Formula_One_World_Championship")} as title favourites.
+          Ocon at the {wikiLink("2024 Chinese Grand Prix", "https://en.wikipedia.org/wiki/2024_Chinese_Grand_Prix")}
         </figcaption>
       </figure>
 
       <p>
-        {wikiLink("McLaren", "https://en.wikipedia.org/wiki/McLaren")} entered the{" "}
-        {wikiLink("2025 Formula One World Championship", "https://en.wikipedia.org/wiki/2025_Formula_One_World_Championship")} as title favourites, with Norris stating he had learned 
-        "a lot of lessons" in his bid to become World Drivers' Champion. He took pole for the season-opening{" "}
-        {wikiLink("Australian Grand Prix", "https://en.wikipedia.org/wiki/2025_Australian_Grand_Prix")}, defending the lead from teammate{" "}
-        {wikiLink("Oscar Piastri", "https://en.wikipedia.org/wiki/Oscar_Piastri")} and{" "}
-        {wikiLink("Max Verstappen", "https://en.wikipedia.org/wiki/Max_Verstappen")} in wet conditions to claim victory and the championship lead.
+        Ocon continued alongside {wikiLink("Gasly", "https://en.wikipedia.org/wiki/Pierre_Gasly")} at {wikiLink("Alpine", "https://en.wikipedia.org/wiki/Alpine_F1_Team")} for {wikiLink("2024", "https://en.wikipedia.org/wiki/2024_Formula_One_World_Championship")}. During {wikiLink("pre-season testing", "https://en.wikipedia.org/wiki/2024_Formula_One_pre-season_testing")}, he noted that the team were "on the back foot". The Alpine drivers qualified nineteenth and twentieth for the season-opening {wikiLink("Bahrain Grand Prix", "https://en.wikipedia.org/wiki/2024_Bahrain_Grand_Prix")}, which Gasly described as "not a surprise". The Alpine did not reach the second qualifying session of a Grand Prix until Ocon did so at the third race, the {wikiLink("Australian Grand Prix", "https://en.wikipedia.org/wiki/2024_Australian_Grand_Prix")}; however, Ocon still finished sixteenth.
       </p>
 
       <p>
-        After finishing eighth in the{" "}
-        {wikiLink("Chinese Grand Prix", "https://en.wikipedia.org/wiki/2025_Chinese_Grand_Prix")} sprint, he claimed second in the main race behind Piastri. In{" "}
-        {wikiLink("Japan", "https://en.wikipedia.org/wiki/2025_Japanese_Grand_Prix")}, he finished second to Verstappen, who reduced his championship lead to a single point. 
-        Norris increased his championship lead to three points over Piastri with his third-placed finish at the{" "}
-        {wikiLink("Bahrain Grand Prix", "https://en.wikipedia.org/wiki/2025_Bahrain_Grand_Prix")}, after qualifying sixth and receiving a penalty for a start infringement.
+        Ocon claimed the team's first points of 2024 at the {wikiLink("Miami Grand Prix", "https://en.wikipedia.org/wiki/2024_Miami_Grand_Prix")}, improving from thirteenth on the grid to tenth at the finish. He qualified eleventh at the {wikiLink("Monaco Grand Prix", "https://en.wikipedia.org/wiki/2024_Monaco_Grand_Prix")} but retired after colliding with Gasly on track, for which he apologised and claimed responsibility. A week later, Alpine announced Ocon would leave the team at the end of the season. During the {wikiLink("Canadian Grand Prix", "https://en.wikipedia.org/wiki/2024_Canadian_Grand_Prix")}, Alpine imposed {wikiLink("team orders", "https://en.wikipedia.org/wiki/Team_orders")} forcing Ocon to give up P9 to Gasly, who was in better position to attack {wikiLink("Daniel Ricciardo", "https://en.wikipedia.org/wiki/Daniel_Ricciardo")}. However, after Gasly failed to pass Ricciardo, Alpine did not ask Gasly to give the place back to Ocon, upsetting Ocon. Ocon scored points at the {wikiLink("Spanish Grand Prix", "https://en.wikipedia.org/wiki/2024_Spanish_Grand_Prix")} and {wikiLink("Belgian Grand Prix", "https://en.wikipedia.org/wiki/2024_Belgian_Grand_Prix")}.
+      </p>
+
+      <p>
+        Ocon did not score points for the next six races, but {wikiLink("Alpine", "https://en.wikipedia.org/wiki/Alpine_F1_Team")} picked up a double podium (its first of the year) at the rain-affected {wikiLink("São Paulo Grand Prix", "https://en.wikipedia.org/wiki/2024_S%C3%A3o_Paulo_Grand_Prix")}, with Ocon finishing second and {wikiLink("Gasly", "https://en.wikipedia.org/wiki/Pierre_Gasly")} third. Ocon led the race for a period but was overtaken by eventual winner {wikiLink("Max Verstappen", "https://en.wikipedia.org/wiki/Max_Verstappen")}.
+      </p>
+
+      <p>
+        Ocon was replaced by {wikiLink("Jack Doohan", "https://en.wikipedia.org/wiki/Jack_Doohan")} for the season-ending {wikiLink("2024 Abu Dhabi Grand Prix", "https://en.wikipedia.org/wiki/2024_Abu_Dhabi_Grand_Prix")}. Formula One's website reported Alpine required Ocon to leave the team one race early in exchange for releasing him to {wikiLink("Haas", "https://en.wikipedia.org/wiki/Haas_F1_Team")} for the Abu Dhabi post-season test. In a message on Instagram, Ocon thanked the team and wrote that "this is not how I wanted things to end."
       </p>
 
       <div className="clear-both"></div>
+
+      <section id="haas-2025" className="space-y-4 scroll-mt-24"></section>
+      {/* Haas (2025–present) */}
+      <h3 className="text-2xl font-bold text-red-600 mt-6 mb-2">Haas (2025–present)</h3>
+
+      <div className="clear-both"></div>
+
+      <figure className="float-right mr-4 mb-4 max-w-[250px] border border-gray-700 rounded-lg bg-gray-900 p-2 shadow-lg">
+        <img
+          src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/2025_Japan_GP_-_Haas_-_Esteban_Ocon_-_FP2.jpg/500px-2025_Japan_GP_-_Haas_-_Esteban_Ocon_-_FP2.jpg"
+          alt="Ocon driving the Haas VF-25 at the 2025 Japanese Grand Prix"
+          className="w-full h-auto rounded"
+        />
+        <figcaption className="text-sm text-gray-400 text-center">
+          Ocon (pictured at the {wikiLink("2025 Japanese Grand Prix", "https://en.wikipedia.org/wiki/2025_Japanese_Grand_Prix")}) signed for {wikiLink("Haas", "https://en.wikipedia.org/wiki/Haas_F1_Team")} in {wikiLink("2025", "https://en.wikipedia.org/wiki/2025_Formula_One_World_Championship")}.
+        </figcaption>
+      </figure>
+
+      <p>
+        Ocon joined {wikiLink("Haas", "https://en.wikipedia.org/wiki/Haas_F1_Team")} on a multi-year deal from {wikiLink("2025", "https://en.wikipedia.org/wiki/2025_Formula_One_World_Championship")} onwards, partnering rookie {wikiLink("Oliver Bearman", "https://en.wikipedia.org/wiki/Oliver_Bearman")}. After Haas struggled for performance at the season-opening {wikiLink("Australian Grand Prix", "https://en.wikipedia.org/wiki/2025_Australian_Grand_Prix")}, he finished fifth at the {wikiLink("Chinese Grand Prix", "https://en.wikipedia.org/wiki/2025_Chinese_Grand_Prix")} following disqualifications for both {wikiLink("Ferrari", "https://en.wikipedia.org/wiki/Scuderia_Ferrari")} drivers, achieving his first points finish in the {wikiLink("VF-25", "https://en.wikipedia.org/wiki/Haas_VF-25")}. He finished eighteenth in {wikiLink("Japan", "https://en.wikipedia.org/wiki/2025_Japanese_Grand_Prix")} on an alternate strategy. After crashing out of qualifying and starting fourteenth in {wikiLink("Bahrain", "https://en.wikipedia.org/wiki/2025_Bahrain_Grand_Prix")}, Ocon climbed to eighth using an alternate tyre strategy.
+      </p>
+
+      <div className="clear-both"></div>
+
   </>
   );
   
