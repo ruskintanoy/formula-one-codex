@@ -1,33 +1,22 @@
 const wikiLink = (text, url) => (
     <a href={url} target="_blank" rel="noopener noreferrer" className="text-red-500 hover:underline"> {text}</a>);
     
-  const background = (
-    <>
-      Lando Norris was born on 13 November 1999 in Bristol, England. His father Adam Norris is a retired pensions manager and is one of Bristol's wealthiest people as well as the 501st-richest person in the country (as of 2018).
-  
-      <br /><br />
-  
-      His mother Cisca (née Wauman) is from the Flanders region of Belgium. He has three siblings — two younger sisters, and an older brother Oliver, who was also involved in{" "}
-      {wikiLink("karting", "https://en.wikipedia.org/wiki/Karting")} on a competitive level until 2014.
-  
-      <br /><br />
-  
-      Norris holds both British and Belgian citizenship, and speaks a small amount of Flemish Dutch. In his early childhood, Norris tried horse riding, then quad biking and motorcycle riding before moving into karting after his father took him to watch the national British Karting Championships at age seven.
-  
-      <br /><br />
-  
-      Norris was educated at Millfield School in Street, Somerset. He left school without taking his GCSEs, but studied physics and mathematics with a full-time personal tutor. His family later moved to Glastonbury to allow him to become a day pupil and to pursue his racing career, citing{" "}
-      {wikiLink("Valentino Rossi", "https://en.wikipedia.org/wiki/Valentino_Rossi")} as an inspiration.
-  
-      <br /><br />
-  
-      At the start of his F1 career, he initially resided in Woking near the McLaren team headquarters, but later moved to Monaco in 2022 for financial reasons.
-  
-      <br /><br />
-  
-      Between August 2021 and September 2022, Norris dated Portuguese model Luísa Oliveira. Norris has stated that he and Oliveira were subjected to abuse and death threats from online trolls.
-    </>
-  );
-  
-  export default background;
+    const background = (
+      <>
+        Esteban José Jean-Pierre Ocon-Khelfane was born on 17 September 1996 in{" "}
+        {wikiLink("Évreux", "https://en.wikipedia.org/wiki/%C3%89vreux")},{" "}
+        {wikiLink("Normandy", "https://en.wikipedia.org/wiki/Normandy")} to Sabrina Khelfane and Laurent Ocon, a mechanic who owns a garage in Évreux. His paternal family is originally from{" "}
+        {wikiLink("Málaga", "https://en.wikipedia.org/wiki/M%C3%A1laga")}. While competing in karting, his parents decided to sell their family home, which included his father's garage, to fund his karting career. After selling the house, they lived and travelled to races in a caravan Ocon also used as a motor home. Ocon admitted that he almost gave up on his racing career to work at{" "}
+        {wikiLink("McDonald's", "https://en.wikipedia.org/wiki/McDonald%27s")}.
+    
+        <br /><br />
+    
+        As of 2022, Ocon lives in{" "}
+        {wikiLink("Geneva", "https://en.wikipedia.org/wiki/Geneva")}, Switzerland. Besides his native French language, Ocon also speaks English, Spanish and Italian. In 2023 Ocon began a relationship with model, social media influencer and former{" "}
+        {wikiLink("Miss Côte d'Azur", "https://en.wikipedia.org/wiki/Miss_C%C3%B4te_d%27Azur")} Flavy Barla, having split with his previous girlfriend Elena Berri (whom he had started dating in 2018) earlier in 2023.
+      </>
+    );
+    
+    export default background;
+    
   
