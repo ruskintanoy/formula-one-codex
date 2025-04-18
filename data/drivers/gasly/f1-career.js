@@ -26,7 +26,7 @@ const wikiLink = (text, url) => (
       <h3 className="text-2xl font-bold text-red-600 mb-2">Toro Rosso (2017–2018)</h3>
 
       {/* 2017 */}
-      <section id="r2017" className="space-y-4 scroll-mt-24"></section>
+      <section id="2017" className="space-y-4 scroll-mt-24"></section>
       <h4 className="text-lg font-semibold text-red-400 mb-1">2017</h4>
 
       <div className="clear-both"></div>
@@ -76,7 +76,7 @@ const wikiLink = (text, url) => (
       <h3 className="text-2xl font-bold text-red-600 mb-2">Red Bull (2019)</h3>
 
       {/* 2019 */}
-      <section id="2019" className="space-y-4 scroll-mt-24"></section>
+      <section id="red-bull-2019-detail" className="space-y-4 scroll-mt-24"></section>
       <h4 className="text-lg font-semibold text-red-400 mb-1">2019</h4>
 
       <div className="clear-both"></div>
@@ -275,6 +275,7 @@ const wikiLink = (text, url) => (
       <div className="clear-both"></div>
 
       {/* 2024 */}
+      <section id="2024" className="space-y-4 scroll-mt-24"></section>
       <h4 className="text-lg font-semibold text-red-400 mb-1">2024</h4>
 
       <div className="clear-both"></div>
@@ -303,6 +304,7 @@ const wikiLink = (text, url) => (
       <div className="clear-both"></div>
 
       {/* 2025 */}
+      <section id="2025" className="space-y-4 scroll-mt-24"></section>
       <h4 className="text-lg font-semibold text-red-400 mb-1">2025</h4>
 
       <div className="clear-both"></div>
