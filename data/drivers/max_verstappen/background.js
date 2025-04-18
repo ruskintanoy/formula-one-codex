@@ -19,7 +19,7 @@ const background = (
       Verstappen has three younger half-siblings from his father: a sister from Jos's second marriage and a brother 
       and sister from Jos's current marriage.
 
-    <br />
+      <br /><br />
 
       His family has a long association with motor sports: his father is a Dutch former{" "}
       {wikiLink("Formula One", "https://en.wikipedia.org/wiki/Formula_One")} driver, his Belgian mother 
