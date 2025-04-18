@@ -11,341 +11,319 @@ const wikiLink = (text, url) => (
   
   const f1Career = (
     <>
-      <section id="mclaren-driver-programme" className="space-y-4 scroll-mt-24"></section>
-      {/* McLaren Driver Development Programme */}
-      <h3 className="text-2xl font-bold text-red-600 mb-2">
-        McLaren Driver Development Programme
-      </h3>
-
-      <figure className="float-left mr-4 mb-4 max-w-[250px] border border-gray-700 rounded-lg bg-gray-900 p-2 shadow-lg">
-        <img
-          src="/drivers/norris/car4.jpg"
-          alt="Norris racing at Monza during the 2016 Eurocup Formula Renault 2.0 championship"
-          className="w-full h-auto rounded"
-        />
-        <figcaption className="text-sm text-gray-400 text-center">
-         Norris testing for McLaren during free practice at the {wikiLink("2018 Japanese Grand Prix", "https://en.wikipedia.org/wiki/2018_Japanese_Grand_Prix")}
-        </figcaption>
-      </figure>
+      {/* Red Bull Junior Team & Testing */}
+      <section id="red-bull-junior-team-2014" className="space-y-4 scroll-mt-24"></section>
+      <h3 className="text-2xl font-bold text-red-600 mb-2">Red Bull Junior Team & Testing</h3>
 
       <p>
-        In February 2017, Norris joined the{" "}
-        {wikiLink("McLaren Driver Development Programme", "https://en.wikipedia.org/wiki/McLaren_Driver_Development_Programme")}.
-        Following the announcement,{" "}
-        {wikiLink("Zak Brown", "https://en.wikipedia.org/wiki/Zak_Brown")} said that Norris was
-        "a fabulous prospect" who deserved the award. Later that year, Norris tested for McLaren
-        in a scheduled mid-season test. He set the second fastest lap in the second day of testing
-        at the Hungaroring. In late 2017, Norris became the official McLaren test and reserve driver
-        for the 2018 season. Norris participated in his first official practice session at the{" "}
-        {wikiLink("Belgian Grand Prix", "https://en.wikipedia.org/wiki/2018_Belgian_Grand_Prix")},
-        recording 26 laps. Norris drove in six further practice sessions during the year.
+        In December 2013 it was announced that Gasly would be inducted into the {wikiLink("Red Bull Junior Team", "https://en.wikipedia.org/wiki/Red_Bull_Junior_Team")} for the {wikiLink("2014 Formula One season", "https://en.wikipedia.org/wiki/2014_Formula_One_season")} alongside future GP2 Series teammate {wikiLink("Alex Lynn", "https://en.wikipedia.org/wiki/Alex_Lynn")} and future {wikiLink("Scuderia Toro Rosso", "https://en.wikipedia.org/wiki/Scuderia_Toro_Rosso")} teammate {wikiLink("Carlos Sainz Jr.", "https://en.wikipedia.org/wiki/Carlos_Sainz_Jr.")}. Gasly's first experience in Formula One machinery came in May 2015 at the in-season test at the {wikiLink("Circuit de Barcelona-Catalunya", "https://en.wikipedia.org/wiki/Circuit_de_Barcelona-Catalunya")}. He drove the {wikiLink("Toro Rosso STR10", "https://en.wikipedia.org/wiki/Toro_Rosso_STR10")} on the first day of the test and the {wikiLink("Red Bull RB11", "https://en.wikipedia.org/wiki/Red_Bull_RB11")} on the second day, recording 203 laps in total. He later tested the RB11 again at the {wikiLink("Red Bull Ring", "https://en.wikipedia.org/wiki/Red_Bull_Ring")} in June and was officially named {wikiLink("Red Bull Racing", "https://en.wikipedia.org/wiki/Red_Bull_Racing")}'s reserve driver in September. Gasly continued testing for Red Bull and Toro Rosso during the {wikiLink("2016", "https://en.wikipedia.org/wiki/2016_Formula_One_World_Championship")} and {wikiLink("2017", "https://en.wikipedia.org/wiki/2017_Formula_One_World_Championship")} seasons.
       </p>
 
       <div className="clear-both"></div>
 
-      <section id="mclaren-2019-present" className="space-y-4 scroll-mt-24"></section>
-      {/* McLaren (2019-Present) */}
-      <h3 className="text-2xl font-bold text-red-600 mt-6 mb-2">
-        McLaren (2019–present)
-      </h3>
+      {/* Toro Rosso (2017–2018) */}
+      <section id="toro-rosso-2017-2018" className="space-y-4 scroll-mt-24"></section>
+      <h3 className="text-2xl font-bold text-red-600 mb-2">Toro Rosso (2017–2018)</h3>
 
-      <section id="rookie-season" className="space-y-4 scroll-mt-24"></section>
-      {/* 2019: Rookie season */}
-      <h4 className="text-lg font-semibold text-red-400 mb-1">
-        2019: Rookie season
-      </h4>
+      {/* 2017 */}
+      <section id="r2017" className="space-y-4 scroll-mt-24"></section>
+      <h4 className="text-lg font-semibold text-red-400 mb-1">2017</h4>
+
+      <div className="clear-both"></div>
 
       <figure className="float-left mr-4 mb-4 max-w-[250px] border border-gray-700 rounded-lg bg-gray-900 p-2 shadow-lg">
         <img
-          src="/drivers/norris/car5.jpg"
-          alt="Norris racing at Monza during the 2016 Eurocup Formula Renault 2.0 championship"
+          src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Pierre_Gasly_2017_Malaysia_FP1.jpg/500px-Pierre_Gasly_2017_Malaysia_FP1.jpg"
+          alt="Gasly on his debut for Toro Rosso at the 2017 Malaysian Grand Prix"
           className="w-full h-auto rounded"
         />
         <figcaption className="text-sm text-gray-400 text-center">
-         Norris at the {wikiLink("2019 Chinese Grand Prix", "https://en.wikipedia.org/wiki/2019_Chinese_Grand_Prix")}
+          Gasly on his debut for Toro Rosso at the {wikiLink("2017 Malaysian Grand Prix", "https://en.wikipedia.org/wiki/2017_Malaysian_Grand_Prix")}
         </figcaption>
       </figure>
 
       <p>
-        Norris was contracted to drive for {wikiLink("McLaren", "https://en.wikipedia.org/wiki/McLaren")} for the {wikiLink("2019 Formula One World Championship", "https://en.wikipedia.org/wiki/2019_Formula_One_World_Championship")}, 
-        partnering {wikiLink("Carlos Sainz Jr.", "https://en.wikipedia.org/wiki/Carlos_Sainz_Jr.")}. He qualified eighth on his debut at the {wikiLink("Australian Grand Prix", "https://en.wikipedia.org/wiki/2019_Australian_Grand_Prix")} 
-        and finished the race in twelfth place. He scored his first Formula One points by finishing sixth at the following race, the {wikiLink("Bahrain Grand Prix", "https://en.wikipedia.org/wiki/2019_Bahrain_Grand_Prix")}. 
-        The {wikiLink("Chinese Grand Prix", "https://en.wikipedia.org/wiki/2019_Chinese_Grand_Prix")} was the first of Norris' retirements that season, after damage from a first lap collision with {wikiLink("Daniil Kvyat", "https://en.wikipedia.org/wiki/Daniil_Kvyat")} 
-        caused him to retire later in the race. Further retirements came at the {wikiLink("Spanish Grand Prix", "https://en.wikipedia.org/wiki/2019_Spanish_Grand_Prix")} after a collision with {wikiLink("Lance Stroll", "https://en.wikipedia.org/wiki/Lance_Stroll")} and 
-        at the {wikiLink("Canadian Grand Prix", "https://en.wikipedia.org/wiki/2019_Canadian_Grand_Prix")} when a brake fire caused his suspension to fail.
-      </p>
-
-      <p>
-        Norris was on course to finish seventh at the {wikiLink("French Grand Prix", "https://en.wikipedia.org/wiki/2019_French_Grand_Prix")} but suffered hydraulic problems late in the race and was eventually classified ninth. This was followed by a sixth-place 
-        finish at the {wikiLink("Austrian Grand Prix", "https://en.wikipedia.org/wiki/2019_Austrian_Grand_Prix")}, matching his best result. He was forced to start from the back at the {wikiLink("German Grand Prix", "https://en.wikipedia.org/wiki/2019_German_Grand_Prix")} 
-        due to penalties for exceeding the allowed number of engine components for the season. He later retired from the race after a power failure. At the {wikiLink("Belgian Grand Prix", "https://en.wikipedia.org/wiki/2019_Belgian_Grand_Prix")}, 
-        he made his way from eleventh up to fifth in the early stages of the race. He maintained this position and was set to record his best career finish but suffered a power failure on his final lap and was classified eleventh.
-      </p>
-
-      <p>
-        Three consecutive points finishes followed at the {wikiLink("Italian Grand Prix", "https://en.wikipedia.org/wiki/2019_Italian_Grand_Prix")}, {wikiLink("Singapore Grand Prix", "https://en.wikipedia.org/wiki/2019_Singapore_Grand_Prix")} 
-        and {wikiLink("Russian Grand Prix", "https://en.wikipedia.org/wiki/2019_Russian_Grand_Prix")}. At the {wikiLink("Japanese Grand Prix", "https://en.wikipedia.org/wiki/2019_Japanese_Grand_Prix")}, Norris was running in fifth place 
-        before {wikiLink("Alex Albon", "https://en.wikipedia.org/wiki/Alex_Albon")} collided with him during an overtake attempt. Norris dropped back after collecting floor damage and eventually finished eleventh. At the next race, 
-        the {wikiLink("Mexican Grand Prix", "https://en.wikipedia.org/wiki/2019_Mexican_Grand_Prix")}, he had a wheel fitted incorrectly after pitting from seventh place. He spent almost two minutes in the pits as his mechanics resolved the problem but he was eventually 
-        withdrawn from the race. He ended the season with three consecutive points finishes.
-      </p>
-
-      <p>
-        Norris finished his debut Formula One season eleventh in the drivers' championship with 49 points. Teammate Sainz scored 96 points, however Norris out-qualified Sainz at eleven of the twenty-one races. During his debut year, Norris signed a multi-year contract to 
-        stay with McLaren for the {wikiLink("2020 Formula One World Championship", "https://en.wikipedia.org/wiki/2020_Formula_One_World_Championship")} until the {wikiLink("2022 Formula One World Championship", 
-          "https://en.wikipedia.org/wiki/2022_Formula_One_World_Championship")}.
+        Gasly made his Formula One race debut at the {wikiLink("2017 Malaysian Grand Prix", "https://en.wikipedia.org/wiki/2017_Malaysian_Grand_Prix")} with {wikiLink("Toro Rosso", "https://en.wikipedia.org/wiki/Toro_Rosso")}, replacing {wikiLink("Daniil Kvyat", "https://en.wikipedia.org/wiki/Daniil_Kvyat")}. He finished the Malaysian and {wikiLink("Japanese", "https://en.wikipedia.org/wiki/2017_Japanese_Grand_Prix")} Grands Prix outside the points. Gasly was expected to take Carlos Sainz Jr.'s seat at the {wikiLink("2017 United States Grand Prix", "https://en.wikipedia.org/wiki/2017_United_States_Grand_Prix")} after Sainz left for {wikiLink("Renault", "https://en.wikipedia.org/wiki/Renault_in_F1")}, but he was forced to miss the race due to a clash with the final round of the {wikiLink("2017 Super Formula Championship", "https://en.wikipedia.org/wiki/2017_Super_Formula_Championship")}. He returned to the team for the {wikiLink("2017 Mexican Grand Prix", "https://en.wikipedia.org/wiki/2017_Mexican_Grand_Prix")}, partnering with {wikiLink("Brendon Hartley", "https://en.wikipedia.org/wiki/Brendon_Hartley")} after the team decided to drop Kvyat from the Red Bull programme.
       </p>
 
       <div className="clear-both"></div>
-      
-      <section id="maiden-podium" className="space-y-4 scroll-mt-24"></section>
-      {/* 2020: Maiden Podium */}
-      <h4 className="text-lg font-semibold text-red-400 mb-1">2020: Maiden Podium</h4>
+
+      {/* 2018 */}
+      <section id="2018" className="space-y-4 scroll-mt-24"></section>
+      <h4 className="text-lg font-semibold text-red-400 mb-1">2018</h4>
+
+      <div className="clear-both"></div>
+
+      <figure className="float-left mr-4 mb-4 max-w-[250px] border border-gray-700 rounded-lg bg-gray-900 p-2 shadow-lg">
+        <img
+          src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Pierre_Gasly_2018_Azerbaijan_GP.jpg/500px-Pierre_Gasly_2018_Azerbaijan_GP.jpg"
+          alt="Gasly at the 2018 Azerbaijan Grand Prix"
+          className="w-full h-auto rounded"
+        />
+        <figcaption className="text-sm text-gray-400 text-center">
+          Gasly at the {wikiLink("2018 Azerbaijan Grand Prix", "https://en.wikipedia.org/wiki/2018_Azerbaijan_Grand_Prix")}
+        </figcaption>
+      </figure>
 
       <p>
-        At the season-opening {wikiLink("Austrian Grand Prix", "https://en.wikipedia.org/wiki/2020_Austrian_Grand_Prix")}, Norris qualified in fourth place but was elevated to third after a grid penalty 
-        for {wikiLink("Lewis Hamilton", "https://en.wikipedia.org/wiki/Lewis_Hamilton")}, the highest grid position of his career at the time and the highest for McLaren since 
-        the {wikiLink("2016 Austrian Grand Prix", "https://en.wikipedia.org/wiki/2016_Austrian_Grand_Prix")}. In the closing stages of the race, third-placed Hamilton was issued a five-second penalty for causing a collision with Alex Albon. 
-        Norris set the fastest lap of the race on the final lap to finish 4.802 seconds behind Hamilton, allowing Norris to claim the first podium finish of his career. This made Norris the third youngest podium-finisher in Formula One history. 
-        At the {wikiLink("Styrian Grand Prix", "https://en.wikipedia.org/wiki/2020_Styrian_Grand_Prix")}, Norris qualified sixth but was given a three-place grid penalty for overtaking under yellow flags during practice. He passed three cars in the 
-        final two laps of the race to finish fifth, in what he described as "one of the best races of [his] career".
+        Gasly and Hartley became full-time Toro Rosso drivers for the {wikiLink("2018", "https://en.wikipedia.org/wiki/2018_Formula_One_World_Championship")} season. At the {wikiLink("2018 Bahrain Grand Prix", "https://en.wikipedia.org/wiki/2018_Bahrain_Grand_Prix")}, Gasly qualified sixth but was promoted to fifth on the grid after a penalty for {wikiLink("Lewis Hamilton", "https://en.wikipedia.org/wiki/Lewis_Hamilton")}. He finished the race in fourth place after {wikiLink("Kimi Räikkönen", "https://en.wikipedia.org/wiki/Kimi_R%C3%A4ikk%C3%B6nen")} retired, earning his first points finish in Formula One. A week later in {wikiLink("China", "https://en.wikipedia.org/wiki/2018_Chinese_Grand_Prix")}, he crashed into teammate Hartley in what the two confessed as being a 'miscommunication'. Gasly recorded four more points finishes during the season, including seventh place at {wikiLink("Monaco", "https://en.wikipedia.org/wiki/2018_Monaco_Grand_Prix")} and sixth place at {wikiLink("Hungary", "https://en.wikipedia.org/wiki/2018_Hungarian_Grand_Prix")}. He ended the season in fifteenth place in the championship with 29 points, comfortably ahead of Hartley's total of four points.
       </p>
+
+      <div className="clear-both"></div>
+
+      {/* Red Bull (2019) */}
+      <section id="red-bull-2019" className="space-y-4 scroll-mt-24"></section>
+      <h3 className="text-2xl font-bold text-red-600 mb-2">Red Bull (2019)</h3>
+
+      {/* 2019 */}
+      <section id="2019" className="space-y-4 scroll-mt-24"></section>
+      <h4 className="text-lg font-semibold text-red-400 mb-1">2019</h4>
+
+      <div className="clear-both"></div>
+
+      <figure className="float-left mr-4 mb-4 max-w-[250px] border border-gray-700 rounded-lg bg-gray-900 p-2 shadow-lg">
+        <img
+          src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/Pierre_Gasly_during_Hungarian_Formula_1_GP.jpg/500px-Pierre_Gasly_during_Hungarian_Formula_1_GP.jpg"
+          alt="Gasly at the 2019 Hungarian Grand Prix"
+          className="w-full h-auto rounded"
+        />
+        <figcaption className="text-sm text-gray-400 text-center">
+          Gasly at the {wikiLink("2019 Hungarian Grand Prix", "https://en.wikipedia.org/wiki/2019_Hungarian_Grand_Prix")}
+        </figcaption>
+      </figure>
+
+      <p>
+        Gasly was contracted to drive for {wikiLink("Red Bull Racing", "https://en.wikipedia.org/wiki/Red_Bull_Racing")} for the {wikiLink("2019", "https://en.wikipedia.org/wiki/2019_Formula_One_World_Championship")} season, partnering {wikiLink("Max Verstappen", "https://en.wikipedia.org/wiki/Max_Verstappen")} following the departure of {wikiLink("Daniel Ricciardo", "https://en.wikipedia.org/wiki/Daniel_Ricciardo")} to Renault. Gasly qualified seventeenth at his first race with the team, the {wikiLink("2019 Australian Grand Prix", "https://en.wikipedia.org/wiki/2019_Australian_Grand_Prix")} and failed to score in the race. He again failed to qualify in the top ten at the following {wikiLink("2019 Bahrain Grand Prix", "https://en.wikipedia.org/wiki/2019_Bahrain_Grand_Prix")}, and retired from sixth place with a driveshaft issue at the {wikiLink("2019 Azerbaijan Grand Prix", "https://en.wikipedia.org/wiki/2019_Azerbaijan_Grand_Prix")}. He scored points at the following six races but finished a lap behind the leaders at the {wikiLink("2019 Canadian Grand Prix", "https://en.wikipedia.org/wiki/2019_Canadian_Grand_Prix")}, {wikiLink("2019 French Grand Prix", "https://en.wikipedia.org/wiki/2019_French_Grand_Prix")}, and {wikiLink("2019 Austrian Grand Prix", "https://en.wikipedia.org/wiki/2019_Austrian_Grand_Prix")}, the latter of which was won by Verstappen. His best result with Red Bull Racing came at the {wikiLink("2019 British Grand Prix", "https://en.wikipedia.org/wiki/2019_British_Grand_Prix")} where he finished fourth after Verstappen and {wikiLink("Sebastian Vettel", "https://en.wikipedia.org/wiki/Sebastian_Vettel")} collided ahead. At the {wikiLink("2019 German Grand Prix", "https://en.wikipedia.org/wiki/2019_German_Grand_Prix")}, Gasly retired after colliding with {wikiLink("Alex Albon", "https://en.wikipedia.org/wiki/Alex_Albon")}'s Toro Rosso in an attempt to overtake for sixth place.
+      </p>
+
+      <p>
+        Gasly came under increasing pressure at the {wikiLink("2019 Hungarian Grand Prix", "https://en.wikipedia.org/wiki/2019_Hungarian_Grand_Prix")}, where he finished sixth having been lapped by Verstappen. Despite Gasly's poor results, Red Bull team principal {wikiLink("Christian Horner", "https://en.wikipedia.org/wiki/Christian_Horner")} and advisor {wikiLink("Helmut Marko", "https://en.wikipedia.org/wiki/Helmut_Marko")} stated that the team intended to keep Gasly until the end of the season. At this stage of the season, Gasly was sixth in the drivers' championship with 63 points. Verstappen, meanwhile, had recorded 181 points, two race wins, five podium finishes, and one pole position.
+      </p>
+
+      <div className="clear-both"></div>
+
+      {/* Return to Toro Rosso / AlphaTauri (2019–2022) */}
+      <section id="toro-rosso-return-2019" className="space-y-4 scroll-mt-24"></section>
+      <h3 className="text-2xl font-bold text-red-600 mb-2">Return to Toro Rosso / AlphaTauri (2019–2022)</h3>
+
+      {/* 2019 */}
+      <section id="2019" className="space-y-4 scroll-mt-24"></section>
+      <h4 className="text-lg font-semibold text-red-400 mb-1">2019</h4>
+
+      <div className="clear-both"></div>
+
+      <figure className="float-left mr-4 mb-4 max-w-[250px] border border-gray-700 rounded-lg bg-gray-900 p-2 shadow-lg">
+        <img
+          src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/Pierre_Gasly%2C_Toro_Rosso-Honda_STR14%2C_2019_Italian_Grand_Prix%2C_Monza%2C_6th_September.jpg/500px-Pierre_Gasly%2C_Toro_Rosso-Honda_STR14%2C_2019_Italian_Grand_Prix%2C_Monza%2C_6th_September.jpg"
+          alt="Gasly at the 2019 Italian Grand Prix, after being dropped to Scuderia Toro Rosso mid-season"
+          className="w-full h-auto rounded"
+        />
+        <figcaption className="text-sm text-gray-400 text-center">
+          Gasly at the {wikiLink("2019 Italian Grand Prix", "https://en.wikipedia.org/wiki/2019_Italian_Grand_Prix")}, after being dropped to {wikiLink("Scuderia Toro Rosso", "https://en.wikipedia.org/wiki/Scuderia_Toro_Rosso")} mid-season
+        </figcaption>
+      </figure>
+
+      <p>
+        Ahead of the {wikiLink("2019 Belgian Grand Prix", "https://en.wikipedia.org/wiki/2019_Belgian_Grand_Prix")}, Gasly was demoted back to junior team Toro Rosso with {wikiLink("Alex Albon", "https://en.wikipedia.org/wiki/Alex_Albon")} taking his place at Red Bull. Red Bull stated that the swap was made in order to "make an informed decision as to who will drive alongside Max [Verstappen] in 2020", with Horner remarking that "we desperately need [Gasly] realising more of the potential of the car."
+      </p>
+
+      <div className="clear-both"></div>
 
       <figure className="float-right mr-4 mb-4 max-w-[250px] border border-gray-700 rounded-lg bg-gray-900 p-2 shadow-lg">
         <img
-          src="/drivers/norris/car6.jpg"
-          alt="Norris racing at Monza during the 2016 Eurocup Formula Renault 2.0 championship"
+          src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/F%C3%B3rmula_1_%E2%80%93_Grande_Pr%C3%AAmio_do_Brasil_de_F1_2019_%2849080039668%29.jpg/500px-F%C3%B3rmula_1_%E2%80%93_Grande_Pr%C3%AAmio_do_Brasil_de_F1_2019_%2849080039668%29.jpg"
+          alt="Gasly (second from left) on his maiden podium after finishing second in the 2019 Brazilian Grand Prix"
           className="w-full h-auto rounded"
         />
         <figcaption className="text-sm text-gray-400 text-center">
-         Norris at the {wikiLink("2020 Tuscan Grand Prix", "https://en.wikipedia.org/wiki/2020_Tuscan_Grand_Prix")}
+          Gasly (second from left) on his maiden podium after finishing second in the {wikiLink("2019 Brazilian Grand Prix", "https://en.wikipedia.org/wiki/2019_Brazilian_Grand_Prix")}
         </figcaption>
       </figure>
 
       <p>
-        Six consecutive points finishes came between the {wikiLink("British Grand Prix", "https://en.wikipedia.org/wiki/2020_British_Grand_Prix")} and {wikiLink("Tuscan Grand Prix", "https://en.wikipedia.org/wiki/2020_Tuscan_Grand_Prix")}. 
-        Norris collected damage on the opening lap of the {wikiLink("Russian Grand Prix", "https://en.wikipedia.org/wiki/2020_Russian_Grand_Prix")} and finished the race fifteenth. At the {wikiLink("Eifel Grand Prix", "https://en.wikipedia.org/wiki/2020_Eifel_Grand_Prix")}, 
-        he retired from sixth place with power unit failure. During the {wikiLink("Portuguese Grand Prix", "https://en.wikipedia.org/wiki/2020_Portuguese_Grand_Prix")}, a collision with {wikiLink("Lance Stroll", "https://en.wikipedia.org/wiki/Lance_Stroll")} and 
-        a puncture resulted in a thirteenth-place finish. Following this, Norris faced criticism over his remarks that Stroll "doesn't seem to learn" and his perceived downplaying of {wikiLink("Lewis Hamilton", "https://en.wikipedia.org/wiki/Lewis_Hamilton")}'s achievement 
-        of most Grand Prix wins, describing it as meaning "nothing to him". Subsequently, Norris apologised for his comments about Stroll and also offered a personal apology to Hamilton, stating that his comments were "careless" and that he "[hadn't] shown the 
-        respect I should have to certain people".
-      </p>
-
-      <p>
-        At the wet {wikiLink("Turkish Grand Prix", "https://en.wikipedia.org/wiki/2020_Turkish_Grand_Prix")}, Norris had what he called "[the] worst start of everyone's career ever". He started from fourteenth place after a five-place grid penalty for failing to respect 
-        yellow flags in qualifying, but recovered to finish eighth and recorded the fastest lap of the race. Norris finished fourth at the {wikiLink("Bahrain Grand Prix", "https://en.wikipedia.org/wiki/2020_Bahrain_Grand_Prix")} and fifth at the 
-        season-finale {wikiLink("Abu Dhabi Grand Prix", "https://en.wikipedia.org/wiki/2020_Abu_Dhabi_Grand_Prix")}, which alongside the points scored by teammate Sainz, assisted McLaren in claiming third place in the constructors' 
-        championship over {wikiLink("Racing Point", "https://en.wikipedia.org/wiki/Racing_Point")}. Norris ended the season ninth in the drivers' championship with 97 points, eight points behind Sainz.
-      </p>
-
-      
-      <section id="maiden-pole" className="space-y-4 scroll-mt-24"></section>
-      {/* 2021: Maiden Pole Position */}
-      <h4 className="text-lg font-semibold text-red-400 mb-1">2021: Maiden Pole Position</h4>
-
-      <p>
-        Norris remained at {wikiLink("McLaren", "https://en.wikipedia.org/wiki/McLaren")} for the {wikiLink("2021 season", "https://en.wikipedia.org/wiki/2021_Formula_One_World_Championship")}, 
-        partnering {wikiLink("Daniel Ricciardo", "https://en.wikipedia.org/wiki/Daniel_Ricciardo")} as Sainz left the team for {wikiLink("Ferrari", "https://en.wikipedia.org/wiki/Scuderia_Ferrari")}. Norris qualified seventh for the 
-        season-opening {wikiLink("Bahrain Grand Prix", "https://en.wikipedia.org/wiki/2021_Bahrain_Grand_Prix")} and finished the race fourth. At the following race, the {wikiLink("Emilia Romagna Grand Prix", "https://en.wikipedia.org/wiki/2021_Emilia_Romagna_Grand_Prix")}, 
-        a qualifying time that would have placed him third on the grid was deleted for exceeding track limits, and he started the race seventh. Norris had run in second place before being passed by {wikiLink("Lewis Hamilton", "https://en.wikipedia.org/wiki/Lewis_Hamilton")} 
-        with three laps remaining. He finished third to claim his second Formula One podium finish. At the {wikiLink("Monaco Grand Prix", "https://en.wikipedia.org/wiki/2021_Monaco_Grand_Prix")}, Norris started fifth and benefited 
-        from {wikiLink("Charles Leclerc", "https://en.wikipedia.org/wiki/Charles_Leclerc")}'s failure to start the race and {wikiLink("Valtteri Bottas", "https://en.wikipedia.org/wiki/Valtteri_Bottas")}' retirement to claim another podium finish. Norris was issued a 
-        grid penalty and started ninth at the {wikiLink("Azerbaijan Grand Prix", "https://en.wikipedia.org/wiki/2021_Azerbaijan_Grand_Prix")} for failing to enter the pits during a red flag period in qualifying, a sanction he criticised as "unfair". 
-        He recovered places in the race to finish fifth, assisted by crashes and mistakes from drivers ahead.
-      </p>
-
-      <figure className="float-left mr-4 mb-4 max-w-[250px] border border-gray-700 rounded-lg bg-gray-900 p-2 shadow-lg">
-        <img
-          src="/drivers/norris/car7.jpg"
-          alt="Norris racing at Monza during the 2016 Eurocup Formula Renault 2.0 championship"
-          className="w-full h-auto rounded"
-        />
-        <figcaption className="text-sm text-gray-400 text-center">
-         Norris at the {wikiLink("2021 Austrian Grand Prix", "https://en.wikipedia.org/wiki/2021_Austrian_Grand_Prix")}
-        </figcaption>
-      </figure>
-
-      <p>
-        Norris equalled his then-highest grid position at the {wikiLink("Styrian Grand Prix", "https://en.wikipedia.org/wiki/2021_Styrian_Grand_Prix")} in Austria, starting third after Bottas was issued with a grid penalty. He finished fifth for the third consecutive race. 
-        He bettered this qualifying position at the following weekend's {wikiLink("Austrian Grand Prix", "https://en.wikipedia.org/wiki/2021_Austrian_Grand_Prix")}, starting in second place after setting a time 0.048 seconds behind 
-        pole-sitter {wikiLink("Max Verstappen", "https://en.wikipedia.org/wiki/Max_Verstappen")}. Norris received a penalty during the race after being judged to have forced Sergio Pérez off the track. He finished the race third to claim his third podium of the season. 
-        He set the sixth fastest time in Friday qualifying at the {wikiLink("British Grand Prix", "https://en.wikipedia.org/wiki/2021_British_Grand_Prix")}, before finishing fifth in the new-format sprint qualifying and fourth in the Grand Prix. This result moved 
-        him up to third place in the drivers' championship. He qualified sixth for the {wikiLink("Hungarian Grand Prix", "https://en.wikipedia.org/wiki/2021_Hungarian_Grand_Prix")}. He improved to third place by the first corner but was hit from behind by Bottas, 
-        causing him to collide with Verstappen. Norris retired from the race two laps later due to heavy damage. At the {wikiLink("Italian Grand Prix", "https://en.wikipedia.org/wiki/2021_Italian_Grand_Prix")}, Norris finished fourth in sprint qualifying, which 
-        became third on the grid for the race as Bottas incurred an engine penalty. Norris finished the race second behind teammate Ricciardo, scoring his fourth podium of the season and securing McLaren's first one-two finish since 
-        the {wikiLink("2010 Canadian Grand Prix", "https://en.wikipedia.org/wiki/2010_Canadian_Grand_Prix")}.
-      </p>
-
-      <p>
-        Norris took his first Formula One pole position in changing weather conditions in qualifying at the {wikiLink("Russian Grand Prix", "https://en.wikipedia.org/wiki/2021_Russian_Grand_Prix")}. He lost the lead to Carlos Sainz on the first lap before regaining it on 
-        lap 13. Norris continued to lead the race with Lewis Hamilton close behind until rain began to fall in the closing laps. Norris decided to stay out on dry-weather tyres while Hamilton pitted for intermediate tyres. The rain soon worsened, allowing Hamilton to 
-        overtake and forcing Norris to pit for intermediates. Norris finished seventh, recording the fastest lap of the race. Norris scored points in each of the remaining seven races of the season, but did not finish higher than seventh. He qualified third at the 
-        season-ending {wikiLink("Abu Dhabi Grand Prix", "https://en.wikipedia.org/wiki/2023_Abu_Dhabi_Grand_Prix")} and was the first of the five cars controversially permitted to unlap themselves on the penultimate lap of the race. He criticised the decision to resume 
-        the race on the final lap and described it as being done "for the TV". The result of the final race dropped Norris to sixth in the World Drivers' Championship, 4.5 points behind former teammate Sainz. Nevertheless, Norris achieved his career best result in the 
-        standings and scored 160 points to teammate Ricciardo's 115.
+        During the remainder of the season at Toro Rosso, partnering with {wikiLink("Daniil Kvyat", "https://en.wikipedia.org/wiki/Daniil_Kvyat")}, Gasly achieved five points finishes, including ninth place at his first race back at the team at the {wikiLink("2019 Belgian Grand Prix", "https://en.wikipedia.org/wiki/2019_Belgian_Grand_Prix")}. His best result came at the {wikiLink("2019 Brazilian Grand Prix", "https://en.wikipedia.org/wiki/2019_Brazilian_Grand_Prix")}, where he qualified in seventh place and took advantage of retirements from {wikiLink("Valtteri Bottas", "https://en.wikipedia.org/wiki/Valtteri_Bottas")} and both {wikiLink("Ferrari", "https://en.wikipedia.org/wiki/Scuderia_Ferrari")} drivers, as well as a collision between {wikiLink("Lewis Hamilton", "https://en.wikipedia.org/wiki/Lewis_Hamilton")} and {wikiLink("Alex Albon", "https://en.wikipedia.org/wiki/Alex_Albon")}, to finish the race in second place after holding off Hamilton in a straight drag to the finish line. This marked the first podium finish of Gasly's Formula One career, Toro Rosso's best race result since the {wikiLink("2008 Italian Grand Prix", "https://en.wikipedia.org/wiki/2008_Italian_Grand_Prix")}, and {wikiLink("Honda", "https://en.wikipedia.org/wiki/Honda_in_Formula_One")}'s first 1–2 finish since the {wikiLink("1991 Japanese Grand Prix", "https://en.wikipedia.org/wiki/1991_Japanese_Grand_Prix")}. On his cool-down lap, Gasly remarked over the radio: "This is the best day of my life". He ended the season seventh in the drivers' championship with 95 points; during his nine races back at Toro Rosso, he scored 32 points compared to 10 for teammate Kvyat in the same period.
       </p>
 
       <div className="clear-both"></div>
 
-      <section id="season-2022" className="space-y-4 scroll-mt-24"></section>
-      {/* 2022 Season */}
-      <h4 className="text-lg font-semibold text-red-400 mb-1">2022 Season</h4>
+      {/* 2020: Maiden win */}
+      <section id="2020" className="space-y-4 scroll-mt-24"></section>
+      <h4 className="text-lg font-semibold text-red-400 mb-1">2020: Maiden win</h4>
+
+      <div className="clear-both"></div>
+
+      <figure className="float-left mr-4 mb-4 max-w-[250px] border border-gray-700 rounded-lg bg-gray-900 p-2 shadow-lg">
+        <img
+          src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Pierre_Gasly-Alpha_Tauri_AT01_%282%29_%28cropped%29.jpg/500px-Pierre_Gasly-Alpha_Tauri_AT01_%282%29_%28cropped%29.jpg"
+          alt="Gasly at pre-season testing in 2020"
+          className="w-full h-auto rounded"
+        />
+        <figcaption className="text-sm text-gray-400 text-center">
+          Gasly at {wikiLink("pre-season testing in 2020", "https://en.wikipedia.org/wiki/2020_Formula_One_pre-season_testing")}
+        </figcaption>
+      </figure>
+
+      <p>
+        Gasly was retained by the team, along with Kvyat, as they rebranded to {wikiLink("Scuderia AlphaTauri", "https://en.wikipedia.org/wiki/Scuderia_AlphaTauri")}. Gasly achieved four points finishes in the first seven races of the season, with best results of seventh place at the {wikiLink("2020 Austrian Grand Prix", "https://en.wikipedia.org/wiki/2020_Austrian_Grand_Prix")} and {wikiLink("2020 British Grand Prix", "https://en.wikipedia.org/wiki/2020_British_Grand_Prix")} Grands Prix.
+      </p>
+
+      <p>
+        At the {wikiLink("2020 Italian Grand Prix", "https://en.wikipedia.org/wiki/2020_Italian_Grand_Prix")}, an early pit stop allowed Gasly to pass several drivers – who had to wait for the pitlane to open during a safety car procedure – promoting him to third place. As race leader Hamilton entered the pits to serve a penalty and second-placed driver {wikiLink("Lance Stroll", "https://en.wikipedia.org/wiki/Lance_Stroll")} lost places at the restart, Gasly inherited the lead of the race and held off the late-charging Carlos Sainz Jr. to take his first win in Formula One, becoming the 109th different race winner and the first French driver to win a Grand Prix since {wikiLink("Olivier Panis", "https://en.wikipedia.org/wiki/Olivier_Panis")}' victory at the {wikiLink("1996 Monaco Grand Prix", "https://en.wikipedia.org/wiki/1996_Monaco_Grand_Prix")}, 24 years prior. This prompted speculation that Gasly could return to Red Bull, as his replacement, Alex Albon, finished only fifteenth. Gasly remarked that he was 'ready' to do so. AlphaTauri team principal {wikiLink("Franz Tost", "https://en.wikipedia.org/wiki/Franz_Tost")} praised Gasly's race but dismissed the possibility of Gasly returning to Red Bull in the near future.
+      </p>
+
+      <p>
+        Gasly was eliminated in a first-lap collision at the following race, the {wikiLink("2020 Tuscan Grand Prix", "https://en.wikipedia.org/wiki/2020_Tuscan_Grand_Prix")}. He scored points at the next three races, including fifth place at the {wikiLink("2020 Portuguese Grand Prix", "https://en.wikipedia.org/wiki/2020_Portuguese_Grand_Prix")}, but retired with a coolant leak at the {wikiLink("2020 Emilia Romagna Grand Prix", "https://en.wikipedia.org/wiki/2020_Emilia_Romagna_Grand_Prix")} having qualified a season-best fourth. He finished the 2020 season tenth in the drivers' championship with 75 points, ahead of teammate Kvyat's 32 points.
+      </p>
+
+      <div className="clear-both"></div>
+
+      {/* 2021 */}
+      <section id="2021" className="space-y-4 scroll-mt-24"></section>
+      <h4 className="text-lg font-semibold text-red-400 mb-1">2021</h4>
+
+      <div className="clear-both"></div>
+
+      <figure className="float-left mr-4 mb-4 max-w-[250px] border border-gray-700 rounded-lg bg-gray-900 p-2 shadow-lg">
+        <img
+          src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/FIA_F1_Austria_2021_Nr._10_Gasly.jpg/500px-FIA_F1_Austria_2021_Nr._10_Gasly.jpg"
+          alt="Gasly at the 2021 Austrian Grand Prix"
+          className="w-full h-auto rounded"
+        />
+        <figcaption className="text-sm text-gray-400 text-center">
+          Gasly at the {wikiLink("2021 Austrian Grand Prix", "https://en.wikipedia.org/wiki/2021_Austrian_Grand_Prix")}
+        </figcaption>
+      </figure>
+
+      <p>
+        Gasly was retained by AlphaTauri for {wikiLink("2021", "https://en.wikipedia.org/wiki/2021_Formula_One_World_Championship")}, partnered by Japanese rookie {wikiLink("Yuki Tsunoda", "https://en.wikipedia.org/wiki/Yuki_Tsunoda")}. He qualified fifth for the season-opening {wikiLink("2021 Bahrain Grand Prix", "https://en.wikipedia.org/wiki/2021_Bahrain_Grand_Prix")} but collided with Daniel Ricciardo and later retired from the race. He then scored points at the following six races, including his third career podium at the {wikiLink("2021 Azerbaijan Grand Prix", "https://en.wikipedia.org/wiki/2021_Azerbaijan_Grand_Prix")}. He qualified fourth, dropped to fifth early in the race, but benefited from a tyre failure for Max Verstappen and a mistake from Lewis Hamilton in the closing stages and prevailed in a battle with {wikiLink("Charles Leclerc", "https://en.wikipedia.org/wiki/Charles_Leclerc")} on the penultimate lap to finish third. Gasly's points streak ended at the {wikiLink("2021 Styrian Grand Prix", "https://en.wikipedia.org/wiki/2021_Styrian_Grand_Prix")} when he was eliminated by a first-lap collision with Leclerc. A late-race puncture at the {wikiLink("2021 British Grand Prix", "https://en.wikipedia.org/wiki/2021_British_Grand_Prix")} dropped Gasly out of the points positions.
+      </p>
+
+      <p>
+        At the {wikiLink("2021 Italian Grand Prix", "https://en.wikipedia.org/wiki/2021_Italian_Grand_Prix")}, Gasly crashed out in sprint qualifying after he made contact with Daniel Ricciardo, wedging his front wing underneath his wheels. He retired from the race on lap four due to damaged suspension. He finished sixth at the {wikiLink("2021 Turkish Grand Prix", "https://en.wikipedia.org/wiki/2021_Turkish_Grand_Prix")} despite a penalty for causing a collision with {wikiLink("Fernando Alonso", "https://en.wikipedia.org/wiki/Fernando_Alonso")}. Gasly started on the front row for the first time at the {wikiLink("2021 Qatar Grand Prix", "https://en.wikipedia.org/wiki/2021_Qatar_Grand_Prix")} but finished the race outside the points. Gasly finished the season ninth in the drivers' standings with his highest ever points tally in a single season, scoring 110 points to teammate Tsunoda's 32.
+      </p>
+
+      <div className="clear-both"></div>
+
+      {/* 2022 */}
+      <section id="2022" className="space-y-4 scroll-mt-24"></section>
+      <h4 className="text-lg font-semibold text-red-400 mb-1">2022</h4>
+
+      <div className="clear-both"></div>
+
+      <figure className="float-left mr-4 mb-4 max-w-[250px] border border-gray-700 rounded-lg bg-gray-900 p-2 shadow-lg">
+        <img
+          src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Pierre_Gasly_2022_Emilia_Romagna_GP.jpg/500px-Pierre_Gasly_2022_Emilia_Romagna_GP.jpg"
+          alt="Gasly at the 2022 Emilia Romagna Grand Prix"
+          className="w-full h-auto rounded"
+        />
+        <figcaption className="text-sm text-gray-400 text-center">
+          Gasly at the {wikiLink("2022 Emilia Romagna Grand Prix", "https://en.wikipedia.org/wiki/2022_Emilia_Romagna_Grand_Prix")}
+        </figcaption>
+      </figure>
+
+      <p>
+        Gasly continued to race for AlphaTauri in {wikiLink("2022", "https://en.wikipedia.org/wiki/2022_Formula_One_World_Championship")} alongside Tsunoda. An engine fire caused his retirement from the season-opening {wikiLink("Bahrain Grand Prix", "https://en.wikipedia.org/wiki/2022_Bahrain_Grand_Prix")}. He scored points at the {wikiLink("Saudi Arabian", "https://en.wikipedia.org/wiki/2022_Saudi_Arabian_Grand_Prix")} and {wikiLink("Australian", "https://en.wikipedia.org/wiki/2022_Australian_Grand_Prix")} Grands Prix, but failed to do so at the following four races, which included retirement from a collision with {wikiLink("Lando Norris", "https://en.wikipedia.org/wiki/Lando_Norris")} at the {wikiLink("Miami Grand Prix", "https://en.wikipedia.org/wiki/2022_Miami_Grand_Prix")}. He ended the zero-point streak by finishing fifth at the {wikiLink("Azerbaijan Grand Prix", "https://en.wikipedia.org/wiki/2022_Azerbaijan_Grand_Prix")}. Five more races without points followed, including a collision with teammate Tsunoda that ended his race at the {wikiLink("British Grand Prix", "https://en.wikipedia.org/wiki/2022_British_Grand_Prix")}. Gasly qualified tenth at the {wikiLink("Austrian Grand Prix", "https://en.wikipedia.org/wiki/2022_Austrian_Grand_Prix")} but collided with Lewis Hamilton in the sprint and Sebastian Vettel in the race, finishing fifteenth.
+      </p>
+
+      <p>
+        He was set to start the {wikiLink("Belgian Grand Prix", "https://en.wikipedia.org/wiki/2022_Belgian_Grand_Prix")} from eighth place, however an electrical issue shortly before the race forced him to start from the pit lane. He recovered to the points positions, finishing ninth. His final points of the season came at the {wikiLink("Italian", "https://en.wikipedia.org/wiki/2022_Italian_Grand_Prix")} and {wikiLink("Singapore", "https://en.wikipedia.org/wiki/2022_Singapore_Grand_Prix")} Grands Prix. Gasly had run in seventh place in Singapore, but complained that the team "threw away" this result by switching him to dry-weather tyres too early, dropping him to tenth. At the {wikiLink("Japanese Grand Prix", "https://en.wikipedia.org/wiki/2022_Japanese_Grand_Prix")}, Gasly criticised the deployment of a recovery tractor in wet conditions to extract Carlos Sainz Jr.'s crashed car, describing it as "disrespectful" to the memory of the late {wikiLink("Jules Bianchi", "https://en.wikipedia.org/wiki/Jules_Bianchi")} and stating "I could have killed myself". He received a penalty for speeding under the subsequent {wikiLink("red flag", "https://en.wikipedia.org/wiki/Racing_flags#Red_flag")} and was demoted to eighteenth place. Gasly ended the season fourteenth in the drivers' championship, scoring 23 points to Tsunoda's 12.
+      </p>
+
+      <p>
+        After the {wikiLink("Azerbaijan Grand Prix", "https://en.wikipedia.org/wiki/2022_Azerbaijan_Grand_Prix")} in June, AlphaTauri team principal {wikiLink("Franz Tost", "https://en.wikipedia.org/wiki/Franz_Tost")} confirmed that Gasly had a contract with the team and would remain with them for {wikiLink("2023", "https://en.wikipedia.org/wiki/2023_Formula_One_World_Championship")}. In August and September, information emerged that {wikiLink("Alpine", "https://en.wikipedia.org/wiki/Alpine_F1_Team")} were targeting Gasly after {wikiLink("Fernando Alonso", "https://en.wikipedia.org/wiki/Fernando_Alonso")} and {wikiLink("Oscar Piastri", "https://en.wikipedia.org/wiki/Oscar_Piastri")} both left the team, and that Red Bull were willing to release him. Gasly's move to Alpine for 2023 was officially announced in October.
+      </p>
+
+      <div className="clear-both"></div>
+
+      {/* Alpine (2023–present) */}
+      <section id="Alpine (2023–present)" className="space-y-4 scroll-mt-24"></section>
+      <h3 className="text-2xl font-bold text-red-600 mt-6 mb-2">Alpine (2023–present)</h3>
+
+      {/* 2023 */}
+      <section id="2023" className="space-y-4 scroll-mt-24"></section>
+      <h4 className="text-lg font-semibold text-red-400 mb-1">2023</h4>
+
+      <div className="clear-both"></div>
+
+      <figure className="float-left mr-4 mb-4 max-w-[250px] border border-gray-700 rounded-lg bg-gray-900 p-2 shadow-lg">
+        <img
+          src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/FIA_F1_Austria_2023_Nr._10_%281%29.jpg/500px-FIA_F1_Austria_2023_Nr._10_%281%29.jpg"
+          alt="Gasly driving his Alpine A523 during the 2023 Austrian Grand Prix"
+          className="w-full h-auto rounded"
+        />
+        <figcaption className="text-sm text-gray-400 text-center">
+          Gasly driving his Alpine A523 during the {wikiLink("2023 Austrian Grand Prix", "https://en.wikipedia.org/wiki/2023_Austrian_Grand_Prix")}
+        </figcaption>
+      </figure>
+
+      <p>
+        Gasly signed a multi-year contract to race for {wikiLink("Alpine", "https://en.wikipedia.org/wiki/Alpine_F1_Team")} in {wikiLink("2023", "https://en.wikipedia.org/wiki/2023_Formula_One_World_Championship")}, partnering fellow Frenchman and former karting rival {wikiLink("Esteban Ocon", "https://en.wikipedia.org/wiki/Esteban_Ocon")}. AlphaTauri allowed Gasly to join Alpine for the post-season testing immediately after the {wikiLink("2022 Abu Dhabi Grand Prix", "https://en.wikipedia.org/wiki/2022_Abu_Dhabi_Grand_Prix")}.
+      </p>
+
+      <p>
+        In his first race with Alpine at the {wikiLink("2023 Bahrain Grand Prix", "https://en.wikipedia.org/wiki/2023_Bahrain_Grand_Prix")}, Gasly started last after having his qualifying time deleted, but recovered to finish ninth in the race. Gasly was in fifth place when racing resumed after the second red flag at the {wikiLink("2023 Australian Grand Prix", "https://en.wikipedia.org/wiki/2023_Australian_Grand_Prix")}, but collided with Ocon at the first {wikiLink("chicane", "https://en.wikipedia.org/wiki/Chicane")}, causing the retirement of both Alpine cars. His practice running at the {wikiLink("2023 Azerbaijan Grand Prix", "https://en.wikipedia.org/wiki/2023_Azerbaijan_Grand_Prix")} was curtailed by an engine fire. He later crashed in qualifying and failed to score points in the sprint or the main race. Gasly qualified in the top ten and scored points at the following three races; this included starting fifth on the grid at the {wikiLink("2023 Miami Grand Prix", "https://en.wikipedia.org/wiki/2023_Miami_Grand_Prix")} and qualifying fourth at the {wikiLink("2023 Spanish Grand Prix", "https://en.wikipedia.org/wiki/2023_Spanish_Grand_Prix")}, before being demoted by two separate penalties for impeding.
+      </p>
+
+      <p>
+        Gasly next scored a point at the {wikiLink("2023 Austrian Grand Prix", "https://en.wikipedia.org/wiki/2023_Austrian_Grand_Prix")}, where he finished ninth but was dropped one position for track limits infringements. Two retirements from collisions followed; one with {wikiLink("Lance Stroll", "https://en.wikipedia.org/wiki/Lance_Stroll")} at the {wikiLink("2023 British Grand Prix", "https://en.wikipedia.org/wiki/2023_British_Grand_Prix")} and a multi-car accident on the opening lap of the {wikiLink("2023 Hungarian Grand Prix", "https://en.wikipedia.org/wiki/2023_Hungarian_Grand_Prix")}. He qualified sixth for the {wikiLink("2023 Belgian Grand Prix", "https://en.wikipedia.org/wiki/2023_Belgian_Grand_Prix")} sprint and an early switch to {wikiLink("intermediate tyres", "https://en.wikipedia.org/wiki/Intermediate_tyre")} promoted him to third place, earning six points. He did not score in the main race, where he finished eleventh. His sprint podium was followed by a Grand Prix podium at the {wikiLink("2023 Dutch Grand Prix", "https://en.wikipedia.org/wiki/2023_Dutch_Grand_Prix")}; he started twelfth and again benefited from an early stop for intermediate tyres. He crossed the finish line fourth but gained a place from {wikiLink("Sergio Pérez", "https://en.wikipedia.org/wiki/Sergio_P%C3%A9rez")}'s penalty, earning his first podium in over two years. Gasly achieved four more points finishes before the end of the season, including sixth-place finishes at the {wikiLink("2023 Singapore Grand Prix", "https://en.wikipedia.org/wiki/2023_Singapore_Grand_Prix")} and {wikiLink("2023 United States Grand Prix", "https://en.wikipedia.org/wiki/2023_United_States_Grand_Prix")}. He started fourth at the {wikiLink("2023 Las Vegas Grand Prix", "https://en.wikipedia.org/wiki/2023_Las_Vegas_Grand_Prix")} but finished outside the points.
+      </p>
+
+      <p>
+        Gasly ended his first season with Alpine eleventh in the World Drivers' Championship with 62 points, one place and four points ahead of teammate {wikiLink("Ocon", "https://en.wikipedia.org/wiki/Esteban_Ocon")}.
+      </p>
+
+      <div className="clear-both"></div>
+
+      {/* 2024 */}
+      <h4 className="text-lg font-semibold text-red-400 mb-1">2024</h4>
+
+      <div className="clear-both"></div>
+
+      <figure className="float-left mr-4 mb-4 max-w-[250px] border border-gray-700 rounded-lg bg-gray-900 p-2 shadow-lg">
+        <img
+          src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Pierre_Gasly_2024_Chinese_GP.jpg/250px-Pierre_Gasly_2024_Chinese_GP.jpg"
+          alt="Gasly at the 2024 Chinese Grand Prix"
+          className="w-full h-auto rounded"
+        />
+        <figcaption className="text-sm text-gray-400 text-center">
+          Gasly at the {wikiLink("2024 Chinese Grand Prix", "https://en.wikipedia.org/wiki/2024_Chinese_Grand_Prix")}
+        </figcaption>
+      </figure>
+
+      <p>
+        Gasly and Ocon remained at Alpine for {wikiLink("2024", "https://en.wikipedia.org/wiki/2024_Formula_One_World_Championship")}. They qualified in the bottom two positions for the {wikiLink("Bahrain Grand Prix", "https://en.wikipedia.org/wiki/2024_Bahrain_Grand_Prix")}. Ocon had commented after pre-season testing that the team were "on the back foot" and Gasly described the Bahrain result as "not a surprise". Both drivers were again eliminated in Q1 at the {wikiLink("Saudi Arabian Grand Prix", "https://en.wikipedia.org/wiki/2024_Saudi_Arabian_Grand_Prix")}, and Gasly was forced into retirement on the first lap of the race with gearbox issues.
+        Gasly finished no higher than 12th at the {wikiLink("Australian", "https://en.wikipedia.org/wiki/2024_Australian_Grand_Prix")}, {wikiLink("Japanese", "https://en.wikipedia.org/wiki/2024_Japanese_Grand_Prix")}, {wikiLink("Chinese", "https://en.wikipedia.org/wiki/2024_Chinese_Grand_Prix")}, {wikiLink("Miami", "https://en.wikipedia.org/wiki/2024_Miami_Grand_Prix")} and {wikiLink("Emilia Romagna", "https://en.wikipedia.org/wiki/2024_Emilia_Romagna_Grand_Prix")} Grands Prix, failing to score points.
+        He scored his first point of the season at the {wikiLink("Monaco Grand Prix", "https://en.wikipedia.org/wiki/2024_Monaco_Grand_Prix")}, then finished ninth at both the {wikiLink("Canadian Grand Prix", "https://en.wikipedia.org/wiki/2024_Canadian_Grand_Prix")} and {wikiLink("Spanish Grand Prix", "https://en.wikipedia.org/wiki/2024_Spanish_Grand_Prix")}, with another point at the {wikiLink("Austrian Grand Prix", "https://en.wikipedia.org/wiki/2024_Austrian_Grand_Prix")}.
+        Gasly retired at the {wikiLink("British", "https://en.wikipedia.org/wiki/2024_British_Grand_Prix")} and {wikiLink("Hungarian", "https://en.wikipedia.org/wiki/2024_Hungarian_Grand_Prix")} Grands Prix before returning to the points at the {wikiLink("Dutch Grand Prix", "https://en.wikipedia.org/wiki/2024_Dutch_Grand_Prix")}.
+        He endured a four-race pointless streak through {wikiLink("Italy", "https://en.wikipedia.org/wiki/2024_Italian_Grand_Prix")}, {wikiLink("Azerbaijan", "https://en.wikipedia.org/wiki/2024_Azerbaijan_Grand_Prix")}, {wikiLink("Singapore", "https://en.wikipedia.org/wiki/2024_Singapore_Grand_Prix")} and {wikiLink("United States", "https://en.wikipedia.org/wiki/2024_United_States_Grand_Prix")} Grands Prix.
+        At the {wikiLink("Mexico City Grand Prix", "https://en.wikipedia.org/wiki/2024_Mexico_City_Grand_Prix")}, he scored one point, before claiming a podium with third place at the {wikiLink("São Paulo Grand Prix", "https://en.wikipedia.org/wiki/2024_S%C3%A3o_Paulo_Grand_Prix")}, his fifth in F1.
+        He then qualified third at the {wikiLink("Las Vegas Grand Prix", "https://en.wikipedia.org/wiki/2024_Las_Vegas_Grand_Prix")} but retired, before finishing fifth in {wikiLink("Qatar", "https://en.wikipedia.org/wiki/2024_Qatar_Grand_Prix")} and seventh in {wikiLink("Abu Dhabi", "https://en.wikipedia.org/wiki/2024_Abu_Dhabi_Grand_Prix")}, securing 10th in the standings and helping Alpine beat Haas to 6th in the Constructors'.
+      </p>
+
+      <div className="clear-both"></div>
+
+      {/* 2025 */}
+      <h4 className="text-lg font-semibold text-red-400 mb-1">2025</h4>
+
+      <div className="clear-both"></div>
 
       <figure className="float-right mr-4 mb-4 max-w-[250px] border border-gray-700 rounded-lg bg-gray-900 p-2 shadow-lg">
         <img
-          src="/drivers/norris/car8.jpg"
-          alt="Norris racing at Monza during the 2016 Eurocup Formula Renault 2.0 championship"
+          src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/2025_Japan_GP_-_Alpine_-_Pierre_Gasly_-_FP2.jpg/250px-2025_Japan_GP_-_Alpine_-_Pierre_Gasly_-_FP2.jpg"
+          alt="Gasly driving the Alpine A525 at the 2025 Japanese Grand Prix"
           className="w-full h-auto rounded"
         />
         <figcaption className="text-sm text-gray-400 text-center">
-         Norris at the {wikiLink("2022 British Grand Prix", "https://en.wikipedia.org/wiki/2022_British_Grand_Prix")}
+          Gasly (pictured at the {wikiLink("2025 Japanese Grand Prix", "https://en.wikipedia.org/wiki/2025_Japanese_Grand_Prix")}) is partnered by {wikiLink("Jack Doohan", "https://en.wikipedia.org/wiki/Jack_Doohan")} in {wikiLink("2025", "https://en.wikipedia.org/wiki/2025_Formula_One_World_Championship")}.
         </figcaption>
       </figure>
 
       <p>
-        In February 2022 Norris signed a contract extension with {wikiLink("McLaren", "https://en.wikipedia.org/wiki/McLaren")} that will see him be with the team until at least 2025. He completed all three days of pre-season testing in Bahrain after teammate Ricciardo 
-        tested positive for COVID-19 and was unable to attend.
-      </p>
-
-      <p>
-        Both McLaren drivers qualified and finished outside the top ten at the season-opening {wikiLink("Bahrain Grand Prix", "https://en.wikipedia.org/wiki/2022_Bahrain_Grand_Prix")}. Norris then scored points at 
-        the {wikiLink("Saudi Arabian Grand Prix", "https://en.wikipedia.org/wiki/2022_Saudi_Arabian_Grand_Prix")} and {wikiLink("Australian Grand Prix", "https://en.wikipedia.org/wiki/2022_Australian_Grand_Prix")} before achieving the team's only podium finish of the 
-        season with third place at the {wikiLink("Emilia Romagna Grand Prix", "https://en.wikipedia.org/wiki/2022_Emilia_Romagna_Grand_Prix")}. At the new {wikiLink("Miami Grand Prix", "https://en.wikipedia.org/wiki/2022_Miami_Grand_Prix")}, the safety car was deployed 
-        when Norris was involved in a crash with {wikiLink("Pierre Gasly", "https://en.wikipedia.org/wiki/Pierre_Gasly")}'s {wikiLink("AlphaTauri", "https://en.wikipedia.org/wiki/Scuderia_AlphaTauri")}. Despite suffering with tonsillitis, Norris came sixth in 
-        the {wikiLink("Monaco Grand Prix", "https://en.wikipedia.org/wiki/2022_Monaco_Grand_Prix")} and secured the fastest lap. He qualified fifteenth at the {wikiLink("Austrian Grand Prix", "https://en.wikipedia.org/wiki/2022_Austrian_Grand_Prix")} but recovered in 
-        the sprint and the race to finish seventh. He then qualified fourth for the {wikiLink("Hungarian Grand Prix", "https://en.wikipedia.org/wiki/2022_Hungarian_Grand_Prix")} but was unable to keep {wikiLink("Lewis Hamilton", "https://en.wikipedia.org/wiki/Lewis_Hamilton")} 
-        and the two {wikiLink("Red Bulls", "https://en.wikipedia.org/wiki/Red_Bull_Racing")} behind and finished seventh.
-      </p>
-
-      <p>
-        Norris started seventeenth at the {wikiLink("Belgian Grand Prix", "https://en.wikipedia.org/wiki/2022_Belgian_Grand_Prix")} with a power unit components penalty and failed to score points, finishing twelfth. He started third at 
-        the {wikiLink("Italian Grand Prix", "https://en.wikipedia.org/wiki/2022_Italian_Grand_Prix")} but again lost out to the Red Bulls and finished seventh. His best result since Emilia Romagna came at the {wikiLink("Singapore Grand Prix", "https://en.wikipedia.org/wiki/2022_Singapore_Grand_Prix")} 
-        where he and Ricciardo finished fourth and fifth respectively, briefly promoting McLaren to fourth place above {wikiLink("Alpine", "https://en.wikipedia.org/wiki/Alpine_F1_Team")} in the Constructors' Championship. He scored points in 
-        the {wikiLink("São Paulo Grand Prix", "https://en.wikipedia.org/wiki/2022_S%C3%A3o_Paulo_Grand_Prix")} sprint, but a gearbox failure eliminated him from the points positions in the race. He ended the season with sixth place and the fastest lap at 
-        the {wikiLink("Abu Dhabi Grand Prix", "https://en.wikipedia.org/wiki/2022_Abu_Dhabi_Grand_Prix")}. He finished seventh in the Drivers' Championship and scored 122 points to Ricciardo's 37.
+        In June 2024, Gasly extended his multi-year contract with Alpine until at least the end of 2026, this time partnering rookie {wikiLink("Jack Doohan", "https://en.wikipedia.org/wiki/Jack_Doohan")} in place of the Haas-bound Ocon. He was disqualified from the {wikiLink("2025 Chinese Grand Prix", "https://en.wikipedia.org/wiki/2025_Chinese_Grand_Prix")} after his {wikiLink("Alpine A525", "https://en.wikipedia.org/wiki/Alpine_A525")} was found to be underweight.
       </p>
 
       <div className="clear-both"></div>
 
-      <section id="season-2023" className="space-y-4 scroll-mt-24"></section>
-      {/* 2023 Season */}
-      <h4 className="text-lg font-semibold text-red-400 mb-1">2023 Season</h4>
-
-      <p>
-        Norris remained with {wikiLink("McLaren", "https://en.wikipedia.org/wiki/McLaren")} for the 2023 season, partnered by rookie {wikiLink("Oscar Piastri", "https://en.wikipedia.org/wiki/Oscar_Piastri")} who replaced Ricciardo. At the first race at the {wikiLink("Bahrain Grand Prix", "https://en.wikipedia.org/wiki/2023_Bahrain_Grand_Prix")}, both McLaren cars experienced reliability issues. Norris made six pit stops to manage the problem and finished seventeenth and last of the finishing drivers. He was eliminated in the first qualifying session (Q1) for the first time since 2019 at the {wikiLink("Saudi Arabian Grand Prix", "https://en.wikipedia.org/wiki/2023_Saudi_Arabian_Grand_Prix")} after hitting the wall. He received damage from debris on the opening lap and again finished seventeenth. The {wikiLink("Australian Grand Prix", "https://en.wikipedia.org/wiki/2023_Australian_Grand_Prix")} saw McLaren score their first points of the season; Piastri finished eighth and Norris improved from thirteenth at the start to sixth at the finish. Another Q1 knockout at the {wikiLink("Miami Grand Prix", "https://en.wikipedia.org/wiki/2023_Miami_Grand_Prix")} and contact with {wikiLink("Nyck de Vries", "https://en.wikipedia.org/wiki/Nyck_de_Vries")} at the start resulted in another finish outside the points. He qualified third at the {wikiLink("Spanish Grand Prix", "https://en.wikipedia.org/wiki/2023_Spanish_Grand_Prix")} but first-lap contact with {wikiLink("Lewis Hamilton", "https://en.wikipedia.org/wiki/Lewis_Hamilton")} dropped him to the back. He was demoted from a points finish at the {wikiLink("Canadian Grand Prix", "https://en.wikipedia.org/wiki/2023_Canadian_Grand_Prix")} with a penalty for "unsportsmanlike behaviour" after slowing excessively whilst entering the pit lane to create a gap to Piastri ahead.
-      </p>
-
-      <figure className="float-left mr-4 mb-4 max-w-[250px] border border-gray-700 rounded-lg bg-gray-900 p-2 shadow-lg">
-        <img
-          src="/drivers/norris/car9.jpg"
-          alt="Norris racing at Monza during the 2016 Eurocup Formula Renault 2.0 championship"
-          className="w-full h-auto rounded"
-        />
-        <figcaption className="text-sm text-gray-400 text-center">
-          Norris racing at the {wikiLink("2023 Austrian Grand Prix", "https://en.wikipedia.org/wiki/2023_Austrian_Grand_Prix")}
-        </figcaption>
-      </figure>
-
-      <p>
-        McLaren brought upgrades to Norris's {wikiLink("MCL60", "https://en.wikipedia.org/wiki/McLaren_MCL60")} for the {wikiLink("Austrian Grand Prix", "https://en.wikipedia.org/wiki/2023_Austrian_Grand_Prix")}; team principal {wikiLink("Andrea Stella", "https://en.wikipedia.org/wiki/Andrea_Stella_(engineer)")} commented that "pretty much the entire car" had been redesigned. Norris qualified fourth for the race, third for the sprint and finished fourth in the race. More success came at the {wikiLink("British Grand Prix", "https://en.wikipedia.org/wiki/2023_British_Grand_Prix")} where Norris and Piastri qualified second and third respectively, a result Norris described as "insane". He passed {wikiLink("Max Verstappen", "https://en.wikipedia.org/wiki/Max_Verstappen")} at the first corner and led the race for four laps before Verstappen regained the place. In the later stages of the race, Norris held off Lewis Hamilton to finish second, making him the first McLaren driver to finish on the podium at {wikiLink("Silverstone Circuit", "https://en.wikipedia.org/wiki/2010_British_Grand_Prix")} since Hamilton in 2010. He then qualified third and defended from {wikiLink("Sergio Pérez", "https://en.wikipedia.org/wiki/Sergio_P%C3%A9rez")} to finish second at the {wikiLink("Hungarian Grand Prix", "https://en.wikipedia.org/wiki/2023_Hungarian_Grand_Prix")}, the first consecutive podiums of his Formula One career. He accidentally broke Verstappen's first place trophy during the podium celebrations; the trophy was later replaced. He started second at the {wikiLink("Dutch Grand Prix", "https://en.wikipedia.org/wiki/2023_Dutch_Grand_Prix")} but criticised his team's decision not to change tyres during a rain shower; he went on to finish seventh.
-      </p>
-
-      <p>
-        Four consecutive podiums began with the {wikiLink("Singapore Grand Prix", "https://en.wikipedia.org/wiki/2023_Singapore_Grand_Prix")}, where he held off the {wikiLink("Mercedes", "https://en.wikipedia.org/wiki/Mercedes_in_F1")} duo of Hamilton and George Russell and finished less than a second behind race winner Carlos Sainz Jr., his former McLaren teammate. He qualified third, behind teammate Piastri, at the {wikiLink("Japanese Grand Prix", "https://en.wikipedia.org/wiki/2023_Japanese_Grand_Prix")}, but passed him in the race to finish second. He led much of the {wikiLink("United States Grand Prix", "https://en.wikipedia.org/wiki/2023_United_States_Grand_Prix")} having qualified second and passed Charles Leclerc at the start, but was ultimately overtaken by Verstappen and Hamilton. Hamilton's post-race disqualification promoted Norris to second place. Norris failed to set a competitive qualifying time at the {wikiLink("Mexico City Grand Prix", "https://en.wikipedia.org/wiki/2023_Mexico_City_Grand_Prix")}, starting seventeenth, but recovered to finish the race fifth. At the {wikiLink("São Paulo Grand Prix", "https://en.wikipedia.org/wiki/2023_S%C3%A3o_Paulo_Grand_Prix")}, he claimed sprint race pole position but was overtaken by Verstappen at the first corner and finished second. He also finished second in the main race, having started sixth and gained four places at the start. His only retirement of the season came at the penultimate round, the {wikiLink("Las Vegas Grand Prix", "https://en.wikipedia.org/wiki/2023_Las_Vegas_Grand_Prix")}. He qualified sixteenth and crashed heavily on the third lap. He was taken to hospital for precautionary checks and was discharged the same day.
-      </p>
-
-      <p>
-        Norris scored 205 points in total to Piastri's 97 and placed sixth in the Drivers' Championship, matching his result from 2021. He finished only one point behind fourth place, as {wikiLink("Fernando Alonso", "https://en.wikipedia.org/wiki/Fernando_Alonso")} and Charles Leclerc tied on 206 points.
-      </p>
-
-      <div className="clear-both"></div>
-
-      <section id="maiden-win" className="space-y-4 scroll-mt-24"></section>
-      {/* 2024 Season - Maiden Win */}
-      <h4 className="text-lg font-semibold text-red-400 mb-1">2024: Maiden Win and Title Challenge</h4>
-
-      <figure className="float-right mr-4 mb-4 max-w-[250px] border border-gray-700 rounded-lg bg-gray-900 p-2 shadow-lg">
-        <img
-          src="/drivers/norris/car10.jpg"
-          alt="Norris racing at Monza during the 2016 Eurocup Formula Renault 2.0 championship"
-          className="w-full h-auto rounded"
-        />
-        <figcaption className="text-sm text-gray-400 text-center">
-         Norris at the {wikiLink("2024 Chinese Grand Prix", "https://en.wikipedia.org/wiki/2024_Chinese_Grand_Prix")}
-        </figcaption>
-      </figure>
-
-      <p>
-        Ahead of the 2024 season, Norris signed a new multi-year contract with {wikiLink("McLaren", "https://en.wikipedia.org/wiki/McLaren")}.
-        He finished sixth at the first race, the {wikiLink("Bahrain Grand Prix", "https://en.wikipedia.org/wiki/2024_Bahrain_Grand_Prix")} and took his first podium of the season at the {wikiLink("Australian Grand Prix", "https://en.wikipedia.org/wiki/2024_Australian_Grand_Prix")}, starting and finishing third. He took the season's first sprint pole at the {wikiLink("Chinese Grand Prix", "https://en.wikipedia.org/wiki/2024_Chinese_Grand_Prix")}, but dropped positions on the opening lap of the sprint and finished sixth. For the main race, he qualified fourth, overtook {wikiLink("Fernando Alonso", "https://en.wikipedia.org/wiki/Fernando_Alonso")} and gained on {wikiLink("Sergio Pérez", "https://en.wikipedia.org/wiki/Sergio_P%C3%A9rez")} in the pits to finish second, his fifteenth Formula One podium.
-      </p>
-
-      <p>
-        At the {wikiLink("Miami Grand Prix", "https://en.wikipedia.org/wiki/2024_Miami_Grand_Prix")}, he retired from the sprint after a first-corner collision with Alonso. He qualified fifth for the main race and led the race after the drivers ahead had made pit stops. A subsequent safety car allowed Norris to pit and retain his lead, which he held ahead of {wikiLink("Max Verstappen", "https://en.wikipedia.org/wiki/Max_Verstappen")} at the restart to claim his maiden Grand Prix victory after 110 races and his 16th podium finish.
-      </p>
-
-      <p>
-        After Miami, Norris achieved five podiums before the summer break. He scored podiums at {wikiLink("Imola", "https://en.wikipedia.org/wiki/2024_Emilia_Romagna_Grand_Prix")}, {wikiLink("Canada", "https://en.wikipedia.org/wiki/2024_Canadian_Grand_Prix")}, and {wikiLink("Spain", "https://en.wikipedia.org/wiki/2024_Spanish_Grand_Prix")}, where he took pole position. Norris failed to score a podium at {wikiLink("Monaco", "https://en.wikipedia.org/wiki/2024_Monaco_Grand_Prix")} and in {wikiLink("Austria", "https://en.wikipedia.org/wiki/2024_Austrian_Grand_Prix")}, where he sparred with Verstappen before making race-ending contact with him.
-      </p>
-
-      <figure className="float-left mr-4 mb-4 max-w-[250px] border border-gray-700 rounded-lg bg-gray-900 p-2 shadow-lg">
-        <img
-          src="/drivers/norris/celeb1.jpg"
-          alt="Norris racing at Monza during the 2016 Eurocup Formula Renault 2.0 championship"
-          className="w-full h-auto rounded"
-        />
-        <figcaption className="text-sm text-gray-400 text-center">
-         Norris (centre) on the podium after winning the {wikiLink("2024 Dutch Grand Prix", "https://en.wikipedia.org/wiki/2024_Dutch_Grand_Prix")}
-        </figcaption>
-      </figure>
-
-      <p>
-        Following the summer break, Norris achieved pole position at the {wikiLink("Dutch Grand Prix", "https://en.wikipedia.org/wiki/2024_Dutch_Grand_Prix")}. He reclaimed first place during the race and extended the lead to win McLaren's first at Circuit Zandvoort since 1985. He then took pole position for the {wikiLink("Italian Grand Prix", "https://en.wikipedia.org/wiki/2024_Italian_Grand_Prix")} marking consecutive poles for the first time in his career. He finished third behind teammate {wikiLink("Oscar Piastri", "https://en.wikipedia.org/wiki/Oscar_Piastri")} and {wikiLink("Charles Leclerc", "https://en.wikipedia.org/wiki/Charles_Leclerc")}. 
-      </p>
-
-      <p>
-        Norris took his fifth pole of the season at the {wikiLink("Singapore Grand Prix", "https://en.wikipedia.org/wiki/2024_Singapore_Grand_Prix")} and claimed victory leading every lap. He battled Verstappen at the {wikiLink("United States Grand Prix", "https://en.wikipedia.org/wiki/2024_United_States_Grand_Prix")} but was denied a podium after a penalty. At the {wikiLink("Mexico City Grand Prix", "https://en.wikipedia.org/wiki/2024_Mexico_City_Grand_Prix")}, Norris finished second.
-      </p>
-
-      <p>
-        Despite winning the sprint at the {wikiLink("São Paulo Grand Prix", "https://en.wikipedia.org/wiki/2024_S%C3%A3o_Paulo_Grand_Prix")}, Norris finished seventh in the main race after various setbacks. He concluded the season with a victory at the {wikiLink("Abu Dhabi Grand Prix", "https://en.wikipedia.org/wiki/2024_Abu_Dhabi_Grand_Prix")}, securing McLaren's first constructors' title since 1998.
-      </p>
-
-      <div className="clear-both"></div>
-
-      <section id="season-2025" className="space-y-4 scroll-mt-24"></section>
-      {/* 2025 Season - Title Challenge */}
-      <h4 className="text-lg font-semibold text-red-400 mb-1">2025 Season: Title Challenge</h4>
-
-      <figure className="float-left mr-4 mb-4 max-w-[250px] border border-gray-700 rounded-lg bg-gray-900 p-2 shadow-lg">
-        <img
-          src="/drivers/norris/car11.jpg"
-          alt="Norris racing at Monza during the 2016 Eurocup Formula Renault 2.0 championship"
-          className="w-full h-auto rounded"
-        />
-        <figcaption className="text-sm text-gray-400 text-center">
-         Norris (pictured at the {wikiLink("2025 Japanese Grand Prix", "https://en.wikipedia.org/wiki/2025_Japanese_Grand_Prix")}) and McLaren entered {wikiLink("2025", "https://en.wikipedia.org/wiki/2025_Formula_One_World_Championship")} as title favourites.
-        </figcaption>
-      </figure>
-
-      <p>
-        {wikiLink("McLaren", "https://en.wikipedia.org/wiki/McLaren")} entered the{" "}
-        {wikiLink("2025 Formula One World Championship", "https://en.wikipedia.org/wiki/2025_Formula_One_World_Championship")} as title favourites, with Norris stating he had learned 
-        "a lot of lessons" in his bid to become World Drivers' Champion. He took pole for the season-opening{" "}
-        {wikiLink("Australian Grand Prix", "https://en.wikipedia.org/wiki/2025_Australian_Grand_Prix")}, defending the lead from teammate{" "}
-        {wikiLink("Oscar Piastri", "https://en.wikipedia.org/wiki/Oscar_Piastri")} and{" "}
-        {wikiLink("Max Verstappen", "https://en.wikipedia.org/wiki/Max_Verstappen")} in wet conditions to claim victory and the championship lead.
-      </p>
-
-      <p>
-        After finishing eighth in the{" "}
-        {wikiLink("Chinese Grand Prix", "https://en.wikipedia.org/wiki/2025_Chinese_Grand_Prix")} sprint, he claimed second in the main race behind Piastri. In{" "}
-        {wikiLink("Japan", "https://en.wikipedia.org/wiki/2025_Japanese_Grand_Prix")}, he finished second to Verstappen, who reduced his championship lead to a single point. 
-        Norris increased his championship lead to three points over Piastri with his third-placed finish at the{" "}
-        {wikiLink("Bahrain Grand Prix", "https://en.wikipedia.org/wiki/2025_Bahrain_Grand_Prix")}, after qualifying sixth and receiving a penalty for a start infringement.
-      </p>
-
-      <div className="clear-both"></div>
   </>
   );
   
