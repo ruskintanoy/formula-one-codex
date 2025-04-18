@@ -140,7 +140,6 @@ const f1Career = (
 
     <div className="clear-both" />
 
-
 </>
 );
 
