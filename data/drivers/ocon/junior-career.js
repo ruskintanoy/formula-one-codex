@@ -11,152 +11,128 @@ const wikiLink = (text, url) => (
   
   const juniorCareer = (
     <>
-      {/* Karting */}
+      {/* Karting (2006–2011) */}
       <section id="karting" className="space-y-4 scroll-mt-24"></section>
-      <h3 className="text-2xl font-bold text-red-600 mb-2">Karting</h3>
+      <h3 className="text-2xl font-bold text-red-600 mb-2">Karting (2006–2011)</h3>
+  
       <p>
-        Norris started his racing career at the age of seven when he claimed pole position at his first national event.
-        In 2013, Norris competed in KF-Junior class, winning the{" "}
-        {wikiLink("CIK-FIA European Championship", "https://en.wikipedia.org/wiki/CIK-FIA_Karting_European_Championship")} and the{" "}
-        {wikiLink("CIK-FIA International Super Cup", "https://en.wikipedia.org/wiki/Karting_World_Championship")}, as well as the{" "}
-        {wikiLink("WSK Euro Series", "https://en.wikipedia.org/wiki/WSK_Euro_Series")}. The following year he won the{" "}
-        {wikiLink("CIK-FIA World Championship", "https://en.wikipedia.org/wiki/Karting_World_Championship")} in KF class with Ricky Flynn Motorsport,
-        making him the youngest karting world champion in that category.
+        Ocon entered {wikiLink("karting", "https://en.wikipedia.org/wiki/Karting")} in{" "}
+        {wikiLink("2006", "https://en.wikipedia.org/wiki/2006")} when he finished eighth in the Minime class of the French Championship. He won the championship in{" "}
+        {wikiLink("2007", "https://en.wikipedia.org/wiki/2007")} and continued his success by winning the Cadet class in{" "}
+        {wikiLink("2008", "https://en.wikipedia.org/wiki/2008")} ahead of{" "}
+        {wikiLink("Anthoine Hubert", "https://en.wikipedia.org/wiki/Anthoine_Hubert")} and{" "}
+        {wikiLink("Pierre Gasly", "https://en.wikipedia.org/wiki/Pierre_Gasly")}.
+      
+        He then spent three years racing in the{" "}
+        {wikiLink("KF3", "https://en.wikipedia.org/wiki/KF3")} category and competed in the{" "}
+        {wikiLink("Spanish Karting Championship", "https://en.wikipedia.org/wiki/Spanish_Karting_Championship")} and{" "}
+        {wikiLink("Italian Open Masters", "https://en.wikipedia.org/wiki/Italian_Open_Masters")}. He won the French KF3 title in{" "}
+        {wikiLink("2010", "https://en.wikipedia.org/wiki/2010")} and finished as runner-up in the{" "}
+        {wikiLink("WSK Euro Series", "https://en.wikipedia.org/wiki/WSK_Euro_Series")} in{" "}
+        {wikiLink("2011", "https://en.wikipedia.org/wiki/2011")} behind{" "}
+        {wikiLink("Max Verstappen", "https://en.wikipedia.org/wiki/Max_Verstappen")}.
+      </p>
+  
+      <p>
+        At the age of 14, Ocon was signed by{" "}
+        {wikiLink("Gravity Sports management", "https://en.wikipedia.org/wiki/Gravity_Sports_Management")}, a sister company of the{" "}
+        {wikiLink("Renault F1", "https://en.wikipedia.org/wiki/Renault_in_Formula_One")} team.
       </p>
 
-      <div className="clear-both"></div>
-  
-      {/* Ginetta Junior Championship */}
-      <section id="ginetta" className="space-y-4 scroll-mt-24"></section>
-      <h3 className="text-2xl font-bold text-red-600 mt-6 mb-2">Ginetta Junior Championship</h3>
+      {/* Formula Renault (2012–2013) */}
+      <section id="Formula Renault (2012–2013)" className="space-y-4 scroll-mt-24"></section>
+      <h3 className="text-2xl font-bold text-red-600 mb-2">
+        Formula Renault (2012–2013)
+      </h3>
+
       <p>
-        In 2014, Norris made his car racing debut in the{" "}
-        {wikiLink("Ginetta Junior Championship", "https://en.wikipedia.org/wiki/2014_Ginetta_Junior_Championship")}, a support series to the{" "}
-        {wikiLink("British Touring Car Championship", "https://en.wikipedia.org/wiki/British_Touring_Car_Championship")}.
-        He finished third in the championship, winning four races and claiming the Rookie Cup.
+        In 2012, Ocon made his debut in{" "}
+        {wikiLink("single-seaters", "https://en.wikipedia.org/wiki/Open-wheel_car")}, taking part in the{" "}
+        {wikiLink("Eurocup Formula Renault 2.0", "https://en.wikipedia.org/wiki/2012_Eurocup_Formula_Renault_2.0")} with{" "}
+        {wikiLink("Koiranen Motorsport", "https://en.wikipedia.org/wiki/Koiranen_GP")}. He finished fourteenth with four point-scoring finishes, including being on the podium at his home round at{" "}
+        {wikiLink("Circuit Paul Ricard", "https://en.wikipedia.org/wiki/Circuit_Paul_Ricard")}. He also contested a partial campaign in the{" "}
+        {wikiLink("Formula Renault 2.0 Alps", "https://en.wikipedia.org/wiki/2012_Formula_Renault_2.0_Alps_Series")} with Koiranen, finishing seventh with two podiums, both of which came at the{" "}
+        {wikiLink("Red Bull Ring", "https://en.wikipedia.org/wiki/Red_Bull_Ring")}.
       </p>
 
-      <div className="clear-both"></div>
-  
-      {/* Lower Formulae */}
-      <section id="lower-formulae" className="space-y-4 scroll-mt-24"></section>
-      <h3 className="text-2xl font-bold text-red-600 mt-6 mb-2">Lower Formulae</h3>
+      <p>
+        He remained in the series for{" "}
+        {wikiLink("2013", "https://en.wikipedia.org/wiki/2013_Eurocup_Formula_Renault_2.0")}, switching to the{" "}
+        {wikiLink("ART Junior Team", "https://en.wikipedia.org/wiki/R-ace_GP")}. He recorded one{" "}
+        {wikiLink("pole position", "https://en.wikipedia.org/wiki/Pole_position")} and won two races including at Circuit Paul Ricard, finishing the season in third place behind{" "}
+        {wikiLink("Pierre Gasly", "https://en.wikipedia.org/wiki/Pierre_Gasly")} and{" "}
+        {wikiLink("Oliver Rowland", "https://en.wikipedia.org/wiki/Oliver_Rowland")}. A partial campaign in the{" "}
+        {wikiLink("Northern European Cup", "https://en.wikipedia.org/wiki/2013_Formula_Renault_2.0_Northern_European_Cup")} produced a race win at the{" "}
+        {wikiLink("Hockenheimring", "https://en.wikipedia.org/wiki/Hockenheimring")} and two further podiums.
+      </p>
 
-      <div className="clear-both"></div>
-  
-      {/* Formula 4 */}
-      <section id="formula4" className="space-y-4 scroll-mt-24"></section>
-      <h4 className="text-lg font-semibold text-red-400 mb-1">Formula 4</h4>
-  
-      <figure className="float-left mr-4 mb-4 max-w-[250px] border border-gray-700 rounded-lg bg-gray-900 p-2 shadow-lg">
+      <div className="clear-both" />
+
+      {/* Formula Three, GP3 and DTM (2013–2015) */}
+      <section id="formula-three-2013-15" className="space-y-4 scroll-mt-24" />
+      <h3 className="text-2xl font-bold text-red-600 mb-2">
+        Formula Three, GP3 and DTM (2013–2015)
+      </h3>
+
+      <figure className="float-right ml-4 mb-4 max-w-[250px] border border-gray-700 rounded-lg bg-gray-900 p-2 shadow-lg">
         <img
-          src="/drivers/norris/car1.JPG"
-          alt="Norris racing for Mücke Motorsport in Formula 4 in 2015"
+          src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/2014_F3_HockenheimringII_Esteban_Ocon_by_2eight_8SC1548.jpg/250px-2014_F3_HockenheimringII_Esteban_Ocon_by_2eight_8SC1548.jpg"
+          alt="Esteban Ocon in F3 – Hockenheimring 2014"
           className="w-full h-auto rounded"
         />
         <figcaption className="text-sm text-gray-400 text-center">
-          Norris racing for Mücke Motorsport in Formula 4 in 2015
+          Esteban Ocon in F3 – Hockenheimring 2014
         </figcaption>
       </figure>
-  
+
       <p>
-        For 2015, Norris signed with{" "}
-        {wikiLink("Carlin Motorsport", "https://en.wikipedia.org/wiki/Carlin_Motorsport")} to drive in the newly established{" "}
-        {wikiLink("MSA Formula Championship", "https://en.wikipedia.org/wiki/2015_MSA_Formula_Championship")} (now known as the{" "}
-        {wikiLink("F4 British Championship", "https://en.wikipedia.org/wiki/F4_British_Championship")}). Norris took eight wins, ten pole positions, and fourteen total podiums
-        to win the championship ahead of{" "}
-        {wikiLink("Ricky Collard", "https://en.wikipedia.org/wiki/Ricky_Collard")} and{" "}
-        {wikiLink("Colton Herta", "https://en.wikipedia.org/wiki/Colton_Herta")}.
-        He also made occasional appearances in the{" "}
-        {wikiLink("ADAC Formula 4", "https://en.wikipedia.org/wiki/2015_ADAC_Formula_4_Championship")} and{" "}
-        {wikiLink("Italian Formula 4", "https://en.wikipedia.org/wiki/2015_Italian_Formula_4_Championship")} championships with{" "}
-        {wikiLink("Mücke Motorsport", "https://en.wikipedia.org/wiki/M%C3%BCcke_Motorsport")}, where he claimed six podiums from eight starts in the former.
+        Ocon made his debut in{" "}
+        {wikiLink("Formula Three", "https://en.wikipedia.org/wiki/Formula_Three")} machinery at the{" "}
+        {wikiLink("2013 Macau Grand Prix", "https://en.wikipedia.org/wiki/2013_Macau_Grand_Prix")} with{" "}
+        {wikiLink("Prema Powerteam", "https://en.wikipedia.org/wiki/Prema_Powerteam")}. He stalled at the start of the main race but went on to finish tenth.
+
+        He continued his collaboration with Prema into the{" "}
+        {wikiLink("2014 FIA Formula 3 European Championship", "https://en.wikipedia.org/wiki/2014_FIA_Formula_3_European_Championship")}. He topped the standings at the first round at{" "}
+        {wikiLink("Silverstone Circuit", "https://en.wikipedia.org/wiki/Silverstone_Circuit")} and remained in the lead of the championship for the rest of the season.
+
+        With two rounds to spare, he made a brief appearance in the{" "}
+        {wikiLink("2014 Formula Renault 3.5 Series", "https://en.wikipedia.org/wiki/2014_Formula_Renault_3.5_Series")} with{" "}
+        {wikiLink("Comtec Racing", "https://en.wikipedia.org/wiki/Comtec_Racing")}.
+
+        Ocon was crowned FIA Formula 3 European champion with three races remaining, ahead of{" "}
+        {wikiLink("Tom Blomqvist", "https://en.wikipedia.org/wiki/Tom_Blomqvist")} and{" "}
+        {wikiLink("Max Verstappen", "https://en.wikipedia.org/wiki/Max_Verstappen")}. He finished on the podium in twenty-one of the thirty-three races, winning nine, and recorded fifteen pole positions.
+
+        Ocon made a second appearance at the{" "}
+        {wikiLink("2014 Macau Grand Prix", "https://en.wikipedia.org/wiki/2014_Macau_Grand_Prix")}. He qualified fourth for the main race but was eliminated by a multi-car collision on the first lap.
       </p>
-  
-      <div className="clear-both"></div>
-  
-      {/* Formula Three and Formula Renault */}
-      <section id="formula3-renault" className="space-y-4 scroll-mt-24"></section>
-      <h4 className="text-lg font-semibold text-red-400 mb-1 mt-4">Formula Three and Formula Renault</h4>
-  
-      <figure className="float-right mr-4 mb-4 max-w-[250px] border border-gray-700 rounded-lg bg-gray-900 p-2 shadow-lg">
-        <img
-          src="/drivers/norris/car2.jpg"
-          alt="Norris racing at Monza during the 2016 Eurocup Formula Renault 2.0 championship"
-          className="w-full h-auto rounded"
-        />
-        <figcaption className="text-sm text-gray-400 text-center">
-          Norris racing at Monza during the {wikiLink("2016 Eurocup Formula Renault 2.0", "https://en.wikipedia.org/wiki/2016_Eurocup_Formula_Renault_2.0")} championship
-        </figcaption>
-      </figure>
-  
+
       <p>
-        In 2016, Norris competed in the{" "}
-        {wikiLink("Toyota Racing Series", "https://en.wikipedia.org/wiki/2016_Toyota_Racing_Series")} in New Zealand with{" "}
-        {wikiLink("M2 Competition", "https://en.wikipedia.org/wiki/M2_Competition_(team)")}. He won six races, including the{" "}
-        {wikiLink("New Zealand Grand Prix", "https://en.wikipedia.org/wiki/2016_New_Zealand_Grand_Prix")}, and the championship ahead of{" "}
-        {wikiLink("Jehan Daruvala", "https://en.wikipedia.org/wiki/Jehan_Daruvala")}.
+        Ocon moved to the{" "}
+        {wikiLink("GP3 Series", "https://en.wikipedia.org/wiki/GP3_Series")} for{" "}
+        {wikiLink("2015", "https://en.wikipedia.org/wiki/2015_GP3_Series")} with{" "}
+        {wikiLink("ART Grand Prix", "https://en.wikipedia.org/wiki/ART_Grand_Prix")}. Despite only
+        scoring one race victory (two other victories were denied due to penalties), he won the
+        championship by eight points ahead of{" "}
+        {wikiLink("Luca Ghiotto", "https://en.wikipedia.org/wiki/Luca_Ghiotto")}. Ocon recorded three
+        pole positions and fourteen podium finishes (including nine consecutive second-places) from
+        eighteen races.
       </p>
-  
+
       <p>
-        He then competed in the{" "}
-        {wikiLink("Formula Renault 2.0", "https://en.wikipedia.org/wiki/Formula_Renault_2.0")} Eurocup and NEC series with{" "}
-        {wikiLink("Josef Kaufmann Racing", "https://en.wikipedia.org/wiki/Josef_Kaufmann_Racing")}, winning both championships.
-      </p>
-  
-      <p>
-        Additionally, Norris raced part-time in the{" "}
-        {wikiLink("BRDC British Formula 3 Championship", "https://en.wikipedia.org/wiki/2016_BRDC_British_Formula_3_Championship")}, and made a guest appearance in the final round of the{" "}
-        {wikiLink("European Formula 3 Championship", "https://en.wikipedia.org/wiki/2016_European_Formula_3_Championship")} at the Hockenheimring, before competing in the{" "}
-        {wikiLink("Macau Grand Prix", "https://en.wikipedia.org/wiki/2016_Macau_Grand_Prix")}.
-      </p>
-  
-      <div className="clear-both"></div>
-  
-      {/* Formula 2 */}
-      <section id="formula2" className="space-y-4 scroll-mt-24"></section>
-      <h4 className="text-lg font-semibold text-red-400 mb-1 mt-4">Formula 2</h4>
-  
-      <figure className="float-left mr-4 mb-4 max-w-[250px] border border-gray-700 rounded-lg bg-gray-900 p-2 shadow-lg">
-        <img
-          src="/drivers/norris/car3.jpg"
-          alt="Norris at Silverstone during the 2017 Formula 3 European Championship"
-          className="w-full h-auto rounded"
-        />
-        <figcaption className="text-sm text-gray-400 text-center">
-          Norris at {wikiLink("Silverstone", "https://en.wikipedia.org/wiki/Silverstone_Circuit")} during the {wikiLink("2017 Formula 3 European Championship", "https://en.wikipedia.org/wiki/2017_FIA_Formula_3_European_Championship")}
-        </figcaption>
-      </figure>
-  
-      <p>
-        Norris raced full-time in the{" "}
-        {wikiLink("2017 European Formula 3 Championship", "https://en.wikipedia.org/wiki/2017_European_Formula_3_Championship")} with Carlin, finishing ahead of{" "}
-        {wikiLink("Joel Eriksson", "https://en.wikipedia.org/wiki/Joel_Eriksson_(racing_driver)")},{" "}
-        {wikiLink("Maximilian Günther", "https://en.wikipedia.org/wiki/Maximilian_G%C3%BCnther")}, and{" "}
-        {wikiLink("Callum Ilott", "https://en.wikipedia.org/wiki/Callum_Ilott")}. He won the championship with two races to spare.
-      </p>
-  
-      <p>
-        In{" "}
-        {wikiLink("Formula 2", "https://en.wikipedia.org/wiki/FIA_Formula_2_Championship")}, Norris made his debut with{" "}
-        {wikiLink("Campos Racing", "https://en.wikipedia.org/wiki/Campos_Racing")} at the{" "}
-        {wikiLink("Yas Marina Circuit", "https://en.wikipedia.org/wiki/Yas_Marina_Circuit")} for the final round of the{" "}
-        {wikiLink("2017 Formula 2 Championship", "https://en.wikipedia.org/wiki/2017_Formula_2_Championship")}.
-      </p>
-  
-      <p>
-        Norris competed full-time in the{" "}
-        {wikiLink("2018 FIA Formula 2 Championship", "https://en.wikipedia.org/wiki/2018_FIA_Formula_2_Championship")} with Carlin alongside{" "}
-        {wikiLink("Sérgio Sette Câmara", "https://en.wikipedia.org/wiki/S%C3%A9rgio_Sette_C%C3%A2mara")}. He won the opening race at the{" "}
-        {wikiLink("Bahrain International Circuit", "https://en.wikipedia.org/wiki/Bahrain_International_Circuit")}, finishing second in the standings behind{" "}
-        {wikiLink("George Russell", "https://en.wikipedia.org/wiki/George_Russell_(racing_driver)")}.
-      </p>
-  
-      <p>
-        Other key races included the{" "}
-        {wikiLink("Red Bull Ring", "https://en.wikipedia.org/wiki/Red_Bull_Ring")} and{" "}
-        {wikiLink("Sochi Autodrom", "https://en.wikipedia.org/wiki/Sochi_Autodrom")}, before closing the season at the{" "}
-        {wikiLink("Yas Marina Circuit", "https://en.wikipedia.org/wiki/Yas_Marina_Circuit")}.
+        Ocon drove for{" "}
+        {wikiLink("Mercedes-Benz", "https://en.wikipedia.org/wiki/Mercedes-Benz_in_motorsport")} in
+        the first ten races of the{" "}
+        {wikiLink(
+          "2016 DTM season",
+          "https://en.wikipedia.org/wiki/2016_Deutsche_Tourenwagen_Masters"
+        )}, alongside his Formula One reserve driver role at{" "}
+        {wikiLink("Renault", "https://en.wikipedia.org/wiki/Renault_in_Formula_One")}. He scored two
+        points finishing ninth in the first race at{" "}
+        {wikiLink("Circuit Zandvoort", "https://en.wikipedia.org/wiki/Circuit_Zandvoort")}, before he
+        was promoted to a Formula 1 race seat. He was replaced by{" "}
+        {wikiLink("Felix Rosenqvist", "https://en.wikipedia.org/wiki/Felix_Rosenqvist")} following his
+        promotion.
       </p>
     </>
   );
