@@ -12,11 +12,13 @@ const RacingCareerSummaryTable = ({ data, legend }) => {
       case "1st*":
         return "bg-yellow-500 text-black";
       case "NC†":
-        return "bg-red-500 text-black";
+        return "bg-red-300 text-black";
       case "2nd*":
         return "bg-gray-400 text-black";
       case "3rd*":
         return "bg-amber-700 text-black";
+      case "DNF":
+        return "bg-red-500 text-black";
       default:
         return "";
     }
