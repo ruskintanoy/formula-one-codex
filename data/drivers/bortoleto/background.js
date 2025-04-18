@@ -1,33 +1,34 @@
 const wikiLink = (text, url) => (
-    <a href={url} target="_blank" rel="noopener noreferrer" className="text-red-500 hover:underline"> {text}</a>);
-    
-  const background = (
-    <>
-      Lando Norris was born on 13 November 1999 in Bristol, England. His father Adam Norris is a retired pensions manager and is one of Bristol's wealthiest people as well as the 501st-richest person in the country (as of 2018).
-  
-      <br /><br />
-  
-      His mother Cisca (née Wauman) is from the Flanders region of Belgium. He has three siblings — two younger sisters, and an older brother Oliver, who was also involved in{" "}
-      {wikiLink("karting", "https://en.wikipedia.org/wiki/Karting")} on a competitive level until 2014.
-  
-      <br /><br />
-  
-      Norris holds both British and Belgian citizenship, and speaks a small amount of Flemish Dutch. In his early childhood, Norris tried horse riding, then quad biking and motorcycle riding before moving into karting after his father took him to watch the national British Karting Championships at age seven.
-  
-      <br /><br />
-  
-      Norris was educated at Millfield School in Street, Somerset. He left school without taking his GCSEs, but studied physics and mathematics with a full-time personal tutor. His family later moved to Glastonbury to allow him to become a day pupil and to pursue his racing career, citing{" "}
-      {wikiLink("Valentino Rossi", "https://en.wikipedia.org/wiki/Valentino_Rossi")} as an inspiration.
-  
-      <br /><br />
-  
-      At the start of his F1 career, he initially resided in Woking near the McLaren team headquarters, but later moved to Monaco in 2022 for financial reasons.
-  
-      <br /><br />
-  
-      Between August 2021 and September 2022, Norris dated Portuguese model Luísa Oliveira. Norris has stated that he and Oliveira were subjected to abuse and death threats from online trolls.
-    </>
-  );
-  
-  export default background;
-  
+  <a href={url} target="_blank" rel="noopener noreferrer" className="text-red-500 hover:underline">
+    {text}
+  </a>
+);
+
+const background = (
+  <>
+    Gabriel Lourenzo Bortoleto Oliveira was born on 14 October 2004 in{" "}
+    {wikiLink("Osasco", "https://en.wikipedia.org/wiki/Osasco")},{" "}
+    {wikiLink("São Paulo", "https://en.wikipedia.org/wiki/São_Paulo_(state)")}{" "}
+    Brazil. His father, Lincoln Oliveira, serves as{" "}
+    {wikiLink("chief executive officer", "https://en.wikipedia.org/wiki/Chief_executive_officer")} and co-owner of the{" "}
+    {wikiLink("Stock Car Pro Series", "https://en.wikipedia.org/wiki/Stock_Car_Pro_Series")} in Brazil. He founded <i>Americanet</i> in 1996, which merged with <i>Vero</i> in 2023 to become one of the largest{" "}
+    {wikiLink("internet service providers", "https://en.wikipedia.org/wiki/Internet_service_provider")} in Brazil, with a revenue of R$1.9 billion.
+
+    <br /><br />
+
+    The family also operates <i>KTF Racing</i>, a{" "}
+    {wikiLink("stock car", "https://en.wikipedia.org/wiki/Stock_car_racing")} and{" "}
+    {wikiLink("kart racing", "https://en.wikipedia.org/wiki/Kart_racing")} team. His older brother, Enzo, formerly competed in{" "}
+    {wikiLink("Formula 4", "https://en.wikipedia.org/wiki/Formula_4")} and{" "}
+    {wikiLink("British Formula Three", "https://en.wikipedia.org/wiki/British_Formula_Three")}. Bortoleto is known as "Bibi" amongst his close friends. He is managed by <i>A14 Management</i>, a firm owned by{" "}
+    {wikiLink("Fernando Alonso", "https://en.wikipedia.org/wiki/Fernando_Alonso")}, and his career is supported by{" "}
+    {wikiLink("Porto Seguro", "https://en.wikipedia.org/wiki/Porto_Seguro_S.A.")},{" "}
+    {wikiLink("O Boticário", "https://en.wikipedia.org/wiki/O_Botic%C3%A1rio")},{" "}
+    {wikiLink("Banco de Brasília", "https://en.wikipedia.org/wiki/Banco_de_Bras%C3%ADlia")}, and{" "}
+    {wikiLink("Qualcomm Snapdragon", "https://en.wikipedia.org/wiki/Qualcomm_Snapdragon")}. He has been dating{" "}
+    {wikiLink("computer science", "https://en.wikipedia.org/wiki/Computer_science")} student Isabella Bernardini since 2020. His racing idol is{" "}
+    {wikiLink("Ayrton Senna", "https://en.wikipedia.org/wiki/Ayrton_Senna")}.
+  </>
+);
+
+export default background;
