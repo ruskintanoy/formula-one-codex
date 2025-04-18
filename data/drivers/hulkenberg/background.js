@@ -1,33 +1,30 @@
 const wikiLink = (text, url) => (
-    <a href={url} target="_blank" rel="noopener noreferrer" className="text-red-500 hover:underline"> {text}</a>);
-    
-  const background = (
-    <>
-      Lando Norris was born on 13 November 1999 in Bristol, England. His father Adam Norris is a retired pensions manager and is one of Bristol's wealthiest people as well as the 501st-richest person in the country (as of 2018).
-  
-      <br /><br />
-  
-      His mother Cisca (née Wauman) is from the Flanders region of Belgium. He has three siblings — two younger sisters, and an older brother Oliver, who was also involved in{" "}
-      {wikiLink("karting", "https://en.wikipedia.org/wiki/Karting")} on a competitive level until 2014.
-  
-      <br /><br />
-  
-      Norris holds both British and Belgian citizenship, and speaks a small amount of Flemish Dutch. In his early childhood, Norris tried horse riding, then quad biking and motorcycle riding before moving into karting after his father took him to watch the national British Karting Championships at age seven.
-  
-      <br /><br />
-  
-      Norris was educated at Millfield School in Street, Somerset. He left school without taking his GCSEs, but studied physics and mathematics with a full-time personal tutor. His family later moved to Glastonbury to allow him to become a day pupil and to pursue his racing career, citing{" "}
-      {wikiLink("Valentino Rossi", "https://en.wikipedia.org/wiki/Valentino_Rossi")} as an inspiration.
-  
-      <br /><br />
-  
-      At the start of his F1 career, he initially resided in Woking near the McLaren team headquarters, but later moved to Monaco in 2022 for financial reasons.
-  
-      <br /><br />
-  
-      Between August 2021 and September 2022, Norris dated Portuguese model Luísa Oliveira. Norris has stated that he and Oliveira were subjected to abuse and death threats from online trolls.
-    </>
-  );
-  
-  export default background;
-  
+  <a href={url} target="_blank" rel="noopener noreferrer" className="text-red-500 hover:underline">
+    {text}
+  </a>
+);
+
+const background = (
+  <>
+    Hülkenberg was born in{" "}
+    {wikiLink("Emmerich am Rhein", "https://en.wikipedia.org/wiki/Emmerich_am_Rhein")}, North Rhine-Westphalia,{" "}
+    {wikiLink("West Germany", "https://en.wikipedia.org/wiki/West_Germany")} to Klaus Dieter and Susanne Hülkenberg. Dieter Hülkenberg owns a shipping company, Hülkenberg Spedition e. K, based in Emmerich am Rhein. Hülkenberg trained as a freight forwarding agent at his father's company. He is fluent in{" "}
+    German, Dutch, French, and English.
+
+    <br /><br />
+
+    Hülkenberg lives in{" "}
+    {wikiLink("Monaco", "https://en.wikipedia.org/wiki/Monaco")}. He is married to Lithuanian fashion designer Eglė Ruškytė, having been in a relationship with her since 2015. Together they have one daughter born in 2021.
+
+    <br /><br />
+
+    Hülkenberg was previously managed by{" "}
+    {wikiLink("Willi Weber", "https://en.wikipedia.org/wiki/Willi_Weber")}, the long-time manager of{" "}
+    {wikiLink("Michael Schumacher", "https://en.wikipedia.org/wiki/Michael_Schumacher")}. Weber predicted that Hülkenberg would be ready for{" "}
+    {wikiLink("Formula One", "https://en.wikipedia.org/wiki/Formula_One")} by{" "}
+    {wikiLink("2008", "https://en.wikipedia.org/wiki/2008_Formula_One_World_Championship")}. He also praised Hülkenberg as an "unbelievable talent" and said he reminded him of Schumacher as a young driver. He also stated that he nicknamed him{" "}
+    {wikiLink("The Hulk", "https://en.wikipedia.org/wiki/Hulk")}, after the fictional superhero, in reference to Hülkenberg changing his personality whilst at the wheel.
+  </>
+);
+
+export default background;
