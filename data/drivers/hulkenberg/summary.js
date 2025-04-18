@@ -1,68 +1,104 @@
 const wikiLink = (text, url) => (
-    <a href={url} target="_blank" rel="noopener noreferrer" className="text-red-500 hover:underline"> {text}</a>);
-  
-  const summary = (
-    <>
-      {wikiLink("Lando Norris", "https://en.wikipedia.org/wiki/Lando_Norris")} (born 13 November 1999) is a British racing driver, who competes in{" "}
-      {wikiLink("Formula One", "https://en.wikipedia.org/wiki/Formula_One")} for{" "}
-      {wikiLink("McLaren", "https://en.wikipedia.org/wiki/McLaren")}.
-  
-      Norris was runner-up in the{" "}
-      {wikiLink("2024 Formula One World Championship", "https://en.wikipedia.org/wiki/2024_Formula_One_World_Championship")} with McLaren, and has won five{" "}
-      {wikiLink("Grands Prix", "https://en.wikipedia.org/wiki/List_of_Formula_One_Grands_Prix")} across seven seasons.
-  
-      <br /><br />
-  
-      Born in Bristol and raised in Glastonbury to an English father and Belgian mother, Norris began competitive{" "}
-      {wikiLink("kart racing", "https://en.wikipedia.org/wiki/Kart_racing")} aged seven. After a successful karting career — culminating in his victory at the{" "}
-      {wikiLink("Karting World Championship", "https://en.wikipedia.org/wiki/Karting_World_Championship")} in 2014 — Norris graduated to junior formulae.
-  
-      He won his first title at the{" "}
-      {wikiLink("2015 MSA Formula Championship", "https://en.wikipedia.org/wiki/2015_MSA_Formula_Championship")} with{" "}
-      {wikiLink("Carlin", "https://en.wikipedia.org/wiki/Carlin_Motorsport")}.
-  
-      <br /><br />
-  
-      He then won the{" "}
-      {wikiLink("Toyota Racing Series", "https://en.wikipedia.org/wiki/2016_Toyota_Racing_Series")},{" "}
-      {wikiLink("Formula Renault Eurocup", "https://en.wikipedia.org/wiki/2016_Eurocup_Formula_Renault_2.0")}, and{" "}
-      {wikiLink("Formula Renault NEC", "https://en.wikipedia.org/wiki/2016_Formula_Renault_2.0_Northern_European_Cup")} in 2016, receiving the{" "}
-      {wikiLink("Autosport BRDC Award", "https://en.wikipedia.org/wiki/Autosport_BRDC_Award")} that year.
-  
-      <br /><br />
-  
-      Norris won the{" "}
-      {wikiLink("FIA Formula 3 European Championship", "https://en.wikipedia.org/wiki/FIA_Formula_3_European_Championship")} in 2017, and finished runner-up to{" "}
-      {wikiLink("George Russell", "https://en.wikipedia.org/wiki/George_Russell_(racing_driver)")} in the{" "}
-      {wikiLink("FIA Formula 2 Championship", "https://en.wikipedia.org/wiki/FIA_Formula_2_Championship")} in 2018, both with Carlin.
-  
-      <br /><br />
-  
-      A member of the{" "}
-      {wikiLink("McLaren Young Driver Programme", "https://en.wikipedia.org/wiki/McLaren_Young_Driver_Programme")} since 2017, Norris joined McLaren in 2019 to partner{" "}
-      {wikiLink("Carlos Sainz Jr.", "https://en.wikipedia.org/wiki/Carlos_Sainz_Jr.")}, making his Formula One debut at the{" "}
-      {wikiLink("2019 Australian Grand Prix", "https://en.wikipedia.org/wiki/2019_Australian_Grand_Prix")}.
-  
-      <br /><br />
-  
-      He achieved his maiden podium finish and fastest lap at the season-opening{" "}
-      {wikiLink("2020 Austrian Grand Prix", "https://en.wikipedia.org/wiki/2020_Austrian_Grand_Prix")}, before achieving his maiden pole position at the{" "}
-      {wikiLink("2021 Russian Grand Prix", "https://en.wikipedia.org/wiki/2021_Russian_Grand_Prix")}.
-  
-      <br /><br />
-  
-      In 2024, Norris took his maiden career win at the{" "}
-      {wikiLink("2024 Miami Grand Prix", "https://en.wikipedia.org/wiki/2024_Miami_Grand_Prix")}, repeating this feat in the{" "}
-      {wikiLink("2024 Dutch Grand Prix", "https://en.wikipedia.org/wiki/2024_Dutch_Grand_Prix")},{" "}
-      {wikiLink("2024 Singapore Grand Prix", "https://en.wikipedia.org/wiki/2024_Singapore_Grand_Prix")}, and{" "}
-      {wikiLink("2024 Abu Dhabi Grand Prix", "https://en.wikipedia.org/wiki/2024_Abu_Dhabi_Grand_Prix")}.
-  
-      <br /><br />
-  
-      As of the{" "}
-      {wikiLink("2025 Bahrain Grand Prix", "https://en.wikipedia.org/wiki/2025_Bahrain_Grand_Prix")}, Norris has achieved five race wins, 10 pole positions, 14 fastest laps, and 29 podiums in Formula One. He is contracted to remain at McLaren until at least the end of the 2027 season.
-    </>
-  );
-  
-  export default summary;
-  
+  <a href={url} target="_blank" rel="noopener noreferrer" className="text-red-500 hover:underline">
+    {text}
+  </a>
+);
+
+const summary = (
+  <>
+    <b>Nicolas Hülkenberg</b> (born 19 August 1987) is a German{" "}
+    {wikiLink("racing driver", "https://en.wikipedia.org/wiki/Racing_driver")}, who competes in{" "}
+    {wikiLink("Formula One", "https://en.wikipedia.org/wiki/Formula_One")} for{" "}
+    {wikiLink("Sauber", "https://en.wikipedia.org/wiki/Sauber")}.
+
+    In{" "}
+    {wikiLink("endurance racing", "https://en.wikipedia.org/wiki/Endurance_racing_(motorsport)")}, Hülkenberg won the{" "}
+    {wikiLink("24 Hours of Le Mans", "https://en.wikipedia.org/wiki/24_Hours_of_Le_Mans")} in{" "}
+    {wikiLink("2015", "https://en.wikipedia.org/wiki/2015_24_Hours_of_Le_Mans")} with{" "}
+    {wikiLink("Porsche", "https://en.wikipedia.org/wiki/Porsche_in_motorsport")}.
+
+    <br /><br />
+
+    Born and raised in{" "}
+    {wikiLink("Emmerich am Rhein", "https://en.wikipedia.org/wiki/Emmerich_am_Rhein")}, Hülkenberg began competitive{" "}
+    {wikiLink("kart racing", "https://en.wikipedia.org/wiki/Kart_racing")} aged 10, winning several national titles before graduating to{" "}
+    {wikiLink("junior formulae", "https://en.wikipedia.org/wiki/Junior_formulae")} in 2005.
+
+    He won his first championship in the{" "}
+    {wikiLink("Formula BMW ADAC", "https://en.wikipedia.org/wiki/2005_Formula_BMW_ADAC_season")} that year, followed by the{" "}
+    {wikiLink("2006–07 A1 Grand Prix", "https://en.wikipedia.org/wiki/2006%E2%80%9307_A1_Grand_Prix_season")} for{" "}
+    {wikiLink("Germany", "https://en.wikipedia.org/wiki/A1_Team_Germany")}, the{" "}
+    {wikiLink("2007 Masters of Formula 3", "https://en.wikipedia.org/wiki/2007_Masters_of_Formula_3")}, and the{" "}
+    {wikiLink("2008 Formula 3 Euro Series", "https://en.wikipedia.org/wiki/2008_Formula_3_Euro_Series")}.
+
+    Hülkenberg then progressed to the{" "}
+    {wikiLink("GP2 Series", "https://en.wikipedia.org/wiki/GP2_Series")} in{" "}
+    {wikiLink("2009", "https://en.wikipedia.org/wiki/2009_GP2_Series")} with{" "}
+    {wikiLink("ART", "https://en.wikipedia.org/wiki/ART_Grand_Prix")}, winning the championship in his rookie season and becoming the third rookie title-winner after{" "}
+    {wikiLink("Nico Rosberg", "https://en.wikipedia.org/wiki/Nico_Rosberg")} and{" "}
+    {wikiLink("Lewis Hamilton", "https://en.wikipedia.org/wiki/Lewis_Hamilton")}.
+
+    <br /><br />
+
+    Hülkenberg made his Formula One debut with{" "}
+    {wikiLink("Williams", "https://en.wikipedia.org/wiki/Williams_Racing")} in{" "}
+    {wikiLink("2010", "https://en.wikipedia.org/wiki/2010_Formula_One_World_Championship")} following testing roles from{" "}
+    {wikiLink("2007", "https://en.wikipedia.org/wiki/2007_Formula_One_World_Championship")} to{" "}
+    {wikiLink("2009", "https://en.wikipedia.org/wiki/2009_Formula_One_World_Championship")}.
+
+    He claimed his maiden{" "}
+    {wikiLink("pole position", "https://en.wikipedia.org/wiki/List_of_Formula_One_polesitters")} at the{" "}
+    {wikiLink("2010 Brazilian Grand Prix", "https://en.wikipedia.org/wiki/2010_Brazilian_Grand_Prix")}, before joining{" "}
+    {wikiLink("Force India", "https://en.wikipedia.org/wiki/Force_India")} from{" "}
+    {wikiLink("2011", "https://en.wikipedia.org/wiki/2011_Formula_One_World_Championship")} to{" "}
+    {wikiLink("2012", "https://en.wikipedia.org/wiki/2012_Formula_One_World_Championship")}.
+
+    After a one-year stint at{" "}
+    {wikiLink("Sauber", "https://en.wikipedia.org/wiki/Sauber")} in{" "}
+    {wikiLink("2013", "https://en.wikipedia.org/wiki/2013_Formula_One_World_Championship")}, he returned to Force India in{" "}
+    {wikiLink("2014", "https://en.wikipedia.org/wiki/2014_Formula_One_World_Championship")} to partner{" "}
+    {wikiLink("Sergio Pérez", "https://en.wikipedia.org/wiki/Sergio_P%C3%A9rez")}.
+
+    He moved to{" "}
+    {wikiLink("Renault", "https://en.wikipedia.org/wiki/Renault_in_Formula_One")} in{" "}
+    {wikiLink("2017", "https://en.wikipedia.org/wiki/2017_Formula_One_World_Championship")} and remained until{" "}
+    {wikiLink("2019", "https://en.wikipedia.org/wiki/2019_Formula_One_World_Championship")}, when he was replaced by{" "}
+    {wikiLink("Esteban Ocon", "https://en.wikipedia.org/wiki/Esteban_Ocon")}.
+
+    From{" "}
+    {wikiLink("2020", "https://en.wikipedia.org/wiki/2020_Formula_One_World_Championship")} to{" "}
+    {wikiLink("2022", "https://en.wikipedia.org/wiki/2022_Formula_One_World_Championship")}, Hülkenberg returned as a reserve driver for{" "}
+    {wikiLink("Racing Point", "https://en.wikipedia.org/wiki/Racing_Point")} and{" "}
+    {wikiLink("Aston Martin", "https://en.wikipedia.org/wiki/Aston_Martin_in_Formula_One")}, substituting for{" "}
+    {wikiLink("Sergio Pérez", "https://en.wikipedia.org/wiki/Sergio_P%C3%A9rez")},{" "}
+    {wikiLink("Lance Stroll", "https://en.wikipedia.org/wiki/Lance_Stroll")}, and{" "}
+    {wikiLink("Sebastian Vettel", "https://en.wikipedia.org/wiki/Sebastian_Vettel")} across five races.
+
+    He returned full-time with{" "}
+    {wikiLink("Haas", "https://en.wikipedia.org/wiki/Haas_F1_Team")} in{" "}
+    {wikiLink("2023", "https://en.wikipedia.org/wiki/2023_Formula_One_World_Championship")} and re-joined{" "}
+    {wikiLink("Sauber", "https://en.wikipedia.org/wiki/Sauber")} for{" "}
+    {wikiLink("2025", "https://en.wikipedia.org/wiki/2025_Formula_One_World_Championship")} ahead of their acquisition by{" "}
+    {wikiLink("Audi", "https://en.wikipedia.org/wiki/Audi_in_Formula_One")} in{" "}
+    {wikiLink("2026", "https://en.wikipedia.org/wiki/2026_Formula_One_World_Championship")}.
+
+    <br /><br />
+
+    As of the{" "}
+    {wikiLink("2025 Bahrain Grand Prix", "https://en.wikipedia.org/wiki/2025_Bahrain_Grand_Prix")}, Hülkenberg has recorded one pole position and two fastest laps in Formula One.
+
+    He holds the{" "}
+    {wikiLink("Formula One records", "https://en.wikipedia.org/wiki/List_of_Formula_One_driver_records")} for the{" "}
+    {wikiLink("most career starts without a podium finish", "https://en.wikipedia.org/wiki/List_of_Formula_One_driver_records#Most_races_without_scoring_a_podium_finish")} and the{" "}
+    {wikiLink("most career starts without a win", "https://en.wikipedia.org/wiki/List_of_Formula_One_driver_records#Most_races_without_a_win")} (both 231).
+
+    Hülkenberg is contracted to remain with Sauber / Audi until at least the end of the 2026 season.
+
+    Outside of Formula One, he won the{" "}
+    {wikiLink("24 Hours of Le Mans", "https://en.wikipedia.org/wiki/2015_24_Hours_of_Le_Mans")} on debut with{" "}
+    {wikiLink("Porsche", "https://en.wikipedia.org/wiki/Porsche")} during the{" "}
+    {wikiLink("2015 FIA World Endurance Championship", "https://en.wikipedia.org/wiki/2015_FIA_World_Endurance_Championship")}.
+  </>
+);
+
+export default summary;
