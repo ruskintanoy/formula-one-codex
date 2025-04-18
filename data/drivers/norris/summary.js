@@ -20,16 +20,12 @@ const wikiLink = (text, url) => (
       He won his first title at the{" "}
       {wikiLink("2015 MSA Formula Championship", "https://en.wikipedia.org/wiki/2015_MSA_Formula_Championship")} with{" "}
       {wikiLink("Carlin", "https://en.wikipedia.org/wiki/Carlin_Motorsport")}.
-  
-      <br /><br />
-  
+
       He then won the{" "}
       {wikiLink("Toyota Racing Series", "https://en.wikipedia.org/wiki/2016_Toyota_Racing_Series")},{" "}
       {wikiLink("Formula Renault Eurocup", "https://en.wikipedia.org/wiki/2016_Eurocup_Formula_Renault_2.0")}, and{" "}
       {wikiLink("Formula Renault NEC", "https://en.wikipedia.org/wiki/2016_Formula_Renault_2.0_Northern_European_Cup")} in 2016, receiving the{" "}
       {wikiLink("Autosport BRDC Award", "https://en.wikipedia.org/wiki/Autosport_BRDC_Award")} that year.
-  
-      <br /><br />
   
       Norris won the{" "}
       {wikiLink("FIA Formula 3 European Championship", "https://en.wikipedia.org/wiki/FIA_Formula_3_European_Championship")} in 2017, and finished runner-up to{" "}
@@ -43,21 +39,15 @@ const wikiLink = (text, url) => (
       {wikiLink("Carlos Sainz Jr.", "https://en.wikipedia.org/wiki/Carlos_Sainz_Jr.")}, making his Formula One debut at the{" "}
       {wikiLink("2019 Australian Grand Prix", "https://en.wikipedia.org/wiki/2019_Australian_Grand_Prix")}.
   
-      <br /><br />
-  
       He achieved his maiden podium finish and fastest lap at the season-opening{" "}
       {wikiLink("2020 Austrian Grand Prix", "https://en.wikipedia.org/wiki/2020_Austrian_Grand_Prix")}, before achieving his maiden pole position at the{" "}
       {wikiLink("2021 Russian Grand Prix", "https://en.wikipedia.org/wiki/2021_Russian_Grand_Prix")}.
-  
-      <br /><br />
-  
+
       In 2024, Norris took his maiden career win at the{" "}
       {wikiLink("2024 Miami Grand Prix", "https://en.wikipedia.org/wiki/2024_Miami_Grand_Prix")}, repeating this feat in the{" "}
       {wikiLink("2024 Dutch Grand Prix", "https://en.wikipedia.org/wiki/2024_Dutch_Grand_Prix")},{" "}
       {wikiLink("2024 Singapore Grand Prix", "https://en.wikipedia.org/wiki/2024_Singapore_Grand_Prix")}, and{" "}
       {wikiLink("2024 Abu Dhabi Grand Prix", "https://en.wikipedia.org/wiki/2024_Abu_Dhabi_Grand_Prix")}.
-  
-      <br /><br />
   
       As of the{" "}
       {wikiLink("2025 Bahrain Grand Prix", "https://en.wikipedia.org/wiki/2025_Bahrain_Grand_Prix")}, Norris has achieved five race wins, 10 pole positions, 14 fastest laps, and 29 podiums in Formula One. He is contracted to remain at McLaren until at least the end of the 2027 season.
