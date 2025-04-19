@@ -42,11 +42,10 @@ export default function DriverCard({ driver, teamName, standing, flag }) {
             </span>
           </div>
 
-          {/* === Points: Inline Label + Value === */}
-          <div className="text-sm text-gray-400 font-medium">
-            <span className="text-white font-semibold">
-              Points: {standing?.points ?? 0}
-            </span>
+          {/* === Stats Row === */}
+          <div className="flex justify-between items-center text-[13px] text-gray-400 font-light tracking-wide">
+            <span>Points: <span className="text-white font-medium">{standing?.points ?? 0}</span></span>
+            <span>Wins: <span className="text-white font-medium">{standing?.wins ?? 0}</span></span>
           </div>
         </div>
 

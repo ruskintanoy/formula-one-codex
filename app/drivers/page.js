@@ -17,6 +17,7 @@ export default async function DriversPage() {
     standingsMap[entry.driverId] = {
       position: entry.position,
       points: entry.points,
+      wins: entry.wins,
     };
   });
 
