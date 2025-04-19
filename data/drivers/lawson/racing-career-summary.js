@@ -313,7 +313,6 @@ const racingCareerSummary = {
     },    
   ],
   legend: [
-    "† As Norris was a guest driver, he was ineligible for points.",
     "* Season still in progress.",
   ],
 };
