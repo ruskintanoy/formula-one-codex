@@ -60,6 +60,7 @@ const wikiLink = (text, url) => (
       <div className="clear-both" />
 
       {/* F3 Asian Championship */}
+      <section id="f3-asian" className="space-y-4 scroll-mt-24"></section>
       <h3 className="text-2xl font-bold text-red-600 mb-2">F3 Asian Championship</h3>
 
       <p>
@@ -70,6 +71,8 @@ const wikiLink = (text, url) => (
         The next winter he returned to the {wikiLink("series", "https://en.wikipedia.org/wiki/2019%E2%80%9320_F3_Asian_Championship")} with Pinnacle Motorsport. He once again finished in the runner-up spot, this time behind {wikiLink("Joey Alders", "https://en.wikipedia.org/wiki/Joey_Alders")}.
       </p>
 
+      {/* Euroformula Open */}
+      <section id="euroformula-open" className="space-y-4 scroll-mt-24"></section>  
       <h3 className="text-2xl font-bold text-red-600 mb-2">Euroformula Open</h3>
 
       <p>
@@ -79,9 +82,11 @@ const wikiLink = (text, url) => (
       <div className="clear-both" />
 
       {/* FIA Formula 3 Championship */}
+      <section id="fia-f3" className="space-y-4 scroll-mt-24"></section>
       <h3 className="text-2xl font-bold text-red-600 mb-2">FIA Formula 3 Championship</h3>
 
       {/* 2020 */}
+      <section id="f3-2020" className="space-y-4 scroll-mt-24"></section>
       <h4 className="text-lg font-semibold text-red-400 mb-1">2020</h4>
 
       <p>
@@ -89,6 +94,7 @@ const wikiLink = (text, url) => (
       </p>
 
       {/* 2021 */}
+      <section id="f3-2021" className="space-y-4 scroll-mt-24"></section>
       <h4 className="text-lg font-semibold text-red-400 mb-1">2021</h4>
 
       <p>
@@ -106,15 +112,19 @@ const wikiLink = (text, url) => (
       <div className="clear-both" />
 
       {/* FIA Formula 2 Championship */}
+      <section id="fia-f2" className="space-y-4 scroll-mt-24"></section>
       <h3 className="text-2xl font-bold text-red-600 mb-2">FIA Formula 2 Championship</h3>
 
       {/* 2021 */}
+      <section id="f2-2021" className="space-y-4 scroll-mt-24"></section>
       <h4 className="text-lg font-semibold text-red-400 mb-1">2021</h4>
 
       <p>
         Doohan joined {wikiLink("MP Motorsport", "https://en.wikipedia.org/wiki/MP_Motorsport")} for the final two rounds of the {wikiLink("2021 championship", "https://en.wikipedia.org/wiki/2021_FIA_Formula_2_Championship")}, replacing {wikiLink("Richard Verschoor", "https://en.wikipedia.org/wiki/Richard_Verschoor")}. He qualified 16th in {wikiLink("Jeddah", "https://en.wikipedia.org/wiki/2021_Jeddah_Formula_2_round")} and nearly snatched reverse pole. In only his second race, he placed fifth. Doohan then qualified P2 at the {wikiLink("Yas Marina finale", "https://en.wikipedia.org/wiki/2021_Yas_Island_Formula_2_round")} and finished eighth in Sprint 2. His feature ended with a lap-one crash. He wrapped up the season 19th overall with eight points.
       </p>
 
+      {/* 2021 */}
+      <section id="f2-2022" className="space-y-4 scroll-mt-24"></section>
       <h4 className="text-lg font-semibold text-red-400 mb-1">2022</h4>
 
       <p>
@@ -141,6 +151,8 @@ const wikiLink = (text, url) => (
         He scored his third pole of the year at {wikiLink("Monza", "https://en.wikipedia.org/wiki/2022_Monza_Formula_2_round")}, finished sixth in the sprint, but had another forgetful feature race after a bad start and a collision with {wikiLink("Jehan Daruvala", "https://en.wikipedia.org/wiki/Jehan_Daruvala")}. At the season finale in {wikiLink("Yas Marina", "https://en.wikipedia.org/wiki/2022_Yas_Island_Formula_2_round")}, he finished seventh in the sprint, but a loose wheel forced his retirement in the feature. Doohan finished sixth in the standings with 128 points, three wins, three poles, four fastest laps, and six podiums.
       </p>
 
+      {/* 2021 */}
+      <section id="2-2023" className="space-y-4 scroll-mt-24"></section>
       <h4 className="text-lg font-semibold text-red-400 mb-1">2023</h4>
 
       <p>
