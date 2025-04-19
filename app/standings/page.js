@@ -1,27 +1,21 @@
-import Card from "../../components/Card";
+import { getData } from "../../lib/fetchData";
+import StandingsTable from "../../components/StandingsTable";
 
-export default function StandingsPage() {
-  // Placeholder standings data
-  const standings = [
-    { id: 1, name: "Max Verstappen", points: "400 pts" },
-    { id: 2, name: "Lewis Hamilton", points: "350 pts" },
-    { id: 3, name: "Charles Leclerc", points: "300 pts" },
-    { id: 4, name: "Fernando Alonso", points: "275 pts" },
-  ];
+export default async function StandingsPage() {
+  const standings = await getData("/api/current/drivers-championship");
 
   return (
     <section className="min-h-[80vh] container mx-auto p-4">
-      <h1 className="text-3xl font-bold text-red-600 mb-6">Standings</h1>
-
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
-        {standings.map((driver) => (
-          <Card
-            key={driver.id}
-            title={driver.name}
-            description={driver.points}
-          />
-        ))}
+      <div className="text-center mb-10">
+        <h1 className="text-4xl font-extrabold text-red-600 mb-2">
+          Current Driver Standings
+        </h1>
+        <p className="text-gray-300 text-lg">
+          Updated points and rankings for the {new Date().getFullYear()} Formula One World Championship.
+        </p>
       </div>
+
+      <StandingsTable data={standings.drivers_championship} />
     </section>
   );
 }
