@@ -13,7 +13,7 @@ const wikiLink = (text, url) => (
     <>
       {/* Karting */}
       <section id="karting" className="space-y-4 scroll-mt-24"></section>
-      <h3 className="text-2xl font-bold text-red-600 mb-2">Karting (2012–2016)</h3>
+      <h3 className="text-2xl font-bold text-red-600 mb-2">Karting</h3>
 
       <p>
         Doohan started karting competitively in 2012. He was given his first kart from former neighbor and 7-time Formula One champion{" "}
