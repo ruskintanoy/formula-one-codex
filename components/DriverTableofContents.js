@@ -6,20 +6,20 @@ const renderTOC = (items, prefix = "") => {
       <div key={item.id} className="space-y-1">
         <a
           href={`#${item.id}`}
-          className={`hover:text-red-400 transition flex items-center gap-2 ${
+          className={`group flex items-center gap-3 rounded px-2 py-1 transition-colors duration-150 hover:bg-red-800/10 hover:text-red-400 ${
             prefix === ""
-              ? "font-bold text-lg"
+              ? "font-extrabold text-lg tracking-wide text-white"
               : prefix.split(".").length === 1
-              ? "font-medium"
-              : "text-sm opacity-80"
+              ? "font-semibold text-base text-gray-300"
+              : "text-sm text-gray-400"
           }`}
         >
-          <span className="text-red-400">{currentNumber}.</span>
+          <span className="text-red-500 font-black">{currentNumber}.</span>
           <span>{item.label}</span>
         </a>
 
         {item.children && (
-          <div className="ml-4 border-l border-gray-700 pl-4 space-y-2">
+          <div className="ml-4 pl-4 border-l-2 border-red-800 space-y-2">
             {renderTOC(item.children, currentNumber)}
           </div>
         )}
@@ -30,7 +30,7 @@ const renderTOC = (items, prefix = "") => {
 
 export default function TableOfContents({ toc }) {
   return (
-    <nav className="text-gray-300 text-base space-y-4">
+    <nav className="text-base text-gray-300 space-y-4">
       {renderTOC(toc)}
     </nav>
   );

@@ -22,86 +22,73 @@ export default async function DriverProfilePage({ params }) {
   const careerStatistics = (await import(`../../../data/drivers/${driverId}/career-statistics.js`)).default;
 
   return (
-    <section className="min-h-[80vh] container mx-auto p-8">
-      <h1 className="text-4xl font-extrabold text-red-600 mb-8">
-        {driver.name} {driver.surname}
-      </h1>
+    <section className="min-h-[80vh] container mx-auto px-6 py-10 text-white">
+    <h1 className="text-5xl font-black text-center text-red-600 uppercase tracking-widest mb-10 shadow-md">
+      {driver.name} {driver.surname}
+    </h1>
 
-      <div className="flex gap-8">
-        <main className="w-2/3 space-y-8">
+    <div className="flex flex-col lg:flex-row gap-10">
+      <main className="lg:w-2/3 space-y-12">
+        {/* Summary */}
+        <section>
+          <p className="text-gray-300 text-base leading-relaxed">{summary}</p>
+        </section>
 
-          {/* Summary */}
-          <section>
-            <p className="text-gray-300">{summary}</p>
-          </section>
+        {/* Contents */}
+        <section className="bg-black/40 border border-red-800 rounded-lg shadow-md p-6">
+          <h2 className="text-center text-xl font-bold text-red-500 uppercase tracking-wider border-b border-gray-700 pb-2 mb-4">
+            Contents
+          </h2>
+          <TableOfContents toc={tableOfContents} />
+        </section>
 
-          {/* Contents */}
-          <section className="border border-gray-700 p-6 rounded-lg bg-gray-900 shadow-lg">
-            <h2 className="text-xl font-extrabold text-red-600 mb-4 border-b border-gray-700 pb-2 text-center uppercase tracking-wide">
-              Contents
+        {/* Each Section (Background, Career, Stats, etc.) */}
+        {[
+          { id: "background", label: "Background", content: background },
+          { id: "junior-career", label: "Junior Racing Career", content: juniorCareer },
+          { id: "f1-career", label: "Formula One Career", content: f1Career }
+        ].map(({ id, label, content }) => (
+          <section id={id} key={id} className="space-y-4 scroll-mt-24">
+            <h2 className="text-2xl font-bold text-center text-red-600 uppercase border-b border-gray-700 pb-2">
+              {label}
             </h2>
-            <TableOfContents toc={tableOfContents} />
+            <div className="text-gray-300 space-y-4 text-base leading-relaxed">{content}</div>
           </section>
+        ))}
 
-          {/* Background */}
-          <section id="background" className="space-y-4 scroll-mt-24">
-            <h2 className="text-2xl font-bold text-red-600 border-b border-gray-700 pb-2 text-center">
-              Background
-            </h2>
-            <div className="text-gray-300 space-y-4">{background}</div>
-          </section>
+        {/* Stats Overview */}
+        <section id="stats-overview" className="space-y-10 scroll-mt-24">
+          <h2 className="text-2xl font-bold text-center text-red-600 uppercase border-b border-gray-700 pb-2">
+            Formula One Statistical Overview
+          </h2>
 
-          {/* Junior Racing Career */}
-          <section id="junior-career" className="space-y-4 scroll-mt-24">
-            <h2 className="text-2xl font-bold text-red-600 border-b border-gray-700 pb-2 text-center">
-              Junior Racing Career
-            </h2>
-            <div className="text-gray-300 space-y-4">{juniorCareer}</div>
-          </section>
+          {/* Racing Career Summary */}
+          <div id="career-summary" className="space-y-2 scroll-mt-24">
+            <h3 className="text-xl font-bold text-red-500 uppercase tracking-wide border-b border-gray-700 pb-1">
+              Racing Career Summary
+            </h3>
+            <RacingCareerSummaryTable
+              data={racingCareerSummary.data}
+              legend={racingCareerSummary.legend}
+            />
+          </div>
 
-          {/* Formula One Career */}
-          <section id="f1-career" className="space-y-4 scroll-mt-24">
-            <h2 className="text-2xl font-bold text-red-600 border-b border-gray-700 pb-2 text-center">
-              Formula One Career
-            </h2>
-            <div className="text-gray-300 space-y-4">
-              {f1Career}
-            </div>
-          </section>
+          {/* Career Statistics */}
+          <div id="career-statistics" className="space-y-2 scroll-mt-24">
+            <h3 className="text-xl font-bold text-red-500 uppercase tracking-wide border-b border-gray-700 pb-1">
+              Career Statistics
+            </h3>
+            <CareerStatisticsTable data={careerStatistics} />
+          </div>
+        </section>
+      </main>
 
+      {/* Sidebar */}
+      <aside className="lg:w-1/3 w-full">
+        <DriverInfoCard driver={driver} team={team} stats={stats} />
+      </aside>
+    </div>
+  </section>
 
-          {/* Formula One Statistical Overview */}
-          <section id="stats-overview" className="space-y-6 scroll-mt-24">
-            <h2 className="text-2xl font-bold text-red-600 border-b border-gray-700 pb-2 text-center">
-              Formula One Statistical Overview
-            </h2>
-
-            {/* Racing Career Summary */}
-            <section id="career-summary" className="space-y-2 scroll-mt-24">
-              <h3 className="text-xl font-extrabold text-red-500 border-b border-gray-700 pb-1">
-                Racing Career Summary
-              </h3>
-              <RacingCareerSummaryTable
-                  data={racingCareerSummary.data}
-                  legend={racingCareerSummary.legend}
-              />
-            </section>
-
-            {/* Career Statistics */}
-            <section id="career-statistics" className="space-y-2 scroll-mt-24">
-              <h3 className="text-xl font-extrabold text-red-500 border-b border-gray-700 pb-1">
-                Career Statistics
-              </h3>
-              <CareerStatisticsTable data={careerStatistics} />
-            </section>
-          </section>
-        </main>
-
-        {/* Sidebar */}
-        <div className="w-1/3">
-          <DriverInfoCard driver={driver} team={team} stats={stats} />
-        </div>
-      </div>
-    </section>
   );
 }

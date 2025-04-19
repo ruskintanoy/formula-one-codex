@@ -2,14 +2,15 @@ import Image from "next/image";
 
 export default function DriverInfoCard({ driver, team, stats }) {
   return (
-    <aside className="bg-gradient-to-b from-gray-900 to-gray-800 border border-gray-700 p-6 w-full max-w-sm rounded-xl shadow-2xl text-white">
-      {/* Driver Name Header */}
-      <h2 className="text-center text-3xl font-extrabold text-red-500 mb-6 bg-gray-800 py-3 rounded-lg tracking-wide">
+    <aside className="bg-gradient-to-br from-black via-gray-900 to-gray-800 border border-red-800 rounded-xl p-6 w-full max-w-sm shadow-2xl text-white ring-1 ring-red-600/40">
+
+      {/* === Driver Name Banner === */}
+      <h2 className="text-center text-2xl font-black uppercase tracking-widest bg-red-700 text-white py-3 mb-6 rounded shadow-inner ring-1 ring-red-900">
         {driver.name} {driver.surname}
       </h2>
 
-      {/* Driver Image */}
-      <div className="mb-6 rounded-lg overflow-hidden border border-gray-700 shadow-lg">
+      {/* === Driver Image === */}
+      <div className="mb-6 rounded-lg overflow-hidden border border-gray-700 shadow-lg bg-black">
         <Image
           src={`/drivers/${driver.driverId}/${driver.driverId}.jpg`}
           alt={`${driver.name} ${driver.surname}`}
@@ -19,24 +20,33 @@ export default function DriverInfoCard({ driver, team, stats }) {
         />
       </div>
 
-      {/* Driver Info Section */}
-      <section className="border-t border-gray-700 pt-4 mt-4">
-        <h3 className="text-red-400 text-lg font-semibold mb-3 uppercase tracking-wide border-b border-gray-600 pb-2 text-center">Driver Information</h3>
-        <div className="space-y-2 text-sm">
-          <p><span className="font-semibold text-gray-400">Born:</span> {driver.birthday}</p>
-          <p><span className="font-semibold text-gray-400">Nationality:</span> {driver.nationality}</p>
-          <p><span className="font-semibold text-gray-400">Car Number:</span> {driver.number}</p>
-          <p><span className="font-semibold text-gray-400">Team:</span> {team?.teamName}</p>
+      {/* === Driver Info Section === */}
+      <section className="pt-4 mt-4 border-t border-gray-700">
+        <h3 className="text-center text-sm font-semibold uppercase tracking-wide text-gray-300 border-b border-gray-600 pb-2 mb-4">
+          Driver Information
+        </h3>
+        <div className="space-y-2 text-[13px] font-light">
+          <p><span className="text-gray-400 font-semibold">Born:</span> {driver.birthday}</p>
+          <p><span className="text-gray-400 font-semibold">Nationality:</span> {driver.nationality}</p>
+          <p><span className="text-gray-400 font-semibold">Car Number:</span> #{driver.number || "N/A"}</p>
+          {team?.teamName && (
+            <p><span className="text-gray-400 font-semibold">Team:</span> <span className="text-red-400 font-semibold">{team.teamName}</span></p>
+          )}
         </div>
       </section>
 
-      {/* Career Statistics Section */}
+      {/* === Career Statistics Section === */}
       {stats && (
-        <section className="border-t border-gray-700 pt-4 mt-4">
-          <h3 className="text-red-400 text-lg font-semibold mb-3 uppercase tracking-wide border-b border-gray-600 pb-2 text-center">Career Statistics</h3>
-          <div className="space-y-2 text-sm">
+        <section className="pt-4 mt-4 border-t border-gray-700">
+          <h3 className="text-center text-sm font-semibold uppercase tracking-wide text-gray-300 border-b border-gray-600 pb-2 mb-4">
+            Career Stats
+          </h3>
+          <div className="space-y-2 text-[13px] font-light">
             {Object.entries(stats).map(([label, value]) => (
-              <p key={label}><span className="font-semibold text-gray-400">{label}:</span> {value}</p>
+              <p key={label}>
+                <span className="text-gray-400 font-semibold">{label}:</span>{" "}
+                <span className="text-white font-medium">{value}</span>
+              </p>
             ))}
           </div>
         </section>
