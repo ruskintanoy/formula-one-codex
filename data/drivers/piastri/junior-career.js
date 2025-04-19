@@ -86,7 +86,7 @@ const juniorCareer = (
       Piastri started third on the grid for his debut race at the {wikiLink("Red Bull Ring", "https://en.wikipedia.org/wiki/Red_Bull_Ring")}. He collided with pole-sitter {wikiLink("Sebastián Fernández", "https://en.wikipedia.org/wiki/Sebasti%C3%A1n_Fern%C3%A1ndez_(racing_driver)")} at the first corner but avoided damage and went on to take victory.
     </p>
 
-    <figure className="float-right mr-4 mb-4 max-w-[250px] border border-gray-700 rounded-lg bg-gray-900 p-2 shadow-lg">
+    <figure className="float-right ml-4 mr-4 mb-4 max-w-[250px] border border-gray-700 rounded-lg bg-gray-900 p-2 shadow-lg">
         <img
           src="/drivers/piastri/car3.JPG"
           alt="Norris racing for Mücke Motorsport in Formula 4 in 2015"
@@ -150,7 +150,7 @@ const juniorCareer = (
       Piastri retired from the first sprint race in {wikiLink("Baku", "https://en.wikipedia.org/wiki/2021_Baku_Formula_2_round")} after a collision on the first lap, but finished second in the feature race. He claimed pole position at {wikiLink("Silverstone", "https://en.wikipedia.org/wiki/2021_Silverstone_Formula_2_round")}, and took the lead of the championship after finishing sixth in the first sprint race.
     </p>
 
-    <figure className="float-right mr-4 mb-4 max-w-[250px] border border-gray-700 rounded-lg bg-gray-900 p-2 shadow-lg">
+    <figure className="float-right ml-4 mr-4 mb-4 max-w-[250px] border border-gray-700 rounded-lg bg-gray-900 p-2 shadow-lg">
         <img
           src="/drivers/piastri/car4.JPG"
           alt="Norris racing for Mücke Motorsport in Formula 4 in 2015"

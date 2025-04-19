@@ -4,91 +4,105 @@ import RacingCareerSummaryTable from "../../../components/RacingCareerSummaryTab
 import CareerStatisticsTable from "../../../components/CareerStatisticsTable";
 import TableOfContents from "../../../components/DriverTableofContents";
 
-
 export default async function DriverProfilePage({ params }) {
   const { driverId } = await params;
 
   const data = await getData(`/api/current/drivers/${driverId}`);
-  const driver = data.driver;
-  const team = data.team;
+  const { driver, team } = data;
 
-  const summary = (await import(`../../../data/drivers/${driverId}/summary.js`)).default;
-  const tableOfContents = (await import(`../../../data/drivers/${driverId}/table-of-contents.js`)).default;
-  const background = (await import(`../../../data/drivers/${driverId}/background.js`)).default;
-  const stats = (await import(`../../../data/drivers/${driverId}/stats.js`)).default;
-  const juniorCareer = (await import(`../../../data/drivers/${driverId}/junior-career.js`)).default;
-  const f1Career = (await import(`../../../data/drivers/${driverId}/f1-career.js`)).default;
-  const racingCareerSummary = (await import(`../../../data/drivers/${driverId}/racing-career-summary.js`)).default;
-  const careerStatistics = (await import(`../../../data/drivers/${driverId}/career-statistics.js`)).default;
+  const [
+    summary,
+    tableOfContents,
+    background,
+    stats,
+    juniorCareer,
+    f1Career,
+    racingCareerSummary,
+    careerStatistics,
+  ] = await Promise.all([
+    import(`../../../data/drivers/${driverId}/summary.js`),
+    import(`../../../data/drivers/${driverId}/table-of-contents.js`),
+    import(`../../../data/drivers/${driverId}/background.js`),
+    import(`../../../data/drivers/${driverId}/stats.js`),
+    import(`../../../data/drivers/${driverId}/junior-career.js`),
+    import(`../../../data/drivers/${driverId}/f1-career.js`),
+    import(`../../../data/drivers/${driverId}/racing-career-summary.js`),
+    import(`../../../data/drivers/${driverId}/career-statistics.js`),
+  ]).then(mods => mods.map(m => m.default));
+
+  const infoSections = [
+    { id: "background", label: "Background", content: background },
+    { id: "junior-career", label: "Junior Racing Career", content: juniorCareer },
+    { id: "f1-career", label: "Formula One Career", content: f1Career },
+  ];
 
   return (
     <section className="min-h-[80vh] container mx-auto px-6 py-10 text-white">
-    <h1 className="text-5xl font-black text-center text-red-600 uppercase tracking-widest mb-10 shadow-md">
-      {driver.name} {driver.surname}
-    </h1>
+      {/* === Header === */}
+      <h1 className="text-5xl md:text-6xl font-black text-center text-red-600 uppercase tracking-widest mb-12 drop-shadow-sm">
+        {driver.name} {driver.surname}
+      </h1>
 
-    <div className="flex flex-col lg:flex-row gap-10">
-      <main className="lg:w-2/3 space-y-12">
-        {/* Summary */}
-        <section>
-          <p className="text-gray-300 text-base leading-relaxed">{summary}</p>
-        </section>
-
-        {/* Contents */}
-        <section className="bg-black/40 border border-red-800 rounded-lg shadow-md p-6">
-          <h2 className="text-center text-xl font-bold text-red-500 uppercase tracking-wider border-b border-gray-700 pb-2 mb-4">
-            Contents
-          </h2>
-          <TableOfContents toc={tableOfContents} />
-        </section>
-
-        {/* Each Section (Background, Career, Stats, etc.) */}
-        {[
-          { id: "background", label: "Background", content: background },
-          { id: "junior-career", label: "Junior Racing Career", content: juniorCareer },
-          { id: "f1-career", label: "Formula One Career", content: f1Career }
-        ].map(({ id, label, content }) => (
-          <section id={id} key={id} className="space-y-4 scroll-mt-24">
-            <h2 className="text-2xl font-bold text-center text-red-600 uppercase border-b border-gray-700 pb-2">
-              {label}
-            </h2>
-            <div className="text-gray-300 space-y-4 text-base leading-relaxed">{content}</div>
+      <div className="flex flex-col lg:flex-row gap-10">
+        {/* === Main Content === */}
+        <main className="lg:w-2/3 space-y-14">
+          {/* Summary */}
+          <section>
+            <p className="text-base md:text-lg text-gray-300 leading-relaxed">{summary}</p>
           </section>
-        ))}
 
-        {/* Stats Overview */}
-        <section id="stats-overview" className="space-y-10 scroll-mt-24">
-          <h2 className="text-2xl font-bold text-center text-red-600 uppercase border-b border-gray-700 pb-2">
-            Formula One Statistical Overview
-          </h2>
+          {/* TOC */}
+          <section className="bg-black/40 border border-red-800 rounded-lg shadow-md p-6">
+            <h2 className="text-xl md:text-2xl font-bold text-red-500 uppercase tracking-wider border-b border-gray-700 pb-3 mb-5 text-center">
+              Contents
+            </h2>
+            <TableOfContents toc={tableOfContents} />
+          </section>
 
-          {/* Racing Career Summary */}
-          <div id="career-summary" className="space-y-2 scroll-mt-24">
-            <h3 className="text-xl font-bold text-red-500 uppercase tracking-wide border-b border-gray-700 pb-1">
-              Racing Career Summary
-            </h3>
-            <RacingCareerSummaryTable
-              data={racingCareerSummary.data}
-              legend={racingCareerSummary.legend}
-            />
-          </div>
+          {/* Dynamic Sections */}
+          {infoSections.map(({ id, label, content }) => (
+            <section key={id} id={id} className="space-y-4 scroll-mt-24">
+              <h2 className="text-2xl md:text-3xl font-bold text-center text-red-600 uppercase border-b border-gray-700 pb-2">
+                {label}
+              </h2>
+              <div className="text-base md:text-lg text-gray-300 leading-relaxed space-y-4">
+                {content}
+              </div>
+            </section>
+          ))}
 
-          {/* Career Statistics */}
-          <div id="career-statistics" className="space-y-2 scroll-mt-24">
-            <h3 className="text-xl font-bold text-red-500 uppercase tracking-wide border-b border-gray-700 pb-1">
-              Career Statistics
-            </h3>
-            <CareerStatisticsTable data={careerStatistics} />
-          </div>
-        </section>
-      </main>
+          {/* === Statistical Overview === */}
+          <section id="stats-overview" className="space-y-10 scroll-mt-24">
+            <h2 className="text-2xl md:text-3xl font-bold text-center text-red-600 uppercase border-b border-gray-700 pb-2">
+              Formula One Statistical Overview
+            </h2>
 
-      {/* Sidebar */}
-      <aside className="lg:w-1/3 w-full">
-        <DriverInfoCard driver={driver} team={team} stats={stats} />
-      </aside>
-    </div>
-  </section>
+            {/* Racing Summary Table */}
+            <div id="career-summary" className="space-y-4 scroll-mt-24">
+              <h3 className="text-xl font-bold text-red-500 uppercase tracking-wide border-b border-gray-700 pb-1">
+                Racing Career Summary
+              </h3>
+              <RacingCareerSummaryTable
+                data={racingCareerSummary.data}
+                legend={racingCareerSummary.legend}
+              />
+            </div>
 
+            {/* Career Stats Table */}
+            <div id="career-statistics" className="space-y-4 scroll-mt-24">
+              <h3 className="text-xl font-bold text-red-500 uppercase tracking-wide border-b border-gray-700 pb-1">
+                Career Statistics
+              </h3>
+              <CareerStatisticsTable data={careerStatistics} />
+            </div>
+          </section>
+        </main>
+
+        {/* === Sidebar === */}
+        <aside className="lg:w-1/3 w-full">
+          <DriverInfoCard driver={driver} team={team} stats={stats} />
+        </aside>
+      </div>
+    </section>
   );
 }

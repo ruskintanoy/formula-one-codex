@@ -78,7 +78,7 @@ const f1Career = (
     {/* 2017–2018: Reliability issues and rise to prominence */}
     <h4 className="text-lg font-semibold text-red-400 mb-1">2017–2018: Reliability issues and rise to prominence</h4>
 
-    <figure className="float-right mr-4 mb-4 max-w-[250px] border border-gray-700 rounded-lg bg-gray-900 p-2 shadow-lg">
+    <figure className="float-right ml-4 mr-4 mb-4 max-w-[250px] border border-gray-700 rounded-lg bg-gray-900 p-2 shadow-lg">
       <img
         src="/drivers/max_verstappen/car6.jpg"
         alt="Verstappen overtaking Lewis Hamilton for the lead of the 2017 Malaysian Grand Prix"
@@ -145,7 +145,7 @@ const f1Career = (
       The wet and chaotic {wikiLink("German Grand Prix", "https://en.wikipedia.org/wiki/2019_German_Grand_Prix")} began similarly to the race in Austria for Verstappen, as a poor start caused him to fall behind. However, he would inherit the lead midway through the race after a crash by race leader {wikiLink("Lewis Hamilton", "https://en.wikipedia.org/wiki/Lewis_Hamilton")}. Verstappen would go on to extend his lead after the track began to dry, claiming his second victory of the season. In {wikiLink("Hungary", "https://en.wikipedia.org/wiki/2019_Hungarian_Grand_Prix")}, he claimed the first pole position of his career and led most of the race before being passed in the closing laps by Hamilton, who had made another stop for fresh tyres in a gamble to catch the leader.
     </p>
 
-    <figure className="float-right mr-4 mb-4 max-w-[250px] border border-gray-700 rounded-lg bg-gray-900 p-2 shadow-lg">
+    <figure className="float-right ml-4 mr-4 mb-4 max-w-[250px] border border-gray-700 rounded-lg bg-gray-900 p-2 shadow-lg">
       <img
         src="/drivers/max_verstappen/win1.jpg"
         alt="Verstappen on the podium after winning the 2019 Brazilian Grand Prix"
@@ -209,7 +209,7 @@ const f1Career = (
     {/* 2021: World Champion amid title battle vs. Hamilton */}
     <h4 className="text-lg font-semibold text-red-400 mb-1">2021: World Champion amid title battle vs. Hamilton</h4>
 
-    <figure className="float-right mr-4 mb-4 max-w-[250px] border border-gray-700 rounded-lg bg-gray-900 p-2 shadow-lg">
+    <figure className="float-right ml-4 mr-4 mb-4 max-w-[250px] border border-gray-700 rounded-lg bg-gray-900 p-2 shadow-lg">
       <img
         src="/drivers/max_verstappen/car10.jpg"
         alt="Verstappen at the 2021 Austrian Grand Prix"
@@ -294,7 +294,7 @@ const f1Career = (
     {/* 2022: Dominant second title */}
     <h4 className="text-lg font-semibold text-red-400 mb-1">2022: Dominant second title</h4>
 
-    <figure className="float-right mr-4 mb-4 max-w-[250px] border border-gray-700 rounded-lg bg-gray-900 p-2 shadow-lg">
+    <figure className="float-right ml-4 mr-4 mb-4 max-w-[250px] border border-gray-700 rounded-lg bg-gray-900 p-2 shadow-lg">
       <img
         src="/drivers/max_verstappen/car11.jpg"
         alt="Verstappen at the 2022 Japanese Grand Prix, where he won his second World Drivers' Championship"
@@ -372,7 +372,7 @@ const f1Career = (
       2024: Fourth title amid struggles at Red Bull
     </h4>
 
-    <figure className="float-right mr-4 mb-4 max-w-[250px] border border-gray-700 rounded-lg bg-gray-900 p-2 shadow-lg">
+    <figure className="float-right ml-4 mr-4 mb-4 max-w-[250px] border border-gray-700 rounded-lg bg-gray-900 p-2 shadow-lg">
       <img
         src="/drivers/max_verstappen/car13.jpg"
         alt="Verstappen during the 2024 Austrian Grand Prix"

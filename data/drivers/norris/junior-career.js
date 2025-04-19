@@ -79,7 +79,7 @@ const wikiLink = (text, url) => (
       <section id="formula3-renault" className="space-y-4 scroll-mt-24"></section>
       <h4 className="text-lg font-semibold text-red-400 mb-1 mt-4">Formula Three and Formula Renault</h4>
   
-      <figure className="float-right mr-4 mb-4 max-w-[250px] border border-gray-700 rounded-lg bg-gray-900 p-2 shadow-lg">
+      <figure className="float-right ml-4 mr-4 mb-4 max-w-[250px] border border-gray-700 rounded-lg bg-gray-900 p-2 shadow-lg">
         <img
           src="/drivers/norris/car2.jpg"
           alt="Norris racing at Monza during the 2016 Eurocup Formula Renault 2.0 championship"

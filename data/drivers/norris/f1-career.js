@@ -111,7 +111,7 @@ const wikiLink = (text, url) => (
         final two laps of the race to finish fifth, in what he described as "one of the best races of [his] career".
       </p>
 
-      <figure className="float-right mr-4 mb-4 max-w-[250px] border border-gray-700 rounded-lg bg-gray-900 p-2 shadow-lg">
+      <figure className="float-right ml-4 mr-4 mb-4 max-w-[250px] border border-gray-700 rounded-lg bg-gray-900 p-2 shadow-lg">
         <img
           src="/drivers/norris/car6.jpg"
           alt="Norris racing at Monza during the 2016 Eurocup Formula Renault 2.0 championship"
@@ -191,7 +191,7 @@ const wikiLink = (text, url) => (
       {/* 2022 Season */}
       <h4 className="text-lg font-semibold text-red-400 mb-1">2022 Season</h4>
 
-      <figure className="float-right mr-4 mb-4 max-w-[250px] border border-gray-700 rounded-lg bg-gray-900 p-2 shadow-lg">
+      <figure className="float-right ml-4 mr-4 mb-4 max-w-[250px] border border-gray-700 rounded-lg bg-gray-900 p-2 shadow-lg">
         <img
           src="/drivers/norris/car8.jpg"
           alt="Norris racing at Monza during the 2016 Eurocup Formula Renault 2.0 championship"
