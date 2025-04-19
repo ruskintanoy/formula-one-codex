@@ -115,7 +115,8 @@ const wikiLink = (text, url) => (
 
       <div className="clear-both"></div>
 
-      <section id="renault-2017-2018" className="space-y-4 scroll-mt-24"></section>
+      {/* Renault (2017–2018) */}
+      <section id="renault" className="space-y-4 scroll-mt-24"></section>
       <h3 className="text-2xl font-bold text-red-600 mb-2">Renault (2017–2018)</h3>
 
       {/* 2017 Season */}
@@ -168,6 +169,7 @@ const wikiLink = (text, url) => (
 
       <div className="clear-both"></div>
 
+      {/* McLaren (2019–2020) */}
       <section id="mclaren-2019-2020" className="space-y-4 scroll-mt-24"></section>
       <h3 className="text-2xl font-bold text-red-600 mb-2">McLaren (2019–2020)</h3>
 
