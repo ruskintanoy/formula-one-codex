@@ -97,6 +97,7 @@ const juniorCareer = (
     <h3 className="text-2xl font-bold text-red-600 mb-2">FIA Formula 3 Championship</h3>
 
     {/* 2019 */}
+    <section id="f3-2019" className="space-y-4 scroll-mt-24"></section>
     <h4 className="text-lg font-semibold text-red-400 mb-1">2019</h4>
 
     <figure className="float-right ml-4 mb-4 max-w-[250px] border border-gray-700 rounded-lg bg-gray-900 p-2 shadow-lg">
@@ -148,7 +149,7 @@ const juniorCareer = (
     <div className="clear-both"></div>
 
     {/* 2020 Season */}
-    <section id="fia-f3-2020" className="space-y-4 scroll-mt-24"></section>
+    <section id="f3-2020" className="space-y-4 scroll-mt-24"></section>
     <h4 className="text-lg font-semibold text-red-400 mb-1">2020</h4>
     <p>
       For the{" "}
@@ -215,6 +216,7 @@ const juniorCareer = (
     <h3 className="text-2xl font-bold text-red-600 mb-2">FIA Formula 2 Championship</h3>
 
     {/* 2021 */}
+    <section id="f2-2021" className="space-y-4 scroll-mt-24"></section>
     <h4 className="text-lg font-semibold text-red-400 mb-1">2021</h4>
 
     <p>
