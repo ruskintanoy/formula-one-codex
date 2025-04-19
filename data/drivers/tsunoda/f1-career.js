@@ -27,6 +27,7 @@ const f1Career = (
       <h3 className="text-2xl font-bold text-red-600 mt-6 mb-2">AlphaTauri / Racing Bulls (2021–2025)</h3>
 
       {/* 2021 */}
+      <section id="2021" className="space-y-4 scroll-mt-24"></section>
       <h4 className="text-lg font-semibold text-red-400 mb-1">2021</h4>
 
       <div className="clear-both"></div>
