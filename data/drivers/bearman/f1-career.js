@@ -41,7 +41,6 @@ const wikiLink = (text, url) => (
       <div className="clear-both"></div>
 
       <section id="ferrari-haas-reserve-driver-2024" className="space-y-4 scroll-mt-24"></section>
-
       {/* Ferrari/Haas reserve driver (2024) */}
       <h3 className="text-2xl font-bold text-red-600 mb-2">Ferrari/Haas reserve driver (2024)</h3>
 
@@ -85,7 +84,6 @@ const wikiLink = (text, url) => (
       <div className="clear-both"></div>
 
       <section id="haas-2025-present" className="space-y-4 scroll-mt-24"></section>
-
       {/* Haas (2025–present) */}
       <h3 className="text-2xl font-bold text-red-600 mb-2">Haas (2025–present)</h3>
 
