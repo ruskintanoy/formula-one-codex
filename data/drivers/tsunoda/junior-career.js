@@ -1,165 +1,160 @@
 const wikiLink = (text, url) => (
-    <a
-      href={url}
-      target="_blank"
-      rel="noopener noreferrer"
-      className="text-red-500 hover:underline"
-    >
-      {text}
-    </a>
-  );
-  
-  const juniorCareer = (
-    <>
-      {/* Karting */}
-      <section id="karting" className="space-y-4 scroll-mt-24"></section>
+  <a
+    href={url}
+    target="_blank"
+    rel="noopener noreferrer"
+    className="text-red-500 hover:underline"
+  >
+    {text}
+  </a>
+);
+
+const juniorCareer = (
+  <>
+    {/* Karting */}
+    <section id="karting" className="space-y-4 scroll-mt-24"></section>
       <h3 className="text-2xl font-bold text-red-600 mb-2">Karting</h3>
       <p>
-        Norris started his racing career at the age of seven when he claimed pole position at his first national event.
-        In 2013, Norris competed in KF-Junior class, winning the{" "}
-        {wikiLink("CIK-FIA European Championship", "https://en.wikipedia.org/wiki/CIK-FIA_Karting_European_Championship")} and the{" "}
-        {wikiLink("CIK-FIA International Super Cup", "https://en.wikipedia.org/wiki/Karting_World_Championship")}, as well as the{" "}
-        {wikiLink("WSK Euro Series", "https://en.wikipedia.org/wiki/WSK_Euro_Series")}. The following year he won the{" "}
-        {wikiLink("CIK-FIA World Championship", "https://en.wikipedia.org/wiki/Karting_World_Championship")} in KF class with Ricky Flynn Motorsport,
-        making him the youngest karting world champion in that category.
+        Tsunoda started his professional karting career in 2010, joining the{" "}
+        {wikiLink("JAF Junior Karting Championship", "https://en.wikipedia.org/wiki/JAF_Junior_Karting_Championship")}
+        , before moving to the{" "}
+        {wikiLink("regional class", "https://en.wikipedia.org/wiki/Regional_karting_series")} in 2013 and to the{" "}
+        {wikiLink("national class", "https://en.wikipedia.org/wiki/National_karting_series")} in 2014.
       </p>
-
-      <div className="clear-both"></div>
   
-      {/* Ginetta Junior Championship */}
-      <section id="ginetta" className="space-y-4 scroll-mt-24"></section>
-      <h3 className="text-2xl font-bold text-red-600 mt-6 mb-2">Ginetta Junior Championship</h3>
+    {/* Japanese Formula 4 */}
+    <section id="f4" className="space-y-4 scroll-mt-24"></section>
+      <h3 className="text-2xl font-bold text-red-600 mb-2">Japanese Formula 4</h3>
+      
       <p>
-        In 2014, Norris made his car racing debut in the{" "}
-        {wikiLink("Ginetta Junior Championship", "https://en.wikipedia.org/wiki/2014_Ginetta_Junior_Championship")}, a support series to the{" "}
-        {wikiLink("British Touring Car Championship", "https://en.wikipedia.org/wiki/British_Touring_Car_Championship")}.
-        He finished third in the championship, winning four races and claiming the Rookie Cup.
+        In 2016, Tsunoda graduated from{" "}
+        {wikiLink("Honda's Suzuka Circuit Racing School", "https://ja.wikipedia.org/wiki/%E9%88%B0%E9%B9%BF%E3%82%B5%E3%83%BC%E3%82%AD%E3%83%83%E3%83%88%E3%83%AC%E3%83%BC%E3%82%B7%E3%83%B3%E3%82%B0%E3%82%B9%E3%82%AF%E3%83%BC%E3%83%AB")}
+        in the advanced formula class and became a member of the{" "}
+        {wikiLink("Honda Formula Dream Project", "https://en.wikipedia.org/wiki/Honda_Formula_Dream_Project")}
+        . In the same year, he made his single-seater debut in the{" "}
+        {wikiLink("F4 Japanese Championship", "https://en.wikipedia.org/wiki/F4_Japanese_Championship")}
+        with the Sutekina Racing Team for a one-off event at{" "}
+        {wikiLink("Suzuka", "https://en.wikipedia.org/wiki/Suzuka_International_Racing_Course")}. He claimed his first podium with 2nd in the first race and finished 4th in the second race.
+      </p>
+
+      <p>
+        In 2017, Tsunoda started his first full season of single-seater racing in the{" "}
+        {wikiLink("F4 Japanese Championship", "https://en.wikipedia.org/wiki/F4_Japanese_Championship")}
+        while also contesting in the regional East series of the{" "}
+        {wikiLink("JAF F4 Japanese Championship", "https://en.wikipedia.org/wiki/Japan_Formula_4")}
+        . At {wikiLink("Okayama", "https://en.wikipedia.org/wiki/Okayama_International_Circuit")}, he won his first race. Tsunoda went on to win the regional championship while finishing third in the national Formula 4 championship.
+      </p>
+
+      <p>
+        Tsunoda continued to race in Japanese F4 in 2018 with the Honda Formula Dream Project team. He amassed seven wins and claimed the title during the final race at{" "}
+        {wikiLink("Motegi", "https://en.wikipedia.org/wiki/Twin_Ring_Motegi")}
+        , beating rival{" "}
+        {wikiLink("Teppei Natori", "https://en.wikipedia.org/wiki/Teppei_Natori")}
+        by 14 points.
       </p>
 
       <div className="clear-both"></div>
-  
-      {/* Lower Formulae */}
-      <section id="lower-formulae" className="space-y-4 scroll-mt-24"></section>
-      <h3 className="text-2xl font-bold text-red-600 mt-6 mb-2">Lower Formulae</h3>
+
+      {/* FIA Formula 3 Championship */}
+      <section id="fia-formula-3-championship" className="space-y-4 scroll-mt-24"></section>
+      <h3 className="text-2xl font-bold text-red-600 mb-2">
+        FIA Formula 3 Championship
+      </h3>
 
       <div className="clear-both"></div>
-  
-      {/* Formula 4 */}
-      <section id="formula4" className="space-y-4 scroll-mt-24"></section>
-      <h4 className="text-lg font-semibold text-red-400 mb-1">Formula 4</h4>
-  
+
+      {/* Tsunoda Racing at the 2019 Spielberg Formula 3 round */}
       <figure className="float-left mr-4 mb-4 max-w-[250px] border border-gray-700 rounded-lg bg-gray-900 p-2 shadow-lg">
         <img
-          src="/drivers/norris/car1.JPG"
-          alt="Norris racing for Mücke Motorsport in Formula 4 in 2015"
+          src="//upload.wikimedia.org/wikipedia/commons/thumb/0/09/FIA_F3_Austria_2019_Nr._14_Tsunoda.jpg/250px-FIA_F3_Austria_2019_Nr._14_Tsunoda.jpg"
+          alt="Tsunoda racing at the 2019 Spielberg Formula 3 round"
           className="w-full h-auto rounded"
         />
         <figcaption className="text-sm text-gray-400 text-center">
-          Norris racing for Mücke Motorsport in Formula 4 in 2015
+          Tsunoda racing at the{" "}
+          {wikiLink("2019 Spielberg Formula 3 round", "https://en.wikipedia.org/wiki/2019_Spielberg_Formula_3_round")}
         </figcaption>
       </figure>
-  
+
       <p>
-        For 2015, Norris signed with{" "}
-        {wikiLink("Carlin Motorsport", "https://en.wikipedia.org/wiki/Carlin_Motorsport")} to drive in the newly established{" "}
-        {wikiLink("MSA Formula Championship", "https://en.wikipedia.org/wiki/2015_MSA_Formula_Championship")} (now known as the{" "}
-        {wikiLink("F4 British Championship", "https://en.wikipedia.org/wiki/F4_British_Championship")}). Norris took eight wins, ten pole positions, and fourteen total podiums
-        to win the championship ahead of{" "}
-        {wikiLink("Ricky Collard", "https://en.wikipedia.org/wiki/Ricky_Collard")} and{" "}
-        {wikiLink("Colton Herta", "https://en.wikipedia.org/wiki/Colton_Herta")}.
-        He also made occasional appearances in the{" "}
-        {wikiLink("ADAC Formula 4", "https://en.wikipedia.org/wiki/2015_ADAC_Formula_4_Championship")} and{" "}
-        {wikiLink("Italian Formula 4", "https://en.wikipedia.org/wiki/2015_Italian_Formula_4_Championship")} championships with{" "}
-        {wikiLink("Mücke Motorsport", "https://en.wikipedia.org/wiki/M%C3%BCcke_Motorsport")}, where he claimed six podiums from eight starts in the former.
+        With {wikiLink("Honda", "https://en.wikipedia.org/wiki/Honda_in_Formula_One")} tying up with{" "}
+        {wikiLink("Red Bull", "https://en.wikipedia.org/wiki/Red_Bull_Racing")} in{" "}
+        {wikiLink("Formula One", "https://en.wikipedia.org/wiki/Formula_One")}, Tsunoda also joined the Red Bull{" "}
+        {wikiLink("junior team", "https://en.wikipedia.org/wiki/Red_Bull_Junior_Team")} alongside the Honda programme.
+        At the end of 2018, Tsunoda was announced to join{" "}
+        {wikiLink("Jenzer Motorsport", "https://en.wikipedia.org/wiki/Jenzer_Motorsport")} in the newly announced{" "}
+        {wikiLink("FIA Formula 3 Championship", "https://en.wikipedia.org/wiki/FIA_Formula_3_Championship")}. He scored tenth place and his first point during the first race in{" "}
+        {wikiLink("Barcelona", "https://en.wikipedia.org/wiki/2019_Barcelona_Formula_3_round")}, and ninth in Race 2. More points came in{" "}
+        {wikiLink("Paul Ricard", "https://en.wikipedia.org/wiki/2019_Le_Castellet_Formula_3_round")} where he came away seventh in Race 1, but struggled to ninth in Race 2 from second. Tsunoda failed to score points in{" "}
+        {wikiLink("Austria", "https://en.wikipedia.org/wiki/2019_Spielberg_Formula_3_round")}, but came back during Race 2 in{" "}
+        {wikiLink("Silverstone", "https://en.wikipedia.org/wiki/2019_Silverstone_Formula_3_round")} with seventh. He scored points in{" "}
+        {wikiLink("Budapest", "https://en.wikipedia.org/wiki/2019_Budapest_Formula_3_round")}, with ninth and sixth place. In{" "}
+        {wikiLink("Spa-Francorchamps", "https://en.wikipedia.org/wiki/2019_Spa-Francorchamps_Formula_3_round")}, he qualified in an astonishing third place. The Japanese racer dropped to sixth in Race 1, but from third in Race 2, scored a breakthrough second place.
       </p>
-  
+
+      <p>
+        {wikiLink("Monza", "https://en.wikipedia.org/wiki/2019_Monza_Formula_3_round")} was fruitful for Tsunoda, finishing fourth on the road but was promoted to the podium following a penalty for{" "}
+        {wikiLink("Marcus Armstrong", "https://en.wikipedia.org/wiki/Marcus_Armstrong")}. In Race 2, a storming start from sixth moved him to third at the start. After passing{" "}
+        {wikiLink("Fabio Scherer", "https://en.wikipedia.org/wiki/Fabio_Scherer")}, he would go by{" "}
+        {wikiLink("Jake Hughes", "https://en.wikipedia.org/wiki/Jake_Hughes")} on lap 15 and claim his only F3 win of the year. He finished ninth in the championship with 67 points, including three podiums and a win, scoring all of the Jenzer team's points during the season.
+      </p>
+
+      <p>
+        Tsunoda finished 11th at the non-championship{" "}
+        {wikiLink("Macau Grand Prix", "https://en.wikipedia.org/wiki/2019_Macau_Grand_Prix")}.
+      </p>
+
       <div className="clear-both"></div>
-  
-      {/* Formula Three and Formula Renault */}
-      <section id="formula3-renault" className="space-y-4 scroll-mt-24"></section>
-      <h4 className="text-lg font-semibold text-red-400 mb-1 mt-4">Formula Three and Formula Renault</h4>
-  
-      <figure className="float-right mr-4 mb-4 max-w-[250px] border border-gray-700 rounded-lg bg-gray-900 p-2 shadow-lg">
-        <img
-          src="/drivers/norris/car2.jpg"
-          alt="Norris racing at Monza during the 2016 Eurocup Formula Renault 2.0 championship"
-          className="w-full h-auto rounded"
-        />
-        <figcaption className="text-sm text-gray-400 text-center">
-          Norris racing at Monza during the {wikiLink("2016 Eurocup Formula Renault 2.0", "https://en.wikipedia.org/wiki/2016_Eurocup_Formula_Renault_2.0")} championship
-        </figcaption>
-      </figure>
-  
+
+      {/* Euroformula Open */}
+      <section id="euroformula-open" className="space-y-4 scroll-mt-24"></section>
+      <h3 className="text-2xl font-bold text-red-600 mb-2">Euroformula Open</h3>
+
       <p>
-        In 2016, Norris competed in the{" "}
-        {wikiLink("Toyota Racing Series", "https://en.wikipedia.org/wiki/2016_Toyota_Racing_Series")} in New Zealand with{" "}
-        {wikiLink("M2 Competition", "https://en.wikipedia.org/wiki/M2_Competition_(team)")}. He won six races, including the{" "}
-        {wikiLink("New Zealand Grand Prix", "https://en.wikipedia.org/wiki/2016_New_Zealand_Grand_Prix")}, and the championship ahead of{" "}
-        {wikiLink("Jehan Daruvala", "https://en.wikipedia.org/wiki/Jehan_Daruvala")}.
+        Tsunoda also competed for {wikiLink("Motopark", "/wiki/Motopark_Academy")} in the {wikiLink("Euroformula Open Championship", "/wiki/2019_Euroformula_Open_Championship")}, following the cancellation of Formula European Masters. 
+        After a second-place finish in the first race at {wikiLink("Paul Ricard", "/wiki/Circuit_Paul_Ricard")} and achieving third place in the {wikiLink("Pau Grand Prix", "/wiki/Pau_Grand_Prix")}, Tsunoda claimed his maiden championship win in the second race at {wikiLink("Hockenheim", "/wiki/Hockenheimring")}.
+        In {wikiLink("Spa-Francorchamps", "/wiki/Circuit_de_Spa-Francorchamps")}, Tsunoda was involved in a collision with teammate {wikiLink("Liam Lawson", "/wiki/Liam_Lawson")} during the second race, having scored second place in Race 1.
+        He took a double podium during the {wikiLink("Monza", "/wiki/Monza_Circuit")} final round. Despite missing two rounds due to F3 commitments, Tsunoda placed fourth in the standings with 151 points, one win, and five more podiums.
       </p>
-  
-      <p>
-        He then competed in the{" "}
-        {wikiLink("Formula Renault 2.0", "https://en.wikipedia.org/wiki/Formula_Renault_2.0")} Eurocup and NEC series with{" "}
-        {wikiLink("Josef Kaufmann Racing", "https://en.wikipedia.org/wiki/Josef_Kaufmann_Racing")}, winning both championships.
-      </p>
-  
-      <p>
-        Additionally, Norris raced part-time in the{" "}
-        {wikiLink("BRDC British Formula 3 Championship", "https://en.wikipedia.org/wiki/2016_BRDC_British_Formula_3_Championship")}, and made a guest appearance in the final round of the{" "}
-        {wikiLink("European Formula 3 Championship", "https://en.wikipedia.org/wiki/2016_European_Formula_3_Championship")} at the Hockenheimring, before competing in the{" "}
-        {wikiLink("Macau Grand Prix", "https://en.wikipedia.org/wiki/2016_Macau_Grand_Prix")}.
-      </p>
-  
+
       <div className="clear-both"></div>
-  
-      {/* Formula 2 */}
-      <section id="formula2" className="space-y-4 scroll-mt-24"></section>
-      <h4 className="text-lg font-semibold text-red-400 mb-1 mt-4">Formula 2</h4>
-  
-      <figure className="float-left mr-4 mb-4 max-w-[250px] border border-gray-700 rounded-lg bg-gray-900 p-2 shadow-lg">
-        <img
-          src="/drivers/norris/car3.jpg"
-          alt="Norris at Silverstone during the 2017 Formula 3 European Championship"
-          className="w-full h-auto rounded"
-        />
-        <figcaption className="text-sm text-gray-400 text-center">
-          Norris at {wikiLink("Silverstone", "https://en.wikipedia.org/wiki/Silverstone_Circuit")} during the {wikiLink("2017 Formula 3 European Championship", "https://en.wikipedia.org/wiki/2017_FIA_Formula_3_European_Championship")}
-        </figcaption>
-      </figure>
-  
+
+      {/* Toyota Racing Series */}
+      <section id="toyota-racing-series" className="space-y-4 scroll-mt-24"></section>
+      <h3 className="text-2xl font-bold text-red-600 mb-2">Toyota Racing Series</h3>
+
       <p>
-        Norris raced full-time in the{" "}
-        {wikiLink("2017 European Formula 3 Championship", "https://en.wikipedia.org/wiki/2017_European_Formula_3_Championship")} with Carlin, finishing ahead of{" "}
-        {wikiLink("Joel Eriksson", "https://en.wikipedia.org/wiki/Joel_Eriksson_(racing_driver)")},{" "}
-        {wikiLink("Maximilian Günther", "https://en.wikipedia.org/wiki/Maximilian_G%C3%BCnther")}, and{" "}
-        {wikiLink("Callum Ilott", "https://en.wikipedia.org/wiki/Callum_Ilott")}. He won the championship with two races to spare.
+        Before the start of his 2020 season, Tsunoda partook in the {wikiLink("2020 Toyota Racing Series", "/wiki/2020_Toyota_Racing_Series")} with {wikiLink("M2 Competition", "/wiki/M2_Competition")} alongside {wikiLink("Liam Lawson", "/wiki/Liam_Lawson")}.
+        Tsunoda scored one win throughout the campaign, during the second race at the opening round in {wikiLink("Highlands Motorsport Park", "/wiki/Highlands_Motorsport_Park")}.
+        He claimed two further podium finishes later in the season, landing him fourth place in the championship.
       </p>
-  
+
+      <div className="clear-both"></div>
+    
+      {/* FIA Formula 2 Championship (2020) */}
+      <section id="fia-formula-2" className="space-y-4 scroll-mt-24"></section>
+      <h3 className="text-2xl font-bold text-red-600 mb-2">
+        FIA Formula 2 Championship (2020)
+      </h3>
+
       <p>
-        In{" "}
-        {wikiLink("Formula 2", "https://en.wikipedia.org/wiki/FIA_Formula_2_Championship")}, Norris made his debut with{" "}
-        {wikiLink("Campos Racing", "https://en.wikipedia.org/wiki/Campos_Racing")} at the{" "}
-        {wikiLink("Yas Marina Circuit", "https://en.wikipedia.org/wiki/Yas_Marina_Circuit")} for the final round of the{" "}
-        {wikiLink("2017 Formula 2 Championship", "https://en.wikipedia.org/wiki/2017_Formula_2_Championship")}.
+        In the beginning of 2020, {wikiLink("Honda", "https://en.wikipedia.org/wiki/Honda")} announced that Tsunoda would join {wikiLink("Carlin", "https://en.wikipedia.org/wiki/Carlin_Motorsport")} to race in the {wikiLink("FIA Formula 2 Championship", "https://en.wikipedia.org/wiki/FIA_Formula_2_Championship")} alongside new {wikiLink("Red Bull junior", "https://en.wikipedia.org/wiki/Red_Bull_Junior_Team")} {wikiLink("Jehan Daruvala", "https://en.wikipedia.org/wiki/Jehan_Daruvala")}. The season was set to start in {wikiLink("Bahrain", "https://en.wikipedia.org/wiki/Bahrain_International_Circuit")}, but started in {wikiLink("Austria", "https://en.wikipedia.org/wiki/2020_Spielberg_Formula_3_round")} in July due to the {wikiLink("COVID-19 pandemic", "https://en.wikipedia.org/wiki/COVID-19_pandemic")}. He topped free practice on his debut, but only qualified 12th. His races were disappointing, colliding with Daruvala on the opening lap of the feature race saw him finish last, but recovered to 11th on Sunday. During the {wikiLink("second Austrian round", "https://en.wikipedia.org/wiki/2020_2nd_Spielberg_Formula_2_round")}, Tsunoda stormed to his first pole. He would lead the race for much of the race under wet conditions, but encountered a radio problem that delayed his pit stop. He would pit two laps later than expected and drop to fourth place, but fought past the {wikiLink("Virtuosi", "https://en.wikipedia.org/wiki/Virtuosi_Racing")} drivers for second place. More disappointment followed as a engine issue saw him drop out of the race on lap 10. Another disappointing round in {wikiLink("Hungary", "https://en.wikipedia.org/wiki/2020_Budapest_Formula_2_round")} rewarded him with zero points, with a 16th and 18th place.
       </p>
-  
+
       <p>
-        Norris competed full-time in the{" "}
-        {wikiLink("2018 FIA Formula 2 Championship", "https://en.wikipedia.org/wiki/2018_FIA_Formula_2_Championship")} with Carlin alongside{" "}
-        {wikiLink("Sérgio Sette Câmara", "https://en.wikipedia.org/wiki/S%C3%A9rgio_Sette_C%C3%A2mara")}. He won the opening race at the{" "}
-        {wikiLink("Bahrain International Circuit", "https://en.wikipedia.org/wiki/Bahrain_International_Circuit")}, finishing second in the standings behind{" "}
-        {wikiLink("George Russell", "https://en.wikipedia.org/wiki/George_Russell_(racing_driver)")}.
+        Tsunoda qualified ninth in {wikiLink("Silverstone", "https://en.wikipedia.org/wiki/2020_Silverstone_Formula_2_round")}, and made a masterclass charge, passing {wikiLink("Christian Lundgaard", "https://en.wikipedia.org/wiki/Christian_Lundgaard")} on the last lap for third place. Another sprint race disappointment followed, as he was taken out by {wikiLink("Callum Ilott", "https://en.wikipedia.org/wiki/Callum_Ilott")} on the opening lap. During the {wikiLink("second Silverstone round", "https://en.wikipedia.org/wiki/2020_2nd_Silverstone_Formula_2_round")}, Tsunoda qualified tenth and moved up to sixth for the feature race. In the sprint race, he remained in third for most of the race, until lap 19 of 21, where the two {wikiLink("Prema", "https://en.wikipedia.org/wiki/Prema_Racing")} drivers ahead collided and promoted Tsunoda for his maiden win. Post-race, Tsunoda stated that "he had the potential for P1 even without late Prema crash". Tsunoda qualified sixth in {wikiLink("Barcelona", "https://en.wikipedia.org/wiki/2020_Barcelona_Formula_2_round")}. Tsunoda would briefly lead on lap 30 after a safety car restart due to the frontrunners pitting again, but they caught up on fresher tyres, including fellow compatriot {wikiLink("Nobuharu Matsushita", "https://en.wikipedia.org/wiki/Nobuharu_Matsushita")}, and he dropped to fourth. He again finished fourth in the sprint race.
       </p>
-  
+
       <p>
-        Other key races included the{" "}
-        {wikiLink("Red Bull Ring", "https://en.wikipedia.org/wiki/Red_Bull_Ring")} and{" "}
-        {wikiLink("Sochi Autodrom", "https://en.wikipedia.org/wiki/Sochi_Autodrom")}, before closing the season at the{" "}
-        {wikiLink("Yas Marina Circuit", "https://en.wikipedia.org/wiki/Yas_Marina_Circuit")}.
+        Tsunoda took his second pole of the year in {wikiLink("Spa-Francorchamps", "https://en.wikipedia.org/wiki/2020_Spa-Francorchamps_Formula_2_round")}. After a slow pit stop during the feature race, Tsunoda would fall behind {wikiLink("Nikita Mazepin", "https://en.wikipedia.org/wiki/Nikita_Mazepin")} but fought back to him by lap 20. Mazepin would push Tsunoda wide on the penultimate lap while defending, which earned the Russian a five-second time penalty. Tsunoda would be promoted to the win having finished second on the road. In the sprint race, Tsunoda finished in ninth as a penalty for hitting {wikiLink("Ilott", "https://en.wikipedia.org/wiki/Callum_Ilott")} at the start saw him drop out of the points due to a time penalty. He secured second in qualifying for {wikiLink("Monza", "https://en.wikipedia.org/wiki/2020_Monza_Formula_2_round")}. A slow start in the feature race dropped him to fifth, Tsunoda made it up by crossing the line in fourth place. In the sprint race, mechanical woes saw him out early. In {wikiLink("Mugello", "https://en.wikipedia.org/wiki/2020_Mugello_Formula_2_round")}, he qualified 11th and finished eighth on the road in the feature race, but was penalised for colliding with {wikiLink("Dan Ticktum", "https://en.wikipedia.org/wiki/Dan_Ticktum")}, dropping to 16th. His disappointing weekend continued in the sprint race, as he damaged his front wing hitting the back of {wikiLink("Felipe Drugovich", "https://en.wikipedia.org/wiki/Felipe_Drugovich")} on the fourth last lap, and was forced to pit which dropped him to 20th.
       </p>
-    </>
-  );
-  
-  export default juniorCareer;
-  
+
+      <p>
+        In {wikiLink("Sochi", "https://en.wikipedia.org/wiki/2020_Sochi_Formula_2_round")}, Tsunoda claimed his third pole ahead of teammate Daruvala. He settled for second place after being overtaken by {wikiLink("Mick Schumacher", "https://en.wikipedia.org/wiki/Mick_Schumacher")}, although he would win a battle over {wikiLink("Ilott", "https://en.wikipedia.org/wiki/Callum_Ilott")} for runners-up position on the last lap. In the sprint race, Tsunoda finished in sixth. Tsunoda sat third in the standings heading into the two-month break before the final two rounds, 44 points behind leader Schumacher. In {wikiLink("Bahrain", "https://en.wikipedia.org/wiki/2020_Sakhir_Formula_2_round")}, Tsunoda spun out on his flying lap, which left him down in last. He made an incredible charge on the alternate strategy, charging to sixth. In the sprint race, Tsunoda suffered a puncture on lap 1 caused by contact with {wikiLink("Marcus Armstrong", "https://en.wikipedia.org/wiki/Marcus_Armstrong")} which ruined his race, ending in 15th. He took pole for the {wikiLink("second Bahrain round", "https://en.wikipedia.org/wiki/2020_2nd_Sakhir_Formula_2_round")}. Tsunoda had another feature race battle with Mazepin, but the Japanese driver would win out and take another victory. In the sprint race, a last lap charge passing {wikiLink("Ticktum", "https://en.wikipedia.org/wiki/Dan_Ticktum")} would seal second place. Overall, Tsunoda took three wins, four pole positions, seven podiums and finished third in the championship with 200 points. He was the best-placed rookie and scored more points than any other driver across the feature races.
+      </p>
+
+      <div className="clear-both"></div>
+  </>
+);
+
+export default juniorCareer;
