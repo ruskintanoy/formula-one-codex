@@ -11,153 +11,119 @@ const wikiLink = (text, url) => (
   
   const juniorCareer = (
     <>
-      {/* Karting */}
+      {/* Karting Career */}
       <section id="karting" className="space-y-4 scroll-mt-24"></section>
       <h3 className="text-2xl font-bold text-red-600 mb-2">Karting</h3>
+
+      <figure className="float-right ml-4 mb-4 max-w-[250px] border border-gray-700 rounded-lg bg-gray-900 p-2 shadow-lg">
+        <img
+          src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/Fernando_Alonso_1983_kart_front-left_2017_Museo_Fernando_Alonso.jpg/250px-Fernando_Alonso_1983_kart_front-left_2017_Museo_Fernando_Alonso.jpg"
+          alt="The first go-kart driven by Alonso"
+          className="w-full h-auto rounded"
+        />
+        <figcaption className="text-sm text-gray-400 text-center">
+          The first go-kart driven by Alonso, which his elder sister did not want to drive.
+        </figcaption>
+      </figure>
+
       <p>
-        Norris started his racing career at the age of seven when he claimed pole position at his first national event.
-        In 2013, Norris competed in KF-Junior class, winning the{" "}
-        {wikiLink("CIK-FIA European Championship", "https://en.wikipedia.org/wiki/CIK-FIA_Karting_European_Championship")} and the{" "}
-        {wikiLink("CIK-FIA International Super Cup", "https://en.wikipedia.org/wiki/Karting_World_Championship")}, as well as the{" "}
-        {wikiLink("WSK Euro Series", "https://en.wikipedia.org/wiki/WSK_Euro_Series")}. The following year he won the{" "}
-        {wikiLink("CIK-FIA World Championship", "https://en.wikipedia.org/wiki/Karting_World_Championship")} in KF class with Ricky Flynn Motorsport,
-        making him the youngest karting world champion in that category.
+        Aged seven, Alonso won his first kart race in{" "}
+        {wikiLink("Pola de Laviana", "https://en.wikipedia.org/wiki/Pola_de_Laviana")}. He won the 1988 and 1989 children's junior
+        championships of the Asturias and Galicia, and progressed to the Cadet class in 1990.
+        Go-kart importer Genís Marcó was impressed by Alonso and mentored him; kart track owner José Luis Echevarria had referred Alonso to Marcó.
+        He found sponsorship to support Alonso’s racing and allow him to compete in European series.
+        Alonso was invited for a test session by six-time{" "}
+        {wikiLink("Karting World Champion", "https://en.wikipedia.org/wiki/Karting_World_Championship")}{" "}
+        Mike Wilson at a track in{" "}
+        {wikiLink("Parma", "https://en.wikipedia.org/wiki/Parma")}.
+        Marcó taught Alonso to conserve his kart and race with strategy.
       </p>
 
-      <div className="clear-both"></div>
-  
-      {/* Ginetta Junior Championship */}
-      <section id="ginetta" className="space-y-4 scroll-mt-24"></section>
-      <h3 className="text-2xl font-bold text-red-600 mt-6 mb-2">Ginetta Junior Championship</h3>
-      <p>
-        In 2014, Norris made his car racing debut in the{" "}
-        {wikiLink("Ginetta Junior Championship", "https://en.wikipedia.org/wiki/2014_Ginetta_Junior_Championship")}, a support series to the{" "}
-        {wikiLink("British Touring Car Championship", "https://en.wikipedia.org/wiki/British_Touring_Car_Championship")}.
-        He finished third in the championship, winning four races and claiming the Rookie Cup.
-      </p>
+      <div className="clear-both" />
 
-      <div className="clear-both"></div>
-  
-      {/* Lower Formulae */}
-      <section id="lower-formulae" className="space-y-4 scroll-mt-24"></section>
-      <h3 className="text-2xl font-bold text-red-600 mt-6 mb-2">Lower Formulae</h3>
-
-      <div className="clear-both"></div>
-  
-      {/* Formula 4 */}
-      <section id="formula4" className="space-y-4 scroll-mt-24"></section>
-      <h4 className="text-lg font-semibold text-red-400 mb-1">Formula 4</h4>
-  
       <figure className="float-left mr-4 mb-4 max-w-[250px] border border-gray-700 rounded-lg bg-gray-900 p-2 shadow-lg">
         <img
-          src="/drivers/norris/car1.JPG"
-          alt="Norris racing for Mücke Motorsport in Formula 4 in 2015"
+          src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Fernando_Alonso_1996_kart_front-left_2017_Museo_Fernando_Alonso.jpg/250px-Fernando_Alonso_1996_kart_front-left_2017_Museo_Fernando_Alonso.jpg"
+          alt="The go-kart Alonso drove to win the Karting World Championship in 1996"
           className="w-full h-auto rounded"
         />
         <figcaption className="text-sm text-gray-400 text-center">
-          Norris racing for Mücke Motorsport in Formula 4 in 2015
+          The go-kart Alonso drove to win the{" "}
+          {wikiLink("Karting World Championship", "https://en.wikipedia.org/wiki/Karting_World_Championship")} in 1996.
         </figcaption>
       </figure>
-  
+
       <p>
-        For 2015, Norris signed with{" "}
-        {wikiLink("Carlin Motorsport", "https://en.wikipedia.org/wiki/Carlin_Motorsport")} to drive in the newly established{" "}
-        {wikiLink("MSA Formula Championship", "https://en.wikipedia.org/wiki/2015_MSA_Formula_Championship")} (now known as the{" "}
-        {wikiLink("F4 British Championship", "https://en.wikipedia.org/wiki/F4_British_Championship")}). Norris took eight wins, ten pole positions, and fourteen total podiums
-        to win the championship ahead of{" "}
-        {wikiLink("Ricky Collard", "https://en.wikipedia.org/wiki/Ricky_Collard")} and{" "}
-        {wikiLink("Colton Herta", "https://en.wikipedia.org/wiki/Colton_Herta")}.
-        He also made occasional appearances in the{" "}
-        {wikiLink("ADAC Formula 4", "https://en.wikipedia.org/wiki/2015_ADAC_Formula_4_Championship")} and{" "}
-        {wikiLink("Italian Formula 4", "https://en.wikipedia.org/wiki/2015_Italian_Formula_4_Championship")} championships with{" "}
-        {wikiLink("Mücke Motorsport", "https://en.wikipedia.org/wiki/M%C3%BCcke_Motorsport")}, where he claimed six podiums from eight starts in the former.
+        Alonso won the 1990 Asturias and Basque Country Cadet Championships and finished second in the 1991 Spanish Cadet National Championship.
+        Despite being underage for higher-powered karts, he was allowed by the local karting federation to race in the 100cc class.
+        At a Catalan Karting Championship meet in{" "}
+        {wikiLink("Móra d'Ebre", "https://en.wikipedia.org/wiki/M%C3%B3ra_d%27Ebre")}, Marcó invited Alonso to enter the national championship.
+        Under the mentorship of Mike Wilson, Alonso joined the{" "}
+        {wikiLink("Italian American Motor Engineering", "https://en.wikipedia.org/wiki/Italian_American_Motor_Engineering")} works team in 1993.
+        He went on to win three consecutive Spanish Junior National Championships from 1993 to 1995.
       </p>
-  
-      <div className="clear-both"></div>
-  
-      {/* Formula Three and Formula Renault */}
-      <section id="formula3-renault" className="space-y-4 scroll-mt-24"></section>
-      <h4 className="text-lg font-semibold text-red-400 mb-1 mt-4">Formula Three and Formula Renault</h4>
-  
-      <figure className="float-right mr-4 mb-4 max-w-[250px] border border-gray-700 rounded-lg bg-gray-900 p-2 shadow-lg">
+
+      <div className="clear-both" />
+
+      {/* International Karting & Junior Titles */}
+      <section id="international-karting" className="space-y-4 scroll-mt-24"></section>
+      <h3 className="text-2xl font-bold text-red-600 mb-2">
+        1995–1997: Rise through international karting
+      </h3>
+
+      <p>
+        Alonso’s strong national performances earned him a place in the world championships.
+        He finished third in the 1995{" "}
+        {wikiLink("Commission Internationale de Karting", "https://en.wikipedia.org/wiki/Commission_Internationale_de_Karting")} Cadets' Rainbow Trophy.
+        To support his career, Alonso worked as a mechanic for younger kart drivers.
+        In 1996, he claimed his fourth Spanish Junior Karting Championship, the Trofeo Estival, the Marlboro Masters, and the{" "}
+        {wikiLink("CIK-FIA 5 Continents Juniors Cup", "https://en.wikipedia.org/wiki/Karting_Genk")} at{" "}
+        {wikiLink("Karting Genk", "https://en.wikipedia.org/wiki/Karting_Genk")}.
+        The following year, he won both the Italian and Spanish International A championships and finished second in the European Championship with nine wins.
+        He also competed in the{" "}
+        {wikiLink("Masters Karting Paris Bercy", "https://en.wikipedia.org/wiki/Masters_Karting_Paris_Bercy")} and the Spanish Karting Championship.
+      </p>
+
+      <div className="clear-both" />
+
+      {/* Car Racing Debut */}
+      <section id="car-racing" className="space-y-4 scroll-mt-24"></section>
+      <h3 className="text-2xl font-bold text-red-600 mb-2">Early Car Racing (1999–2000)</h3>
+
+      <p>
+        At age 17, Alonso transitioned to single-seaters, debuting in the{" "}
+        {wikiLink("1999 Euro Open by Nissan", "https://en.wikipedia.org/wiki/1999_Euro_Open_by_Nissan")} with{" "}
+        {wikiLink("Campos Motorsport", "https://en.wikipedia.org/wiki/Campos_Racing")}.
+        He won the championship title with six wins and nine{" "}
+        {wikiLink("pole positions", "https://en.wikipedia.org/wiki/Pole_position")}, clinching the title in the final race over{" "}
+        {wikiLink("Manuel Gião", "https://en.wikipedia.org/wiki/Manuel_Gi%C3%A3o")}.
+      </p>
+
+      <figure className="float-right ml-4 mb-4 max-w-[250px] border border-gray-700 rounded-lg bg-gray-900 p-2 shadow-lg">
         <img
-          src="/drivers/norris/car2.jpg"
-          alt="Norris racing at Monza during the 2016 Eurocup Formula Renault 2.0 championship"
+          src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Lola_B99-50_front-right_2017_Museo_Fernando_Alonso.jpg/250px-Lola_B99-50_front-right_2017_Museo_Fernando_Alonso.jpg"
+          alt="The Lola B99/50 driven by Alonso in Formula 3000"
           className="w-full h-auto rounded"
         />
         <figcaption className="text-sm text-gray-400 text-center">
-          Norris racing at Monza during the {wikiLink("2016 Eurocup Formula Renault 2.0", "https://en.wikipedia.org/wiki/2016_Eurocup_Formula_Renault_2.0")} championship
+          The{" "}
+          {wikiLink("Lola B99/50", "https://en.wikipedia.org/wiki/Lola_Cars")} Alonso drove in the{" "}
+          {wikiLink("2000 International Formula 3000 Championship", "https://en.wikipedia.org/wiki/2000_International_Formula_3000_Championship")}.
         </figcaption>
       </figure>
-  
+
       <p>
-        In 2016, Norris competed in the{" "}
-        {wikiLink("Toyota Racing Series", "https://en.wikipedia.org/wiki/2016_Toyota_Racing_Series")} in New Zealand with{" "}
-        {wikiLink("M2 Competition", "https://en.wikipedia.org/wiki/M2_Competition_(team)")}. He won six races, including the{" "}
-        {wikiLink("New Zealand Grand Prix", "https://en.wikipedia.org/wiki/2016_New_Zealand_Grand_Prix")}, and the championship ahead of{" "}
-        {wikiLink("Jehan Daruvala", "https://en.wikipedia.org/wiki/Jehan_Daruvala")}.
+        For the 2000 season, Alonso graduated to the{" "}
+        {wikiLink("International Formula 3000 Championship", "https://en.wikipedia.org/wiki/International_Formula_3000")} with{" "}
+        {wikiLink("Team Astromega", "https://en.wikipedia.org/wiki/Team_Astromega")}, backed by{" "}
+        {wikiLink("Minardi", "https://en.wikipedia.org/wiki/Minardi")}.
+        He stepped in after a sponsorship deal with driver Robert Lechner fell through.
+        Alonso finished second at the{" "}
+        {wikiLink("Hungaroring", "https://en.wikipedia.org/wiki/Hungaroring")} and won the final round at{" "}
+        {wikiLink("Spa-Francorchamps", "https://en.wikipedia.org/wiki/Circuit_de_Spa-Francorchamps")}, securing fourth in the championship with 17 points.
       </p>
-  
-      <p>
-        He then competed in the{" "}
-        {wikiLink("Formula Renault 2.0", "https://en.wikipedia.org/wiki/Formula_Renault_2.0")} Eurocup and NEC series with{" "}
-        {wikiLink("Josef Kaufmann Racing", "https://en.wikipedia.org/wiki/Josef_Kaufmann_Racing")}, winning both championships.
-      </p>
-  
-      <p>
-        Additionally, Norris raced part-time in the{" "}
-        {wikiLink("BRDC British Formula 3 Championship", "https://en.wikipedia.org/wiki/2016_BRDC_British_Formula_3_Championship")}, and made a guest appearance in the final round of the{" "}
-        {wikiLink("European Formula 3 Championship", "https://en.wikipedia.org/wiki/2016_European_Formula_3_Championship")} at the Hockenheimring, before competing in the{" "}
-        {wikiLink("Macau Grand Prix", "https://en.wikipedia.org/wiki/2016_Macau_Grand_Prix")}.
-      </p>
-  
-      <div className="clear-both"></div>
-  
-      {/* Formula 2 */}
-      <section id="formula2" className="space-y-4 scroll-mt-24"></section>
-      <h4 className="text-lg font-semibold text-red-400 mb-1 mt-4">Formula 2</h4>
-  
-      <figure className="float-left mr-4 mb-4 max-w-[250px] border border-gray-700 rounded-lg bg-gray-900 p-2 shadow-lg">
-        <img
-          src="/drivers/norris/car3.jpg"
-          alt="Norris at Silverstone during the 2017 Formula 3 European Championship"
-          className="w-full h-auto rounded"
-        />
-        <figcaption className="text-sm text-gray-400 text-center">
-          Norris at {wikiLink("Silverstone", "https://en.wikipedia.org/wiki/Silverstone_Circuit")} during the {wikiLink("2017 Formula 3 European Championship", "https://en.wikipedia.org/wiki/2017_FIA_Formula_3_European_Championship")}
-        </figcaption>
-      </figure>
-  
-      <p>
-        Norris raced full-time in the{" "}
-        {wikiLink("2017 European Formula 3 Championship", "https://en.wikipedia.org/wiki/2017_European_Formula_3_Championship")} with Carlin, finishing ahead of{" "}
-        {wikiLink("Joel Eriksson", "https://en.wikipedia.org/wiki/Joel_Eriksson_(racing_driver)")},{" "}
-        {wikiLink("Maximilian Günther", "https://en.wikipedia.org/wiki/Maximilian_G%C3%BCnther")}, and{" "}
-        {wikiLink("Callum Ilott", "https://en.wikipedia.org/wiki/Callum_Ilott")}. He won the championship with two races to spare.
-      </p>
-  
-      <p>
-        In{" "}
-        {wikiLink("Formula 2", "https://en.wikipedia.org/wiki/FIA_Formula_2_Championship")}, Norris made his debut with{" "}
-        {wikiLink("Campos Racing", "https://en.wikipedia.org/wiki/Campos_Racing")} at the{" "}
-        {wikiLink("Yas Marina Circuit", "https://en.wikipedia.org/wiki/Yas_Marina_Circuit")} for the final round of the{" "}
-        {wikiLink("2017 Formula 2 Championship", "https://en.wikipedia.org/wiki/2017_Formula_2_Championship")}.
-      </p>
-  
-      <p>
-        Norris competed full-time in the{" "}
-        {wikiLink("2018 FIA Formula 2 Championship", "https://en.wikipedia.org/wiki/2018_FIA_Formula_2_Championship")} with Carlin alongside{" "}
-        {wikiLink("Sérgio Sette Câmara", "https://en.wikipedia.org/wiki/S%C3%A9rgio_Sette_C%C3%A2mara")}. He won the opening race at the{" "}
-        {wikiLink("Bahrain International Circuit", "https://en.wikipedia.org/wiki/Bahrain_International_Circuit")}, finishing second in the standings behind{" "}
-        {wikiLink("George Russell", "https://en.wikipedia.org/wiki/George_Russell_(racing_driver)")}.
-      </p>
-  
-      <p>
-        Other key races included the{" "}
-        {wikiLink("Red Bull Ring", "https://en.wikipedia.org/wiki/Red_Bull_Ring")} and{" "}
-        {wikiLink("Sochi Autodrom", "https://en.wikipedia.org/wiki/Sochi_Autodrom")}, before closing the season at the{" "}
-        {wikiLink("Yas Marina Circuit", "https://en.wikipedia.org/wiki/Yas_Marina_Circuit")}.
-      </p>
+
+      <div className="clear-both" />
     </>
   );
   
