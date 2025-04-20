@@ -5,7 +5,7 @@ export default function TeamInfoCard({ team }) {
     <aside className="bg-gradient-to-br from-black via-gray-900 to-gray-800 border border-red-800 rounded-xl p-6 w-full max-w-sm shadow-2xl text-white ring-1 ring-red-600/40">
 
       {/* === Team Name and Flag === */}
-      <div className="flex items-center gap-3 mb-6">
+      <div className="flex items-center justify-center gap-3 mb-6">
         {team.flag && (
           <img
             src={team.flag}

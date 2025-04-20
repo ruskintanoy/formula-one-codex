@@ -17,9 +17,11 @@ export default async function TeamProfilePage({ params }) {
   const assetKey = teamId.toLowerCase();
   const { logo, flag } = teamAssets[assetKey] || {};
 
+  const info = (await import(`../../../data/teams/${teamId}/info.js`)).default;
+
   // ⬇️ Merge everything into one clean team object
   const enrichedTeam = {
-    ...teamObj,
+    ...teamObj, ...info,
     logo,
     flag
   };
