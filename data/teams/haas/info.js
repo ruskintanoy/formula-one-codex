@@ -1,51 +1,47 @@
 const wikiLink = (text, url) => (
-    <a href={url} target="_blank" rel="noopener noreferrer" className="text-red-500 hover:underline">
-      {text}
-    </a>
-  );
-  
-  export default {
-    base: <>
-      {wikiLink("Enstone, United Kingdom", "https://en.wikipedia.org/wiki/Enstone")}
-    </>,
+  <a href={url} target="_blank" rel="noopener noreferrer" className="text-red-500 hover:underline">
+    {text}
+  </a>
+);
 
-    principal: <>
-      {wikiLink("Oliver Oakes", "https://en.wikipedia.org/wiki/Oliver_Oakes")}
-    </>,
+export default {
+  base: <>
+    {wikiLink("Kannapolis, North Carolina, U.S.", "https://en.wikipedia.org/wiki/Kannapolis,_North_Carolina")}
+  </>,
 
-    technicalDirector: <>
-      {wikiLink("David Sanchez", "https://en.wikipedia.org/wiki/David_Sanchez_(engineer)")}
-    </>,
+  principal: <>
+    {wikiLink("Ayao Komatsu", "https://en.wikipedia.org/wiki/Ayao_Komatsu")}
+  </>,
 
-    website: "https://www.alpinef1.com/",
+  technicalDirector: <>
+    {wikiLink("Andrea De Zordo", "https://en.wikipedia.org/wiki/Andrea_De_Zordo")}
+  </>,
 
-    raceDrivers: [
-      { id: "gasly", name: "Pierre Gasly", nationality: "France", number: 10 },
-      { id: "doohan", name: "Jack Doohan", nationality: "Australia", number: 7 }
-    ],
-    
-    testDrivers: [
-      { name: wikiLink("Franco Colapinto", "https://en.wikipedia.org/wiki/Franco_Colapinto"), nationality: "Argentina" },
-      { name: wikiLink("Paul Aron", "https://en.wikipedia.org/wiki/Paul_Aron"), nationality: "Estonia" },
-      { name: wikiLink("Kush Maini", "https://en.wikipedia.org/wiki/Kush_Maini"), nationality: "India" },
-      { name: wikiLink("Ryō Hirakawa", "https://en.wikipedia.org/wiki/Ry%C5%8D_Hirakawa"), nationality: "Japan" }
-    ],    
+  website: "https://www.haasf1team.com/",
 
-    chassis: wikiLink("A525", "https://en.wikipedia.org/wiki/Alpine_A525"),
-    engine: wikiLink("Renault", "https://en.wikipedia.org/wiki/Renault_in_Formula_One"),
-    tyres: wikiLink("Pirelli", "https://en.wikipedia.org/wiki/Pirelli"),
+  raceDrivers: [
+    { id: "ocon", name: "Esteban Ocon", nationality: "France",},
+    { id: "bearman", name: "Oliver Bearman", nationality: "Great Britain",}
+  ],
 
-    careerStats: {
-      firstRace: wikiLink("2021 Bahrain Grand Prix", "https://en.wikipedia.org/wiki/2021_Bahrain_Grand_Prix"),
-      racesEntered: 95,
-      engines: wikiLink("Renault", "https://en.wikipedia.org/wiki/Renault_in_Formula_One"),
-      constructorsChampionships: 0,
-      driversChampionships: 0,
-      raceVictories: 1,
-      podiums: 6,
-      points: 519,
-      poles: 0,
-      fastestLaps: 1
-    }
-  };
-  
+  testDrivers: [
+    { name: wikiLink("Ryō Hirakawa", "https://en.wikipedia.org/wiki/Ry%C5%8D_Hirakawa"), nationality: "Japan" }
+  ],
+
+  chassis: wikiLink("VF-25", "https://en.wikipedia.org/wiki/Haas_VF-25"),
+  engine: wikiLink("Ferrari", "https://en.wikipedia.org/wiki/Scuderia_Ferrari"),
+  tyres: wikiLink("Pirelli", "https://en.wikipedia.org/wiki/Pirelli"),
+
+  careerStats: {
+    firstRace: wikiLink("2016 Australian Grand Prix", "https://en.wikipedia.org/wiki/2016_Australian_Grand_Prix"),
+    racesEntered: 195,
+    engines: wikiLink("Ferrari", "https://en.wikipedia.org/wiki/Scuderia_Ferrari"),
+    constructorsChampionships: 0,
+    driversChampionships: 0,
+    raceVictories: 0,
+    podiums: 0,
+    points: 327,
+    poles: 1,
+    fastestLaps: 3
+  }
+};
