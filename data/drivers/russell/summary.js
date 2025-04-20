@@ -22,12 +22,8 @@ const summary = (
     {wikiLink("Karting European Championship", "https://en.wikipedia.org/wiki/Karting_European_Championship")} in 2011 and 2012 — Russell graduated to{" "}
     {wikiLink("junior formulae", "https://en.wikipedia.org/wiki/Junior_formulae")}.
 
-    <br /><br />
-
     He won his first title at the{" "}
     {wikiLink("2014 BRDC F4 Championship", "https://en.wikipedia.org/wiki/2014_BRDC_Formula_4_Championship")}.
-
-    <br /><br />
 
     Russell then won the{" "}
     {wikiLink("2017 GP3 Series", "https://en.wikipedia.org/wiki/2017_GP3_Series")} and the{" "}
@@ -45,18 +41,12 @@ const summary = (
     {wikiLink("Robert Kubica", "https://en.wikipedia.org/wiki/Robert_Kubica")}, making his Formula One debut at the{" "}
     {wikiLink("2019 Australian Grand Prix", "https://en.wikipedia.org/wiki/2019_Australian_Grand_Prix")}.
 
-    <br /><br />
-
     He substituted for{" "}
     {wikiLink("Lewis Hamilton", "https://en.wikipedia.org/wiki/Lewis_Hamilton")} at the{" "}
     {wikiLink("2020 Sakhir Grand Prix", "https://en.wikipedia.org/wiki/2020_Sakhir_Grand_Prix")} for Mercedes, but was denied victory due to a team error and a puncture after leading the majority of the race.
 
-    <br /><br />
-
     Russell scored his maiden podium at the curtailed{" "}
     {wikiLink("2021 Belgian Grand Prix", "https://en.wikipedia.org/wiki/2021_Belgian_Grand_Prix")} with Williams.
-
-    <br /><br />
 
     In{" "}
     {wikiLink("2022", "https://en.wikipedia.org/wiki/2022_Formula_One_World_Championship")}, Russell replaced{" "}
@@ -66,8 +56,6 @@ const summary = (
     {wikiLink("win", "https://en.wikipedia.org/wiki/List_of_Formula_One_Grand_Prix_winners")} in{" "}
     {wikiLink("São Paulo", "https://en.wikipedia.org/wiki/2022_S%C3%A3o_Paulo_Grand_Prix")}, finishing fourth in the{" "}
     {wikiLink("World Drivers' Championship", "https://en.wikipedia.org/wiki/World_Drivers%27_Championship")}.
-
-    <br /><br />
 
     After a winless season for Mercedes in{" "}
     {wikiLink("2023", "https://en.wikipedia.org/wiki/2023_Formula_One_World_Championship")}, Russell won the{" "}

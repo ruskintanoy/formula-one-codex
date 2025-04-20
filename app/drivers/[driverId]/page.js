@@ -1,4 +1,5 @@
 import { getData } from "../../../lib/fetchData";
+
 import DriverInfoCard from "../../../components/DriverInfoCard";
 import RacingCareerSummaryTable from "../../../components/RacingCareerSummaryTable";
 import CareerStatisticsTable from "../../../components/CareerStatisticsTable";
@@ -7,9 +8,10 @@ import TableOfContents from "../../../components/TableofContents";
 export default async function DriverProfilePage({ params }) {
   const { driverId } = await params;
 
-  const data = await getData(`/api/current/drivers/${driverId}`);
-  const { driver, team } = data;
+  // Fetch driver + team info
+  const { driver, team } = await getData(`/api/current/drivers/${driverId}`);
 
+  // Dynamically import markdown/structured content
   const [
     summary,
     tableOfContents,
@@ -28,7 +30,7 @@ export default async function DriverProfilePage({ params }) {
     import(`../../../data/drivers/${driverId}/f1-career.js`),
     import(`../../../data/drivers/${driverId}/racing-career-summary.js`),
     import(`../../../data/drivers/${driverId}/career-statistics.js`),
-  ]).then(mods => mods.map(m => m.default));
+  ]).then((modules) => modules.map((mod) => mod.default));
 
   const infoSections = [
     { id: "background", label: "Background", content: background },
@@ -38,7 +40,7 @@ export default async function DriverProfilePage({ params }) {
 
   return (
     <section className="min-h-[80vh] container mx-auto px-6 py-10 text-white">
-      {/* === Header === */}
+      {/* === Driver Header === */}
       <h1 className="text-5xl md:text-6xl font-black text-center text-red-600 uppercase tracking-widest mb-12 drop-shadow-sm">
         {driver.name} {driver.surname}
       </h1>
@@ -51,7 +53,7 @@ export default async function DriverProfilePage({ params }) {
             <p className="text-base md:text-lg text-gray-300 leading-relaxed">{summary}</p>
           </section>
 
-          {/* TOC */}
+          {/* Table of Contents */}
           <section className="bg-black/40 border border-red-800 rounded-lg shadow-md p-6">
             <h2 className="text-xl md:text-2xl font-bold text-red-500 uppercase tracking-wider border-b border-gray-700 pb-3 mb-5 text-center">
               Contents
@@ -59,7 +61,7 @@ export default async function DriverProfilePage({ params }) {
             <TableOfContents toc={tableOfContents} />
           </section>
 
-          {/* Dynamic Sections */}
+          {/* Career Sections */}
           {infoSections.map(({ id, label, content }) => (
             <section key={id} id={id} className="space-y-4 scroll-mt-24">
               <h2 className="text-2xl md:text-3xl font-bold text-center text-red-600 uppercase border-b border-gray-700 pb-2">
@@ -71,13 +73,13 @@ export default async function DriverProfilePage({ params }) {
             </section>
           ))}
 
-          {/* === Statistical Overview === */}
+          {/* === Statistics === */}
           <section id="stats-overview" className="space-y-10 scroll-mt-24">
             <h2 className="text-2xl md:text-3xl font-bold text-center text-red-600 uppercase border-b border-gray-700 pb-2">
               Formula One Statistical Overview
             </h2>
 
-            {/* Racing Summary Table */}
+            {/* Racing Summary */}
             <div id="career-summary" className="space-y-4 scroll-mt-24">
               <h3 className="text-xl font-bold text-red-500 uppercase tracking-wide border-b border-gray-700 pb-1">
                 Racing Career Summary
@@ -88,7 +90,7 @@ export default async function DriverProfilePage({ params }) {
               />
             </div>
 
-            {/* Career Stats Table */}
+            {/* Career Statistics */}
             <div id="career-statistics" className="space-y-4 scroll-mt-24">
               <h3 className="text-xl font-bold text-red-500 uppercase tracking-wide border-b border-gray-700 pb-1">
                 Career Statistics
