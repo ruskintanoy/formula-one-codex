@@ -50,7 +50,7 @@ export default function DriverCard({ driver, teamName, standing, flag }) {
         </div>
 
         {/* === Team Footer Panel === */}
-        <div className="bg-gradient-to-r from-red-800 to-red-600 text-white text-center text-[11px] font-semibold tracking-tight font-bold p-2 tracking-widest uppercase">
+        <div className="bg-gradient-to-r from-red-800 to-red-600 text-white text-center text-[11px] font-bold p-2 tracking-widest uppercase">
           {teamName || "Formula One Driver"}
         </div>
       </div>
