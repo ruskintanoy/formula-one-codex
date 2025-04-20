@@ -2,7 +2,7 @@ import { getData } from "../../../lib/fetchData";
 import DriverInfoCard from "../../../components/DriverInfoCard";
 import RacingCareerSummaryTable from "../../../components/RacingCareerSummaryTable";
 import CareerStatisticsTable from "../../../components/CareerStatisticsTable";
-import TableOfContents from "../../../components/DriverTableofContents";
+import TableOfContents from "../../../components/TableofContents";
 
 export default async function DriverProfilePage({ params }) {
   const { driverId } = await params;
