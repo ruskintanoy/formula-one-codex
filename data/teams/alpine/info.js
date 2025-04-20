@@ -27,8 +27,8 @@ const wikiLink = (text, url) => (
     website: "https://www.alpinef1.com/",
   
     raceDrivers: [
-      { id: "gasly", name: "Pierre Gasly" },
-      { id: "doohan", name: "Jack Doohan" }
+      { id: "gasly", name: "Pierre Gasly", nationality: "France" },
+      { id: "doohan", name: "Jack Doohan", nationality: "Australia" }
     ],
   
     testDrivers: [

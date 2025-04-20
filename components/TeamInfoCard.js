@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { flagsMap } from "../lib/driverAssets"; // 👈 make sure this import is added!
 
 export default function TeamInfoCard({ team }) {
   return (
@@ -59,16 +60,29 @@ export default function TeamInfoCard({ team }) {
           2025 F1 Season
         </h3>
         <div className="space-y-2 text-[13px] font-light">
-          <p>
-            <span className="text-gray-400 font-semibold">Race Drivers:</span>{" "}
-            {team.raceDrivers?.map(driver => (
-              <Link key={driver.id} href={`/drivers/${driver.id}`} className="text-red-400 hover:underline mr-2">
-                {driver.name}
-              </Link>
-            ))}
-          </p>
 
-          {/* ✅ Fixed rendering for JSX test driver entries */}
+          {/* ✅ Race Drivers: vertical w/ flag */}
+          <div>
+            <span className="text-gray-400 font-semibold">Race Drivers:</span>
+            <div className="mt-1 space-y-1">
+              {team.raceDrivers?.map(driver => (
+                <div key={driver.id} className="flex items-center gap-2">
+                  {driver.nationality && flagsMap[driver.nationality] && (
+                    <img
+                      src={flagsMap[driver.nationality]}
+                      alt={`${driver.nationality} flag`}
+                      className="w-5 h-3 rounded-sm ring-1 ring-white/20"
+                    />
+                  )}
+                  <Link href={`/drivers/${driver.id}`} className="text-red-400 hover:underline">
+                    {driver.name}
+                  </Link>
+                </div>
+              ))}
+            </div>
+          </div>
+
+          {/* ✅ Test Drivers */}
           <p>
             <span className="text-gray-400 font-semibold">Test Driver(s):</span>{" "}
             {team.testDrivers?.map((driver, index) => (
