@@ -35,9 +35,8 @@ export default function TeamInfoCard({ team }) {
         </h3>
         <div className="space-y-2 text-[13px] font-light">
           <p><span className="text-gray-400 font-semibold">Base:</span> {team.base}</p>
-          <p><span className="text-gray-400 font-semibold">Team Principal(s):</span> {team.principal}</p>
-          <p><span className="text-gray-400 font-semibold">Technical Director(s):</span> {team.technicalDirector}</p>
-          <p><span className="text-gray-400 font-semibold">Founder(s):</span> {team.founder}</p>
+          <p><span className="text-gray-400 font-semibold">Team Chief:</span> {team.principal}</p>
+          <p><span className="text-gray-400 font-semibold">Technical Chief:</span> {team.technicalDirector}</p>
           {team.website && (
             <p>
               <span className="text-gray-400 font-semibold">Website:</span>{" "}

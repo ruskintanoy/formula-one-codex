@@ -6,8 +6,7 @@ const wikiLink = (text, url) => (
   
   export default {
     base: <>
-      {wikiLink("Enstone", "https://en.wikipedia.org/wiki/Enstone")}, Oxfordshire, England (Chassis);{" "}
-      {wikiLink("Viry-Châtillon", "https://en.wikipedia.org/wiki/Viry-Ch%C3%A2tillon")}, France (Engine)
+      {wikiLink("Enstone, United Kingdom", "https://en.wikipedia.org/wiki/Enstone")}
     </>,
 
     principal: <>
@@ -15,11 +14,7 @@ const wikiLink = (text, url) => (
     </>,
 
     technicalDirector: <>
-      {wikiLink("David Sanchez", "https://en.wikipedia.org/wiki/David_Sanchez_(engineer)")} (Executive TD),{" "}
-      Joe Burnell (Engineering),{" "}
-      David Wheater (Aero),{" "}
-      {wikiLink("Ciaron Pilbeam", "https://en.wikipedia.org/wiki/Ciaron_Pilbeam")} (Performance),{" "}
-      Eric Meignan (Power Unit)
+      {wikiLink("David Sanchez", "https://en.wikipedia.org/wiki/David_Sanchez_(engineer)")}
     </>,
 
     founder: wikiLink("Renault", "https://en.wikipedia.org/wiki/Renault_in_Formula_One"),
