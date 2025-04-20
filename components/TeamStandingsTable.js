@@ -9,7 +9,7 @@ export default function TeamStandingTable({ standings }) {
     <div className="space-y-4">
       {/* === Caption === */}
       <p className="text-sm text-gray-300 italic text-center">
-        This team is currently <span className="text-red-400 font-bold">#{position}</span> in the 2025 Constructors' Championship with <span className="text-red-400 font-bold">{points} points</span>.
+        This team is currently <span className="text-red-400 font-bold">#{position}</span> in the 2025 Constructors&apos; Championship with <span className="text-red-400 font-bold">{points} points</span>.
       </p>
 
       {/* === Standings Table === */}

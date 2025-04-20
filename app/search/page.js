@@ -19,7 +19,7 @@ export default async function SearchPage({ searchParams }) {
   return (
     <section className="min-h-[80vh] container mx-auto p-4">
       <h1 className="text-3xl font-bold text-red-600 mb-4">
-        Search Results for "{query}"
+        Search Results for &quot;{query}&quot;
       </h1>
 
       {data.drivers.length > 0 ? (
