@@ -22,7 +22,6 @@ export default {
   raceDrivers: [
     { id: "verstappen", name: "Max Verstappen", nationality: "Netherlands",},
     { id: "tsunoda", name: "Yuki Tsunoda", nationality: "Japan",},
-    { id: "lawson", name: "Liam Lawson", nationality: "New Zealander",}
   ],
 
   testDrivers: [
