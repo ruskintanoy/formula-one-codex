@@ -59,14 +59,26 @@ export default function TeamInfoCard({ team }) {
           2025 F1 Season
         </h3>
         <div className="space-y-2 text-[13px] font-light">
-          <p><span className="text-gray-400 font-semibold">Race Drivers:</span>{" "}
+          <p>
+            <span className="text-gray-400 font-semibold">Race Drivers:</span>{" "}
             {team.raceDrivers?.map(driver => (
               <Link key={driver.id} href={`/drivers/${driver.id}`} className="text-red-400 hover:underline mr-2">
                 {driver.name}
               </Link>
             ))}
           </p>
-          <p><span className="text-gray-400 font-semibold">Test Driver(s):</span> {team.testDrivers?.join(", ")}</p>
+
+          {/* ✅ Fixed rendering for JSX test driver entries */}
+          <p>
+            <span className="text-gray-400 font-semibold">Test Driver(s):</span>{" "}
+            {team.testDrivers?.map((driver, index) => (
+              <span key={index} className="mr-2">
+                {driver}
+                {index < team.testDrivers.length - 1 && ","}
+              </span>
+            ))}
+          </p>
+
           <p><span className="text-gray-400 font-semibold">Chassis:</span> {team.chassis}</p>
           <p><span className="text-gray-400 font-semibold">Engine:</span> {team.engine}</p>
           <p><span className="text-gray-400 font-semibold">Tyres:</span> {team.tyres}</p>
