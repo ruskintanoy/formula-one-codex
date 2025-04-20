@@ -61,12 +61,16 @@ export default function TeamInfoCard({ team }) {
         </h3>
         <div className="space-y-2 text-[13px] font-light">
 
-          {/* ✅ Race Drivers: vertical w/ flag */}
-          <div>
-            <span className="text-gray-400 font-semibold">Race Drivers:</span>
-            <div className="mt-1 space-y-1">
+          {/* ✅ Race Drivers */}
+          <div className="flex items-start">
+            {/* Label */}
+            <span className="text-gray-400 font-semibold min-w-[90px]">Race Drivers:</span>
+
+            {/* List */}
+            <ul className="space-y-1">
               {team.raceDrivers?.map(driver => (
-                <div key={driver.id} className="flex items-center gap-2">
+                <li key={driver.id} className="flex items-center gap-2">
+                  <span className="text-white text-[13px] font-semibold">{driver.number}.</span>
                   {driver.nationality && flagsMap[driver.nationality] && (
                     <img
                       src={flagsMap[driver.nationality]}
@@ -77,11 +81,10 @@ export default function TeamInfoCard({ team }) {
                   <Link href={`/drivers/${driver.id}`} className="text-red-400 hover:underline">
                     {driver.name}
                   </Link>
-                </div>
+                </li>
               ))}
-            </div>
+            </ul>
           </div>
-
           {/* ✅ Test Drivers */}
           <p>
             <span className="text-gray-400 font-semibold">Test Driver(s):</span>{" "}
