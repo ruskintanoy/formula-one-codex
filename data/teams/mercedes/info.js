@@ -1,51 +1,48 @@
 const wikiLink = (text, url) => (
-    <a href={url} target="_blank" rel="noopener noreferrer" className="text-red-500 hover:underline">
-      {text}
-    </a>
-  );
-  
-  export default {
-    base: <>
-      {wikiLink("Enstone, United Kingdom", "https://en.wikipedia.org/wiki/Enstone")}
-    </>,
+  <a href={url} target="_blank" rel="noopener noreferrer" className="text-red-500 hover:underline">
+    {text}
+  </a>
+);
 
-    principal: <>
-      {wikiLink("Oliver Oakes", "https://en.wikipedia.org/wiki/Oliver_Oakes")}
-    </>,
+export default {
+  base: <>
+    {wikiLink("Brackley, United Kingdom", "https://en.wikipedia.org/wiki/Brackley")}
+  </>,
 
-    technicalDirector: <>
-      {wikiLink("David Sanchez", "https://en.wikipedia.org/wiki/David_Sanchez_(engineer)")}
-    </>,
+  principal: <>
+    {wikiLink("Toto Wolff", "https://en.wikipedia.org/wiki/Toto_Wolff")}
+  </>,
 
-    website: "https://www.alpinef1.com/",
+  technicalDirector: <>
+    {wikiLink("James Allison", "https://en.wikipedia.org/wiki/James_Allison_(Formula_One)")}
+  </>,
 
-    raceDrivers: [
-      { id: "gasly", name: "Pierre Gasly", nationality: "France", number: 10 },
-      { id: "doohan", name: "Jack Doohan", nationality: "Australia", number: 7 }
-    ],
-    
-    testDrivers: [
-      { name: wikiLink("Franco Colapinto", "https://en.wikipedia.org/wiki/Franco_Colapinto"), nationality: "Argentina" },
-      { name: wikiLink("Paul Aron", "https://en.wikipedia.org/wiki/Paul_Aron"), nationality: "Estonia" },
-      { name: wikiLink("Kush Maini", "https://en.wikipedia.org/wiki/Kush_Maini"), nationality: "India" },
-      { name: wikiLink("Ryō Hirakawa", "https://en.wikipedia.org/wiki/Ry%C5%8D_Hirakawa"), nationality: "Japan" }
-    ],    
+  website: "https://www.mercedesamgf1.com/",
 
-    chassis: wikiLink("A525", "https://en.wikipedia.org/wiki/Alpine_A525"),
-    engine: wikiLink("Renault", "https://en.wikipedia.org/wiki/Renault_in_Formula_One"),
-    tyres: wikiLink("Pirelli", "https://en.wikipedia.org/wiki/Pirelli"),
+  raceDrivers: [
+    { id: "antonelli", name: "Andrea Kimi Antonelli", nationality: "Italian"},
+    { id: "russell", name: "George Russell", nationality: "Great Britain"}
+  ],
 
-    careerStats: {
-      firstRace: wikiLink("2021 Bahrain Grand Prix", "https://en.wikipedia.org/wiki/2021_Bahrain_Grand_Prix"),
-      racesEntered: 95,
-      engines: wikiLink("Renault", "https://en.wikipedia.org/wiki/Renault_in_Formula_One"),
-      constructorsChampionships: 0,
-      driversChampionships: 0,
-      raceVictories: 1,
-      podiums: 6,
-      points: 519,
-      poles: 0,
-      fastestLaps: 1
-    }
-  };
-  
+  testDrivers: [
+    { name: wikiLink("Valtteri Bottas", "https://en.wikipedia.org/wiki/Valtteri_Bottas"), nationality: "Finland" },
+    { name: wikiLink("Frederik Vesti", "https://en.wikipedia.org/wiki/Frederik_Vesti"), nationality: "Denmark" }
+  ],
+
+  chassis: wikiLink("F1 W16", "https://en.wikipedia.org/wiki/Mercedes_W16"),
+  engine: wikiLink("Mercedes", "https://en.wikipedia.org/wiki/Mercedes_AMG_High_Performance_Powertrains"),
+  tyres: wikiLink("Pirelli", "https://en.wikipedia.org/wiki/Pirelli"),
+
+  careerStats: {
+    firstRace: wikiLink("1954 French Grand Prix", "https://en.wikipedia.org/wiki/1954_French_Grand_Prix"),
+    racesEntered: 322,
+    engines: wikiLink("Mercedes", "https://en.wikipedia.org/wiki/Mercedes_AMG_High_Performance_Powertrains"),
+    constructorsChampionships: 8,
+    driversChampionships: 9,
+    raceVictories: 129,
+    podiums: 301,
+    points: "7783.5",
+    poles: 141,
+    fastestLaps: 110
+  }
+};
