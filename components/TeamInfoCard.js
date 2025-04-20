@@ -44,7 +44,7 @@ export default function TeamInfoCard({ team }) {
                 href={team.website}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-red-400 hover:underline"
+                className="text-red-500 hover:underline"
               >
                 {new URL(team.website).hostname.replace("www.", "")}
               </a>
@@ -61,15 +61,11 @@ export default function TeamInfoCard({ team }) {
         <div className="space-y-2 text-[13px] font-light">
 
           {/* ✅ Race Drivers */}
-          <div className="flex items-start">
-            {/* Label */}
-            <span className="text-gray-400 font-semibold min-w-[90px]">Race Drivers:</span>
-
-            {/* List */}
+            <div className="flex items-start">
+            <span className="text-gray-400 font-semibold min-w-[100px]">Race Drivers:</span>
             <ul className="space-y-1">
               {team.raceDrivers?.map(driver => (
                 <li key={driver.id} className="flex items-center gap-2">
-                  <span className="text-white text-[13px] font-semibold">{driver.number}.</span>
                   {driver.nationality && flagsMap[driver.nationality] && (
                     <img
                       src={flagsMap[driver.nationality]}
@@ -77,7 +73,7 @@ export default function TeamInfoCard({ team }) {
                       className="w-5 h-3 rounded-sm ring-1 ring-white/20"
                     />
                   )}
-                  <Link href={`/drivers/${driver.id}`} className="text-red-400 hover:underline">
+                  <Link href={`/drivers/${driver.id}`} className="text-red-500 hover:underline">
                     {driver.name}
                   </Link>
                 </li>
@@ -85,15 +81,24 @@ export default function TeamInfoCard({ team }) {
             </ul>
           </div>
           {/* ✅ Test Drivers */}
-          <p>
-            <span className="text-gray-400 font-semibold">Test Driver(s):</span>{" "}
-            {team.testDrivers?.map((driver, index) => (
-              <span key={index} className="mr-2">
-                {driver}
-                {index < team.testDrivers.length - 1 && ","}
-              </span>
-            ))}
-          </p>
+            <div className="flex items-start">
+            <span className="text-gray-400 font-semibold min-w-[100px]">Test Driver(s):</span>
+            <ul className="space-y-1">
+              {team.testDrivers?.map((driver, index) => (
+                <li key={index} className="flex items-center gap-2">
+                  {driver.nationality && flagsMap[driver.nationality] && (
+                    <img
+                      src={flagsMap[driver.nationality]}
+                      alt={`${driver.nationality} flag`}
+                      className="w-5 h-3 rounded-sm ring-1 ring-white/20"
+                    />
+                  )}
+                  <span className="text-red-400">{driver.name}</span>
+                </li>
+              ))}
+            </ul>
+          </div>
+
 
           <p><span className="text-gray-400 font-semibold">Chassis:</span> {team.chassis}</p>
           <p><span className="text-gray-400 font-semibold">Engine:</span> {team.engine}</p>

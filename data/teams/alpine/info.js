@@ -17,8 +17,6 @@ const wikiLink = (text, url) => (
       {wikiLink("David Sanchez", "https://en.wikipedia.org/wiki/David_Sanchez_(engineer)")}
     </>,
 
-    founder: wikiLink("Renault", "https://en.wikipedia.org/wiki/Renault_in_Formula_One"),
-
     website: "https://www.alpinef1.com/",
 
     raceDrivers: [
@@ -27,11 +25,11 @@ const wikiLink = (text, url) => (
     ],
     
     testDrivers: [
-      wikiLink("Franco Colapinto", "https://en.wikipedia.org/wiki/Franco_Colapinto"),
-      wikiLink("Paul Aron", "https://en.wikipedia.org/wiki/Paul_Aron"),
-      wikiLink("Kush Maini", "https://en.wikipedia.org/wiki/Kush_Maini"),
-      wikiLink("Ryō Hirakawa", "https://en.wikipedia.org/wiki/Ry%C5%8D_Hirakawa")
-    ],
+      { name: wikiLink("Franco Colapinto", "https://en.wikipedia.org/wiki/Franco_Colapinto"), nationality: "Argentina" },
+      { name: wikiLink("Paul Aron", "https://en.wikipedia.org/wiki/Paul_Aron"), nationality: "Estonia" },
+      { name: wikiLink("Kush Maini", "https://en.wikipedia.org/wiki/Kush_Maini"), nationality: "India" },
+      { name: wikiLink("Ryō Hirakawa", "https://en.wikipedia.org/wiki/Ry%C5%8D_Hirakawa"), nationality: "Japan" }
+    ],    
 
     chassis: wikiLink("A525", "https://en.wikipedia.org/wiki/Alpine_A525"),
     engine: wikiLink("Renault", "https://en.wikipedia.org/wiki/Renault_in_Formula_One"),
