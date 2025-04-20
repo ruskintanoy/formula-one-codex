@@ -1,8 +1,11 @@
 export default {
-  currentStanding: 4,
-  results: [
-    { grandPrix: "Bahrain GP", date: "2025-03-02", points: 10 },
-    { grandPrix: "Saudi Arabian GP", date: "2025-03-09", points: 8 },
-    { grandPrix: "Australian GP", date: "2025-03-23", points: null }, // race not held yet
-  ],
+  currentStanding: {
+    position: 5,
+    points: 27
+  },
+  races: [
+    { grandPrix: "Bahrain", date: "2025-03-02", points: 10 },
+    { grandPrix: "Saudi Arabia", date: "2025-03-09", points: 8 },
+    { grandPrix: "Australia", date: "2025-03-23", points: "TND" }
+  ]
 };
