@@ -6,11 +6,11 @@ export default function StandingsTable({ data }) {
       <table className="min-w-full text-sm text-left text-gray-300">
         <thead className="bg-gray-900 text-xs uppercase tracking-wider text-red-500 sticky top-0 z-10 shadow-md">
           <tr>
-            <th className="px-4 py-3">Pos</th>
-            <th className="px-4 py-3">Driver</th>
-            <th className="px-4 py-3">Team</th>
-            <th className="px-4 py-3 text-right">Points</th>
-            <th className="px-4 py-3 text-right">Wins</th>
+            <th className="px-4 py-3 text-center">Position</th>
+            <th className="px-4 py-3 text-center">Driver</th>
+            <th className="px-4 py-3 text-center">Team</th>
+            <th className="px-4 py-3 text-center">Points</th>
+            <th className="px-4 py-3 text-center">Wins</th>
           </tr>
         </thead>
         <tbody>
@@ -39,7 +39,7 @@ export default function StandingsTable({ data }) {
                 {/* Position */}
                 <td className="px-4 py-3 text-center font-black">
                   <span
-                    className={`inline-block px-2 py-1 text-xs border-2 rounded-md font-extrabold ${
+                    className={`inline-block px-2 py-1 text-sm border-2 rounded-md font-extrabold ${
                       isPodium ? positionColor[index] : "text-gray-200 border-gray-600"
                     }`}
                   >
@@ -48,14 +48,16 @@ export default function StandingsTable({ data }) {
                 </td>
 
                 {/* Driver Info */}
-                <td className="px-4 py-3 flex items-center gap-3 whitespace-nowrap">
+                <td className="px-4 py-3 text-center">
+                  <div className="flex justify-center items-center gap-3 whitespace-nowrap">
                   <img
                     src={`/drivers/${entry.driverId}/${entry.driverId}.jpg`}
                     alt={entry.driver.shortName}
-                    className={`w-9 h-9 rounded-full object-cover border ${
+                    className={`w-12 h-12 rounded-full object-cover border mb-2 ${
                       isPodium ? "border-white ring-2 " + ringColors[index] : "border-gray-600"
                     }`}
                   />
+                  </div>
                   <div>
                     <Link
                       href={`/drivers/${entry.driverId}`}
@@ -65,24 +67,28 @@ export default function StandingsTable({ data }) {
                     >
                       {entry.driver.name} {entry.driver.surname}
                     </Link>
-                    <div className="text-xs text-gray-400">{entry.driver.shortName}</div>
+                    <div className="text-sm text-gray-400">{entry.driver.shortName}</div>
                   </div>
                 </td>
 
                 {/* Team Badge */}
-                <td className="px-4 py-3">
-                  <span className="inline-block bg-black/60 backdrop-blur-sm border border-red-700 text-red-400 text-xs font-bold px-3 py-1 rounded-md uppercase tracking-wide shadow-inner">
+                <td className="px-4 py-3 text-center">
+                  <Link
+                    href={`/teams/${entry.team.teamId}`}
+                    className="inline-block bg-black/60 backdrop-blur-sm border border-red-700 text-red-400 text-sm font-bold px-3 py-1 rounded-md uppercase tracking-wide shadow-inner hover:underline hover:text-white transition"
+                  >
                     {entry.team.teamName}
-                  </span>
+                  </Link>
                 </td>
 
+
                 {/* Points */}
-                <td className="px-4 py-3 text-right font-extrabold text-white">
+                <td className="px-4 py-3 text-center font-extrabold text-white">
                   {entry.points}
                 </td>
 
                 {/* Wins */}
-                <td className="px-4 py-3 text-right font-bold text-gray-300">
+                <td className="px-4 py-3 text-center font-bold text-gray-300">
                   {entry.wins ?? 0}
                 </td>
               </tr>
