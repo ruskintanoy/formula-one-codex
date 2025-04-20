@@ -1,4 +1,3 @@
-import Image from "next/image";
 import Link from "next/link";
 
 export default function TeamInfoCard({ team }) {
@@ -6,10 +5,7 @@ export default function TeamInfoCard({ team }) {
     <aside className="bg-gradient-to-br from-black via-gray-900 to-gray-800 border border-red-800 rounded-xl p-6 w-full max-w-sm shadow-2xl text-white ring-1 ring-red-600/40">
 
       {/* === Team Name and Flag === */}
-      <div className="flex items-center justify-between mb-6">
-        <h2 className="text-xl font-black uppercase tracking-widest text-red-500">
-          {team.teamName}
-        </h2>
+      <div className="flex items-center gap-3 mb-6">
         {team.flag && (
           <img
             src={team.flag}
@@ -17,11 +13,14 @@ export default function TeamInfoCard({ team }) {
             className="w-6 h-4 rounded-sm border border-white/20"
           />
         )}
+        <span className="text-xl font-black uppercase tracking-widest text-red-500">
+          {team.teamName || "Unknown Team"}
+        </span>
       </div>
 
       {/* === Logo === */}
       <div className="flex justify-center items-center mb-6 bg-white p-4 rounded-md border border-gray-300">
-      <img
+        <img
           src={team.logo}
           alt={`${team.teamName} logo`}
           className="h-20 object-contain max-w-full"
@@ -60,11 +59,13 @@ export default function TeamInfoCard({ team }) {
           2025 F1 Season
         </h3>
         <div className="space-y-2 text-[13px] font-light">
-          <p><span className="text-gray-400 font-semibold">Race Drivers:</span> {team.raceDrivers?.map(driver => (
-            <Link key={driver.id} href={`/drivers/${driver.id}`} className="text-red-400 hover:underline mr-2">
-              {driver.name}
-            </Link>
-          ))}</p>
+          <p><span className="text-gray-400 font-semibold">Race Drivers:</span>{" "}
+            {team.raceDrivers?.map(driver => (
+              <Link key={driver.id} href={`/drivers/${driver.id}`} className="text-red-400 hover:underline mr-2">
+                {driver.name}
+              </Link>
+            ))}
+          </p>
           <p><span className="text-gray-400 font-semibold">Test Driver(s):</span> {team.testDrivers?.join(", ")}</p>
           <p><span className="text-gray-400 font-semibold">Chassis:</span> {team.chassis}</p>
           <p><span className="text-gray-400 font-semibold">Engine:</span> {team.engine}</p>

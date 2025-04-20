@@ -2,20 +2,27 @@ import { getData } from "../../../lib/fetchData";
 import TeamInfoCard from "../../../components/TeamInfoCard";
 import TableOfContents from "../../../components/TableofContents";
 import TeamStandingTable from "../../../components/TeamStandingsTable";
-import { teamAssets } from "../../../lib/teamAssets"; // ⬅️ import team assets
+import { teamAssets } from "../../../lib/teamAssets";
 
 export default async function TeamProfilePage({ params }) {
-  const { teamId } = params;
+  const { teamId } = await params;
 
   // Fetch team info from API
   const { team } = await getData(`/api/current/teams/${teamId}`);
+
+  // ⬇️ Unwrap array if needed
+  const teamObj = Array.isArray(team) ? team[0] : team;
 
   // ⬇️ Get logo and flag from teamAssets
   const assetKey = teamId.toLowerCase();
   const { logo, flag } = teamAssets[assetKey] || {};
 
-  // ⬇️ Merge assets into team object
-  const enrichedTeam = { ...team, logo, flag };
+  // ⬇️ Merge everything into one clean team object
+  const enrichedTeam = {
+    ...teamObj,
+    logo,
+    flag
+  };
 
   // Load content files from /data/teams/[teamId]/
   const [
@@ -34,7 +41,7 @@ export default async function TeamProfilePage({ params }) {
     <section className="min-h-[80vh] container mx-auto px-6 py-10 text-white">
       {/* === Team Header === */}
       <h1 className="text-5xl md:text-6xl font-black text-center text-red-600 uppercase tracking-widest mb-12 drop-shadow-sm">
-        {team.teamName}
+        {enrichedTeam.teamName}
       </h1>
 
       <div className="flex flex-col lg:flex-row gap-10">
@@ -74,7 +81,7 @@ export default async function TeamProfilePage({ params }) {
 
         {/* === Sidebar === */}
         <aside className="lg:w-1/3 w-full">
-          <TeamInfoCard team={enrichedTeam} /> {/* ⬅️ Use the merged team object */}
+          <TeamInfoCard team={enrichedTeam} />
         </aside>
       </div>
     </section>
