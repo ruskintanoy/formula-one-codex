@@ -3,7 +3,26 @@ import TeamCard from "../../components/TeamCard";
 import { teamAssets } from "../../lib/teamAssets";
 
 export default async function TeamsPage() {
-  const { teams } = await getData("/api/current/teams");
+  const teamRes = await getData("/api/current/teams");
+
+  if (!teamRes) {
+    return (
+      <section className="min-h-[80vh] flex flex-col items-center justify-center text-center px-4">
+        <h1 className="text-3xl font-extrabold text-red-600 mb-2">
+          Unable to Load Teams
+        </h1>
+        <p className="text-gray-300 text-lg max-w-md">
+          We’re having trouble fetching the latest team data from the F1 API.
+          This issue is on their end, not yours — feel free to check back later.
+        </p>
+        <div className="inline-flex items-center px-3 py-1 text-sm bg-yellow-800 text-yellow-300 rounded-full mt-4">
+          API Status: <span className="ml-2 font-semibold">Unavailable</span>
+        </div>
+      </section>
+    );
+  }
+
+  const { teams } = teamRes;
   const currentYear = new Intl.DateTimeFormat("en", { year: "numeric" }).format(new Date());
 
   return (
