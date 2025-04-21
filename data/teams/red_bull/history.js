@@ -915,24 +915,6 @@ const wikiLink = (text, url) => (
         </p>
 
         <div className="clear-both"></div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
   </>
   );
   
