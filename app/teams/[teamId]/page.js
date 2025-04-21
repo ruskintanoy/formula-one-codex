@@ -51,7 +51,7 @@ export default async function TeamProfilePage({ params }) {
         <main className="lg:w-2/3 space-y-14">
           {/* Summary */}
           <section>
-            <p className="text-base md:text-lg text-gray-300 leading-relaxed">{summary}</p>
+            <div className="text-base md:text-lg text-gray-300 leading-relaxed">{summary}</div>
           </section>
 
           {/* Table of Contents */}
