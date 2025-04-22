@@ -675,56 +675,510 @@ const wikiLink = (text, url) => (
         <div className="clear-both"></div>
 
         {/* 2004 season */}
-<section id="williams-2004" className="space-y-4 scroll-mt-24"></section>
+        <section id="williams-2004" className="space-y-4 scroll-mt-24"></section>
 
-<h4 className="text-lg font-semibold text-red-400 mb-1">2004 season</h4>
+        <h4 className="text-lg font-semibold text-red-400 mb-1">2004 season</h4>
 
-<div className="clear-both"></div>
+        <div className="clear-both"></div>
 
-<figure className="float-left mr-4 mb-4 max-w-[250px] border border-gray-700 rounded-lg bg-gray-900 p-2 shadow-lg">
-  <img
-    src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/J_p_montoya_usgp_2004.jpg/250px-J_p_montoya_usgp_2004.jpg"
-    alt="Juan Pablo Montoya in the 'Walrus-Nose' designed Williams FW26 during the 2004 United States Grand Prix when he qualified fifth for the race but was disqualified for illegally using the spare car"
-    className="w-full h-auto rounded"
-  />
-  <figcaption className="text-sm text-gray-400 text-center">
-    {wikiLink("Juan Pablo Montoya", "https://en.wikipedia.org/wiki/Juan_Pablo_Montoya")} in the "Walrus-Nose" designed {wikiLink("Williams FW26", "https://en.wikipedia.org/wiki/Williams_FW26")} during the {wikiLink("2004 United States Grand Prix", "https://en.wikipedia.org/wiki/2004_United_States_Grand_Prix")} when he qualified fifth for the race but was disqualified for illegally using the spare car
-  </figcaption>
-</figure>
+        <figure className="float-left mr-4 mb-4 max-w-[250px] border border-gray-700 rounded-lg bg-gray-900 p-2 shadow-lg">
+        <img
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/J_p_montoya_usgp_2004.jpg/250px-J_p_montoya_usgp_2004.jpg"
+            alt="Juan Pablo Montoya in the 'Walrus-Nose' designed Williams FW26 during the 2004 United States Grand Prix when he qualified fifth for the race but was disqualified for illegally using the spare car"
+            className="w-full h-auto rounded"
+        />
+        <figcaption className="text-sm text-gray-400 text-center">
+            {wikiLink("Juan Pablo Montoya", "https://en.wikipedia.org/wiki/Juan_Pablo_Montoya")} in the "Walrus-Nose" designed {wikiLink("Williams FW26", "https://en.wikipedia.org/wiki/Williams_FW26")} during the {wikiLink("2004 United States Grand Prix", "https://en.wikipedia.org/wiki/2004_United_States_Grand_Prix")} when he qualified fifth for the race but was disqualified for illegally using the spare car
+        </figcaption>
+        </figure>
 
-<p>
-  At the start of the {wikiLink("2004 Formula One World Championship", "https://en.wikipedia.org/wiki/2004_Formula_One_World_Championship")} season, it was announced that Montoya would be moving to McLaren in 2005. The team began the season with a radical nose-cone design, known as the "{wikiLink("Walrus", "https://en.wikipedia.org/wiki/Walrus")}-Nose", that proved uncompetitive and was replaced by a more conventional assembly in {wikiLink("Hungary", "https://en.wikipedia.org/wiki/2004_Hungarian_Grand_Prix")}. {wikiLink("Ferrari", "https://en.wikipedia.org/wiki/Scuderia_Ferrari")} dominated for a third consecutive season, winning 15 of the 18 races. Williams picked up a win at the final race in {wikiLink("Brazil", "https://en.wikipedia.org/wiki/2004_Brazilian_Grand_Prix")}, with {wikiLink("Juan Pablo Montoya", "https://en.wikipedia.org/wiki/Juan_Pablo_Montoya")} finishing one second ahead of {wikiLink("Kimi Räikkönen", "https://en.wikipedia.org/wiki/Kimi_R%C3%A4ikk%C3%B6nen")}'s McLaren; this remained Williams's last F1 win until the {wikiLink("2012 Spanish Grand Prix", "https://en.wikipedia.org/wiki/2012_Spanish_Grand_Prix")}. Another low part of the season was when both Williams and {wikiLink("Toyota", "https://en.wikipedia.org/wiki/Toyota_Racing_(Formula_One_team)")} were disqualified from the {wikiLink("Canadian Grand Prix", "https://en.wikipedia.org/wiki/2004_Canadian_Grand_Prix")} after it was discovered that both cars had brake irregularities, the brake ducts seemingly not conforming to regulations. Williams finished the season in fourth, scoring 88 points and finishing on the podium six times, while Montoya was the highest-placed Williams driver that year, scoring 58 points to finish in fifth position.
-</p>
+        <p>
+        At the start of the {wikiLink("2004 Formula One World Championship", "https://en.wikipedia.org/wiki/2004_Formula_One_World_Championship")} season, it was announced that Montoya would be moving to McLaren in 2005. The team began the season with a radical nose-cone design, known as the "{wikiLink("Walrus", "https://en.wikipedia.org/wiki/Walrus")}-Nose", that proved uncompetitive and was replaced by a more conventional assembly in {wikiLink("Hungary", "https://en.wikipedia.org/wiki/2004_Hungarian_Grand_Prix")}. {wikiLink("Ferrari", "https://en.wikipedia.org/wiki/Scuderia_Ferrari")} dominated for a third consecutive season, winning 15 of the 18 races. Williams picked up a win at the final race in {wikiLink("Brazil", "https://en.wikipedia.org/wiki/2004_Brazilian_Grand_Prix")}, with {wikiLink("Juan Pablo Montoya", "https://en.wikipedia.org/wiki/Juan_Pablo_Montoya")} finishing one second ahead of {wikiLink("Kimi Räikkönen", "https://en.wikipedia.org/wiki/Kimi_R%C3%A4ikk%C3%B6nen")}'s McLaren; this remained Williams's last F1 win until the {wikiLink("2012 Spanish Grand Prix", "https://en.wikipedia.org/wiki/2012_Spanish_Grand_Prix")}. Another low part of the season was when both Williams and {wikiLink("Toyota", "https://en.wikipedia.org/wiki/Toyota_Racing_(Formula_One_team)")} were disqualified from the {wikiLink("Canadian Grand Prix", "https://en.wikipedia.org/wiki/2004_Canadian_Grand_Prix")} after it was discovered that both cars had brake irregularities, the brake ducts seemingly not conforming to regulations. Williams finished the season in fourth, scoring 88 points and finishing on the podium six times, while Montoya was the highest-placed Williams driver that year, scoring 58 points to finish in fifth position.
+        </p>
 
-<div className="clear-both"></div>
+        <div className="clear-both"></div>
 
-{/* 2005 season */}
-<section id="williams-2005" className="space-y-4 scroll-mt-24"></section>
+        {/* 2005 season */}
+        <section id="williams-2005" className="space-y-4 scroll-mt-24"></section>
 
-<h4 className="text-lg font-semibold text-red-400 mb-1">2005 season</h4>
+        <h4 className="text-lg font-semibold text-red-400 mb-1">2005 season</h4>
 
-<div className="clear-both"></div>
+        <div className="clear-both"></div>
 
-<figure className="float-left mr-4 mb-4 max-w-[250px] border border-gray-700 rounded-lg bg-gray-900 p-2 shadow-lg">
-  <img
-    src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Heidfeld_%28Williams%29_in_practice_at_USGP_2005.jpg/250px-Heidfeld_%28Williams%29_in_practice_at_USGP_2005.jpg"
-    alt="Nick Heidfeld in the FW27 during practice for the 2005 United States GP"
-    className="w-full h-auto rounded"
-  />
-  <figcaption className="text-sm text-gray-400 text-center">
-    {wikiLink("Nick Heidfeld", "https://en.wikipedia.org/wiki/Nick_Heidfeld")} in the {wikiLink("Williams FW27", "https://en.wikipedia.org/wiki/Williams_FW27")} during practice for the {wikiLink("2005 United States GP", "https://en.wikipedia.org/wiki/2005_United_States_Grand_Prix")}
-  </figcaption>
-</figure>
+        <figure className="float-left mr-4 mb-4 max-w-[250px] border border-gray-700 rounded-lg bg-gray-900 p-2 shadow-lg">
+        <img
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Heidfeld_%28Williams%29_in_practice_at_USGP_2005.jpg/250px-Heidfeld_%28Williams%29_in_practice_at_USGP_2005.jpg"
+            alt="Nick Heidfeld in the FW27 during practice for the 2005 United States GP"
+            className="w-full h-auto rounded"
+        />
+        <figcaption className="text-sm text-gray-400 text-center">
+            {wikiLink("Nick Heidfeld", "https://en.wikipedia.org/wiki/Nick_Heidfeld")} in the {wikiLink("Williams FW27", "https://en.wikipedia.org/wiki/Williams_FW27")} during practice for the {wikiLink("2005 United States GP", "https://en.wikipedia.org/wiki/2005_United_States_Grand_Prix")}
+        </figcaption>
+        </figure>
 
-<p>
-  For the {wikiLink("2005 Formula One World Championship", "https://en.wikipedia.org/wiki/2005_Formula_One_World_Championship")} season, {wikiLink("Ralf Schumacher", "https://en.wikipedia.org/wiki/Ralf_Schumacher")} moved to {wikiLink("Toyota Racing (Formula One team)", "https://en.wikipedia.org/wiki/Toyota_Racing_(Formula_One_team)")} while {wikiLink("Juan Pablo Montoya", "https://en.wikipedia.org/wiki/Juan_Pablo_Montoya")} moved to McLaren. Taking their places were Australian {wikiLink("Mark Webber", "https://en.wikipedia.org/wiki/Mark_Webber_(racing_driver)")} and German {wikiLink("Nick Heidfeld", "https://en.wikipedia.org/wiki/Nick_Heidfeld")}. {wikiLink("Jenson Button", "https://en.wikipedia.org/wiki/Jenson_Button")} was to have driven for Williams in 2005, but an {wikiLink("FIA", "https://en.wikipedia.org/wiki/F%C3%A9d%C3%A9ration_Internationale_de_l%27Automobile")} ruling forced Button to remain with his current team, {wikiLink("British American Racing", "https://en.wikipedia.org/wiki/British_American_Racing")}. {wikiLink("Antônio Pizzonia", "https://en.wikipedia.org/wiki/Ant%C3%B4nio_Pizzonia")} served as the test driver for the team during the 2005 season. Meanwhile, Button signed a contract to drive for Williams in 2006.
-</p>
+        <p>
+        For the {wikiLink("2005 Formula One World Championship", "https://en.wikipedia.org/wiki/2005_Formula_One_World_Championship")} season, {wikiLink("Ralf Schumacher", "https://en.wikipedia.org/wiki/Ralf_Schumacher")} moved to {wikiLink("Toyota Racing (Formula One team)", "https://en.wikipedia.org/wiki/Toyota_Racing_(Formula_One_team)")} while {wikiLink("Juan Pablo Montoya", "https://en.wikipedia.org/wiki/Juan_Pablo_Montoya")} moved to McLaren. Taking their places were Australian {wikiLink("Mark Webber", "https://en.wikipedia.org/wiki/Mark_Webber_(racing_driver)")} and German {wikiLink("Nick Heidfeld", "https://en.wikipedia.org/wiki/Nick_Heidfeld")}. {wikiLink("Jenson Button", "https://en.wikipedia.org/wiki/Jenson_Button")} was to have driven for Williams in 2005, but an {wikiLink("FIA", "https://en.wikipedia.org/wiki/F%C3%A9d%C3%A9ration_Internationale_de_l%27Automobile")} ruling forced Button to remain with his current team, {wikiLink("British American Racing", "https://en.wikipedia.org/wiki/British_American_Racing")}. {wikiLink("Antônio Pizzonia", "https://en.wikipedia.org/wiki/Ant%C3%B4nio_Pizzonia")} served as the test driver for the team during the 2005 season. Meanwhile, Button signed a contract to drive for Williams in 2006.
+        </p>
 
-<div className="clear-both"></div>
+        <p>
+        Although there were some positive moments, such as a double podium finish in Monaco and Heidfeld qualifying on pole position at the Nürburgring, Williams slipped further back down the field in 2005, due in part to the return to form of rivals McLaren and the emergence of Toyota as a front-running team. Williams failed to win a race for the first time since 2000, and only registered four podium finishes over the course of the season, finishing fifth in the constructors' championship with 66 points. Heidfeld was replaced by Pizzonia for the last five races of the season after the former suffered firstly a testing accident, and then was hit by a motorbike when out cycling prior to the race in Brazil. Pizzonia could only contribute two points towards the team's tally.
+        </p>
+
+        <p>
+        During the course of the 2004 and 2005 F1 seasons, {wikiLink("BMW Motorsport", "https://en.wikipedia.org/wiki/BMW_Motorsport")} and director {wikiLink("Mario Theissen", "https://en.wikipedia.org/wiki/Mario_Theissen")} increasingly became publicly critical of the Williams F1 team's inability to create a package capable of winning the Constructors' Championship, or even multiple victories within a single season. Williams, on the other hand, blamed BMW for not producing a good enough engine. Williams's failed attempt to prise {wikiLink("Jenson Button", "https://en.wikipedia.org/wiki/Jenson_Button")} out of his BAR contract may also have been an issue with Theissen. Despite {wikiLink("Frank Williams", "https://en.wikipedia.org/wiki/Frank_Williams_(Formula_One)")} rare decision to capitulate to commercial demands by employing German driver {wikiLink("Nick Heidfeld", "https://en.wikipedia.org/wiki/Nick_Heidfeld")} when he allegedly preferred {wikiLink("Antônio Pizzonia", "https://en.wikipedia.org/wiki/Ant%C3%B4nio_Pizzonia")}, the fallout between Williams and BMW continued through the 2005 Formula One season. Despite BMW's contract with Williams to supply engines until 2009, this public deterioration of the relationship between Williams and BMW was a factor in the decision by BMW Motorsport to buy {wikiLink("Sauber", "https://en.wikipedia.org/wiki/Sauber")} and rebrand that team to feature the BMW name.
+        </p>
+
+        <div className="clear-both"></div>
+
+        {/* Cosworth engines (2006) */}
+        <section id="williams-2006" className="space-y-4 scroll-mt-24"></section>
+        <h3 className="text-2xl font-bold text-red-600 mb-2">Cosworth engines (2006)</h3>
+
+        {/* 2006 season */}
+        <h4 className="text-lg font-semibold text-red-400 mb-1">2006 season</h4>
+
+        <div className="clear-both"></div>
+
+        <figure className="float-right ml-4 mb-4 max-w-[250px] border border-gray-700 rounded-lg bg-gray-900 p-2 shadow-lg">
+        <img
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/Nico_Rosberg_Canada_2006.jpg/250px-Nico_Rosberg_Canada_2006.jpg"
+            alt="Nico Rosberg in the FW28-Cosworth at the 2006 Canadian Grand Prix"
+            className="w-full h-auto rounded"
+        />
+        <figcaption className="text-sm text-gray-400 text-center">
+            {wikiLink("Nico Rosberg", "https://en.wikipedia.org/wiki/Nico_Rosberg")} in the {wikiLink("FW28", "https://en.wikipedia.org/wiki/Williams_FW28")}-Cosworth at the {wikiLink("2006 Canadian Grand Prix", "https://en.wikipedia.org/wiki/2006_Canadian_Grand_Prix")}.
+        </figcaption>
+        </figure>
+
+        <p>
+        Williams opted for {wikiLink("Cosworth", "https://en.wikipedia.org/wiki/Cosworth")} V8 engines for the {wikiLink("2006", "https://en.wikipedia.org/wiki/2006_Formula_One_World_Championship")} season which saw {wikiLink("Nico Rosberg", "https://en.wikipedia.org/wiki/Nico_Rosberg")} replace German {wikiLink("Nick Heidfeld", "https://en.wikipedia.org/wiki/Nick_Heidfeld")}, who departed for {wikiLink("BMW Sauber", "https://en.wikipedia.org/wiki/BMW_Sauber")}, while {wikiLink("Mark Webber", "https://en.wikipedia.org/wiki/Mark_Webber_(racing_driver)")} stayed on with the team. Despite having signed a contract to race for Williams, {wikiLink("Jenson Button", "https://en.wikipedia.org/wiki/Jenson_Button")} decided to stay with {wikiLink("BAR", "https://en.wikipedia.org/wiki/British_American_Racing")} for 2006 as it was to become a Honda works team. In September 2005 a deal was reached to allow Button to remain with BAR, with Williams receiving around £24m, some of it paid by Button himself, to cancel this contract.
+        </p>
+
+        <p>
+        Williams and Cosworth entered a partnership agreement where Cosworth would supply engines, transmissions and associated electronics and software for the team. Major sponsors Hewlett-Packard concluded sponsorship agreements one year before their official end of contract. The Williams team also switched to {wikiLink("Bridgestone", "https://en.wikipedia.org/wiki/Bridgestone")} tyres.
+        </p>
+
+        <p>
+        The season started well, with both drivers scoring points in the opening race of the season, and Nico Rosberg setting the fastest lap at the {wikiLink("Bahrain Grand Prix", "https://en.wikipedia.org/wiki/2006_Bahrain_Grand_Prix")}. The rest of the season was disappointing for Williams, with 20 retirements out of 36 starts for the two cars. The team failed to finish on the podium all season, the first time this had happened since Williams's debut season in 1977. The team eventually finished eighth in the Constructors' Championship, with only 11 points.
+        </p>
+
+        <div className="clear-both"></div>
+
+        {/* Customer Toyota engines (2007–2009) */}
+        <section id="williams-2007-2009" className="space-y-4 scroll-mt-24"></section>
+
+        <h3 className="text-2xl font-bold text-red-600 mb-2">Customer Toyota engines (2007–2009)</h3>
+
+        <h4 className="text-lg font-semibold text-red-400 mb-1">2007–2009 seasons</h4>
+
+        <div className="clear-both"></div>
+
+        <figure className="float-right ml-4 mb-4 max-w-[250px] border border-gray-700 rounded-lg bg-gray-900 p-2 shadow-lg">
+        <img
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Alex_Wurz_2007_%28crop%29.jpg/250px-Alex_Wurz_2007_%28crop%29.jpg"
+            alt="Alexander Wurz at the 2007 Malaysian Grand Prix"
+            className="w-full h-auto rounded"
+        />
+        <figcaption className="text-sm text-gray-400 text-center">
+            {wikiLink("Alexander Wurz", "https://en.wikipedia.org/wiki/Alexander_Wurz")} at the {wikiLink("2007 Malaysian Grand Prix", "https://en.wikipedia.org/wiki/2007_Malaysian_Grand_Prix")}
+        </figcaption>
+        </figure>
+
+        <p>
+        Following Williams's worst points tally since {wikiLink("1978", "https://en.wikipedia.org/wiki/1978_Formula_One_season")}, the team announced that Japanese manufacturer Toyota would be supplying the leased customer engines for the {wikiLink("2007", "https://en.wikipedia.org/wiki/2007_Formula_One_World_Championship")} season. In addition, the Toyota engine customer deal also included {wikiLink("Magneti Marelli", "https://en.wikipedia.org/wiki/Magneti_Marelli")} Step 11 engine control unit (ECU) systems and {wikiLink("Panasonic", "https://en.wikipedia.org/wiki/Panasonic")} battery package as it was used by {wikiLink("works Toyota team", "https://en.wikipedia.org/wiki/Toyota_F1")}. A number of other changes were announced for 2007: {wikiLink("Alexander Wurz", "https://en.wikipedia.org/wiki/Alexander_Wurz")}, who had been a test driver at Williams since 2006, became the team's second driver to replace the outgoing Mark Webber; Japanese driver {wikiLink("Kazuki Nakajima", "https://en.wikipedia.org/wiki/Kazuki_Nakajima")}, son of {wikiLink("Satoru Nakajima", "https://en.wikipedia.org/wiki/Satoru_Nakajima")}, replaced Wurz as a test driver alongside Karthikeyan. Sponsorship saw a change in 2007, as it was announced that {wikiLink("AT&T", "https://en.wikipedia.org/wiki/AT%26T_Inc.")} would become the title sponsors for the team from the upcoming season. AT&T was previously involved as minor sponsors with the {wikiLink("Jaguar", "https://en.wikipedia.org/wiki/Jaguar_Racing")} and McLaren teams but moved to Williams following McLaren's announcement of a title sponsorship deal with {wikiLink("Vodafone", "https://en.wikipedia.org/wiki/Vodafone")}, a competitor of AT&T. On 2 February, the new FW29 was presented to the media in the UK. Soon afterwards, the team secured a sponsorship deal with {wikiLink("Lenovo", "https://en.wikipedia.org/wiki/Lenovo")} who built the team's new supercomputer.
+        </p>
+
+        <div className="clear-both"></div>
+
+        <figure className="float-right ml-4 mb-4 max-w-[250px] border border-gray-700 rounded-lg bg-gray-900 p-2 shadow-lg">
+        <img
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/Kazuki_Nakajima_2008_Canada.jpg/250px-Kazuki_Nakajima_2008_Canada.jpg"
+            alt="Kazuki Nakajima at the 2008 Canadian Grand Prix"
+            className="w-full h-auto rounded"
+        />
+        <figcaption className="text-sm text-gray-400 text-center">
+            {wikiLink("Kazuki Nakajima", "https://en.wikipedia.org/wiki/Kazuki_Nakajima")} at the {wikiLink("2008 Canadian Grand Prix", "https://en.wikipedia.org/wiki/2008_Canadian_Grand_Prix")}
+        </figcaption>
+        </figure>
+
+        <p>
+        Rosberg and Wurz gave Williams a more productive season in terms of points and, in {wikiLink("Montreal", "https://en.wikipedia.org/wiki/2007_Canadian_Grand_Prix")}, Wurz scored the team's first podium finish since Nick Heidfeld's second-place at the {wikiLink("2005 European Grand Prix", "https://en.wikipedia.org/wiki/2005_European_Grand_Prix")}. Over the course of the year, Rosberg was consistently in the points, scoring 20 during the season; in comparison, teammate Wurz finished in the points three times. Following the announcement that Wurz would be retiring from the sport, Williams brought in their young test driver Nakajima to drive the second car for them in the final race in {wikiLink("Brazil", "https://en.wikipedia.org/wiki/2007_Brazilian_Grand_Prix")}. The Japanese driver finished in tenth despite starting from near the back of the grid, while Rosberg enjoyed his best race of the season, finishing in fourth. Williams finished fourth in the Constructors' Championship that year.
+        </p>
+
+        <div className="clear-both"></div>
+
+        <figure className="float-left mr-4 mb-4 max-w-[250px] border border-gray-700 rounded-lg bg-gray-900 p-2 shadow-lg">
+        <img
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Nico_Rosberg_2009_Turkey.jpg/250px-Nico_Rosberg_2009_Turkey.jpg"
+            alt="Nico Rosberg at the 2009 Turkish Grand Prix"
+            className="w-full h-auto rounded"
+        />
+        <figcaption className="text-sm text-gray-400 text-center">
+            {wikiLink("Nico Rosberg", "https://en.wikipedia.org/wiki/Nico_Rosberg")} at the {wikiLink("2009 Turkish Grand Prix", "https://en.wikipedia.org/wiki/2009_Turkish_Grand_Prix")}
+        </figcaption>
+        </figure>
+
+        <p>
+        For the {wikiLink("2008 Formula One World Championship", "https://en.wikipedia.org/wiki/2008_Formula_One_World_Championship")} season, Williams confirmed {wikiLink("Nico Rosberg", "https://en.wikipedia.org/wiki/Nico_Rosberg")} and {wikiLink("Kazuki Nakajima", "https://en.wikipedia.org/wiki/Kazuki_Nakajima")} as their race drivers. Rosberg was confirmed as staying with Williams until the end of {wikiLink("2009", "https://en.wikipedia.org/wiki/2009_Formula_One_World_Championship")} on 9 December 2007, ending speculation that he could take {wikiLink("Fernando Alonso", "https://en.wikipedia.org/wiki/Fernando_Alonso")}'s vacated seat at {wikiLink("McLaren", "https://en.wikipedia.org/wiki/McLaren")}. During the {wikiLink("pre‑season testing", "https://en.wikipedia.org/wiki/Formula_One_pre-season_testing")}, the team ran six different liveries to celebrate their 30th year in the sport and their 500th Grand Prix.
+        </p>
+
+        <p>
+        The 2008 season was a mixture of success and disappointment for Williams. While {wikiLink("Rosberg", "https://en.wikipedia.org/wiki/Nico_Rosberg")} managed to obtain two podiums in {wikiLink("Australia", "https://en.wikipedia.org/wiki/2008_Australian_Grand_Prix")} and {wikiLink("Singapore", "https://en.wikipedia.org/wiki/2008_Singapore_Grand_Prix")}, the team struggled at circuits with high-speed corners. The fact that the team was one of the first to switch development to their 2009 car when new regulations came in also hindered their season and Williams finished a disappointing eighth in the {wikiLink("Constructors' Championship", "https://en.wikipedia.org/wiki/World_Constructors%27_Championship")}. Rosberg stated that unless the team was more competitive in the near future, he would look to drive elsewhere. Williams retained Rosberg and {wikiLink("Nakajima", "https://en.wikipedia.org/wiki/Kazuki_Nakajima")} for the {wikiLink("2009", "https://en.wikipedia.org/wiki/2009_Formula_One_World_Championship")} season.
+        </p>
+
+        <p>
+        {wikiLink("Frank Williams", "https://en.wikipedia.org/wiki/Frank_Williams_(Formula_One)")} had admitted that he had regretted parting with {wikiLink("BMW", "https://en.wikipedia.org/wiki/BMW_Motorsport")} but stated that {wikiLink("Toyota", "https://en.wikipedia.org/wiki/Toyota")} had a tremendous ability to become a top engine supplier. Speculation had been surrounding Toyota's future on the {wikiLink("Formula 1", "https://en.wikipedia.org/wiki/Formula_One")} grid. This was due to the fact that for a big-budget team, Toyota had only managed second place as their best result. In December 2008, Williams confirmed their commitment to F1 following the {wikiLink("Honda", "https://en.wikipedia.org/wiki/Honda_in_Formula_One")} withdrawal announcement.
+        </p>
+
+        <p>
+        Ahead of the {wikiLink("2009 Brazilian Grand Prix", "https://en.wikipedia.org/wiki/2009_Brazilian_Grand_Prix")}, Williams announced that it would be ending its three-year partnership with {wikiLink("Toyota", "https://en.wikipedia.org/wiki/Toyota")} and finding a new engine supplier for {wikiLink("2010", "https://en.wikipedia.org/wiki/2010_Formula_One_World_Championship")}.
+        </p>
+
+        <div className="clear-both"></div>
+
+        {/* Return to Cosworth engines (2010–2011) */}
+        <section id="williams-2010-2011" className="space-y-4 scroll-mt-24"></section>
+
+        <h3 className="text-2xl font-bold text-red-600 mb-2">Return to Cosworth engines (2010–2011)</h3>
+
+        <h4 className="text-lg font-semibold text-red-400 mb-1">2010–2011 seasons</h4>
+
+        <div className="clear-both"></div>
+
+        <figure className="float-right ml-4 mb-4 max-w-[250px] border border-gray-700 rounded-lg bg-gray-900 p-2 shadow-lg">
+        <img
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/Nico_Hulkenberg_2010_Malaysia_2nd_Free_Practice.jpg/250px-Nico_Hulkenberg_2010_Malaysia_2nd_Free_Practice.jpg"
+            alt="Nico Hülkenberg at the 2010 Malaysian Grand Prix"
+            className="w-full h-auto rounded"
+        />
+        <figcaption className="text-sm text-gray-400 text-center">
+            {wikiLink("Nico Hülkenberg", "https://en.wikipedia.org/wiki/Nico_H%C3%BClkenberg")} at the {wikiLink("2010 Malaysian Grand Prix", "https://en.wikipedia.org/wiki/2010_Malaysian_Grand_Prix")}
+        </figcaption>
+        </figure>
+
+        <p>
+        After the termination of their Toyota contract, Williams announced that from the {wikiLink("2010 Formula One World Championship", "https://en.wikipedia.org/wiki/2010_Formula_One_World_Championship")} season they were to enter into a "long-term partnership" with {wikiLink("Cosworth", "https://en.wikipedia.org/wiki/Cosworth")}, and would be using an updated version of the CA V8 engine which powered their cars in 2006. Williams also announced a complete driver change for the 2010 season. {wikiLink("Rubens Barrichello", "https://en.wikipedia.org/wiki/Rubens_Barrichello")} joined from 2009 Constructors' Champion {wikiLink("Brawn GP", "https://en.wikipedia.org/wiki/Brawn_GP")}, whilst GP2 champion {wikiLink("Nico Hülkenberg", "https://en.wikipedia.org/wiki/Nico_H%C3%BClkenberg")} graduated from the test driver seat. Replacing Hülkenberg in the test seat was Finland's {wikiLink("Valtteri Bottas", "https://en.wikipedia.org/wiki/Valtteri_Bottas")}, who finished third in the {wikiLink("2009 Formula Three Euroseries", "https://en.wikipedia.org/wiki/2009_Formula_Three_Euroseries_season")} as well as winning the non-championship {wikiLink("2009 Masters of Formula 3", "https://en.wikipedia.org/wiki/2009_Masters_of_Formula_3")} event at {wikiLink("Zandvoort", "https://en.wikipedia.org/wiki/Circuit_Park_Zandvoort")}.
+        </p>
+
+        <p>
+        Their new 2010 car, the {wikiLink("Williams FW32", "https://en.wikipedia.org/wiki/Williams_FW32")}, was unveiled for the first time at a shakedown test at {wikiLink("Silverstone Circuit", "https://en.wikipedia.org/wiki/Silverstone_Circuit")}. Its first official test was on 1 February at {wikiLink("Circuit Ricardo Tormo", "https://en.wikipedia.org/wiki/Circuit_Ricardo_Tormo")} in {wikiLink("Valencia", "https://en.wikipedia.org/wiki/Valencia,_Spain")}. {wikiLink("Hülkenberg", "https://en.wikipedia.org/wiki/Nico_H%C3%BClkenberg")} took the team's first pole position in over five years, in variable conditions at the {wikiLink("2010 Brazilian Grand Prix", "https://en.wikipedia.org/wiki/2010_Brazilian_Grand_Prix")}. {wikiLink("Hülkenberg", "https://en.wikipedia.org/wiki/Nico_H%C3%BClkenberg")} was dropped from the team ahead of the {wikiLink("2011", "https://en.wikipedia.org/wiki/2011_Formula_One_World_Championship")} season, and replaced by Venezuelan newcomer and reigning {wikiLink("GP2 Series", "https://en.wikipedia.org/wiki/2010_GP2_Series")} champion {wikiLink("Pastor Maldonado", "https://en.wikipedia.org/wiki/Pastor_Maldonado")}. The combination of Barrichello and Maldonado meant that 2011 would be the first time since 1981 that Williams would start a season without a European driver in their line-up.
+        </p>
+
+        <p>
+        At the second pre-season test in Jerez, {wikiLink("Barrichello", "https://en.wikipedia.org/wiki/Rubens_Barrichello")} posted the fastest time of the week on the last day. That was to no avail as Williams endured one of their worst seasons to date: two ninth places for Barrichello and one tenth place for Maldonado were their best results during the entire year. After Brazil, the team ended with a ninth place in the {wikiLink("Constructors' Championship", "https://en.wikipedia.org/wiki/World_Constructors%27_Championship")}.
+        </p>
+
+        <div className="clear-both"></div>
+
+        {/* Return to Renault engines (2012–2013) */}
+        <section id="williams-renault-2012-2013" className="space-y-4 scroll-mt-24"></section>
+
+        <h3 className="text-2xl font-bold text-red-600 mb-2">Return to Renault engines (2012–2013)</h3>
+
+        <h4 className="text-lg font-semibold text-red-400 mb-1">2012–2013 seasons</h4>
+
+        <div className="clear-both"></div>
+
+        <figure className="float-left mr-4 mb-4 max-w-[250px] border border-gray-700 rounded-lg bg-gray-900 p-2 shadow-lg">
+        <img
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Valtteri_Bottas_2012_Malaysia_FP1_2.jpg/250px-Valtteri_Bottas_2012_Malaysia_FP1_2.jpg"
+            alt="Valtteri Bottas at the 2012 Malaysian Grand Prix"
+            className="w-full h-auto rounded"
+        />
+        <figcaption className="text-sm text-gray-400 text-center">
+            {wikiLink("Valtteri Bottas", "https://en.wikipedia.org/wiki/Valtteri_Bottas")}, the team's {wikiLink("2012", "https://en.wikipedia.org/wiki/2012_Formula_One_World_Championship")} reserve driver, participated in 15 free practice sessions including at the {wikiLink("2012 Malaysian Grand Prix", "https://en.wikipedia.org/wiki/2012_Malaysian_Grand_Prix")} then was promoted to a race seat for the {wikiLink("2013", "https://en.wikipedia.org/wiki/2013_Formula_One_World_Championship")} season.
+        </figcaption>
+        </figure>
+
+        <p>
+        On 4 July 2011, Williams announced they would be reuniting with engine-supplier {wikiLink("Renault", "https://en.wikipedia.org/wiki/Renault")} who were to supply the team's engines from 2012 onwards. On 1 December 2011, it was confirmed that {wikiLink("Maldonado", "https://en.wikipedia.org/wiki/Pastor_Maldonado")} would be retained for the 2012 season, along with reserve driver {wikiLink("Valtteri Bottas", "https://en.wikipedia.org/wiki/Valtteri_Bottas")}, who took part in 15 Friday practice sessions. In January 2012, it was confirmed that {wikiLink("Bruno Senna", "https://en.wikipedia.org/wiki/Bruno_Senna")} would be the driver to partner Maldonado, effectively ending {wikiLink("Rubens Barrichello", "https://en.wikipedia.org/wiki/Rubens_Barrichello")}'s F1 career.
+        </p>
+
+        <div className="clear-both"></div>
+
+        <figure className="float-right ml-4 mb-4 max-w-[250px] border border-gray-700 rounded-lg bg-gray-900 p-2 shadow-lg">
+        <img
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Valtteri_Bottas_2013_Malaysia_FP1.jpg/250px-Valtteri_Bottas_2013_Malaysia_FP1.jpg"
+            alt="Valtteri Bottas at the 2013 Malaysian Grand Prix"
+            className="w-full h-auto rounded"
+        />
+        <figcaption className="text-sm text-gray-400 text-center">
+            {wikiLink("Valtteri Bottas", "https://en.wikipedia.org/wiki/Valtteri_Bottas")} at the {wikiLink("2013 Malaysian Grand Prix", "https://en.wikipedia.org/wiki/2013_Malaysian_Grand_Prix")}
+        </figcaption>
+        </figure>
+
+        <p>
+        Prior to the 2012 season, {wikiLink("Patrick Head", "https://en.wikipedia.org/wiki/Patrick_Head")} moved from the Williams F1 team to Williams Hybrid Power Limited, another subsidiary of Williams Grand Prix Holdings. The team also announced that its relationship with {wikiLink("AT&T", "https://en.wikipedia.org/wiki/AT%26T_Inc.")} ended by mutual agreement, and there were negotiations with another telecommunications company for the team's title sponsorship. At the {wikiLink("2012 Spanish Grand Prix", "https://en.wikipedia.org/wiki/2012_Spanish_Grand_Prix")}, {wikiLink("Pastor Maldonado", "https://en.wikipedia.org/wiki/Pastor_Maldonado")} took his only Grand Prix victory, which was also Williams's first race victory since the {wikiLink("2004 Brazilian Grand Prix", "https://en.wikipedia.org/wiki/2004_Brazilian_Grand_Prix")}. Around 90 minutes after celebrating this win, a fire broke out in the garage of the Williams team, damaging the FW34 of {wikiLink("Bruno Senna", "https://en.wikipedia.org/wiki/Bruno_Senna")} and leaving several injured. The team eventually achieved eighth position in the {wikiLink("Formula One World Constructors' Championship", "https://en.wikipedia.org/wiki/World_Constructors%27_Championship")}.
+        </p>
+
+        <p>
+        {wikiLink("Claire Williams", "https://en.wikipedia.org/wiki/Claire_Williams")}, the daughter of team principal {wikiLink("Frank Williams", "https://en.wikipedia.org/wiki/Frank_Williams")}, was appointed deputy principal in March 2013. {wikiLink("Maldonado", "https://en.wikipedia.org/wiki/Pastor_Maldonado")} was retained by the team for {wikiLink("2013", "https://en.wikipedia.org/wiki/2013_Formula_One_World_Championship")} and was joined by {wikiLink("Bottas", "https://en.wikipedia.org/wiki/Valtteri_Bottas")}, promoted from his role as test driver. The team struggled throughout the season, despite a good qualifying session at the {wikiLink("2013 Canadian Grand Prix", "https://en.wikipedia.org/wiki/2013_Canadian_Grand_Prix")} and a place in the top 10 at the {wikiLink("2013 United States Grand Prix", "https://en.wikipedia.org/wiki/2013_United_States_Grand_Prix")}, scoring only five points in the {wikiLink("World Constructors' Championship", "https://en.wikipedia.org/wiki/World_Constructors%27_Championship")}.
+        </p>
+
+        <p>
+        While Williams enjoyed a victory in the 2012 season and occasional points finishes, they did not reach the same heights as was achieved during their domination of Formula One during the 1990s. This, combined with an absolutely dismal 2013 season, prompted Williams to look for a new engine supplier from the 2014 season onwards.
+        </p>
+
+        <div className="clear-both"></div>
+
+        {/* Mercedes power units (2014–present) */}
+        <section id="mclaren-mercedes-2014-2017" className="space-y-4 scroll-mt-24"></section>
+
+        <h3 className="text-2xl font-bold text-red-600 mb-2">Mercedes power units (2014–present)</h3>
+
+        <h4 className="text-lg font-semibold text-red-400 mb-1">2014–2017 seasons</h4>
+
+        <div className="clear-both"></div>
+
+        <figure className="float-right ml-4 mb-4 max-w-[250px] border border-gray-700 rounded-lg bg-white p-2 shadow-lg">
+        <img
+            src="https://upload.wikimedia.org/wikipedia/en/thumb/4/41/Williams_Martini_Racing_logo.svg/250px-Williams_Martini_Racing_logo.svg.png"
+            alt="The Williams Martini Racing logo (2014–2018)"
+            className="w-full h-auto rounded"
+        />
+        <figcaption className="text-sm text-gray-400 text-center">
+            The {wikiLink("Williams Martini Racing", "https://en.wikipedia.org/wiki/Williams_Martini_Racing")} logo (2014–2018)
+        </figcaption>
+        </figure>
+
+        <p>
+        In May 2013, Williams signed a long-term contract with Mercedes to supply engines for the team, the German manufacturer providing 1.6-litre V6 turbo engines from the start of the {wikiLink("2014 season", "https://en.wikipedia.org/wiki/2014_Formula_One_World_Championship")}. {wikiLink("Bottas", "https://en.wikipedia.org/wiki/Valtteri_Bottas")} was retained as driver for 2014, and {wikiLink("Felipe Massa", "https://en.wikipedia.org/wiki/Felipe_Massa")} was signed from {wikiLink("Ferrari", "https://en.wikipedia.org/wiki/Scuderia_Ferrari")} to replace Maldonado. The team also unveiled a new, multi-year title sponsorship deal with drinks brand {wikiLink("Martini", "https://en.wikipedia.org/wiki/Martini_%26_Rossi")}.
+        </p>
+
+        <div className="clear-both"></div>
+
+        <figure className="float-left mr-4 mb-4 max-w-[250px] border border-gray-700 rounded-lg bg-gray-900 p-2 shadow-lg">
+        <img
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Felipe_Massa_2014_China_Race.jpg/250px-Felipe_Massa_2014_China_Race.jpg"
+            alt="Felipe Massa at the 2014 Chinese Grand Prix"
+            className="w-full h-auto rounded"
+        />
+        <figcaption className="text-sm text-gray-400 text-center">
+            {wikiLink("Felipe Massa", "https://en.wikipedia.org/wiki/Felipe_Massa")} at the {wikiLink("2014 Chinese Grand Prix", "https://en.wikipedia.org/wiki/2014_Chinese_Grand_Prix")}
+        </figcaption>
+        </figure>
+
+        <p>
+        The team won its first pole position since 2012, courtesy of Massa at the {wikiLink("Austrian Grand Prix", "https://en.wikipedia.org/wiki/2014_Austrian_Grand_Prix")}; it was the only time that {wikiLink("Mercedes", "https://en.wikipedia.org/wiki/Mercedes-Benz_in_Formula_One")} would be beaten to pole position over the course of the 2014 season. With Bottas qualifying alongside Massa, it was also the first time the team had locked out the front row since the {wikiLink("2003 German Grand Prix", "https://en.wikipedia.org/wiki/2003_German_Grand_Prix")}. The team enjoyed an upturn in performance, including a double podium in {wikiLink("Abu Dhabi", "https://en.wikipedia.org/wiki/2014_Abu_Dhabi_Grand_Prix")}, resulting in them taking third place in the Constructors' Championship. They repeated this feat in the {wikiLink("2015 season", "https://en.wikipedia.org/wiki/2015_Formula_One_World_Championship")}, despite a low-key season owing to the resurgence of {wikiLink("Ferrari", "https://en.wikipedia.org/wiki/Scuderia_Ferrari")}.
+        </p>
+
+        <div className="clear-both"></div>
+
+        <figure className="float-left mr-4 mb-4 max-w-[250px] border border-gray-700 rounded-lg bg-gray-900 p-2 shadow-lg">
+        <img
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Valtteri_Bottas_070615.jpg/250px-Valtteri_Bottas_070615.jpg"
+            alt="Valtteri Bottas at the 2015 Canadian Grand Prix"
+            className="w-full h-auto rounded"
+        />
+        <figcaption className="text-sm text-gray-400 text-center">
+            {wikiLink("Valtteri Bottas", "https://en.wikipedia.org/wiki/Valtteri_Bottas")} at the {wikiLink("2015 Canadian Grand Prix", "https://en.wikipedia.org/wiki/2015_Canadian_Grand_Prix")}
+        </figcaption>
+        </figure>
+
+        <p>
+        The team went into the {wikiLink("2016", "https://en.wikipedia.org/wiki/2016_Formula_One_World_Championship")} season with Bottas and Massa retained. Former {wikiLink("Ferrari Driver Academy", "https://en.wikipedia.org/wiki/Ferrari_Driver_Academy")} member {wikiLink("Lance Stroll", "https://en.wikipedia.org/wiki/Lance_Stroll")} joined the team as a development driver; {wikiLink("Alex Lynn", "https://en.wikipedia.org/wiki/Alex_Lynn")} became a reserve driver with {wikiLink("Paul di Resta", "https://en.wikipedia.org/wiki/Paul_di_Resta")} who was announced on 13 March, following {wikiLink("Susie Wolff", "https://en.wikipedia.org/wiki/Susie_Wolff")}'s retirement from motorsport.
+        </p>
+
+        <div className="clear-both"></div>
+
+        <figure className="float-left mr-4 mb-4 max-w-[250px] border border-gray-700 rounded-lg bg-gray-900 p-2 shadow-lg">
+        <img
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Lance_Stroll_2017_Malaysia_FP1.jpg/250px-Lance_Stroll_2017_Malaysia_FP1.jpg"
+            alt="Lance Stroll at the 2017 Malaysian Grand Prix"
+            className="w-full h-auto rounded"
+        />
+        <figcaption className="text-sm text-gray-400 text-center">
+            {wikiLink("Lance Stroll", "https://en.wikipedia.org/wiki/Lance_Stroll")} at the {wikiLink("2017 Malaysian Grand Prix", "https://en.wikipedia.org/wiki/2017_Malaysian_Grand_Prix")}
+        </figcaption>
+        </figure>
+
+        <p>
+        In September 2016, Massa announced his intentions to retire from Formula One, with Stroll later announced as his replacement for {wikiLink("2017", "https://en.wikipedia.org/wiki/2017_Formula_One_World_Championship")}. Following {wikiLink("Nico Rosberg", "https://en.wikipedia.org/wiki/Nico_Rosberg")}'s decision to retire, the team released Bottas from his contract to allow him to take his place at {wikiLink("Mercedes", "https://en.wikipedia.org/wiki/Mercedes-Benz_in_Formula_One")}, with Massa returning to the team on a one-year deal.
+        </p>
+
+        <div className="clear-both"></div>
+
+        <figure className="float-left mr-4 mb-4 max-w-[250px] border border-gray-700 rounded-lg bg-gray-900 p-2 shadow-lg">
+        <img
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/Valtteri_Bottas_2016_Malaysia_FP2.jpg/250px-Valtteri_Bottas_2016_Malaysia_FP2.jpg"
+            alt="Valtteri Bottas at the 2016 Malaysian Grand Prix"
+            className="w-full h-auto rounded"
+        />
+        <figcaption className="text-sm text-gray-400 text-center">
+            {wikiLink("Valtteri Bottas", "https://en.wikipedia.org/wiki/Valtteri_Bottas")} at the {wikiLink("2016 Malaysian Grand Prix", "https://en.wikipedia.org/wiki/2016_Malaysian_Grand_Prix")}
+        </figcaption>
+        </figure>
+
+        <p>
+        Massa was forced to withdraw from the {wikiLink("2017 Hungarian Grand Prix", "https://en.wikipedia.org/wiki/2017_Hungarian_Grand_Prix")} due to illness; the team then announced that {wikiLink("Paul di Resta", "https://en.wikipedia.org/wiki/Paul_di_Resta")} would be racing alongside Stroll instead.
+        </p>
+
+        <div className="clear-both"></div>
+
+        {/* 2018–2019: Continued decline */}
+        <section id="williams-2018-2019" className="space-y-4 scroll-mt-24"></section>
+
+        <h4 className="text-lg font-semibold text-red-400 mb-1">2018–2019: Continued decline</h4>
+
+        <div className="clear-both"></div>
+
+        <p>
+        On 4 November 2017, {wikiLink("Felipe Massa", "https://en.wikipedia.org/wiki/Felipe_Massa")} announced his decision to retire from F1. {wikiLink("Renault", "https://en.wikipedia.org/wiki/Renault_in_Formula_One")} reserve driver and {wikiLink("2016 GP2 Series", "https://en.wikipedia.org/wiki/2016_GP2_Series")} 3rd-place finisher {wikiLink("Sergey Sirotkin", "https://en.wikipedia.org/wiki/Sergey_Sirotkin_(racing_driver)")} was signed as his replacement for {wikiLink("2018", "https://en.wikipedia.org/wiki/2018_Formula_One_World_Championship")}, with {wikiLink("Robert Kubica", "https://en.wikipedia.org/wiki/Robert_Kubica")} joining the team as a reserve and development driver.
+        </p>
 
 
+        <figure className="float-right ml-4 mb-4 max-w-[250px] border border-gray-700 rounded-lg bg-gray-900 p-2 shadow-lg">
+        <img
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/2018_Chinese_Grand_Prix_Qualifying_Sergey_Sirotkin_%2840812182175%29.jpg/250px-2018_Chinese_Grand_Prix_Qualifying_Sergey_Sirotkin_%2840812182175%29.jpg"
+            alt="Sergey Sirotkin driving the Williams FW41 at the 2018 Chinese Grand Prix"
+            className="w-full h-auto rounded"
+        />
+        <figcaption className="text-sm text-gray-400 text-center">
+            {wikiLink("Sergey Sirotkin", "https://en.wikipedia.org/wiki/Sergey_Sirotkin_(racing_driver)")} driving the {wikiLink("Williams FW41", "https://en.wikipedia.org/wiki/Williams_FW41")} at the {wikiLink("2018 Chinese Grand Prix", "https://en.wikipedia.org/wiki/2018_Chinese_Grand_Prix")}
+        </figcaption>
+        </figure>
 
+        <p>
+        Williams struggled over the course of the {wikiLink("2018 season", "https://en.wikipedia.org/wiki/2018_Formula_One_World_Championship")}, scoring only 7 points and finishing last in the Constructors' Championship standings. Although the {wikiLink("FW41", "https://en.wikipedia.org/wiki/Williams_FW41")} rarely suffered from reliability issues, it was significantly off the pace; the team's highest finish was Stroll's 8th-place finish in {wikiLink("Azerbaijan", "https://en.wikipedia.org/wiki/2018_Azerbaijan_Grand_Prix")}. The team's only other points finish was at the {wikiLink("Italian Grand Prix", "https://en.wikipedia.org/wiki/2018_Italian_Grand_Prix")}, with Stroll finishing 9th and Sirotkin scoring his first championship point in 10th. This was also the only Grand Prix of the season in which the team reached the third qualifying session, with Stroll starting 10th on the grid.
+        </p>
 
+        <div className="clear-both"></div>
+
+        <figure className="float-left mr-4 mb-4 max-w-[250px] border border-gray-700 rounded-lg bg-gray-900 p-2 shadow-lg">
+        <img
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/FIA_F1_Austria_2019_Nr._63_Russell_2.jpg/250px-FIA_F1_Austria_2019_Nr._63_Russell_2.jpg"
+            alt="George Russell at the 2019 Austrian Grand Prix"
+            className="w-full h-auto rounded"
+        />
+        <figcaption className="text-sm text-gray-400 text-center">
+            {wikiLink("George Russell", "https://en.wikipedia.org/wiki/George_Russell_(racing_driver)")} at the {wikiLink("2019 Austrian Grand Prix", "https://en.wikipedia.org/wiki/2019_Austrian_Grand_Prix")}
+        </figcaption>
+        </figure>
+
+        <p>
+        On 27 February 2018, {wikiLink("Martini", "https://en.wikipedia.org/wiki/Martini_%26_Rossi")} announced that they would leave Williams and Formula One at the end of the 2018 season.
+        </p>
+
+        <p>
+        On 12 October 2018, the team announced that reigning {wikiLink("Formula 2", "https://en.wikipedia.org/wiki/2018_Formula_2_Championship")} champion {wikiLink("George Russell", "https://en.wikipedia.org/wiki/George_Russell_(racing_driver)")} would be joining the team for the {wikiLink("2019 season", "https://en.wikipedia.org/wiki/2019_Formula_One_World_Championship")}. On 22 November 2018 it was announced that reserve driver {wikiLink("Robert Kubica", "https://en.wikipedia.org/wiki/Robert_Kubica")} would be promoted to the other seat, marking his return to Formula One after eight years away from the sport due to injury. For the 2019 season, the team entered into a partnership with Polish petroleum company {wikiLink("PKN Orlen", "https://en.wikipedia.org/wiki/PKN_Orlen")} and a multi-year title sponsorship arrangement with telecommunications company ROKiT.
+        </p>
+
+        <p>
+        Williams missed the first two-and-a-half days of pre-season testing in {wikiLink("Barcelona", "https://en.wikipedia.org/wiki/Circuit_de_Barcelona-Catalunya")} due to the {wikiLink("FW42", "https://en.wikipedia.org/wiki/Williams_FW42")} not yet being ready, the only team to suffer such a setback. Williams began the season out of reach from being competitive. During qualifying at the season-opener in {wikiLink("Australia", "https://en.wikipedia.org/wiki/2019_Australian_Grand_Prix")}, their fastest time was almost 1.3 seconds slower than the nearest competitor. In the race, {wikiLink("Russell", "https://en.wikipedia.org/wiki/George_Russell")} and {wikiLink("Kubica", "https://en.wikipedia.org/wiki/Robert_Kubica")} finished two and three laps behind the leader respectively. The team's best result of the season came in {wikiLink("Germany", "https://en.wikipedia.org/wiki/2019_German_Grand_Prix")}, where Kubica was classified 10th, the team's only points finish that season. However, this result only came after post-race penalties for other drivers. Upgrades came during the season with which the FW42 began to catch up to its competitors; Russell came within 0.1 seconds of reaching Q2 in qualifying for the {wikiLink("Hungarian Grand Prix", "https://en.wikipedia.org/wiki/2019_Hungarian_Grand_Prix")} and finished close to the points with 12th in {wikiLink("Brazil", "https://en.wikipedia.org/wiki/2019_Brazilian_Grand_Prix")}. However, both cars would be eliminated in Q1 at every race of the season. Despite the team's lack of performance in comparison to 2014–2017, it was confirmed that Williams had extended their engine supplier partnership with Mercedes until 2025.
+        </p>
+
+        <p>
+        On 19 September 2019, Williams announced that Kubica had decided to leave the team at the end of the 2019 season; he would go on to join {wikiLink("Alfa Romeo", "https://en.wikipedia.org/wiki/Alfa_Romeo_in_Formula_One")} as a reserve driver. {wikiLink("2019 Formula 2 Championship", "https://en.wikipedia.org/wiki/2019_Formula_2_Championship")} runner-up {wikiLink("Nicholas Latifi", "https://en.wikipedia.org/wiki/Nicholas_Latifi")} was promoted from his role of reserve driver to replace Kubica for the {wikiLink("2020 season", "https://en.wikipedia.org/wiki/2020_Formula_One_World_Championship")}. {wikiLink("Jack Aitken", "https://en.wikipedia.org/wiki/Jack_Aitken")} replaced Latifi as reserve driver. In May 2020, following publication of significant losses in 2019, Williams announced the immediate termination of its title sponsorship deal with ROKiT.
+        </p>
+
+        <div className="clear-both"></div>
+
+        {/* 2020–present: Buyout and new management */}
+        <section id="williams-2020-present" className="space-y-4 scroll-mt-24"></section>
+
+        <h4 className="text-lg font-semibold text-red-400 mb-1">2020–present: Buyout and new management</h4>
+
+        <div className="clear-both"></div>
+
+        <figure className="float-left mr-4 mb-4 max-w-[250px] border border-gray-700 rounded-lg bg-gray-900 p-2 shadow-lg">
+        <img
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/George_Russell_Mugello_2020%2C_race_day.jpg/250px-George_Russell_Mugello_2020%2C_race_day.jpg"
+            alt="George Russell driving the Williams FW43 at the 2020 Tuscan Grand Prix"
+            className="w-full h-auto rounded"
+        />
+        <figcaption className="text-sm text-gray-400 text-center">
+            {wikiLink("George Russell", "https://en.wikipedia.org/wiki/George_Russell_(racing_driver)")} driving the {wikiLink("Williams FW43", "https://en.wikipedia.org/wiki/Williams_FW43")} at the {wikiLink("2020 Tuscan Grand Prix", "https://en.wikipedia.org/wiki/2020_Tuscan_Grand_Prix")}
+        </figcaption>
+        </figure>
+
+        <p>
+        In the opening race of 2020, the {wikiLink("2020 Austrian Grand Prix", "https://en.wikipedia.org/wiki/2020_Austrian_Grand_Prix")}, {wikiLink("Latifi", "https://en.wikipedia.org/wiki/Nicholas_Latifi")} reached 11th place, just outside the points, whereas in qualifying {wikiLink("Russell", "https://en.wikipedia.org/wiki/George_Russell")} was only 0.15 seconds away from reaching Q2 (Russell retired in the race with a fuel pressure issue). In the wet qualifying for the next race, the {wikiLink("2020 Styrian Grand Prix", "https://en.wikipedia.org/wiki/2020_Styrian_Grand_Prix")}, Russell succeeded in making it out of Q1, the first time a Williams driver had done so since the {wikiLink("2018 Brazilian Grand Prix", "https://en.wikipedia.org/wiki/2018_Brazilian_Grand_Prix")}, and, in the slippery conditions, qualified in 12th. Russell started the race in 11th, following the application of penalties for other drivers.
+        </p>
+
+        <div className="clear-both"></div>
+
+        <p>
+        At the {wikiLink("2020 Hungarian Grand Prix", "https://en.wikipedia.org/wiki/2020_Hungarian_Grand_Prix")}, both drivers made it out of Q1 for the first time since the {wikiLink("2018 Italian Grand Prix", "https://en.wikipedia.org/wiki/2018_Italian_Grand_Prix")}. It was Russell's second time getting out of Q1, and Latifi's first time getting out of Q1.
+        </p>
+
+        <figure className="float-left mr-4 mb-4 max-w-[250px] border border-gray-700 rounded-lg bg-gray-900 p-2 shadow-lg">
+        <img
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/FIA_F1_Austria_2021_Nr._6_Latifi.jpg/250px-FIA_F1_Austria_2021_Nr._6_Latifi.jpg"
+            alt="Nicholas Latifi driving the Williams FW43B at the 2021 Austrian Grand Prix"
+            className="w-full h-auto rounded"
+        />
+        <figcaption className="text-sm text-gray-400 text-center">
+            {wikiLink("Nicholas Latifi", "https://en.wikipedia.org/wiki/Nicholas_Latifi")} driving the {wikiLink("Williams FW43B", "https://en.wikipedia.org/wiki/Williams_FW43B")} at the {wikiLink("2021 Austrian Grand Prix", "https://en.wikipedia.org/wiki/2021_Austrian_Grand_Prix")}
+        </figcaption>
+        </figure>
+
+        <p>
+        On 21 August 2020, Williams was acquired by US investment group Dorilton Capital for €152 million. The amount includes settling the debt of the company and it will continue to run under the Williams name and keep its UK base.
+        </p>
+
+        <p>
+        Despite being offered the chance to stay on as Team Principal, {wikiLink("Claire Williams", "https://en.wikipedia.org/wiki/Claire_Williams")} announced her departure from the team effective after the weekend of the {wikiLink("2020 Italian Grand Prix", "https://en.wikipedia.org/wiki/2020_Italian_Grand_Prix")}. Following this announcement, it will be the first time Williams F1 Team has not been under the leadership of the Williams family since its inception 43 years prior. {wikiLink("Simon Roberts", "https://en.wikipedia.org/wiki/Simon_Roberts_(Formula_One)")} who joined Williams from {wikiLink("McLaren", "https://en.wikipedia.org/wiki/McLaren")} in May 2020, became the acting team principal of the team. In December 2020, Williams announced {wikiLink("Jost Capito", "https://en.wikipedia.org/wiki/Jost_Capito")} will be joining Williams as the new CEO, with Roberts becoming team principal and reporting to Capito.
+        </p>
+
+        <p>
+        Williams failed to score a point in the 2020 season that had been disrupted and shortened by the {wikiLink("COVID-19 pandemic", "https://en.wikipedia.org/wiki/COVID-19_pandemic")}, making it their first pointless season in 44 years.
+        </p>
+
+        <div className="clear-both"></div>
+
+        <figure className="float-left mr-4 mb-4 max-w-[250px] border border-gray-700 rounded-lg bg-gray-900 p-2 shadow-lg">
+        <img
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/2022_Williams_FW44_Formula_1_Car._Driven_by_Alex_Albon_and_Nicholas_Latifi_%2852339096754%29.jpg/250px-2022_Williams_FW44_Formula_1_Car._Driven_by_Alex_Albon_and_Nicholas_Latifi_%2852339096754%29.jpg"
+            alt="The Williams FW44 at The Silverstone Classic, driven by Alexander Albon, Nicholas Latifi, and Nyck de Vries during the 2022 season"
+            className="w-full h-auto rounded"
+        />
+        <figcaption className="text-sm text-gray-400 text-center">
+            The {wikiLink("Williams FW44", "https://en.wikipedia.org/wiki/Williams_FW44")} at {wikiLink("The Silverstone Classic", "https://en.wikipedia.org/wiki/Silverstone_Classic")}. This car was driven in the {wikiLink("2022", "https://en.wikipedia.org/wiki/2022_Formula_One_World_Championship")} season by {wikiLink("Alexander Albon", "https://en.wikipedia.org/wiki/Alexander_Albon")}, {wikiLink("Nicholas Latifi", "https://en.wikipedia.org/wiki/Nicholas_Latifi")}, and {wikiLink("Nyck de Vries", "https://en.wikipedia.org/wiki/Nyck_de_Vries")}.
+        </figcaption>
+        </figure>
+
+        <p>
+        During the {wikiLink("2021 Monaco Grand Prix", "https://en.wikipedia.org/wiki/2021_Monaco_Grand_Prix")}, Williams celebrated their 750th Grand Prix start. To celebrate the occasion, Williams launched a competition where the names of 100 Williams supporters were featured on their car, the {wikiLink("Williams FW43B", "https://en.wikipedia.org/wiki/Williams_FW43")} car, together with the number of races since they started supporting Williams. In June 2021, Roberts left the team. Most of his responsibilities were taken over by Capito, with {wikiLink("François-Xavier Demaison", "https://en.wikipedia.org/wiki/Fran%C3%A7ois-Xavier_Demaison_(engineer)")} taking his trackside leadership duties. The {wikiLink("2021 Hungarian Grand Prix", "https://en.wikipedia.org/wiki/2021_Hungarian_Grand_Prix")} saw Williams score their first points since the {wikiLink("2019 German Grand Prix", "https://en.wikipedia.org/wiki/2019_German_Grand_Prix")} with {wikiLink("Robert Kubica", "https://en.wikipedia.org/wiki/Robert_Kubica")}, and their first double points finish since the {wikiLink("2018 Italian Grand Prix", "https://en.wikipedia.org/wiki/2018_Italian_Grand_Prix")}. At the {wikiLink("2021 Belgian Grand Prix", "https://en.wikipedia.org/wiki/2021_Belgian_Grand_Prix")}, Russell qualified in 2nd place and scored Williams's first podium since the {wikiLink("2017 Azerbaijan Grand Prix", "https://en.wikipedia.org/wiki/2017_Azerbaijan_Grand_Prix")}, as the race was stopped after only two laps under safety car conditions were completed, allowing most drivers to retain their qualifying position. The team also achieved a second consecutive double points finish, as Latifi finished 9th. 
+        </p>
+
+        <p>
+        Russell scored back-to-back points at the {wikiLink("2021 Italian Grand Prix", "https://en.wikipedia.org/wiki/2021_Italian_Grand_Prix")} and at the {wikiLink("2021 Russian Grand Prix", "https://en.wikipedia.org/wiki/2021_Russian_Grand_Prix")} (9th and 10th respectively; in the latter he qualified 3rd, behind {wikiLink("Carlos Sainz Jr.", "https://en.wikipedia.org/wiki/Carlos_Sainz_Jr.")} and pole-sitter {wikiLink("Lando Norris", "https://en.wikipedia.org/wiki/Lando_Norris")}). Williams finished in 8th place in the Constructors' Championship with 23 points, 10 points ahead of {wikiLink("Alfa Romeo", "https://en.wikipedia.org/wiki/Alfa_Romeo_in_Formula_One")}, which finished in 9th place.
+        </p>
+
+        <p>
+        For the {wikiLink("2022 season", "https://en.wikipedia.org/wiki/2022_Formula_One_World_Championship")}, Russell left Williams to join the {wikiLink("Mercedes works team", "https://en.wikipedia.org/wiki/Mercedes-Benz_in_Formula_One")}, whose junior team he had been a part of. Ex-{wikiLink("Red Bull", "https://en.wikipedia.org/wiki/Red_Bull_Racing")} driver, {wikiLink("Alex Albon", "https://en.wikipedia.org/wiki/Alex_Albon")}, was signed to replace Russell. Latifi retained his spot in the team. Prior to the season, Williams announced a partnership deal with the battery manufacturer {wikiLink("Duracell", "https://en.wikipedia.org/wiki/Duracell")}. Albon scored the team's first points of the season in the {wikiLink("Australian Grand Prix", "https://en.wikipedia.org/wiki/2022_Australian_Grand_Prix")}, where he pitted only once on the last lap and finished tenth. Albon also finished ninth in the {wikiLink("Miami Grand Prix", "https://en.wikipedia.org/wiki/2022_Miami_Grand_Prix")}. Latifi achieved his first ever Q3 appearance at the {wikiLink("British Grand Prix", "https://en.wikipedia.org/wiki/2022_British_Grand_Prix")}, though he dropped out of the points and finished in twelfth. Following a number of penalties for other drivers at the {wikiLink("Belgian Grand Prix", "https://en.wikipedia.org/wiki/2022_Belgian_Grand_Prix")}, Albon qualified ninth and started sixth. Albon went on to score Williams's third point position finish by ending the race in tenth. Prior to the {wikiLink("third practice session at the Italian Grand Prix", "https://en.wikipedia.org/wiki/2022_Italian_Grand_Prix#Practice")}, Albon withdrew after feeling ill and suffering from {wikiLink("appendicitis", "https://en.wikipedia.org/wiki/Appendicitis")}. Williams announced {wikiLink("Nyck de Vries", "https://en.wikipedia.org/wiki/Nyck_de_Vries")} as the replacement. In his first ever {wikiLink("qualifying session", "https://en.wikipedia.org/wiki/2022_Italian_Grand_Prix#Qualifying")}, de Vries qualified thirteenth, but started eighth after penalties. de Vries went on to finish ninth, scoring points on his debut.
+        </p>
+
+        <p>
+        Preceding the start of the 2023 race year, Mercedes ex-chief strategist James Vowles was announced to take over as the Team's new Principal, following the resignation of former Team Principal Jost Capito in 2022.
+        </p>
+
+        <p>
+        For the {wikiLink("2023 season", "https://en.wikipedia.org/wiki/2023_Formula_One_World_Championship")}, Williams announced a long-term partnership with {wikiLink("Gulf Oil", "https://en.wikipedia.org/wiki/Gulf_Oil")}. Albon's contract had been extended, partnering rookie {wikiLink("Logan Sargeant", "https://en.wikipedia.org/wiki/Logan_Sargeant")}; Sargeant, who replaces the departing {wikiLink("Nicholas Latifi", "https://en.wikipedia.org/wiki/Nicholas_Latifi")}, is the first American driver to race in Formula One since {wikiLink("Alexander Rossi", "https://en.wikipedia.org/wiki/Alexander_Rossi")} drove for the former {wikiLink("Marussia F1", "https://en.wikipedia.org/wiki/Marussia_F1")} team for five races in {wikiLink("2015", "https://en.wikipedia.org/wiki/2015_Formula_One_World_Championship")}.
+        </p>
+
+        <div className="clear-both"></div>
+
+        <figure className="float-left mr-4 mb-4 max-w-[250px] border border-gray-700 rounded-lg bg-gray-900 p-2 shadow-lg">
+        <img
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/Williams_Racing_2024.jpg/250px-Williams_Racing_2024.jpg"
+            alt="Williams Racing's Alex Albon and Logan Sargeant at the 2024 season launch at the Puma Flagship Store in New York City"
+            className="w-full h-auto rounded"
+        />
+        <figcaption className="text-sm text-gray-400 text-center">
+            {wikiLink("Williams Racing", "https://en.wikipedia.org/wiki/Williams_Racing")}'s {wikiLink("Alex Albon", "https://en.wikipedia.org/wiki/Alex_Albon")} and {wikiLink("Logan Sargeant", "https://en.wikipedia.org/wiki/Logan_Sargeant")} at the 2024 season launch at the Puma Flagship Store in {wikiLink("New York City", "https://en.wikipedia.org/wiki/New_York_City")}.
+        </figcaption>
+        </figure>
+
+        <p>
+        The season-opener of the {wikiLink("Bahrain Grand Prix", "https://en.wikipedia.org/wiki/2023_Bahrain_Grand_Prix")} saw Albon score one point in tenth ahead of Sargeant, who finished twelfth. Albon retired at the following race at the {wikiLink("Saudi Arabian Grand Prix", "https://en.wikipedia.org/wiki/2023_Saudi_Arabian_Grand_Prix")} due to a brake failure with Sargeant placing sixteenth after he failed to set a time within the {wikiLink("107% rule", "https://en.wikipedia.org/wiki/107%25_rule")} in qualification due to mechanical issues. In the {wikiLink("Australian Grand Prix", "https://en.wikipedia.org/wiki/2023_Australian_Grand_Prix")}, Albon retired again after losing control of his car and crashing heavily early into the race, causing a red flag. Sargeant, meanwhile, crashed with {wikiLink("AlphaTauri", "https://en.wikipedia.org/wiki/Scuderia_AlphaTauri")} driver {wikiLink("Nyck de Vries", "https://en.wikipedia.org/wiki/Nyck_de_Vries")} during lap 56 of 58 after a restart. However, Sargeant was classified as having finished 16th, given that he had completed more than 90% of the race distance. Albon and Sargeant were retained for the {wikiLink("2024 season", "https://en.wikipedia.org/wiki/2024_Formula_One_World_Championship")}. The latter was due to be replaced by {wikiLink("Carlos Sainz Jr.", "https://en.wikipedia.org/wiki/Carlos_Sainz_Jr.")} in the {wikiLink("2025 season", "https://en.wikipedia.org/wiki/2025_Formula_One_World_Championship")}. However, Sargeant was released after the {wikiLink("2024 Dutch Grand Prix", "https://en.wikipedia.org/wiki/2024_Dutch_Grand_Prix")} due to his underperformances and his crash in the third practice session. His replacement, from the {wikiLink("2024 Italian Grand Prix", "https://en.wikipedia.org/wiki/2024_Italian_Grand_Prix")} to the end of the season, was current {wikiLink("Formula 2", "https://en.wikipedia.org/wiki/Formula_2")} driver and {wikiLink("Williams Driver Academy", "https://en.wikipedia.org/wiki/Williams_Driver_Academy")} member {wikiLink("Franco Colapinto", "https://en.wikipedia.org/wiki/Franco_Colapinto")}, who would become the first Argentine driver to compete in F1 since {wikiLink("Gastón Mazzacane", "https://en.wikipedia.org/wiki/Gast%C3%B3n_Mazzacane")} in {wikiLink("2001", "https://en.wikipedia.org/wiki/2001_Formula_One_World_Championship")}.
+        </p>
+
+        <p>
+        In February 2025, Williams announced a record multi-year title sponsorship with {wikiLink("Atlassian", "https://en.wikipedia.org/wiki/Atlassian")} and will enter the {wikiLink("2025 season", "https://en.wikipedia.org/wiki/2025_Formula_One_World_Championship")} as Atlassian Williams Racing.
+        </p>
+
+        <div className="clear-both"></div>
   </>
   );
   
