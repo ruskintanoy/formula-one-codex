@@ -2,6 +2,8 @@ import { getData } from "../../lib/fetchData";
 import DriverCard from "../../components/DriverCard";
 import { flagsMap } from "../../lib/driverAssets";
 
+export const dynamic = "force-dynamic";
+
 export default async function DriversPage() {
   // Fetch all 3 at once
   const [driverRes, teamRes, standingsRes] = await Promise.all([
