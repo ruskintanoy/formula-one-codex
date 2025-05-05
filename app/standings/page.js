@@ -1,6 +1,8 @@
 import { getData } from "../../lib/fetchData";
 import StandingsTable from "../../components/StandingsTable";
 
+export const dynamic = "force-dynamic";
+
 export default async function StandingsPage() {
   const standings = await getData("/api/current/drivers-championship");
 
