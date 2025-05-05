@@ -26,7 +26,7 @@ const juniorCareer = (
 
     <figure className="float-left mr-4 mb-4 max-w-[250px] border border-gray-700 rounded-lg bg-gray-900 p-2 shadow-lg">
         <img
-          src="/drivers/piastri/car1.JPG"
+          src="/drivers/piastri/car1.jpg"
           alt="Norris racing for Mücke Motorsport in Formula 4 in 2015"
           className="w-full h-auto rounded"
         />
@@ -50,7 +50,7 @@ const juniorCareer = (
 
     <figure className="float-left mr-4 mb-4 max-w-[250px] border border-gray-700 rounded-lg bg-gray-900 p-2 shadow-lg">
         <img
-          src="/drivers/piastri/car2.JPG"
+          src="/drivers/piastri/car2.jpg"
           alt="Norris racing for Mücke Motorsport in Formula 4 in 2015"
           className="w-full h-auto rounded"
         />
@@ -88,7 +88,7 @@ const juniorCareer = (
 
     <figure className="float-right ml-4 mr-4 mb-4 max-w-[250px] border border-gray-700 rounded-lg bg-gray-900 p-2 shadow-lg">
         <img
-          src="/drivers/piastri/car3.JPG"
+          src="/drivers/piastri/car3.jpg"
           alt="Norris racing for Mücke Motorsport in Formula 4 in 2015"
           className="w-full h-auto rounded"
         />
@@ -152,7 +152,7 @@ const juniorCareer = (
 
     <figure className="float-right ml-4 mr-4 mb-4 max-w-[250px] border border-gray-700 rounded-lg bg-gray-900 p-2 shadow-lg">
         <img
-          src="/drivers/piastri/car4.JPG"
+          src="/drivers/piastri/car4.jpg"
           alt="Norris racing for Mücke Motorsport in Formula 4 in 2015"
           className="w-full h-auto rounded"
         />
