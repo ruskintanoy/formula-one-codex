@@ -28,6 +28,6 @@ jobs:
       - name: Deploy to Azure Web App
         uses: azure/webapps-deploy@v3
         with:
-          app-name: 'f1codex-d7dradggf0emarau' # ✅ Use your real App Service name
+          app-name: 'f1codex-d7dradggf0emarau'
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_1A0DEA1B4B56435C82E4DADE2C523CDC }}
           package: .
