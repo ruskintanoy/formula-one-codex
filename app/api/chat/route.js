@@ -3,7 +3,7 @@ import { NextResponse } from "next/server";
 
 const endpoint = process.env.AZURE_OPENAI_ENDPOINT;
 const apiKey = process.env.AZURE_OPENAI_API_KEY;
-const apiVersion = process.env.AZURE_OPENAI_API_VERSION;
+const apiVersion = process.env.OPENAI_API_VERSION;
 const deployment = process.env.AZURE_OPENAI_DEPLOYMENT_NAME;
 const modelName = process.env.AZURE_OPENAI_MODEL_NAME;
 
