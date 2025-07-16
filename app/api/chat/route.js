@@ -1,22 +1,40 @@
 import { AzureOpenAI } from "openai";
-
-const endpoint = process.env.AZURE_OPENAI_ENDPOINT;
-const apiKey = process.env.AZURE_OPENAI_API_KEY;
-const apiVersion = process.env.AZURE_OPENAI_API_VERSION || "2024-04-01-preview";
-const deployment = process.env.AZURE_OPENAI_DEPLOYMENT_NAME;
-const modelName = process.env.AZURE_OPENAI_MODEL_NAME;
-
-// Create client with explicit options
-const client = new AzureOpenAI({
-  endpoint,
-  apiKey,
-  deployment,
-  apiVersion
-});
+import { NextResponse } from "next/server";
 
 export async function POST(request) {
   try {
     const { messages } = await request.json();
+
+    // Get environment variables inside the function for better reliability
+    const endpoint = process.env.AZURE_OPENAI_ENDPOINT;
+    const apiKey = process.env.AZURE_OPENAI_API_KEY;
+    const apiVersion = process.env.AZURE_OPENAI_API_VERSION || "2024-04-01-preview";
+    const deployment = process.env.AZURE_OPENAI_DEPLOYMENT_NAME;
+    const modelName = process.env.AZURE_OPENAI_MODEL_NAME;
+
+    // Validate required environment variables
+    if (!endpoint || !apiKey || !deployment) {
+      console.error("Missing environment variables:", {
+        endpoint: !!endpoint,
+        apiKey: !!apiKey,
+        deployment: !!deployment
+      });
+      return NextResponse.json(
+        { 
+          error: "Server configuration error. Missing Azure OpenAI credentials.",
+          success: false 
+        },
+        { status: 500 }
+      );
+    }
+
+    // Create client with explicit options
+    const client = new AzureOpenAI({
+      endpoint,
+      apiKey,
+      deployment,
+      apiVersion
+    });
 
     // System message to make the AI a Formula 1 expert
     const systemMessage = {
@@ -74,9 +92,10 @@ export async function POST(request) {
     });
 
   } catch (error) {
+    console.error("Error in chat API:", error);
     return NextResponse.json(
       { 
-        error: "Failed to process chat request",
+        error: "Failed to process chat request: " + error.message,
         success: false 
       },
       { status: 500 }
