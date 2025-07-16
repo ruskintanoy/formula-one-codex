@@ -1,4 +1,5 @@
 import { AzureOpenAI } from "openai";
+import { NextResponse } from "next/server";
 
 const endpoint = process.env.AZURE_OPENAI_ENDPOINT;
 const apiKey = process.env.AZURE_OPENAI_API_KEY;
@@ -63,15 +64,13 @@ export async function POST(request) {
     if (response?.error !== undefined) {
       throw new Error(response.error);
     }
-
-    return Response.json({
+    return NextResponse.json({
       message: response.choices[0].message.content,
       success: true
     });
 
   } catch (error) {
-    console.error("Error in chat API:", error);
-    return Response.json(
+    return NextResponse.json(
       { 
         error: "Failed to process chat request",
         success: false 
