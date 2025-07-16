@@ -48,6 +48,20 @@ export default function ChatbotTest() {
     testAPI(question);
   };
 
+  // Function to clean and format AI responses
+  const formatMessage = (content) => {
+    return content
+      // Remove markdown bold (**text**)
+      .replace(/\*\*(.*?)\*\*/g, '$1')
+      // Remove markdown headers (###, ##, #)
+      .replace(/^#{1,6}\s+/gm, '')
+      // Remove markdown italic (*text*)
+      .replace(/\*(.*?)\*/g, '$1')
+      // Clean up extra spaces and line breaks
+      .replace(/\n{3,}/g, '\n\n')
+      .trim();
+  };
+
   return (
     <div className="p-6 border border-gray-600 rounded-lg bg-gray-800 max-w-4xl mx-auto">
       <h3 className="text-xl font-semibold mb-6 text-center">Formula 1 AI Assistant Test</h3>
@@ -96,7 +110,7 @@ export default function ChatbotTest() {
       {response && (
         <div className="mt-4 p-4 bg-gray-700 rounded-lg">
           <h5 className="font-semibold mb-2 text-red-400">AI Response:</h5>
-          <div className="text-sm leading-relaxed whitespace-pre-wrap">{response}</div>
+          <div className="text-sm leading-relaxed whitespace-pre-wrap">{formatMessage(response)}</div>
         </div>
       )}
       
