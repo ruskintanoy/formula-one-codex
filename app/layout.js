@@ -3,6 +3,7 @@ import "./globals.css";
 
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
+import Chatbot from "../components/Chatbot";
 
 const rubik = Rubik({
   subsets: ["latin"],
@@ -34,6 +35,9 @@ export default function RootLayout({ children }) {
 
         {/* Footer */}
         <Footer />
+
+        {/* AI Chatbot */}
+        <Chatbot />
       </body>
     </html>
   );
